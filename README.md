@@ -1,3 +1,4 @@
+![logo](https://github.com/yunus25jmi1/yunus25jmi1/blob/main/Github%20Banner.png)
 <h1 align="center">Hi 👋, I'm MD YUNUS</h1>
 <h3 align="center">A passionate ECE student who is interested in the Computer Science field from India</h3>
 
