@@ -1,5 +1,6 @@
 <h1 align="center">Hi 👋, I'm MD YUNUS</h1>
 <h3 align="center">A passionate ECE student who is interested in Computer Science field from India</h3>
+<div class="tenor-gif-embed" data-postid="24625099" data-share-method="host" data-aspect-ratio="2" data-width="100%"><a href="https://tenor.com/view/coding-gif-24625099">Coding GIF</a>from <a href="https://tenor.com/search/coding-gifs">Coding GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=yunus25jmi1&label=Profile%20views&color=0e75b6&style=flat" alt="yunus25jmi1" /> </p>
 
