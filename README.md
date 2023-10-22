@@ -1,6 +1,5 @@
 <h1 align="center">Hi 👋, I'm MD YUNUS</h1>
 <h3 align="center">A passionate ECE student who is interested in the Computer Science field from India</h3>
-<img align="right" alt="coding" width="400" src="https://ruya.studio/assets/images/dev.webp">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=yunus25jmi1&label=Profile%20views&color=0e75b6&style=flat" alt="yunus25jmi1" /> </p>
 
