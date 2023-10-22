@@ -7,6 +7,7 @@
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy&theme=onedark"><img src="https://github-profile-trophy.vercel.app/?username=yunus25jmi1" alt="yunus25jmi1" /></a> </p>
 
 <p align="left"> <a href="https://twitter.com/yunus25jmi" target="blank"><img src="https://img.shields.io/twitter/follow/yunus25jmi?logo=twitter&style=for-the-badge" alt="yunus25jmi" /></a> </p>
+<img align="right" alt="coding" width="300" src="https://ruya.studio/assets/images/dev.webp">
 
 - 🌱 I’m currently learning **Python,Web Dev. & Cloud Computing**
 
