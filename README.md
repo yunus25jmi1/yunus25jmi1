@@ -26,7 +26,7 @@
 ```diff
 + B.Tech in Electronics & Communication Engineering @ Guru Nanak Dev University, Amritsar (Expected 2027) | Based in Supaul, India
 ! Cloud Security Specialist with 2+ Years of DevOps Experience, specializing in containerization, automation, and secure network design.
-# Proven track record: Developed secure systems serving 1,000+ users with 99.9% uptime and engineered scalable solutions across diverse platforms.
+# Proven track record: Developed secure systems serving 25+ users with 99.9% uptime and engineered scalable solutions across diverse platforms.
 ```
 
 ---
