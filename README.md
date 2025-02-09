@@ -86,8 +86,8 @@
       </a>
       <ul>
         <li>Designed a Docker-based AWS EC2–Cloudflare Warp VPN tunnel with Dante proxy for secure traffic routing.</li>
-        <li>Optimized network systems using Cloudflare Zero Trust and MASQUE, boosting security by **40%**.</li>
-        <li>Automated WARP connector setup, reducing manual effort by **60%** for scalable deployment.</li>
+        <li>Optimized network systems using Cloudflare Zero Trust and MASQUE, boosting security by 40%.</li>
+        <li>Automated WARP connector setup, reducing manual effort by 60% for scalable deployment.</li>
         <li>Integrated CI/CD pipelines with Docker to enhance deployment speed and system efficiency.</li>
       </ul>
     </td>
@@ -99,10 +99,10 @@
         <img src="https://img.shields.io/badge/View_Project-4B32C3?style=for-the-badge">
       </a>
       <ul>
-        <li>Implemented a Docker-based containerized environment, boosting deployment speed by **30%**.</li>
+        <li>Implemented a Docker-based containerized environment, boosting deployment speed by 30%.</li>
         <li>Integrated Rclone and Flask to enable efficient file access and API development.</li>
-        <li>Configured Ngrok for secure public access and set up Tailscale VPN, enabling **50+ remote users**.</li>
-        <li>Automated SSH server setup, reducing management time by **50%** and cutting development time by **20%**.</li>
+        <li>Configured Ngrok for secure public access and set up Tailscale VPN, enabling 50+ remote users.</li>
+        <li>Automated SSH server setup, reducing management time by 50% and cutting development time by 20%.</li>
       </ul>
     </td>
   </tr>
@@ -116,9 +116,9 @@
       </a>
       <ul>
         <li>Developed an AI-powered code review assistant on AWS PartyRock.</li>
-        <li>Achieved **95%** error detection while improving performance by **30%**.</li>
-        <li>Reduced review time by **40%** via seamless IDE integration with over 100 actionable recommendations.</li>
-        <li>Scaled the solution to **1,000+ users** with 99.9% uptime and ensured OWASP compliance.</li>
+        <li>Achieved **95%** error detection while improving performance by 30%.</li>
+        <li>Reduced review time by 40% via seamless IDE integration with over 100 actionable recommendations.</li>
+        <li>Scaled the solution to 1,000+ users with 99.9% uptime and ensured OWASP compliance.</li>
       </ul>
     </td>
     <!-- Project 4: Secure File Storage Using Hybrid Cryptography -->
@@ -129,9 +129,9 @@
         <img src="https://img.shields.io/badge/View_Project-01D277?style=for-the-badge">
       </a>
       <ul>
-        <li>Designed a secure cloud storage solution using Hybrid Cryptography for **99.9%** data confidentiality and integrity.</li>
-        <li>Implemented robust key management, reducing key compromise risk by **50%**.</li>
-        <li>Enabled file restoration via a public key mechanism, supporting encryption for files up to **1GB**.</li>
+        <li>Designed a secure cloud storage solution using Hybrid Cryptography for 99.9% data confidentiality and integrity.</li>
+        <li>Implemented robust key management, reducing key compromise risk by 50%.</li>
+        <li>Enabled file restoration via a public key mechanism, supporting encryption for files up to 1GB.</li>
         <li>Enhanced attack resilience with multi-algorithm encryption strategies.</li>
       </ul>
     </td>
