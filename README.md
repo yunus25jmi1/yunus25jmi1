@@ -24,9 +24,9 @@
 <!-- About Section -->
 ### 👨💻 About Me
 ```diff
-+ Final Year ECE Student @ Guru Nanak Dev University
-! Cloud Security Specialist with 2+ Years of DevOps Experience
-# Designed systems serving 25+ users with 99.9% uptime
++ B.Tech in Electronics & Communication Engineering @ Guru Nanak Dev University, Amritsar (Expected 2027) | Based in Supaul, India
+! Cloud Security Specialist with 2+ Years of DevOps Experience, specializing in containerization, automation, and secure network design.
+# Proven track record: Developed secure systems serving 1,000+ users with 99.9% uptime and engineered scalable solutions across diverse platforms.
 ```
 
 ---
@@ -37,11 +37,11 @@
 <p>
   <img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white">
   <img src="https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white">
-  <img src="https://img.shields.io/badge/Cloudflare_ZRT-F38020?style=for-the-badge&logo=cloudflare&logoColor=white">
-  <img src="https://img.shields.io/badge/Hybrid_Crypto-4B32C3?style=for-the-badge&logo=letsencrypt&logoColor=white">
+  <img src="https://img.shields.io/badge/Cloudflare_Zero_Trust-F38020?style=for-the-badge&logo=cloudflare&logoColor=white">
+  <img src="https://img.shields.io/badge/Hybrid_Cryptography-4B32C3?style=for-the-badge&logo=letsencrypt&logoColor=white">
 </p>
 
-#### **DevOps Core**
+#### **DevOps & Automation**
 <p>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
   <img src="https://img.shields.io/badge/CI/CD-2088FF?style=for-the-badge&logo=githubactions&logoColor=white">
@@ -49,11 +49,11 @@
   <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white">
 </p>
 
-#### **Development**
+#### **Development & Scalability**
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/Flask_API-000000?style=for-the-badge&logo=flask&logoColor=white">
-  <img src="https://img.shields.io/badge/Scalability-01D277?style=for-the-badge&logo=serverless&logoColor=white">
+  <img src="https://img.shields.io/badge/Flask_APIs-000000?style=for-the-badge&logo=flask&logoColor=white">
+  <img src="https://img.shields.io/badge/Scalable_Design-01D277?style=for-the-badge&logo=serverless&logoColor=white">
 </p>
 
 ---
@@ -61,14 +61,14 @@
 <!-- Experience -->
 ### 💼 Professional Experience
 <details>
-<summary><strong>DevOps Intern @ Stellanova GlobalTech</strong> (2023-Present)</summary>
+<summary><strong>DevOps Intern @ Stellanova GlobalTech</strong> (Dec 2024 - Jan 2025 | Remote)</summary>
   
 🔧 **Key Achievements**:
-- Engineered Docker environments improving deployment speed by 30%
-- Integrated Jenkins/GitHub Actions CI/CD (+25% efficiency)
-- Secured networks with Tailscale VPN & Ngrok (+40% security)
-- Automated SSH configuration (-50% management time)
-- Accelerated feature development with Flask APIs (-20% dev time)
+- Designed & implemented containerized environments with Docker, improving deployment speed by **30%**.
+- Integrated Jenkins and GitHub Actions CI/CD pipelines, increasing deployment efficiency by **25%**.
+- Engineered secure network systems using Tailscale VPN and Ngrok, enhancing security and connectivity by **40%**.
+- Automated SSH server configuration, reducing remote management time by **50%**.
+- Developed efficient APIs using Flask, accelerating feature development by **20%**.
 </details>
 
 ---
@@ -76,54 +76,63 @@
 <!-- Projects -->
 ### 🚀 Featured Projects
 <table>
-  <!-- Row 1 -->
   <tr>
+    <!-- Project 1: AWS-Cloudflare Warp VPN -->
     <td width="25%">
-      <h4>🔒 AWS-Cloudflare VPN</h4>
+      <h4>🔒 AWS-Cloudflare Warp VPN</h4>
       <small>Feb 2025 - Present</small><br>
-      <a href="url.yunuscloud.eu.org/Cloudflare-Masque">
+      <a href="https://url.yunuscloud.eu.org/Cloudflare-Masque">
         <img src="https://img.shields.io/badge/View_Project-0A66C2?style=for-the-badge">
       </a>
       <ul>
-        <li>40% security boost via MASQUE</li>
-        <li>60% automated WARP setup</li>
-        <li>Dockerized CI/CD pipelines</li>
+        <li>Designed a Docker-based AWS EC2–Cloudflare Warp VPN tunnel with Dante proxy for secure traffic routing.</li>
+        <li>Optimized network systems using Cloudflare Zero Trust and MASQUE, boosting security by **40%**.</li>
+        <li>Automated WARP connector setup, reducing manual effort by **60%** for scalable deployment.</li>
+        <li>Integrated CI/CD pipelines with Docker to enhance deployment speed and system efficiency.</li>
       </ul>
     </td>
+    <!-- Project 2: Infrastructure as Code Railway -->
     <td width="25%">
       <h4>🚄 IaC Railway</h4>
       <small>Dec 2024 - Jan 2025</small><br>
-      <a href="url.yunuscloud.eu.org/IaC-Railway">
+      <a href="https://url.yunuscloud.eu.org/IaC-Railway">
         <img src="https://img.shields.io/badge/View_Project-4B32C3?style=for-the-badge">
       </a>
       <ul>
-        <li>30% faster deployments</li>
-        <li>Rclone/Flask integration</li>
-        <li>50+ remote users enabled</li>
+        <li>Implemented a Docker-based containerized environment, boosting deployment speed by **30%**.</li>
+        <li>Integrated Rclone and Flask to enable efficient file access and API development.</li>
+        <li>Configured Ngrok for secure public access and set up Tailscale VPN, enabling **50+ remote users**.</li>
+        <li>Automated SSH server setup, reducing management time by **50%** and cutting development time by **20%**.</li>
       </ul>
     </td>
+  </tr>
+  <tr>
+    <!-- Project 3: CodeMate AI Assistant -->
     <td width="25%">
       <h4>🤖 CodeMate AI</h4>
       <small>Feb 2024 - Mar 2024</small><br>
-      <a href="url.yunuscloud.eu.org/XGnnhh35">
+      <a href="https://url.yunuscloud.eu.org/XGnnhh35">
         <img src="https://img.shields.io/badge/View_Project-FF6F00?style=for-the-badge">
       </a>
       <ul>
-        <li>95% error detection</li>
-        <li>40% faster code reviews</li>
-        <li>99.9% uptime</li>
+        <li>Developed an AI-powered code review assistant on AWS PartyRock.</li>
+        <li>Achieved **95%** error detection while improving performance by **30%**.</li>
+        <li>Reduced review time by **40%** via seamless IDE integration with over 100 actionable recommendations.</li>
+        <li>Scaled the solution to **1,000+ users** with 99.9% uptime and ensured OWASP compliance.</li>
       </ul>
     </td>
+    <!-- Project 4: Secure File Storage Using Hybrid Cryptography -->
     <td width="25%">
       <h4>🔐 Crypto Vault</h4>
       <small>Oct 2023 - Nov 2023</small><br>
-      <a href="url.yunuscloud.eu.org/pwEyhh44">
+      <a href="https://url.yunuscloud.eu.org/pwEyhh44">
         <img src="https://img.shields.io/badge/View_Project-01D277?style=for-the-badge">
       </a>
       <ul>
-        <li>99.9% data confidentiality</li>
-        <li>50% key risk reduction</li>
-        <li>1GB encryption support</li>
+        <li>Designed a secure cloud storage solution using Hybrid Cryptography for **99.9%** data confidentiality and integrity.</li>
+        <li>Implemented robust key management, reducing key compromise risk by **50%**.</li>
+        <li>Enabled file restoration via a public key mechanism, supporting encryption for files up to **1GB**.</li>
+        <li>Enhanced attack resilience with multi-algorithm encryption strategies.</li>
       </ul>
     </td>
   </tr>
@@ -135,13 +144,13 @@
 ### 📜 Certifications
 <div align="center">
   <a href="https://url.yunuscloud.eu.org/Coursera_E7NL96V7GVZV">
-    <img src="https://img.shields.io/badge/Google_Cloud_Foundation-4285F4?style=for-the-badge&logo=googlecloud">
+    <img src="https://img.shields.io/badge/Essential_GCP_Infrastructure-4285F4?style=for-the-badge&logo=googlecloud">
   </a>
   <a href="https://url.yunuscloud.eu.org/Coursera_KFZFMKEN496F.pdf">
-    <img src="https://img.shields.io/badge/GCP_Core-01A8FF?style=for-the-badge&logo=googlecloud">
+    <img src="https://img.shields.io/badge/GCP_Fundamentals-01A8FF?style=for-the-badge&logo=googlecloud">
   </a>
   <a href="https://url.yunuscloud.eu.org/badge-5430187">
-    <img src="https://img.shields.io/badge/Cloud_Modernization-FF6D01?style=for-the-badge&logo=googlecloud">
+    <img src="https://img.shields.io/badge/App_Modernization-FF6D01?style=for-the-badge&logo=googlecloud">
   </a>
   <a href="https://url.yunuscloud.eu.org/Google-Cloud-Computing-&-GenAI-Certificate.pdf">
     <img src="https://img.shields.io/badge/Gen_AI_Expert-01D277?style=for-the-badge&logo=openai">
