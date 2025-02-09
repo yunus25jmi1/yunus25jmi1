@@ -1,65 +1,177 @@
-![logo](https://github.com/yunus25jmi1/yunus25jmi1/blob/main/Github-Banner.png)
+<!-- Banner -->
+<div align="center">
+  <img src="https://github.com/yunus25jmi1/yunus25jmi1/blob/main/Github-Banner.png" alt="header"/>
+</div>
 
-# 💫 About Me:
-Hi 👋, I'm **MD YUNUS**<br><br>
-I'm a passionate Electronics and Communication Engineering (ECE) student from India, with a strong interest in the field of **Computer Science**.<br><br>
-🌱 I’m currently learning **Python, Web Development**, and **Cloud Computing**.<br><br>
-📫 You can reach me at: [admin@yunus.eu.org](mailto:admin@yunus.eu.org)<br><br>
-📄 Check out my [resume](https://drive.google.com/file/d/1DqQvlwfiUOMg5nA-D84Ryu0BYeOGTcqC/view?usp=sharing) to learn more about my experience.<br>
+<!-- Intro Section -->
+<h1 align="center">🚀 MD YUNUS</h1>
+<h3 align="center">DevOps Engineer | Cloud Security Architect | Automation Evangelist</h3>
 
-## 🌐 Socials:
-[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/yunus.25jmi) 
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/digitalyunus) 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/yunus.25jmi) 
-[![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/yunus_25jmi) 
-[![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/yunus25jmi) 
-
-# 💻 Tech Stack:
-![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white) 
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat&logo=css3&logoColor=white) 
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) 
-![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=flat&logo=windows-terminal&logoColor=white) 
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat&logo=Cloudflare&logoColor=white) 
-![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=flat&logo=microsoftazure&logoColor=white) 
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat&logo=amazon-aws&logoColor=white) 
-![Alibaba Cloud](https://img.shields.io/badge/AlibabaCloud-%23FF6701.svg?style=flat&logo=alibabacloud&logoColor=white) 
-![DigitalOcean](https://img.shields.io/badge/DigitalOcean-%230167ff.svg?style=flat&logo=digitalOcean&logoColor=white) 
-![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=flat&logo=firebase) 
-![GitHub Pages](https://img.shields.io/badge/github%20pages-121013?style=flat&logo=github&logoColor=white) 
-![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=flat&logo=google-cloud&logoColor=white) 
-![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=flat&logo=heroku&logoColor=white) 
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat&logo=mongodb&logoColor=white) 
-![MySQL](https://img.shields.io/badge/mysql-%2300000f.svg?style=flat&logo=mysql&logoColor=white) 
-![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=flat&logo=redis&logoColor=white) 
-![PostgreSQL](https://img.shields.io/badge/postgres-%23316192.svg?style=flat&logo=postgresql&logoColor=white) 
-![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=flat&logo=sqlite&logoColor=white) 
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white) 
-![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=flat&logo=kubernetes&logoColor=white) 
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black) 
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat&logo=Arduino&logoColor=white) 
-
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=yunus25jmi1&theme=chartreuse-dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=yunus25jmi1&theme=chartreuse-dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=yunus25jmi1&theme=chartreuse-dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=yunus25jmi1&theme=radical&no-frame=false&no-bg=true&margin-w=4)
-
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
-### 🔝 Top Contributed Repos
-![](https://github-contributor-stats.vercel.app/api?username=yunus25jmi1&limit=5&theme=dark&combine_all_yearly_contributions=true)
-
-### 😂 Random Dev Meme
-<img src='https://randommeme-five.vercel.app/' style="height: 400px;"/>
+<p align="center">
+  <a href="https://yunuscloud.eu.org" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=react&logoColor=white">
+  </a>
+  <a href="https://linkedin.com/in/yunus25jmi">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
+  </a>
+  <a href="mailto:admin@yunuscloud.eu.org">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white">
+  </a>
+</p>
 
 ---
-[![](https://visitcount.itsvg.in/api?id=yunus25jmi1&icon=0&color=0)](https://visitcount.itsvg.in)
 
-## 💰 You can help me by Donating
-[![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/yunus.25jmi) 
+<!-- About Section -->
+### 👨💻 About Me
+```diff
++ Final Year ECE Student @ Guru Nanak Dev University
+! Cloud Security Specialist with 2+ Years of DevOps Experience
+# Designed systems serving 1,000+ users with 99.9% uptime
+```
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+---
+
+<!-- Tech Stack -->
+### 🛠️ Tech Stack
+#### **Cloud & Security**
+<p>
+  <img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white">
+  <img src="https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white">
+  <img src="https://img.shields.io/badge/Cloudflare_ZRT-F38020?style=for-the-badge&logo=cloudflare&logoColor=white">
+  <img src="https://img.shields.io/badge/Hybrid_Crypto-4B32C3?style=for-the-badge&logo=letsencrypt&logoColor=white">
+</p>
+
+#### **DevOps Core**
+<p>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
+  <img src="https://img.shields.io/badge/CI/CD-2088FF?style=for-the-badge&logo=githubactions&logoColor=white">
+  <img src="https://img.shields.io/badge/IaC-7B42BC?style=for-the-badge&logo=terraform&logoColor=white">
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white">
+</p>
+
+#### **Development**
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/Flask_API-000000?style=for-the-badge&logo=flask&logoColor=white">
+  <img src="https://img.shields.io/badge/Scalability-01D277?style=for-the-badge&logo=serverless&logoColor=white">
+</p>
+
+---
+
+<!-- Experience -->
+### 💼 Professional Experience
+<details>
+<summary><strong>DevOps Intern @ Stellanova GlobalTech</strong> (2023-Present)</summary>
+  
+🔧 **Key Achievements**:
+- Engineered Docker environments improving deployment speed by 30%
+- Integrated Jenkins/GitHub Actions CI/CD (+25% efficiency)
+- Secured networks with Tailscale VPN & Ngrok (+40% security)
+- Automated SSH configuration (-50% management time)
+- Accelerated feature development with Flask APIs (-20% dev time)
+</details>
+
+---
+
+<!-- Projects -->
+### 🚀 Featured Projects
+<table>
+  <!-- Row 1 -->
+  <tr>
+    <td width="25%">
+      <h4>🔒 AWS-Cloudflare VPN</h4>
+      <small>Feb 2025 - Present</small><br>
+      <a href="url.yunuscloud.eu.org/Cloudflare-Masque">
+        <img src="https://img.shields.io/badge/View_Project-0A66C2?style=for-the-badge">
+      </a>
+      <ul>
+        <li>40% security boost via MASQUE</li>
+        <li>60% automated WARP setup</li>
+        <li>Dockerized CI/CD pipelines</li>
+      </ul>
+    </td>
+    <td width="25%">
+      <h4>🚄 IaC Railway</h4>
+      <small>Dec 2024 - Jan 2025</small><br>
+      <a href="url.yunuscloud.eu.org/IaC-Railway">
+        <img src="https://img.shields.io/badge/View_Project-4B32C3?style=for-the-badge">
+      </a>
+      <ul>
+        <li>30% faster deployments</li>
+        <li>Rclone/Flask integration</li>
+        <li>50+ remote users enabled</li>
+      </ul>
+    </td>
+    <td width="25%">
+      <h4>🤖 CodeMate AI</h4>
+      <small>Feb 2024 - Mar 2024</small><br>
+      <a href="url.yunuscloud.eu.org/XGnnhh35">
+        <img src="https://img.shields.io/badge/View_Project-FF6F00?style=for-the-badge">
+      </a>
+      <ul>
+        <li>95% error detection</li>
+        <li>40% faster code reviews</li>
+        <li>99.9% uptime</li>
+      </ul>
+    </td>
+    <td width="25%">
+      <h4>🔐 Crypto Vault</h4>
+      <small>Oct 2023 - Nov 2023</small><br>
+      <a href="url.yunuscloud.eu.org/pwEyhh44">
+        <img src="https://img.shields.io/badge/View_Project-01D277?style=for-the-badge">
+      </a>
+      <ul>
+        <li>99.9% data confidentiality</li>
+        <li>50% key risk reduction</li>
+        <li>1GB encryption support</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+---
+
+<!-- Certifications -->
+### 📜 Certifications
+<div align="center">
+  <a href="https://url.yunuscloud.eu.org/Coursera_E7NL96V7GVZV">
+    <img src="https://img.shields.io/badge/Google_Cloud_Foundation-4285F4?style=for-the-badge&logo=googlecloud">
+  </a>
+  <a href="https://url.yunuscloud.eu.org/Coursera_KFZFMKEN496F.pdf">
+    <img src="https://img.shields.io/badge/GCP_Core-01A8FF?style=for-the-badge&logo=googlecloud">
+  </a>
+  <a href="https://url.yunuscloud.eu.org/badge-5430187">
+    <img src="https://img.shields.io/badge/Cloud_Modernization-FF6D01?style=for-the-badge&logo=googlecloud">
+  </a>
+  <a href="https://url.yunuscloud.eu.org/Google-Cloud-Computing-&-GenAI-Certificate.pdf">
+    <img src="https://img.shields.io/badge/Gen_AI_Expert-01D277?style=for-the-badge&logo=openai">
+  </a>
+</div>
+
+---
+
+<!-- GitHub Stats -->
+### 📈 GitHub Analytics
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=yunus25jmi1&theme=dark&show_icons=true&hide_border=true&count_private=true">
+  <br>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yunus25jmi1&theme=dark&hide_border=true">
+  <br>
+  <img src="https://github-profile-trophy.vercel.app/?username=yunus25jmi1&theme=onedark&no-bg=true&no-frame=true&margin-w=15">
+</div>
+
+---
+
+<!-- Footer -->
+<div align="center">
+  <h3>🚀 Let's Build the Future Together</h3>
+  <p>
+    <a href="https://linkedin.com/in/yunus25jmi">
+      <img src="https://img.shields.io/badge/Schedule_Call-0A66C2?style=for-the-badge&logo=linkedin">
+    </a>
+    <a href="mailto:admin@yunuscloud.eu.org">
+      <img src="https://img.shields.io/badge/Send_Proposal-EA4335?style=for-the-badge&logo=gmail">
+    </a>
+  </p>
+  <img src="https://komarev.com/ghpvc/?username=yunus25jmi1&label=Profile+Views&color=0E75B6">
+</div>
