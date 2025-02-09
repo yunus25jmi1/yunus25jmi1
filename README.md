@@ -26,7 +26,7 @@
 ```diff
 + Final Year ECE Student @ Guru Nanak Dev University
 ! Cloud Security Specialist with 2+ Years of DevOps Experience
-# Designed systems serving 1,000+ users with 99.9% uptime
+# Designed systems serving 25+ users with 99.9% uptime
 ```
 
 ---
