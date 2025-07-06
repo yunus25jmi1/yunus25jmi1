@@ -13,7 +13,7 @@
   
   <!-- Current Status -->
   <img src="https://img.shields.io/badge/🚀_Currently-Building_Cloud_Infrastructure-00D4AA?style=for-the-badge">
-  <img src="https://img.shields.io/badge/📍_Location-Amritsar,_Punjab-FF6B6B?style=for-the-badge">
+  <img src="https://img.shields.io/badge/📍_Location-New_Delhi,_India-FF6B6B?style=for-the-badge">
   <img src="https://img.shields.io/badge/🎓_Status-B.Tech_ECE_Student-4ECDC4?style=for-the-badge">
   
   <br><br>
@@ -54,7 +54,7 @@
 const mdYunus = {
     name: "MD YUNUS",
     role: "DevOps Engineer & Cloud Security Architect",
-    location: "Amritsar, Punjab 🇮🇳",
+    location: "New Delhi, India 🇮🇳",
     education: {
         degree: "B.Tech Electronics & Communication Engineering",
         university: "Guru Nanak Dev University, Amritsar",
