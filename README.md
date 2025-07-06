@@ -13,8 +13,8 @@
   
   <!-- Current Status -->
   <img src="https://img.shields.io/badge/🚀_Currently-Building_Cloud_Infrastructure-00D4AA?style=for-the-badge">
-  <img src="https://img.shields.io/badge/📍_Location-New_Delhi,_India-FF6B6B?style=for-the-badge">
-  <img src="https://img.shields.io/badge/🎓_Status-B.Tech_Student-4ECDC4?style=for-the-badge">
+  <img src="https://img.shields.io/badge/📍_Location-Amritsar,_Punjab-FF6B6B?style=for-the-badge">
+  <img src="https://img.shields.io/badge/🎓_Status-B.Tech_ECE_Student-4ECDC4?style=for-the-badge">
   
   <br><br>
   
@@ -54,9 +54,9 @@
 const mdYunus = {
     name: "MD YUNUS",
     role: "DevOps Engineer & Cloud Security Architect",
-    location: "New Delhi, India 🇮🇳",
+    location: "Amritsar, Punjab 🇮🇳",
     education: {
-        degree: "B.Tech Electronics & Communication",
+        degree: "B.Tech Electronics & Communication Engineering",
         university: "Guru Nanak Dev University, Amritsar",
         expectedGraduation: "2027"
     },
@@ -69,9 +69,10 @@ const mdYunus = {
     ],
     currentFocus: "Building Secure & Scalable Cloud Infrastructure",
     achievements: {
-        systemsServed: "25+ users",
+        repositoriesManaged: "119 total",
         uptime: "99.9%",
-        performanceImprovement: "30%+"
+        performanceImprovement: "30%+",
+        githubSince: "October 2022"
     }
 };
 ```
@@ -90,10 +91,10 @@ const mdYunus = {
 - 🛡️ **99.9%** system uptime maintained
 
 **🔥 Current Streak**
-- 💻 **15+** active repositories
+- 💻 **119** total repositories
 - 🔄 **5** PRs merged recently
 - 📈 **1,867+** lines contributed
-- 🌟 **25+** open source PRs
+- 🌟 **80** following • **11** followers
 
 **🎓 Continuous Learning**
 - ☁️ Google Cloud certifications
@@ -313,8 +314,9 @@ const mdYunus = {
 
 #### 🏆 **Notable Contributions**
 - **🔧 Infrastructure Modernization**: Led Python to Node.js migration for enterprise applications
-- **📚 Educational Content**: Created AI prompting technique demonstrations
-- **🔍 System Monitoring**: Implemented automated uptime monitoring for 10+ services
+- **📚 Educational Content**: Created AI prompting technique demonstrations  
+- **🔍 System Monitoring**: Implemented automated uptime monitoring for production services
+- **🤖 AI/ML Projects**: Developed chatbots and automation tools
 
 <details>
 <summary><strong>📜 View More Contributions & Historical Data</strong> <img src="https://img.shields.io/badge/Click_to_Expand-FFA500?style=flat&logo=chevron-down"></summary>
@@ -322,26 +324,31 @@ const mdYunus = {
 <br>
 
 #### 🗂️ **Repository Categories**
-- **🛠️ DevOps Tools**: `uptime-yunusteam`, `Cloudflare-Masque`, `EdgeSub`
-- **🤖 AI/ML Projects**: `gemini-search-chatbot`, `yt-dlp-bot`
-- **📚 Learning Resources**: `devops-exercises`, `Ebooks`
-- **🔐 Security Tools**: Hybrid cryptography implementations
-- **📱 Web Applications**: Market platforms, content management
+- **🛠️ DevOps Tools**: `uptime-yunusteam`, `Cloudflare-Masque`, `EdgeSub`, `IaC-Railway`
+- **🤖 AI/ML Projects**: `gemini-search-chatbot`, `yt-dlp-bot`, `Gemini-Search-test`
+- **📚 Learning Resources**: `devops-exercises`, `Ebooks`, `starter-kit`
+- **🔐 Security Tools**: `vaultwarden`, hybrid cryptography implementations
+- **📱 Web Applications**: `expense-tracker-with-backend`, `stellar-cv-builder`, `chatty-resume-craft`
+- **📊 Analytics**: `rsearch`, monitoring and tracking tools
 
-#### 📊 **Long-term Statistics** (2023-2025)
+#### 📊 **Long-term Statistics** (2022-2025)
 ```diff
-+ 150+ Total Commits across all repositories
++ 119 Total Public Repositories
 + 25+ Pull Requests submitted
-+ 15+ Active repositories maintained
++ 80 Following • 11 Followers
 + 99.9% Uptime for production services
-+ 50+ Issues resolved and closed
++ 4 Public Gists created
++ Active since October 2022
 ```
 
 #### 🎖️ **Contribution Highlights**
+- **Q4 2022**: Started GitHub journey with first repositories
+- **Q1-Q2 2023**: Built foundational DevOps and automation projects
+- **Q3-Q4 2023**: Expanded into AI/ML and security implementations
+- **Q1 2024**: Enhanced project portfolio with enterprise-grade solutions
+- **Q2-Q3 2024**: Focused on educational content and open source contributions
 - **Q4 2024**: Launched comprehensive uptime monitoring system
 - **Q1 2025**: Completed major infrastructure migration projects
-- **Q2 2025**: Developed AI-powered tools and integrations
-- **Q3 2025**: Enhanced security implementations and documentation
 
 #### 🔗 **External Contributions**
 - **Open Source Packages**: Contributed to Docker, Terraform community modules
@@ -366,9 +373,9 @@ const mdYunus = {
 <h2 align="center">🚀 Featured Projects</h2>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Total_Projects-15+-FF6B6B?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Active_Repositories-10+-4ECDC4?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Stars_Earned-50+-FFD93D?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Total_Projects-119-FF6B6B?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Active_Repositories-20+-4ECDC4?style=for-the-badge">
+  <img src="https://img.shields.io/badge/GitHub_Since-2022-FFD93D?style=for-the-badge">
 </div>
 
 <br>
@@ -572,18 +579,18 @@ Secure cloud storage with hybrid cryptography for maximum data protection.
 
 ### 📊 **Contribution Metrics**
 
-<img src="https://img.shields.io/badge/Total_Commits-500+-00D4AA?style=for-the-badge">
-<img src="https://img.shields.io/badge/Total_Stars-75+-FFD93D?style=for-the-badge">
-<img src="https://img.shields.io/badge/Total_Forks-25+-FF6B6B?style=for-the-badge">
-<img src="https://img.shields.io/badge/Total_Issues-50+-4ECDC4?style=for-the-badge">
+<img src="https://img.shields.io/badge/Total_Repositories-119-00D4AA?style=for-the-badge">
+<img src="https://img.shields.io/badge/Public_Gists-4-FFD93D?style=for-the-badge">
+<img src="https://img.shields.io/badge/GitHub_Member_Since-Oct_2022-FF6B6B?style=for-the-badge">
+<img src="https://img.shields.io/badge/Network-80_Following_•_11_Followers-4ECDC4?style=for-the-badge">
 
 ### 🏆 **Achievement Highlights**
 
-- 🔥 **Longest Streak**: 15+ consecutive days
-- 📅 **Most Active Day**: 25+ commits in a single day
-- 🌟 **Most Starred Repo**: uptime-yunusteam (15+ stars)
-- 🍴 **Most Forked Repo**: Cloudflare-Masque (8+ forks)
-- 💬 **Community Engagement**: 50+ issues and discussions
+- 🔥 **GitHub Journey**: Started October 2022, now 119+ repositories
+- 📅 **Consistent Growth**: Steady repository and project development
+- 🌟 **Most Active Projects**: uptime-yunusteam, Cloudflare-Masque, AI chatbots
+- 🍴 **Diverse Portfolio**: DevOps, AI/ML, Security, Web Applications
+- 💬 **Community Engagement**: Active in multiple organizations and collaborations
 
 ### 📈 **Language Distribution**
 
