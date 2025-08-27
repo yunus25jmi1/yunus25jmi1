@@ -92,7 +92,7 @@ const mdYunus = {
 
 **🔥 Current Streak**
 - 💻 **125** total repositories
-- 🔄 **13** activities in last 7 days  
+- 🔄 **0** activities in last 7 days  
 - 📈 Recent contributions tracked
 - 🌟 **81** following • **13** followers
 
@@ -226,7 +226,7 @@ const mdYunus = {
 ### 🌟 Open Source Contributions
 <div align="center">
   <img src="https://img.shields.io/badge/Active_Contributor-2025-00D4AA?style=for-the-badge&logo=github&logoColor=white">
-  <img src="https://img.shields.io/badge/Total_PRs-13+-FF6B6B?style=for-the-badge&logo=git&logoColor=white">
+  <img src="https://img.shields.io/badge/Total_PRs-0+-FF6B6B?style=for-the-badge&logo=git&logoColor=white">
   <img src="https://img.shields.io/badge/Lines_Added-5000+-4ECDC4?style=for-the-badge&logo=codecov&logoColor=white">
 </div>
 
@@ -362,7 +362,7 @@ const mdYunus = {
 
 ---
 
-**Last Updated**: Aug 26, 2025 | **Auto-generated** from GitHub API
+**Last Updated**: Aug 27, 2025 | **Auto-generated** from GitHub API
 
 </details>
 
