@@ -94,7 +94,7 @@ const mdYunus = {
 - 💻 **125** total repositories
 - 🔄 **0** activities in last 7 days  
 - 📈 Recent contributions tracked
-- 🌟 **81** following • **13** followers
+- 🌟 **81** following • **12** followers
 
 **🎓 Continuous Learning**
 - ☁️ Google Cloud certifications
@@ -362,7 +362,7 @@ const mdYunus = {
 
 ---
 
-**Last Updated**: Sep 13, 2025 | **Auto-generated** from GitHub API
+**Last Updated**: Sep 14, 2025 | **Auto-generated** from GitHub API
 
 </details>
 
