@@ -225,7 +225,7 @@ const mdYunus = {
 <!-- Open Source Contributions -->
 ### 🌟 Open Source Contributions
 <div align="center">
-  <img src="https://img.shields.io/badge/Active_Contributor-2025-00D4AA?style=for-the-badge&logo=github&logoColor=white">
+  <img src="https://img.shields.io/badge/Active_Contributor-2026-00D4AA?style=for-the-badge&logo=github&logoColor=white">
   <img src="https://img.shields.io/badge/Total_PRs-0+-FF6B6B?style=for-the-badge&logo=git&logoColor=white">
   <img src="https://img.shields.io/badge/Lines_Added-5000+-4ECDC4?style=for-the-badge&logo=codecov&logoColor=white">
 </div>
@@ -362,7 +362,7 @@ const mdYunus = {
 
 ---
 
-**Last Updated**: Dec 31, 2025 | **Auto-generated** from GitHub API
+**Last Updated**: Jan 01, 2026 | **Auto-generated** from GitHub API
 
 </details>
 
