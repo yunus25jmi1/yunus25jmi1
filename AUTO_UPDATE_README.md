@@ -198,3 +198,5 @@ If you encounter any issues:
 ---
 
 **📝 Note**: This system respects GitHub's API rate limits and only accesses public information. All updates are logged and can be monitored through GitHub Actions.
+
+<!-- ci: manual trigger to run workflow -->
