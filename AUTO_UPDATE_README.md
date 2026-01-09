@@ -43,7 +43,28 @@ chmod +x test-setup.sh
 ./test-setup.sh
 ```
 
-### 2. **Commit Files**
+### 2. **Configure GitHub Token (Optional - for Private Repos)**
+
+To include **private repository contributions**, set up a GitHub Personal Access Token:
+
+1. **Create a token**: https://github.com/settings/tokens
+   - Click "Generate new token (classic)"
+   - Select scopes: `repo`, `read:user`
+   - Copy the token
+
+2. **Add to GitHub Actions**:
+   - Go to: Settings → Secrets and variables → Actions
+   - Create secret: `GH_TOKEN`
+   - Paste your token
+
+3. **The workflow will automatically use it** (already configured)
+
+**Without token**: Shows public contributions only  
+**With token**: Shows public + private contributions with 🔒 indicators
+
+See [GITHUB_TOKEN_SETUP.md](GITHUB_TOKEN_SETUP.md) for detailed instructions.
+
+### 3. **Commit Files**
 ```bash
 git add scripts/ .github/ test-setup.sh
 git commit -m "🤖 Add automated README update system"

@@ -55,6 +55,8 @@ jobs:
         echo "📊 Stats: $TOTAL_REPOS repos, $FOLLOWERS followers, $FOLLOWING following"
     
     - name: 🚀 Run Contribution Update Script
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         # Make script executable
         chmod +x scripts/update-contributions.sh
