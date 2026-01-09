@@ -92,7 +92,7 @@ const mdYunus = {
 
 **🔥 Current Streak**
 - 💻 **139** total repositories
-- 🔄 **4** activities in last 7 days  
+- 🔄 **6** contributions in last 7 days  
 - 📈 Recent contributions tracked
 - 🌟 **82** following • **11** followers
 
@@ -255,13 +255,14 @@ const mdYunus = {
   <table>
     <tr>
       <td align="center">
-        <img src="https://img.shields.io/badge/🔥-Total_Commits-FF4500?style=for-the-badge">
-        <br><strong>4</strong><br><small>Last 7 Days</small>
+                <img src="https://img.shields.io/badge/🔥-Total_Contributions-FF4500?style=for-the-badge">
+                <br><strong>6</strong><br><small>Includes private</small>
       </td>
       <td align="center">
-        <img src="https://img.shields.io/badge/📝-Total_Repos-32CD32?style=for-the-badge">
+        <img src="https://img.shields.io/badge/📝-Public_Repos-32CD32?style=for-the-badge">
         <br><strong>139</strong><br><small>Public</small>
       </td>
+
       <td align="center">
         <img src="https://img.shields.io/badge/🎯-Network-1E90FF?style=for-the-badge">
         <br><strong>82/11</strong><br><small>Following/Followers</small>

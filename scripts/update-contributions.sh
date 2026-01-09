@@ -37,6 +37,33 @@ setup_auth_header() {
     fi
 }
 
+    # Get total contributions (public + private when authenticated) via GraphQL
+    get_total_contributions() {
+        local from_iso=$(date -d "$DAYS_BACK days ago" -Iseconds 2>/dev/null || date -v-${DAYS_BACK}d -Iseconds)
+        local to_iso=$(date -Iseconds)
+
+        if [ -z "$GITHUB_TOKEN" ]; then
+            # No token: fall back to commit count we computed (public only)
+            TOTAL_CONTRIBUTIONS=${TOTAL_COMMITS:-0}
+            log "Total contributions (public only): $TOTAL_CONTRIBUTIONS"
+            return
+        fi
+
+        log "Fetching total contributions (public + private) via GraphQL..."
+        local gql_query='{"query":"query($login:String!,$from:DateTime!,$to:DateTime!){user(login:$login){contributionsCollection(from:$from,to:$to){totalCommitContributions totalIssueContributions totalPullRequestContributions totalPullRequestReviewContributions restrictedContributionsCount}}}","variables":{"login":"'$USERNAME'","from":"'$from_iso'","to":"'$to_iso'"}}'
+
+        local resp=$(curl -s -H "Authorization: bearer $GITHUB_TOKEN" -H "Content-Type: application/json" --data "$gql_query" https://api.github.com/graphql)
+        local commit_c=$(echo "$resp" | jq -r '.data.user.contributionsCollection.totalCommitContributions // 0')
+        local issue_c=$(echo "$resp" | jq -r '.data.user.contributionsCollection.totalIssueContributions // 0')
+        local pr_c=$(echo "$resp" | jq -r '.data.user.contributionsCollection.totalPullRequestContributions // 0')
+        local review_c=$(echo "$resp" | jq -r '.data.user.contributionsCollection.totalPullRequestReviewContributions // 0')
+        local restricted_c=$(echo "$resp" | jq -r '.data.user.contributionsCollection.restrictedContributionsCount // 0')
+
+        # Sum primary contribution types; restricted may overlap, so do not add to avoid double count
+        TOTAL_CONTRIBUTIONS=$((commit_c + issue_c + pr_c + review_c))
+        log "Contributions (7d): commits=$commit_c, issues=$issue_c, PRs=$pr_c, reviews=$review_c, total=$TOTAL_CONTRIBUTIONS"
+    }
+
 # Get GitHub user statistics
 get_github_stats() {
     log "Fetching GitHub statistics..."
@@ -74,12 +101,20 @@ get_recent_activity() {
     local contributions_html=""
     local total_commits=0
     
-    # Get events (includes pushes, PRs, etc.) - authenticated calls show private events
+        # Get events (includes pushes, PRs, etc.) - authenticated calls show private events
     if [ ! -z "$AUTH_HEADER" ]; then
         local events=$(curl -s -H "$AUTH_HEADER" "https://api.github.com/users/$USERNAME/events?per_page=100")
     else
         local events=$(curl -s "https://api.github.com/users/$USERNAME/events?per_page=100")
     fi
+
+        # Compute total activities over the window (count of qualifying events)
+        local activities_count=$(echo "$events" | jq -r --arg since "$since_date" '
+            [ .[] |
+                select(.created_at >= $since) |
+                select(.type == "PushEvent" or .type == "PullRequestEvent" or .type == "CreateEvent" or .type == "IssuesEvent")
+            ] | length')
+        TOTAL_ACTIVITIES=$activities_count
     
     # Process events and create table rows
     echo "$events" | jq -r --arg since "$since_date" '
@@ -232,7 +267,7 @@ get_recent_activity() {
     RECENT_CONTRIBUTIONS="$contributions_html"
     TOTAL_COMMITS="$total_commit_count"
     
-    log "Found $event_count recent activities with $total_commit_count total commits"
+    log "Found $event_count recent rows, $activities_count activities, $total_commit_count total commits"
 }
 
 # Update README with new data
@@ -257,6 +292,11 @@ update_readme() {
         <br><strong>$OWNED_PRIVATE_REPOS</strong><br><small>Private</small>
       </td>"
     fi
+        # Note for contributions subtext
+        local impact_subtext="Public only"
+        if [ -n "$GITHUB_TOKEN" ]; then
+                impact_subtext="Includes private"
+        fi
     
     # Use Python to update README sections
     python3 -c "
@@ -293,9 +333,13 @@ impact_section = '''#### 📈 **Contribution Impact**
   <table>
     <tr>
       <td align=\"center\">
-        <img src=\"https://img.shields.io/badge/🔥-Total_Commits-FF4500?style=for-the-badge\">
-        <br><strong>$TOTAL_COMMITS</strong><br><small>Last 7 Days</small>
+                <img src=\"https://img.shields.io/badge/🔥-Total_Contributions-FF4500?style=for-the-badge\">
+                <br><strong>$TOTAL_CONTRIBUTIONS</strong><br><small>$impact_subtext</small>
       </td>
+            <td align=\"center\">
+                <img src=\"https://img.shields.io/badge/📊-Total_Activities-8A2BE2?style=for-the-badge\">
+                <br><strong>$TOTAL_ACTIVITIES</strong><br><small>Last $DAYS_BACK Days</small>
+            </td>
       <td align=\"center\">
         <img src=\"https://img.shields.io/badge/📝-Public_Repos-32CD32?style=for-the-badge\">
         <br><strong>$TOTAL_REPOS</strong><br><small>Public</small>
@@ -329,7 +373,7 @@ else:
 highlights_pattern = r'(\*\*🔥 Current Streak\*\*\s*\n)(- .*?\n)+(- .*?\n)*(\*\*🎓 Continuous Learning\*\*)'
 new_highlights = '''**🔥 Current Streak**
 - 💻 **$TOTAL_REPOS** total repositories
-- 🔄 **$TOTAL_COMMITS** activities in last $DAYS_BACK days  
+- 🔄 **$TOTAL_CONTRIBUTIONS** contributions in last $DAYS_BACK days  
 - 📈 Recent contributions tracked
 - 🌟 **$FOLLOWING** following • **$FOLLOWERS** followers
 
@@ -366,6 +410,7 @@ main() {
     # Fetch data
     get_github_stats
     get_recent_activity
+    get_total_contributions
     
     # Update README
     update_readme
