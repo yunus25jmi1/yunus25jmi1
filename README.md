@@ -92,7 +92,7 @@ const mdYunus = {
 
 **🔥 Current Streak**
 - 💻 **140** total repositories
-- 🔄 **5** contributions in last 7 days  
+- 🔄 **3** contributions in last 7 days  
 - 📈 Recent contributions tracked
 - 🌟 **82** following • **11** followers
 
@@ -226,7 +226,7 @@ const mdYunus = {
 ### 🌟 Open Source Contributions
 <div align="center">
   <img src="https://img.shields.io/badge/Active_Contributor-2026-00D4AA?style=for-the-badge&logo=github&logoColor=white">
-  <img src="https://img.shields.io/badge/Total_PRs-9+-FF6B6B?style=for-the-badge&logo=git&logoColor=white">
+  <img src="https://img.shields.io/badge/Total_PRs-7+-FF6B6B?style=for-the-badge&logo=git&logoColor=white">
   <img src="https://img.shields.io/badge/Lines_Added-5000+-4ECDC4?style=for-the-badge&logo=codecov&logoColor=white">
 </div>
 
@@ -245,7 +245,7 @@ const mdYunus = {
         <img src="https://img.shields.io/badge/yunus25jmi1-obsidian--git--sync-0366d6?style=flat&logo=github" alt="yunus25jmi1/obsidian-git-sync">
       </a>
     </td>
-    <td><strong>Push:</strong> 4 commit(s) 🔒<br><small>remove the node_modules</small></td>
+    <td><strong>Push:</strong> 3 commit(s) 🔒<br><small>remove the node_modules</small></td>
     <td>✅</td>
   </tr>
   <tr>
@@ -268,16 +268,6 @@ const mdYunus = {
     <td><strong>Push:</strong> 3 commit(s)<br><small>chore: remove GitHub Actions workflow for direct Cloudflare deployment</small></td>
     <td>✅</td>
   </tr>
-  <tr>
-    <td><strong>Jan 14, 2026</strong></td>
-    <td>
-      <a href="https://github.com/yunus25jmi1/Cloudflare-Masque">
-        <img src="https://img.shields.io/badge/yunus25jmi1-Cloudflare--Masque-0366d6?style=flat&logo=github" alt="yunus25jmi1/Cloudflare-Masque">
-      </a>
-    </td>
-    <td><strong>Push:</strong> Code updates<br><small>Updated repository</small></td>
-    <td>✅</td>
-  </tr>
 </table>
 
 #### 📈 **Contribution Impact**
@@ -286,11 +276,11 @@ const mdYunus = {
     <tr>
       <td align="center">
                 <img src="https://img.shields.io/badge/🔥-Total_Contributions-FF4500?style=for-the-badge">
-                <br><strong>5</strong><br><small>Includes private</small>
+                <br><strong>3</strong><br><small>Includes private</small>
       </td>
             <td align="center">
                 <img src="https://img.shields.io/badge/📊-Total_Activities-8A2BE2?style=for-the-badge">
-                <br><strong>10</strong><br><small>Last 7 Days</small>
+                <br><strong>7</strong><br><small>Last 7 Days</small>
             </td>
       <td align="center">
         <img src="https://img.shields.io/badge/📝-Public_Repos-32CD32?style=for-the-badge">
@@ -355,7 +345,7 @@ const mdYunus = {
 
 ---
 
-**Last Updated**: Jan 21, 2026 | **Auto-generated** from GitHub API
+**Last Updated**: Jan 22, 2026 | **Auto-generated** from GitHub API
 
 </details>
 
