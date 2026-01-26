@@ -226,7 +226,7 @@ const mdYunus = {
 ### 🌟 Open Source Contributions
 <div align="center">
   <img src="https://img.shields.io/badge/Active_Contributor-2026-00D4AA?style=for-the-badge&logo=github&logoColor=white">
-  <img src="https://img.shields.io/badge/Total_PRs-3+-FF6B6B?style=for-the-badge&logo=git&logoColor=white">
+  <img src="https://img.shields.io/badge/Total_PRs-11+-FF6B6B?style=for-the-badge&logo=git&logoColor=white">
   <img src="https://img.shields.io/badge/Lines_Added-5000+-4ECDC4?style=for-the-badge&logo=codecov&logoColor=white">
 </div>
 
@@ -239,13 +239,33 @@ const mdYunus = {
     <th width="15%">Status</th>
   </tr>
   <tr>
+    <td><strong>Jan 25, 2026</strong></td>
+    <td>
+      <a href="https://github.com/yunus25jmi1/aurora">
+        <img src="https://img.shields.io/badge/yunus25jmi1-aurora-0366d6?style=flat&logo=github" alt="yunus25jmi1/aurora">
+      </a>
+    </td>
+    <td><strong>Push:</strong> 10 commit(s) 🔒<br><small>Create defender-for-devops.yml</small></td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td><strong>Jan 25, 2026</strong></td>
+    <td>
+      <a href="https://github.com/yunus25jmi1/aurora">
+        <img src="https://img.shields.io/badge/yunus25jmi1-aurora-0366d6?style=flat&logo=github" alt="yunus25jmi1/aurora">
+      </a>
+    </td>
+    <td><strong>Created:</strong> New branch<br><small>main</small></td>
+    <td>🚀</td>
+  </tr>
+  <tr>
     <td><strong>Jan 19, 2026</strong></td>
     <td>
       <a href="https://github.com/yunus25jmi1/obsidian-git-sync">
         <img src="https://img.shields.io/badge/yunus25jmi1-obsidian--git--sync-0366d6?style=flat&logo=github" alt="yunus25jmi1/obsidian-git-sync">
       </a>
     </td>
-    <td><strong>Push:</strong> 3 commit(s) 🔒<br><small>remove the node_modules</small></td>
+    <td><strong>Push:</strong> Code updates 🔒<br><small>Private repository</small></td>
     <td>✅</td>
   </tr>
 </table>
@@ -260,7 +280,7 @@ const mdYunus = {
       </td>
             <td align="center">
                 <img src="https://img.shields.io/badge/📊-Total_Activities-8A2BE2?style=for-the-badge">
-                <br><strong>3</strong><br><small>Last 7 Days</small>
+                <br><strong>11</strong><br><small>Last 7 Days</small>
             </td>
       <td align="center">
         <img src="https://img.shields.io/badge/📝-Public_Repos-32CD32?style=for-the-badge">
@@ -325,7 +345,7 @@ const mdYunus = {
 
 ---
 
-**Last Updated**: Jan 25, 2026 | **Auto-generated** from GitHub API
+**Last Updated**: Jan 26, 2026 | **Auto-generated** from GitHub API
 
 </details>
 
