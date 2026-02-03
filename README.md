@@ -278,16 +278,6 @@ const mdYunus = {
     <td><strong>Push:</strong> Code updates<br><small>Updated repository</small></td>
     <td>✅</td>
   </tr>
-  <tr>
-    <td><strong>Jan 26, 2026</strong></td>
-    <td>
-      <a href="https://github.com/yunus25jmi1/linkedin-n8n">
-        <img src="https://img.shields.io/badge/yunus25jmi1-linkedin--n8n-0366d6?style=flat&logo=github" alt="yunus25jmi1/linkedin-n8n">
-      </a>
-    </td>
-    <td><strong>Created:</strong> New branch<br><small>main</small></td>
-    <td>🚀</td>
-  </tr>
 </table>
 
 #### 📈 **Contribution Impact**
@@ -300,7 +290,7 @@ const mdYunus = {
       </td>
             <td align="center">
                 <img src="https://img.shields.io/badge/📊-Total_Activities-8A2BE2?style=for-the-badge">
-                <br><strong>11</strong><br><small>Last 7 Days</small>
+                <br><strong>10</strong><br><small>Last 7 Days</small>
             </td>
       <td align="center">
         <img src="https://img.shields.io/badge/📝-Public_Repos-32CD32?style=for-the-badge">
@@ -365,7 +355,7 @@ const mdYunus = {
 
 ---
 
-**Last Updated**: Feb 02, 2026 | **Auto-generated** from GitHub API
+**Last Updated**: Feb 03, 2026 | **Auto-generated** from GitHub API
 
 </details>
 
