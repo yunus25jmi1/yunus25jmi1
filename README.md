@@ -226,7 +226,7 @@ const mdYunus = {
 ### 🌟 Open Source Contributions
 <div align="center">
   <img src="https://img.shields.io/badge/Active_Contributor-2026-00D4AA?style=for-the-badge&logo=github&logoColor=white">
-  <img src="https://img.shields.io/badge/Total_PRs-9+-FF6B6B?style=for-the-badge&logo=git&logoColor=white">
+  <img src="https://img.shields.io/badge/Total_PRs-6+-FF6B6B?style=for-the-badge&logo=git&logoColor=white">
   <img src="https://img.shields.io/badge/Lines_Added-5000+-4ECDC4?style=for-the-badge&logo=codecov&logoColor=white">
 </div>
 
@@ -245,7 +245,7 @@ const mdYunus = {
         <img src="https://img.shields.io/badge/yunus25jmi1-obsidian--git--sync-0366d6?style=flat&logo=github" alt="yunus25jmi1/obsidian-git-sync">
       </a>
     </td>
-    <td><strong>Push:</strong> 8 commit(s) 🔒<br><small>vault backup: 2026-02-05 21:42:18</small></td>
+    <td><strong>Push:</strong> 5 commit(s) 🔒<br><small>vault backup: 2026-02-05 21:42:18</small></td>
     <td>✅</td>
   </tr>
   <tr>
@@ -335,7 +335,7 @@ const mdYunus = {
 
 ---
 
-**Last Updated**: Feb 06, 2026 | **Auto-generated** from GitHub API
+**Last Updated**: Feb 07, 2026 | **Auto-generated** from GitHub API
 
 </details>
 
