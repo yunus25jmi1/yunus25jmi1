@@ -226,7 +226,7 @@ const mdYunus = {
 ### 🌟 Open Source Contributions
 <div align="center">
   <img src="https://img.shields.io/badge/Active_Contributor-2026-00D4AA?style=for-the-badge&logo=github&logoColor=white">
-  <img src="https://img.shields.io/badge/Total_PRs-3+-FF6B6B?style=for-the-badge&logo=git&logoColor=white">
+  <img src="https://img.shields.io/badge/Total_PRs-10+-FF6B6B?style=for-the-badge&logo=git&logoColor=white">
   <img src="https://img.shields.io/badge/Lines_Added-5000+-4ECDC4?style=for-the-badge&logo=codecov&logoColor=white">
 </div>
 
@@ -237,6 +237,66 @@ const mdYunus = {
     <th width="40%">Repository</th>
     <th width="30%">Contribution</th>
     <th width="15%">Status</th>
+  </tr>
+  <tr>
+    <td><strong>Feb 24, 2026</strong></td>
+    <td>
+      <a href="https://github.com/yunus25jmi1/yunus-s-showcase">
+        <img src="https://img.shields.io/badge/yunus25jmi1-yunus--s--showcase-0366d6?style=flat&logo=github" alt="yunus25jmi1/yunus-s-showcase">
+      </a>
+    </td>
+    <td><strong>Push:</strong> 7 commit(s) 🔒<br><small>Merge pull request #2 from yunus25jmi1/dev</small></td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td><strong>Feb 24, 2026</strong></td>
+    <td>
+      <a href="https://github.com/yunus25jmi1/yunus-s-showcase">
+        <img src="https://img.shields.io/badge/yunus25jmi1-yunus--s--showcase-0366d6?style=flat&logo=github" alt="yunus25jmi1/yunus-s-showcase">
+      </a>
+    </td>
+    <td><strong>PR #2:</strong> merged<br><small>Pull request</small></td>
+    <td>🔀</td>
+  </tr>
+  <tr>
+    <td><strong>Feb 24, 2026</strong></td>
+    <td>
+      <a href="https://github.com/yunus25jmi1/yunus-s-showcase">
+        <img src="https://img.shields.io/badge/yunus25jmi1-yunus--s--showcase-0366d6?style=flat&logo=github" alt="yunus25jmi1/yunus-s-showcase">
+      </a>
+    </td>
+    <td><strong>PR #2:</strong> opened<br><small>Pull request</small></td>
+    <td>🔀</td>
+  </tr>
+  <tr>
+    <td><strong>Feb 24, 2026</strong></td>
+    <td>
+      <a href="https://github.com/yunus25jmi1/yunus-s-showcase">
+        <img src="https://img.shields.io/badge/yunus25jmi1-yunus--s--showcase-0366d6?style=flat&logo=github" alt="yunus25jmi1/yunus-s-showcase">
+      </a>
+    </td>
+    <td><strong>PR #1:</strong> merged<br><small>Pull request</small></td>
+    <td>🔀</td>
+  </tr>
+  <tr>
+    <td><strong>Feb 24, 2026</strong></td>
+    <td>
+      <a href="https://github.com/yunus25jmi1/yunus-s-showcase">
+        <img src="https://img.shields.io/badge/yunus25jmi1-yunus--s--showcase-0366d6?style=flat&logo=github" alt="yunus25jmi1/yunus-s-showcase">
+      </a>
+    </td>
+    <td><strong>PR #1:</strong> opened<br><small>Pull request</small></td>
+    <td>🔀</td>
+  </tr>
+  <tr>
+    <td><strong>Feb 24, 2026</strong></td>
+    <td>
+      <a href="https://github.com/yunus25jmi1/yunus-s-showcase">
+        <img src="https://img.shields.io/badge/yunus25jmi1-yunus--s--showcase-0366d6?style=flat&logo=github" alt="yunus25jmi1/yunus-s-showcase">
+      </a>
+    </td>
+    <td><strong>Created:</strong> New branch<br><small>dev</small></td>
+    <td>🚀</td>
   </tr>
   <tr>
     <td><strong>Feb 22, 2026</strong></td>
@@ -270,7 +330,7 @@ const mdYunus = {
       </td>
             <td align="center">
                 <img src="https://img.shields.io/badge/📊-Total_Activities-8A2BE2?style=for-the-badge">
-                <br><strong>3</strong><br><small>Last 7 Days</small>
+                <br><strong>14</strong><br><small>Last 7 Days</small>
             </td>
       <td align="center">
         <img src="https://img.shields.io/badge/📝-Public_Repos-32CD32?style=for-the-badge">
