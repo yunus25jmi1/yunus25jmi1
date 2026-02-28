@@ -92,7 +92,7 @@ const mdYunus = {
 
 **🔥 Current Streak**
 - 💻 **142** total repositories
-- 🔄 **1** contributions in last 7 days  
+- 🔄 **4** contributions in last 7 days  
 - 📈 Recent contributions tracked
 - 🌟 **83** following • **11** followers
 
@@ -226,7 +226,7 @@ const mdYunus = {
 ### 🌟 Open Source Contributions
 <div align="center">
   <img src="https://img.shields.io/badge/Active_Contributor-2026-00D4AA?style=for-the-badge&logo=github&logoColor=white">
-  <img src="https://img.shields.io/badge/Total_PRs-16+-FF6B6B?style=for-the-badge&logo=git&logoColor=white">
+  <img src="https://img.shields.io/badge/Total_PRs-7+-FF6B6B?style=for-the-badge&logo=git&logoColor=white">
   <img src="https://img.shields.io/badge/Lines_Added-5000+-4ECDC4?style=for-the-badge&logo=codecov&logoColor=white">
 </div>
 
@@ -237,6 +237,76 @@ const mdYunus = {
     <th width="40%">Repository</th>
     <th width="30%">Contribution</th>
     <th width="15%">Status</th>
+  </tr>
+  <tr>
+    <td><strong>Feb 28, 2026</strong></td>
+    <td>
+      <a href="https://github.com/cloudflare/vinext">
+        <img src="https://img.shields.io/badge/cloudflare-vinext-0366d6?style=flat&logo=github" alt="cloudflare/vinext">
+      </a>
+    </td>
+    <td><strong>PR #197:</strong> opened<br><small>Pull request</small></td>
+    <td>🔀</td>
+  </tr>
+  <tr>
+    <td><strong>Feb 28, 2026</strong></td>
+    <td>
+      <a href="https://github.com/yunus25jmi1/vinext">
+        <img src="https://img.shields.io/badge/yunus25jmi1-vinext-0366d6?style=flat&logo=github" alt="yunus25jmi1/vinext">
+      </a>
+    </td>
+    <td><strong>Created:</strong> New branch<br><small>fix/issue-184-cloudflare-plugin-esm-require</small></td>
+    <td>🚀</td>
+  </tr>
+  <tr>
+    <td><strong>Feb 28, 2026</strong></td>
+    <td>
+      <a href="https://github.com/yunus25jmi1/vinext">
+        <img src="https://img.shields.io/badge/yunus25jmi1-vinext-0366d6?style=flat&logo=github" alt="yunus25jmi1/vinext">
+      </a>
+    </td>
+    <td><strong>Push:</strong> Code updates<br><small>Updated repository</small></td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td><strong>Feb 28, 2026</strong></td>
+    <td>
+      <a href="https://github.com/cloudflare/vinext">
+        <img src="https://img.shields.io/badge/cloudflare-vinext-0366d6?style=flat&logo=github" alt="cloudflare/vinext">
+      </a>
+    </td>
+    <td><strong>PR #193:</strong> opened<br><small>Pull request</small></td>
+    <td>🔀</td>
+  </tr>
+  <tr>
+    <td><strong>Feb 28, 2026</strong></td>
+    <td>
+      <a href="https://github.com/yunus25jmi1/vinext">
+        <img src="https://img.shields.io/badge/yunus25jmi1-vinext-0366d6?style=flat&logo=github" alt="yunus25jmi1/vinext">
+      </a>
+    </td>
+    <td><strong>Created:</strong> New branch<br><small>fix/issue-189-validator-esm-resolution</small></td>
+    <td>🚀</td>
+  </tr>
+  <tr>
+    <td><strong>Feb 28, 2026</strong></td>
+    <td>
+      <a href="https://github.com/cloudflare/vinext">
+        <img src="https://img.shields.io/badge/cloudflare-vinext-0366d6?style=flat&logo=github" alt="cloudflare/vinext">
+      </a>
+    </td>
+    <td><strong>PR #192:</strong> opened<br><small>Pull request</small></td>
+    <td>🔀</td>
+  </tr>
+  <tr>
+    <td><strong>Feb 28, 2026</strong></td>
+    <td>
+      <a href="https://github.com/yunus25jmi1/vinext">
+        <img src="https://img.shields.io/badge/yunus25jmi1-vinext-0366d6?style=flat&logo=github" alt="yunus25jmi1/vinext">
+      </a>
+    </td>
+    <td><strong>Created:</strong> New branch<br><small>fix/issue-190-space-grotesk-font-export</small></td>
+    <td>🚀</td>
   </tr>
   <tr>
     <td><strong>Feb 27, 2026</strong></td>
@@ -268,56 +338,6 @@ const mdYunus = {
     <td><strong>Push:</strong> 6 commit(s) 🔒<br><small>vault backup: 2026-02-26 21:01:05</small></td>
     <td>✅</td>
   </tr>
-  <tr>
-    <td><strong>Feb 25, 2026</strong></td>
-    <td>
-      <a href="https://github.com/yunus25jmi1/Oracle-ACE">
-        <img src="https://img.shields.io/badge/yunus25jmi1-Oracle--ACE-0366d6?style=flat&logo=github" alt="yunus25jmi1/Oracle-ACE">
-      </a>
-    </td>
-    <td><strong>Push:</strong> 3 commit(s) 🔒<br><small>Add comprehensive guide for achieving 1 million RPS in Kubernetes ingress</small></td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td><strong>Feb 25, 2026</strong></td>
-    <td>
-      <a href="https://github.com/yunus25jmi1/Oracle-ACE">
-        <img src="https://img.shields.io/badge/yunus25jmi1-Oracle--ACE-0366d6?style=flat&logo=github" alt="yunus25jmi1/Oracle-ACE">
-      </a>
-    </td>
-    <td><strong>Created:</strong> New branch<br><small>dev</small></td>
-    <td>🚀</td>
-  </tr>
-  <tr>
-    <td><strong>Feb 24, 2026</strong></td>
-    <td>
-      <a href="https://github.com/yunus25jmi1/yunus-s-showcase">
-        <img src="https://img.shields.io/badge/yunus25jmi1-yunus--s--showcase-0366d6?style=flat&logo=github" alt="yunus25jmi1/yunus-s-showcase">
-      </a>
-    </td>
-    <td><strong>Push:</strong> 7 commit(s) 🔒<br><small>Merge pull request #2 from yunus25jmi1/dev</small></td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td><strong>Feb 24, 2026</strong></td>
-    <td>
-      <a href="https://github.com/yunus25jmi1/yunus-s-showcase">
-        <img src="https://img.shields.io/badge/yunus25jmi1-yunus--s--showcase-0366d6?style=flat&logo=github" alt="yunus25jmi1/yunus-s-showcase">
-      </a>
-    </td>
-    <td><strong>PR #2:</strong> merged<br><small>Pull request</small></td>
-    <td>🔀</td>
-  </tr>
-  <tr>
-    <td><strong>Feb 24, 2026</strong></td>
-    <td>
-      <a href="https://github.com/yunus25jmi1/yunus-s-showcase">
-        <img src="https://img.shields.io/badge/yunus25jmi1-yunus--s--showcase-0366d6?style=flat&logo=github" alt="yunus25jmi1/yunus-s-showcase">
-      </a>
-    </td>
-    <td><strong>PR #2:</strong> opened<br><small>Pull request</small></td>
-    <td>🔀</td>
-  </tr>
 </table>
 
 #### 📈 **Contribution Impact**
@@ -326,11 +346,11 @@ const mdYunus = {
     <tr>
       <td align="center">
                 <img src="https://img.shields.io/badge/🔥-Total_Contributions-FF4500?style=for-the-badge">
-                <br><strong>1</strong><br><small>Includes private</small>
+                <br><strong>4</strong><br><small>Includes private</small>
       </td>
             <td align="center">
                 <img src="https://img.shields.io/badge/📊-Total_Activities-8A2BE2?style=for-the-badge">
-                <br><strong>23</strong><br><small>Last 7 Days</small>
+                <br><strong>31</strong><br><small>Last 7 Days</small>
             </td>
       <td align="center">
         <img src="https://img.shields.io/badge/📝-Public_Repos-32CD32?style=for-the-badge">
