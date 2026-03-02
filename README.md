@@ -46,78 +46,74 @@
 <!-- About Me Section -->
 <h2 align="center">👨‍💻 About Me</h2>
 
-<div align="center">
+<table width="100%">
+<tr>
+<td width="52%" valign="top">
 
 ```typescript
 const mdYunus = {
-    name: "Md Yunus",
-    pronouns: "He/Him",
-    role: "DevOps Engineer & Platform Architect",
-    location: "New Delhi, India 🇮🇳",
-    education: {
-        degree: "B.Tech Electronics & Communication Engineering",
-        university: "Guru Nanak Dev University, Amritsar",
-        graduated: "July 2023"
-    },
-    currentRoles: [
-        "Oracle ACE Apprentice @ Oracle (Jan 2026 - Present)",
-        "Co-Founder & Platform Architect @ CloudRelic (Jan 2024 - Present)"
-    ],
-    specialties: [
-        "Multi-Cloud Infrastructure (OCI, AWS, GCP)",
-        "Kubernetes & Container Orchestration",
-        "CI/CD Pipeline Automation",
-        "Infrastructure as Code (Terraform, Ansible)",
-        "SRE & Observability (Prometheus, Grafana)"
-    ],
-    currentFocus: "Building Rock-Solid Infrastructure That Scales",
-    achievements: {
-        deploymentsAccelerated: "60% faster (4h → 45min)",
-        uptime: "99.9% across 10+ microservices",
-        vulnerabilitiesReduced: "85% via SOC 2 Type II",
-        developersCommunity: "1,000+ engineers guided",
-        platformUsers: "50+ developers on CloudRelic",
-        oracleCertifications: "4x Oracle Certified",
-        githubSince: "October 2022"
-    }
+  name    : "Md Yunus",
+  pronouns: "He / Him",
+  role    : "DevOps Engineer & Platform Architect",
+  base    : "New Delhi, India 🇮🇳",
+
+  education: {
+    degree     : "B.Tech — Electronics & Communication Engg.",
+    university : "Guru Nanak Dev University, Amritsar",
+    graduated  : "July 2023",
+  },
+
+  now: [
+    "🔶 Oracle ACE Apprentice  (Jan 2026 – present)",
+    "🚀 Co-Founder @ CloudRelic (Jan 2024 – present)",
+  ],
+
+  stack: ["OCI · AWS · GCP", "Kubernetes · Terraform",
+          "CI/CD · Ansible · Prometheus"],
+
+  focus : "Rock-Solid Infrastructure That Scales",
+  status: "open_to_collaborate() ✅",
 };
 ```
 
-</div>
-
-<!-- Quick Highlights -->
-<h3 align="center">🎯 Quick Highlights</h3>
-
-<table width="100%">
-<tr>
-<td width="33%" align="center">
-
-**🏆 Professional Impact**
-
-🚀 **60%** faster deployments (4h → 45 min)
-🛡️ **85%** vulnerability reduction (SOC 2)
-⚡ **75%** deployment complexity reduced
-🔧 **99.9%** uptime across 10+ microservices
-
 </td>
-<td width="33%" align="center">
+<td width="48%" valign="top" align="center">
 
-**🔥 Current Status**
+<br>
 
-👥 **2,328** LinkedIn followers • **500+** connections
-🏅 **4x** Oracle Cloud Certified
-🏢 **50+** developers served on CloudRelic
-📚 **1,000+** engineers mentored via blog
+**⚡ Impact at a Glance**
 
-</td>
-<td width="33%" align="center">
+<br>
 
-**🎓 Certifications & Recognition**
+<img src="https://img.shields.io/badge/Deployments-60%25_Faster_(4h_→_45min)-FF4500?style=for-the-badge&logo=rocket&logoColor=white">
+<br>
+<img src="https://img.shields.io/badge/Uptime-99.9%25_Across_10%2B_Services-00C851?style=for-the-badge&logo=statuspage&logoColor=white">
+<br>
+<img src="https://img.shields.io/badge/Security-85%25_Vuln_Reduction_(SOC_2)-8A2BE2?style=for-the-badge&logo=shield&logoColor=white">
+<br>
+<img src="https://img.shields.io/badge/Community-1%2C000%2B_Engineers_Mentored-1E90FF?style=for-the-badge&logo=dev.to&logoColor=white">
 
-🔶 4x Oracle Certified (OCI, DevOps, Architect, Developer)
-🎓 McKinsey.org Forward Program (Dec 2025)
-🌟 Aspire Global Leaders Program (Cohort 5)
-☁️ Google Cloud & GenAI Certified
+<br><br>
+
+**🏅 Credentials**
+
+<br>
+
+<img src="https://img.shields.io/badge/Oracle-4x_Certified-F80000?style=for-the-badge&logo=oracle&logoColor=white">
+<img src="https://img.shields.io/badge/McKinsey-Forward_Program-003366?style=for-the-badge&logo=academia&logoColor=white">
+<br>
+<img src="https://img.shields.io/badge/Google_Cloud-GenAI_Certified-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white">
+<img src="https://img.shields.io/badge/Aspire-Global_Leaders_Cohort_5-00D4AA?style=for-the-badge">
+
+<br><br>
+
+**👥 Network**
+
+<br>
+
+<img src="https://img.shields.io/badge/LinkedIn-2%2C328_Followers-0077B5?style=flat-square&logo=linkedin&logoColor=white">
+<img src="https://img.shields.io/badge/GitHub-Since_Oct_2022-181717?style=flat-square&logo=github&logoColor=white">
+<img src="https://img.shields.io/badge/CloudRelic-50%2B_Platform_Users-00D4AA?style=flat-square">
 
 </td>
 </tr>
