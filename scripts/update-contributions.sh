@@ -1,425 +1,442 @@
 #!/bin/bash
 
-# Auto-update README with recent GitHub contributions
-# This script fetches recent commits, PRs, and updates the README.md file
+# =============================================================================
+# Auto-update README with GitHub statistics & recent contributions
+# Sections updated:
+#   - 📈 Contribution Impact (live counters)
+#   - 📊 Live Stats Dashboard (GitHub side)
+#   - 📊 Detailed Analytics badges
+#   - 🏆 Achievement Highlights bullet list
+#   - 🚀 Recent Contributions table (last N days)
+#   - Active_Contributor badge year
+#   - 🕒 Footer "Last updated" line
+# =============================================================================
 
-set -e
+set -euo pipefail
 
-# Configuration
+# ── Configuration ─────────────────────────────────────────────────────────────
 USERNAME="yunus25jmi1"
 README_FILE="README.md"
 DAYS_BACK=7
-
-# GitHub token for private repos (optional, set as environment variable)
 GITHUB_TOKEN="${GITHUB_TOKEN:-}"
 
-# Colors for output
-GREEN='\033[0;32m'
-RED='\033[0;31m'
-YELLOW='\033[1;33m'
-BLUE='\033[0;34m'
-NC='\033[0m'
-
-log() { echo -e "${GREEN}[$(date +'%Y-%m-%d %H:%M:%S')]${NC} $1"; }
+# ── Helpers ───────────────────────────────────────────────────────────────────
+GREEN='\033[0;32m'; RED='\033[0;31m'; YELLOW='\033[1;33m'; BLUE='\033[0;34m'; NC='\033[0m'
+log()   { echo -e "${GREEN}[$(date +'%Y-%m-%d %H:%M:%S')]${NC} $1"; }
 error() { echo -e "${RED}[ERROR]${NC} $1" >&2; }
-info() { echo -e "${BLUE}[INFO]${NC} $1"; }
-warn() { echo -e "${YELLOW}[WARN]${NC} $1"; }
+warn()  { echo -e "${YELLOW}[WARN]${NC} $1"; }
+info()  { echo -e "${BLUE}[INFO]${NC} $1"; }
 
-# Setup GitHub API headers
-setup_auth_header() {
-    if [ ! -z "$GITHUB_TOKEN" ]; then
-        AUTH_HEADER="Authorization: token $GITHUB_TOKEN"
-        log "Using authenticated API (includes private repos)"
+# ── Auth ──────────────────────────────────────────────────────────────────────
+setup_auth() {
+    if [[ -n "$GITHUB_TOKEN" ]]; then
+        log "Authenticated – private data included"
     else
-        AUTH_HEADER=""
-        warn "No GITHUB_TOKEN set - only public contributions will be shown"
-        warn "Set GITHUB_TOKEN environment variable to include private contributions"
+        warn "No GITHUB_TOKEN – public data only"
     fi
 }
 
-    # Get total contributions (public + private when authenticated) via GraphQL
-    get_total_contributions() {
-        local from_iso=$(date -d "$DAYS_BACK days ago" -Iseconds 2>/dev/null || date -v-${DAYS_BACK}d -Iseconds)
-        local to_iso=$(date -Iseconds)
-
-        if [ -z "$GITHUB_TOKEN" ]; then
-            # No token: fall back to commit count we computed (public only)
-            TOTAL_CONTRIBUTIONS=${TOTAL_COMMITS:-0}
-            log "Total contributions (public only): $TOTAL_CONTRIBUTIONS"
-            return
-        fi
-
-        log "Fetching total contributions (public + private) via GraphQL..."
-        local gql_query='{"query":"query($login:String!,$from:DateTime!,$to:DateTime!){user(login:$login){contributionsCollection(from:$from,to:$to){totalCommitContributions totalIssueContributions totalPullRequestContributions totalPullRequestReviewContributions restrictedContributionsCount}}}","variables":{"login":"'$USERNAME'","from":"'$from_iso'","to":"'$to_iso'"}}'
-
-        local resp=$(curl -s -H "Authorization: bearer $GITHUB_TOKEN" -H "Content-Type: application/json" --data "$gql_query" https://api.github.com/graphql)
-        local commit_c=$(echo "$resp" | jq -r '.data.user.contributionsCollection.totalCommitContributions // 0')
-        local issue_c=$(echo "$resp" | jq -r '.data.user.contributionsCollection.totalIssueContributions // 0')
-        local pr_c=$(echo "$resp" | jq -r '.data.user.contributionsCollection.totalPullRequestContributions // 0')
-        local review_c=$(echo "$resp" | jq -r '.data.user.contributionsCollection.totalPullRequestReviewContributions // 0')
-        local restricted_c=$(echo "$resp" | jq -r '.data.user.contributionsCollection.restrictedContributionsCount // 0')
-
-        # Sum primary contribution types; restricted may overlap, so do not add to avoid double count
-        TOTAL_CONTRIBUTIONS=$((commit_c + issue_c + pr_c + review_c))
-        log "Contributions (7d): commits=$commit_c, issues=$issue_c, PRs=$pr_c, reviews=$review_c, total=$TOTAL_CONTRIBUTIONS"
-    }
-
-# Get GitHub user statistics
-get_github_stats() {
-    log "Fetching GitHub statistics..."
-    
-    if [ ! -z "$AUTH_HEADER" ]; then
-        local user_data=$(curl -s -H "$AUTH_HEADER" "https://api.github.com/user")
-        local public_data=$(curl -s "https://api.github.com/users/$USERNAME")
+# Wrapper: use gh CLI if available, else curl
+gh_api() {
+    local endpoint="$1"
+    if command -v gh &>/dev/null && gh auth status &>/dev/null 2>&1; then
+        gh api "$endpoint" 2>/dev/null
+    elif [[ -n "$GITHUB_TOKEN" ]]; then
+        curl -sf -H "Authorization: Bearer $GITHUB_TOKEN" \
+             -H "Accept: application/vnd.github.v3+json" \
+             "https://api.github.com${endpoint}"
     else
-        local user_data=$(curl -s "https://api.github.com/users/$USERNAME")
-        local public_data="$user_data"
-    fi
-    
-    TOTAL_REPOS=$(echo "$public_data" | jq -r '.public_repos // 0')
-    FOLLOWERS=$(echo "$public_data" | jq -r '.followers // 0')
-    FOLLOWING=$(echo "$public_data" | jq -r '.following // 0')
-    
-    # Get private repo count if authenticated
-    if [ ! -z "$AUTH_HEADER" ]; then
-        TOTAL_PRIVATE_REPOS=$(echo "$user_data" | jq -r '.total_private_repos // 0')
-        OWNED_PRIVATE_REPOS=$(echo "$user_data" | jq -r '.owned_private_repos // 0')
-        log "Stats: $TOTAL_REPOS public repos, $OWNED_PRIVATE_REPOS private repos, $FOLLOWERS followers, $FOLLOWING following"
-    else
-        TOTAL_PRIVATE_REPOS=0
-        OWNED_PRIVATE_REPOS=0
-        log "Stats: $TOTAL_REPOS public repos, $FOLLOWERS followers, $FOLLOWING following"
+        curl -sf -H "Accept: application/vnd.github.v3+json" \
+             "https://api.github.com${endpoint}"
     fi
 }
 
-# Get recent activity from multiple sources
-get_recent_activity() {
-    log "Fetching recent activity..."
-    
-    local since_date=$(date -d "$DAYS_BACK days ago" '+%Y-%m-%dT%H:%M:%SZ' 2>/dev/null || date -v-${DAYS_BACK}d '+%Y-%m-%dT%H:%M:%SZ')
-    local since_date_iso=$(date -d "$DAYS_BACK days ago" -Iseconds 2>/dev/null || date -v-${DAYS_BACK}d -Iseconds)
-    local contributions_html=""
-    local total_commits=0
-    
-        # Get events (includes pushes, PRs, etc.) - authenticated calls show private events
-    if [ ! -z "$AUTH_HEADER" ]; then
-        local events=$(curl -s -H "$AUTH_HEADER" "https://api.github.com/users/$USERNAME/events?per_page=100")
-    else
-        local events=$(curl -s "https://api.github.com/users/$USERNAME/events?per_page=100")
+# ── 1. Profile stats ──────────────────────────────────────────────────────────
+fetch_profile_stats() {
+    log "Fetching profile stats..."
+    local data
+    data=$(gh_api "/users/$USERNAME")
+
+    TOTAL_REPOS=$(echo "$data"  | jq -r '.public_repos  // 0')
+    PUBLIC_GISTS=$(echo "$data" | jq -r '.public_gists  // 0')
+    FOLLOWERS=$(echo "$data"    | jq -r '.followers     // 0')
+    FOLLOWING=$(echo "$data"    | jq -r '.following     // 0')
+
+    log "Repos=$TOTAL_REPOS  Gists=$PUBLIC_GISTS  Followers=$FOLLOWERS  Following=$FOLLOWING"
+}
+
+# ── 2. Contribution stats via GraphQL ─────────────────────────────────────────
+fetch_contribution_stats() {
+    log "Fetching contribution stats via GraphQL..."
+
+    local CURRENT_YEAR FROM_ISO TO_ISO
+    CURRENT_YEAR=$(date '+%Y')
+    FROM_ISO="${CURRENT_YEAR}-01-01T00:00:00Z"
+    TO_ISO=$(date -u '+%Y-%m-%dT%H:%M:%SZ')
+
+    local GQL='query($login:String!,$from:DateTime!,$to:DateTime!){
+      user(login:$login){
+        repositories(first:100,ownerAffiliations:OWNER){
+          totalCount
+          nodes{stargazerCount forkCount}
+        }
+        contributionsCollection(from:$from,to:$to){
+          totalCommitContributions
+          totalPullRequestContributions
+          totalIssueContributions
+          totalPullRequestReviewContributions
+          restrictedContributionsCount
+        }
+      }
+    }'
+
+    local resp="{}"
+    if command -v gh &>/dev/null && gh auth status &>/dev/null 2>&1; then
+        resp=$(gh api graphql \
+            -f query="$GQL" \
+            -f login="$USERNAME" \
+            -f from="$FROM_ISO" \
+            -f to="$TO_ISO" 2>/dev/null || echo "{}")
+    elif [[ -n "$GITHUB_TOKEN" ]]; then
+        local payload
+        payload=$(python3 -c "
+import json, sys
+q=sys.stdin.read()
+print(json.dumps({'query':q,'variables':{'login':'$USERNAME','from':'$FROM_ISO','to':'$TO_ISO'}}))
+" <<< "$GQL")
+        resp=$(curl -sf -H "Authorization: Bearer $GITHUB_TOKEN" \
+                    -H "Content-Type: application/json" \
+                    -d "$payload" "https://api.github.com/graphql" 2>/dev/null || echo "{}")
     fi
 
-        # Compute total activities over the window (count of qualifying events)
-        local activities_count=$(echo "$events" | jq -r --arg since "$since_date" '
-            [ .[] |
-                select(.created_at >= $since) |
-                select(.type == "PushEvent" or .type == "PullRequestEvent" or .type == "CreateEvent" or .type == "IssuesEvent")
-            ] | length')
-        TOTAL_ACTIVITIES=$activities_count
-    
-    # Process events and create table rows
-    echo "$events" | jq -r --arg since "$since_date" '
-        .[] | 
-        select(.created_at >= $since) |
-        select(.type == "PushEvent" or .type == "PullRequestEvent" or .type == "CreateEvent" or .type == "IssuesEvent") |
-        {
-            date: .created_at,
-            type: .type,
-            repo: .repo.name,
-            repo_url: ("https://github.com/" + .repo.name),
-            payload: .payload
-        }' | jq -s '
-        sort_by(.date) | reverse | .[0:15]
-    ' > /tmp/recent_events.json
-    
-    # Track unique repos for fetching commits
-    declare -A repos_seen
-    local total_commit_count=0
-    
-    # Convert events to HTML table rows
-    local event_count=0
+    COMMITS_YTD=$(echo "$resp"  | jq -r '.data.user.contributionsCollection.totalCommitContributions                // 0')
+    PRS_YTD=$(echo "$resp"      | jq -r '.data.user.contributionsCollection.totalPullRequestContributions          // 0')
+    ISSUES_YTD=$(echo "$resp"   | jq -r '.data.user.contributionsCollection.totalIssueContributions                // 0')
+    REVIEWS_YTD=$(echo "$resp"  | jq -r '.data.user.contributionsCollection.totalPullRequestReviewContributions    // 0')
+    PRIVATE_CONTRIBS=$(echo "$resp" | jq -r '.data.user.contributionsCollection.restrictedContributionsCount       // 0')
+    TOTAL_STARS=$(echo "$resp"  | jq -r   '[.data.user.repositories.nodes[]?.stargazerCount // 0] | add // 0')
+    TOTAL_FORKS=$(echo "$resp"  | jq -r   '[.data.user.repositories.nodes[]?.forkCount      // 0] | add // 0')
+    REPO_COUNT_GQL=$(echo "$resp" | jq -r '.data.user.repositories.totalCount               // 0')
+    TOTAL_ACTIVITIES_YTD=$(( COMMITS_YTD + PRS_YTD + ISSUES_YTD + REVIEWS_YTD ))
+
+    log "YTD commits=$COMMITS_YTD  PRs=$PRS_YTD  issues=$ISSUES_YTD  reviews=$REVIEWS_YTD"
+}
+
+# ── 3. Recent activity (last DAYS_BACK days) ──────────────────────────────────
+fetch_recent_activity() {
+    log "Fetching recent activity (last $DAYS_BACK days)..."
+
+    local SINCE_DATE SINCE_ISO
+    SINCE_DATE=$(date -d "$DAYS_BACK days ago" '+%Y-%m-%dT%H:%M:%SZ' 2>/dev/null \
+              || date -v-${DAYS_BACK}d '+%Y-%m-%dT%H:%M:%SZ')
+    SINCE_ISO=$(date -d "$DAYS_BACK days ago" -Iseconds 2>/dev/null \
+             || date -v-${DAYS_BACK}d -Iseconds)
+
+    local events
+    events=$(gh_api "/users/$USERNAME/events?per_page=100")
+
+    TOTAL_ACTIVITIES=$(echo "$events" | jq -r --arg s "$SINCE_DATE" '
+        [.[] | select(.created_at >= $s) |
+         select(.type=="PushEvent" or .type=="PullRequestEvent" or
+                .type=="CreateEvent" or .type=="IssuesEvent")] | length')
+
+    echo "$events" | jq -r --arg s "$SINCE_DATE" '
+        [.[] | select(.created_at >= $s) |
+         select(.type=="PushEvent" or .type=="PullRequestEvent" or
+                .type=="CreateEvent" or .type=="IssuesEvent")] |
+        sort_by(.created_at) | reverse | .[0:15]' > /tmp/recent_events.json
+
+    declare -A REPOS_SEEN
+    local contributions_html="" event_count=0
+
     while IFS= read -r event; do
-        if [ "$event" != "null" ] && [ ! -z "$event" ]; then
-            local date=$(echo "$event" | jq -r '.date')
-            local type=$(echo "$event" | jq -r '.type')
-            local repo=$(echo "$event" | jq -r '.repo')
-            local repo_url=$(echo "$event" | jq -r '.repo_url')
-            
-            # Format date
-            local formatted_date=$(date -d "$date" '+%b %d, %Y' 2>/dev/null || date -j -f "%Y-%m-%dT%H:%M:%SZ" "$date" '+%b %d, %Y' 2>/dev/null || echo "Recent")
-            
-            # Determine activity details based on type
-            local activity_desc=""
-            local status_icon=""
-            local repo_owner=$(echo "$repo" | cut -d'/' -f1)
-            local repo_name=$(echo "$repo" | cut -d'/' -f2)
-            
-            # URL encode the repo name for badges (replace hyphens)
-            local encoded_repo_name=$(echo "$repo_name" | sed 's/-/--/g')
-            
-            case "$type" in
-                "PushEvent")
-                    # Fetch actual commits from the repository
-                    if [ -z "${repos_seen[$repo]}" ]; then
-                        repos_seen[$repo]=1
-                        
-                        # Use authenticated API if token is available
-                        if [ ! -z "$AUTH_HEADER" ]; then
-                            local commits_data=$(curl -s -H "$AUTH_HEADER" "https://api.github.com/repos/$repo/commits?since=$since_date_iso&author=$USERNAME&per_page=100" 2>/dev/null)
-                        else
-                            local commits_data=$(curl -s "https://api.github.com/repos/$repo/commits?since=$since_date_iso&author=$USERNAME&per_page=100" 2>/dev/null)
-                        fi
-                        
-                        local commit_count=$(echo "$commits_data" | jq '. | length' 2>/dev/null || echo "0")
-                        local latest_commit_msg=$(echo "$commits_data" | jq -r '.[0].commit.message | split("\n")[0]' 2>/dev/null | head -c 80)
-                        
-                        # Check if repo is private
-                        if [ ! -z "$AUTH_HEADER" ]; then
-                            local repo_info=$(curl -s -H "$AUTH_HEADER" "https://api.github.com/repos/$repo" 2>/dev/null)
-                            local is_private=$(echo "$repo_info" | jq -r '.private // false')
-                        else
-                            local is_private="false"
-                        fi
-                        
-                        if [ ! -z "$latest_commit_msg" ] && [ "$latest_commit_msg" != "null" ] && [ "$commit_count" != "0" ]; then
-                            if [ "$is_private" == "true" ]; then
-                                activity_desc="<strong>Push:</strong> $commit_count commit(s) 🔒<br><small>$latest_commit_msg</small>"
-                            else
-                                activity_desc="<strong>Push:</strong> $commit_count commit(s)<br><small>$latest_commit_msg</small>"
-                            fi
-                            total_commit_count=$((total_commit_count + commit_count))
-                        else
-                            if [ "$is_private" == "true" ]; then
-                                activity_desc="<strong>Push:</strong> Code updates 🔒<br><small>Private repository</small>"
-                            else
-                                activity_desc="<strong>Push:</strong> Code updates<br><small>Updated repository</small>"
-                            fi
-                            total_commit_count=$((total_commit_count + 1))
-                        fi
-                    else
-                        # Already processed this repo
-                        continue
-                    fi
-                    status_icon="✅"
-                    total_commits=$((total_commits + 1))
-                    ;;
-                "PullRequestEvent") 
-                    local pr_action=$(echo "$event" | jq -r '.payload.action')
-                    local pr_number=$(echo "$event" | jq -r '.payload.number // "N/A"')
-                    local pr_title=$(echo "$event" | jq -r '.payload.pull_request.title // "Pull request"' | head -c 60)
-                    activity_desc="<strong>PR #$pr_number:</strong> $pr_action<br><small>$pr_title</small>"
-                    status_icon="🔀"
-                    total_commits=$((total_commits + 1))
-                    ;;
-                "CreateEvent")
-                    local ref_type=$(echo "$event" | jq -r '.payload.ref_type')
-                    local ref_name=$(echo "$event" | jq -r '.payload.ref // "repository"')
-                    activity_desc="<strong>Created:</strong> New $ref_type<br><small>$ref_name</small>"
-                    status_icon="🚀"
-                    total_commits=$((total_commits + 1))
-                    ;;
-                "IssuesEvent")
-                    local issue_action=$(echo "$event" | jq -r '.payload.action')
-                    local issue_number=$(echo "$event" | jq -r '.payload.issue.number // "N/A"')
-                    activity_desc="<strong>Issue #$issue_number:</strong> $issue_action<br><small>Issue activity</small>"
-                    status_icon="🐛"
-                    total_commits=$((total_commits + 1))
-                    ;;
-                *)
-                    activity_desc="<strong>Activity:</strong> $type<br><small>GitHub activity</small>"
-                    status_icon="📝"
-                    total_commits=$((total_commits + 1))
-                    ;;
-            esac
-            
-            # Add table row with properly encoded badge
-            contributions_html+="  <tr>
-    <td><strong>$formatted_date</strong></td>
+        [[ "$event" == "null" || -z "$event" ]] && continue
+
+        local date type repo repo_url
+        date=$(echo "$event"     | jq -r '.date')
+        type=$(echo "$event"     | jq -r '.type')
+        repo=$(echo "$event"     | jq -r '.repo')
+        repo_url=$(echo "$event" | jq -r '.repo_url')
+
+        local formatted_date
+        formatted_date=$(date -d "$date" '+%b %d, %Y' 2>/dev/null \
+                        || date -j -f "%Y-%m-%dT%H:%M:%SZ" "$date" '+%b %d, %Y' 2>/dev/null \
+                        || echo "Recent")
+
+        local repo_owner repo_name encoded_repo activity_desc status_icon
+        repo_owner=$(echo "$repo" | cut -d'/' -f1)
+        repo_name=$(echo "$repo"  | cut -d'/' -f2)
+        encoded_repo=$(echo "$repo_name" | sed 's/-/--/g')
+
+        case "$type" in
+            PushEvent)
+                [[ -v REPOS_SEEN["$repo"] ]] && continue
+                REPOS_SEEN["$repo"]=1
+                local commits_data commit_count latest_msg
+                commits_data=$(gh_api "/repos/$repo/commits?since=${SINCE_ISO}&author=${USERNAME}&per_page=100" 2>/dev/null || echo "[]")
+                commit_count=$(echo "$commits_data" | jq 'length // 0')
+                latest_msg=$(echo "$commits_data"   | jq -r '.[0].commit.message // ""' | head -c 80 | head -1)
+                [[ "$commit_count" == "0" ]] && commit_count=1
+                [[ -z "$latest_msg" || "$latest_msg" == "null" ]] && latest_msg="Updated repository"
+                activity_desc="<strong>Push:</strong> ${commit_count} commit(s)<br><small>${latest_msg}</small>"
+                status_icon="✅"
+                ;;
+            PullRequestEvent)
+                local pr_action pr_num pr_title
+                pr_action=$(echo "$event" | jq -r '.payload.action')
+                pr_num=$(echo "$event"    | jq -r '.payload.number // "N/A"')
+                pr_title=$(echo "$event"  | jq -r '.payload.pull_request.title // "Pull request"' | head -c 60)
+                activity_desc="<strong>PR #${pr_num}:</strong> ${pr_action}<br><small>${pr_title}</small>"
+                status_icon="🔀"
+                ;;
+            CreateEvent)
+                local ref_type ref_name
+                ref_type=$(echo "$event" | jq -r '.payload.ref_type')
+                ref_name=$(echo "$event" | jq -r '.payload.ref // "repository"')
+                activity_desc="<strong>Created:</strong> New ${ref_type}<br><small>${ref_name}</small>"
+                status_icon="🚀"
+                ;;
+            IssuesEvent)
+                local iss_action iss_num
+                iss_action=$(echo "$event" | jq -r '.payload.action')
+                iss_num=$(echo "$event"    | jq -r '.payload.issue.number // "N/A"')
+                activity_desc="<strong>Issue #${iss_num}:</strong> ${iss_action}<br><small>Issue activity</small>"
+                status_icon="🐛"
+                ;;
+            *)
+                activity_desc="<strong>Activity:</strong> ${type}<br><small>GitHub activity</small>"
+                status_icon="📝"
+                ;;
+        esac
+
+        contributions_html+="  <tr>
+    <td><strong>${formatted_date}</strong></td>
     <td>
-      <a href=\"$repo_url\">
-        <img src=\"https://img.shields.io/badge/$repo_owner-$encoded_repo_name-0366d6?style=flat&logo=github\" alt=\"$repo\">
+      <a href=\"${repo_url}\">
+        <img src=\"https://img.shields.io/badge/${repo_owner}-${encoded_repo}-0366d6?style=flat&logo=github\" alt=\"${repo}\">
       </a>
     </td>
-    <td>$activity_desc</td>
-    <td>$status_icon</td>
+    <td>${activity_desc}</td>
+    <td>${status_icon}</td>
   </tr>
 "
-            event_count=$((event_count + 1))
-            
-            # Limit to top 10 unique events
-            if [ $event_count -ge 10 ]; then
-                break
-            fi
-        fi
-    done < <(jq -c '.[]' /tmp/recent_events.json 2>/dev/null || echo "")
-    
-    # If no recent events, add a placeholder
-    if [ -z "$contributions_html" ]; then
+        event_count=$(( event_count + 1 ))
+        (( event_count >= 10 )) && break
+
+    done < <(jq -c '[.[] | {date:.created_at, type:.type, repo:.repo.name,
+                            repo_url:("https://github.com/"+.repo.name),
+                            payload:.payload}] | .[]' /tmp/recent_events.json 2>/dev/null || true)
+
+    if [[ -z "$contributions_html" ]]; then
         contributions_html="  <tr>
     <td colspan=\"4\" align=\"center\">
-      <em>🔍 No recent public activity in the last $DAYS_BACK days</em><br>
-      <small>Private contributions or activity outside the timeframe may not be visible</small>
+      <em>🔍 No recent public activity in the last ${DAYS_BACK} days</em>
     </td>
   </tr>
 "
-        total_commits=0
     fi
-    
-    RECENT_CONTRIBUTIONS="$contributions_html"
-    TOTAL_COMMITS="$total_commit_count"
-    
-    log "Found $event_count recent rows, $activities_count activities, $total_commit_count total commits"
+
+    RECENT_CONTRIBUTIONS_HTML="$contributions_html"
+    log "Recent rows=$event_count  window_activities=$TOTAL_ACTIVITIES"
 }
 
-# Update README with new data
+# ── 4. Patch README via Python ────────────────────────────────────────────────
 update_readme() {
-    log "Updating README.md..."
-    
-    local current_date=$(date '+%b %d, %Y')
-    local current_year=$(date '+%Y')
-    
-    # Create backup
+    log "Patching README.md..."
+
+    local CURRENT_DATE CURRENT_YEAR EFFECTIVE_REPOS
+    CURRENT_DATE=$(date '+%B %d, %Y')
+    CURRENT_YEAR=$(date '+%Y')
+    EFFECTIVE_REPOS="${REPO_COUNT_GQL:-$TOTAL_REPOS}"
+
+    # Write HTML rows to a temp file to avoid shell escaping issues
+    printf '%s' "$RECENT_CONTRIBUTIONS_HTML" > /tmp/readme_html_rows.txt
+
     cp "$README_FILE" "${README_FILE}.backup"
-    
-    # Update the contributions badges
-    sed -i "s|Active_Contributor-[0-9]*|Active_Contributor-$current_year|g" "$README_FILE"
-    sed -i "s|Total_PRs-[0-9]*+|Total_PRs-${TOTAL_COMMITS}+|g" "$README_FILE"
-    
-    # Build impact section with conditional private repos column
-    local impact_section_middle=""
-    if [ ! -z "$AUTH_HEADER" ] && [ "$OWNED_PRIVATE_REPOS" != "0" ]; then
-        impact_section_middle="      <td align=\"center\">
-        <img src=\"https://img.shields.io/badge/🔒-Private_Repos-9B59B6?style=for-the-badge\">
-        <br><strong>$OWNED_PRIVATE_REPOS</strong><br><small>Private</small>
-      </td>"
-    fi
-        # Note for contributions subtext
-        local impact_subtext="Public only"
-        if [ -n "$GITHUB_TOKEN" ]; then
-                impact_subtext="Includes private"
-        fi
-    
-    # Use Python to update README sections
-    python3 -c "
+
+    python3 - <<PYEOF
 import re
-import sys
 
-# Read the README file
-with open('$README_FILE', 'r', encoding='utf-8') as f:
-    content = f.read()
+readme = open('$README_FILE', encoding='utf-8').read()
+changes = []
 
-# Define the new contributions table
-new_table = '''#### 🚀 **Recent Contributions** (Last $DAYS_BACK Days)
-<table width=\"100%\">
-  <tr>
-    <th width=\"15%\">Date</th>
-    <th width=\"40%\">Repository</th>
-    <th width=\"30%\">Contribution</th>
-    <th width=\"15%\">Status</th>
-  </tr>
-$RECENT_CONTRIBUTIONS</table>'''
+def patch(label, pattern, replacement='__SKIP__', flags=re.DOTALL):
+    global readme
+    if replacement == '__SKIP__':
+        return bool(re.search(pattern, readme, flags=flags))
+    if re.search(pattern, readme, flags=flags):
+        readme = re.sub(pattern, replacement, readme, count=1, flags=flags)
+        changes.append('✅ ' + label)
+        return True
+    changes.append('⚠️  NOT FOUND: ' + label)
+    return False
 
-# Find and replace the contributions table (flexible pattern to match any emoji)
-pattern = r'#### .{1,3} ?\*\*Recent Contributions\*\* \(Last \d+ Days?\).*?</table>'
-matches = re.findall(pattern, content, flags=re.DOTALL)
-if matches:
-    content = re.sub(pattern, new_table, content, flags=re.DOTALL)
-    print('✅ Updated Recent Contributions table')
-else:
-    print('⚠️  Could not find Recent Contributions section')
+# ── values ───────────────────────────────────────────────────────────────────
+repos          = '$EFFECTIVE_REPOS'
+gists          = '$PUBLIC_GISTS'
+followers      = '$FOLLOWERS'
+following      = '$FOLLOWING'
+commits_ytd    = '$COMMITS_YTD'
+prs_ytd        = '$PRS_YTD'
+issues_ytd     = '$ISSUES_YTD'
+reviews_ytd    = '$REVIEWS_YTD'
+private_c      = '$PRIVATE_CONTRIBS'
+stars          = '$TOTAL_STARS'
+forks          = '$TOTAL_FORKS'
+activities_win = '$TOTAL_ACTIVITIES'
+activities_ytd = '$TOTAL_ACTIVITIES_YTD'
+current_date   = '$CURRENT_DATE'
+current_year   = '$CURRENT_YEAR'
+days_back      = '$DAYS_BACK'
+html_rows = open('/tmp/readme_html_rows.txt', encoding='utf-8').read()
 
-# Update contribution impact metrics
-impact_section = '''#### 📈 **Contribution Impact**
-<div align=\"center\">
-  <table>
-    <tr>
-      <td align=\"center\">
-                <img src=\"https://img.shields.io/badge/🔥-Total_Contributions-FF4500?style=for-the-badge\">
-                <br><strong>$TOTAL_CONTRIBUTIONS</strong><br><small>$impact_subtext</small>
-      </td>
-            <td align=\"center\">
-                <img src=\"https://img.shields.io/badge/📊-Total_Activities-8A2BE2?style=for-the-badge\">
-                <br><strong>$TOTAL_ACTIVITIES</strong><br><small>Last $DAYS_BACK Days</small>
-            </td>
-      <td align=\"center\">
-        <img src=\"https://img.shields.io/badge/📝-Public_Repos-32CD32?style=for-the-badge\">
-        <br><strong>$TOTAL_REPOS</strong><br><small>Public</small>
-      </td>
-$impact_section_middle
-      <td align=\"center\">
-        <img src=\"https://img.shields.io/badge/🎯-Network-1E90FF?style=for-the-badge\">
-        <br><strong>$FOLLOWING/$FOLLOWERS</strong><br><small>Following/Followers</small>
-      </td>
-    </tr>
-  </table>
-</div>'''
+# ── 1. Active Contributor badge year ─────────────────────────────────────────
+patch('Active_Contributor badge year',
+      r'Active_Contributor-\d{4}',
+      f'Active_Contributor-{current_year}',
+      flags=0)
 
-# Replace contribution impact section
-impact_pattern = r'#### 📈 \*\*Contribution Impact\*\*.*?</table>\s*</div>'
-if re.search(impact_pattern, content, flags=re.DOTALL):
-    content = re.sub(impact_pattern, impact_section, content, flags=re.DOTALL)
-    print('✅ Updated Contribution Impact section')
-else:
-    print('⚠️  Could not find Contribution Impact section')
+# ── 2. Recent Contributions table ────────────────────────────────────────────
+new_table = (
+    f"#### 🚀 **Recent Contributions** (Last {days_back} Days)\n"
+    f'<table width="100%">\n'
+    f'  <tr>\n'
+    f'    <th width="15%">Date</th>\n'
+    f'    <th width="40%">Repository</th>\n'
+    f'    <th width="30%">Contribution</th>\n'
+    f'    <th width="15%">Status</th>\n'
+    f'  </tr>\n'
+    f'{html_rows}</table>'
+)
+patch('Recent Contributions table',
+      r'#### .{1,3}\s*\*\*Recent Contributions\*\*.*?</table>',
+      new_table)
 
-# Update \"Last Updated\" timestamp
-last_updated_pattern = r'\*\*Last Updated\*\*: [^|]+ \|'
-if re.search(last_updated_pattern, content):
-    content = re.sub(last_updated_pattern, '**Last Updated**: $current_date |', content)
-    print('✅ Updated Last Updated timestamp')
-else:
-    print('⚠️  Could not find Last Updated timestamp')
+# ── 3. Contribution Impact counters ──────────────────────────────────────────
+new_impact = (
+    f"#### 📈 **Contribution Impact** <sub>*(fetched via gh CLI · {current_date})*</sub>\n"
+    f'<div align="center">\n'
+    f'  <table>\n'
+    f'    <tr>\n'
+    f'      <td align="center">\n'
+    f'        <img src="https://img.shields.io/badge/%F0%9F%94%A5-Commits_({current_year})-FF4500?style=for-the-badge">\n'
+    f'        <br><strong>{commits_ytd}</strong><br><small>This year</small>\n'
+    f'      </td>\n'
+    f'      <td align="center">\n'
+    f'        <img src="https://img.shields.io/badge/%F0%9F%94%80-Pull_Requests-8A2BE2?style=for-the-badge">\n'
+    f'        <br><strong>{prs_ytd}</strong><br><small>Total PRs</small>\n'
+    f'      </td>\n'
+    f'      <td align="center">\n'
+    f'        <img src="https://img.shields.io/badge/%F0%9F%93%9D-Public_Repos-32CD32?style=for-the-badge">\n'
+    f'        <br><strong>{repos}</strong><br><small>Public</small>\n'
+    f'      </td>\n'
+    f'      <td align="center">\n'
+    f'        <img src="https://img.shields.io/badge/%F0%9F%93%9A-Gists-FFD700?style=for-the-badge">\n'
+    f'        <br><strong>{gists}</strong><br><small>Public Gists</small>\n'
+    f'      </td>\n'
+    f'      <td align="center">\n'
+    f'        <img src="https://img.shields.io/badge/%F0%9F%8E%AF-Issues_Opened-1E90FF?style=for-the-badge">\n'
+    f'        <br><strong>{issues_ytd}</strong><br><small>This year</small>\n'
+    f'      </td>\n'
+    f'      <td align="center">\n'
+    f'        <img src="https://img.shields.io/badge/%F0%9F%91%A5-Network-00D4AA?style=for-the-badge">\n'
+    f'        <br><strong>{following} / {followers}</strong><br><small>Following / Followers</small>\n'
+    f'      </td>\n'
+    f'    </tr>\n'
+    f'  </table>\n'
+    f'</div>'
+)
+patch('Contribution Impact section',
+      r'#### 📈 \*\*Contribution Impact\*\*.*?</table>\s*</div>',
+      new_impact)
 
-# Update quick highlights in About Me section
-highlights_pattern = r'(\*\*🔥 Current Streak\*\*\s*\n)(- .*?\n)+(- .*?\n)*(\*\*🎓 Continuous Learning\*\*)'
-new_highlights = '''**🔥 Current Streak**
-- 💻 **$TOTAL_REPOS** total repositories
-- 🔄 **$TOTAL_CONTRIBUTIONS** contributions in last $DAYS_BACK days  
-- 📈 Recent contributions tracked
-- 🌟 **$FOLLOWING** following • **$FOLLOWERS** followers
+# ── 4. Live Stats Dashboard – GitHub table ───────────────────────────────────
+github_rows = (
+    f"| Metric | Value |\n"
+    f"|--------|-------|\n"
+    f"| 🗂️ Public Repositories | **{repos}** |\n"
+    f"| 📓 Public Gists | **{gists}** |\n"
+    f"| 👥 Followers | **{followers}** |\n"
+    f"| 🐣 Following | **{following}** |\n"
+    f"| ✨ Commits ({current_year}) | **{commits_ytd}** |\n"
+    f"| 🔀 Pull Requests | **{prs_ytd}** |\n"
+    f"| 💡 Issues Opened | **{issues_ytd}** |\n"
+    f"| 📅 Member Since | **Oct 2022** |"
+)
+patch('Live Stats Dashboard GitHub table',
+      r'(### ⚫ \*\*GitHub Stats\*\*.*?<sub><em>via gh CLI</em></sub>\s*\n\s*\n)'
+      r'\| Metric \| Value \|.*?\| 📅 Member Since.*?\|',
+      r'\g<1>' + github_rows)
 
-**🎓 Continuous Learning**'''
+# ── 5. Detailed Analytics badges ─────────────────────────────────────────────
+patch('Total_Repositories badge',
+      r'Total_Repositories-\d+',
+      f'Total_Repositories-{repos}', flags=0)
 
-if re.search(highlights_pattern, content, flags=re.DOTALL):
-    content = re.sub(highlights_pattern, new_highlights, content, flags=re.DOTALL)
-    print('✅ Updated Current Streak section')
-else:
-    print('⚠️  Could not find Current Streak section')
+patch('Public_Gists badge',
+      r'Public_Gists-\d+',
+      f'Public_Gists-{gists}', flags=0)
 
-# Write the updated content
-with open('$README_FILE', 'w', encoding='utf-8') as f:
-    f.write(content)
+patch('Network badge',
+      r'Network-\d+_Following_%E2%80%A2_\d+_Followers-4ECDC4',
+      f'Network-{following}_Following_%E2%80%A2_{followers}_Followers-4ECDC4', flags=0)
 
-print('✅ README updated successfully!')
-"
-    
-    log "README.md updated successfully!"
+# ── 6. Achievement Highlights bullets ────────────────────────────────────────
+patch('Achievement Highlights – repo count',
+      r'(🔥 \*\*GitHub Journey\*\*: Started October 2022, now )\d+\+',
+      r'\g<1>' + repos + r'+', flags=0)
+
+patch('Achievement Highlights – LinkedIn line',
+      r'(📅 \*\*Consistent Growth\*\*: ).*',
+      r'\g<1>2,328 LinkedIn followers, 500+ connections, 1,967 profile views', flags=0)
+
+# ── 7. diff block stats ───────────────────────────────────────────────────────
+patch('diff block repos',
+      r'\+ \d+\+? Total Public Repositories',
+      f'+ {repos}+ Total Public Repositories', flags=0)
+
+patch('diff block gists',
+      r'\+ \d+ Public Gists',
+      f'+ {gists} Public Gists', flags=0)
+
+patch('diff block network',
+      r'\+ \d+ Following • \d+ Followers',
+      f'+ {following} Following • {followers} Followers', flags=0)
+
+# ── 8. Footer timestamps ─────────────────────────────────────────────────────
+patch('Footer Last Updated',
+      r'(Last updated: )[^\|<\n]+(\|)',
+      r'\g<1>' + current_date + r' \2', flags=0)
+
+patch('Sub footer timestamp',
+      r'(🕒 Last updated: )[^\|]+(\|)',
+      r'\g<1>' + current_date + r' \2', flags=0)
+
+open('$README_FILE', 'w', encoding='utf-8').write(readme)
+
+ok  = sum(1 for c in changes if c.startswith('✅'))
+bad = sum(1 for c in changes if c.startswith('⚠'))
+for c in changes:
+    print(c)
+print(f"\n✨ {ok} sections updated · {bad} not found")
+PYEOF
+
+    log "README.md patched."
 }
 
-# Main execution
+# ── Main ──────────────────────────────────────────────────────────────────────
 main() {
     log "🚀 Starting README auto-update..."
-    
-    if [ ! -f "$README_FILE" ]; then
-        error "README.md not found!"
-        exit 1
-    fi
-    
-    # Setup authentication
-    setup_auth_header
-    
-    # Fetch data
-    get_github_stats
-    get_recent_activity
-    get_total_contributions
-    
-    # Update README
+    [[ -f "$README_FILE" ]] || { error "README.md not found!"; exit 1; }
+
+    setup_auth
+    fetch_profile_stats
+    fetch_contribution_stats
+    fetch_recent_activity
     update_readme
-    
-    # Cleanup
-    rm -f /tmp/recent_events.json
-    
-    log "🎉 Auto-update completed successfully!"
+
+    rm -f /tmp/recent_events.json /tmp/readme_html_rows.txt
+    log "🎉 All done!"
 }
 
-# Run main function
 main "$@"
