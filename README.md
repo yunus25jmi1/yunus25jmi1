@@ -44,11 +44,9 @@
 ---
 
 <!-- About Me Section -->
-<table width="100%">
-<tr>
-<td width="50%">
+<h2 align="center">👨‍💻 About Me</h2>
 
-### 👨‍💻 About Me
+<div align="center">
 
 ```typescript
 const mdYunus = {
@@ -85,32 +83,41 @@ const mdYunus = {
 };
 ```
 
-</td>
-<td width="50%">
+</div>
 
-### 🎯 Quick Highlights
+<!-- Quick Highlights -->
+<h3 align="center">🎯 Quick Highlights</h3>
 
-<div align="center">
+<table width="100%">
+<tr>
+<td width="33%" align="center">
 
 **🏆 Professional Impact**
-- 🚀 **60%** faster deployments (4h → 45 min)
-- 🛡️ **85%** vulnerability reduction (SOC 2)
-- ⚡ **75%** deployment complexity reduced
-- 🔧 **99.9%** uptime across 10+ microservices
+
+🚀 **60%** faster deployments (4h → 45 min)
+🛡️ **85%** vulnerability reduction (SOC 2)
+⚡ **75%** deployment complexity reduced
+🔧 **99.9%** uptime across 10+ microservices
+
+</td>
+<td width="33%" align="center">
 
 **🔥 Current Status**
-- 👥 **2,328** LinkedIn followers • **500+** connections
-- 🏅 **4x** Oracle Cloud Certified
-- 🏢 **50+** developers served on CloudRelic
-- 📚 **1,000+** engineers mentored via blog
+
+👥 **2,328** LinkedIn followers • **500+** connections
+🏅 **4x** Oracle Cloud Certified
+🏢 **50+** developers served on CloudRelic
+📚 **1,000+** engineers mentored via blog
+
+</td>
+<td width="33%" align="center">
 
 **🎓 Certifications & Recognition**
-- 🔶 4x Oracle Certified (OCI, DevOps, Architect, Developer)
-- 🎓 McKinsey.org Forward Program (Dec 2025)
-- 🌟 Aspire Global Leaders Program (Cohort 5)
-- ☁️ Google Cloud & GenAI Certified
 
-</div>
+🔶 4x Oracle Certified (OCI, DevOps, Architect, Developer)
+🎓 McKinsey.org Forward Program (Dec 2025)
+🌟 Aspire Global Leaders Program (Cohort 5)
+☁️ Google Cloud & GenAI Certified
 
 </td>
 </tr>
