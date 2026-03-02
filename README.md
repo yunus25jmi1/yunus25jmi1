@@ -92,7 +92,7 @@ const mdYunus = {
 
 **🔥 Current Streak**
 - 💻 **142** total repositories
-- 🔄 **4** contributions in last 7 days  
+- 🔄 **5** contributions in last 7 days  
 - 📈 Recent contributions tracked
 - 🌟 **83** following • **11** followers
 
@@ -226,7 +226,7 @@ const mdYunus = {
 ### 🌟 Open Source Contributions
 <div align="center">
   <img src="https://img.shields.io/badge/Active_Contributor-2026-00D4AA?style=for-the-badge&logo=github&logoColor=white">
-  <img src="https://img.shields.io/badge/Total_PRs-6+-FF6B6B?style=for-the-badge&logo=git&logoColor=white">
+  <img src="https://img.shields.io/badge/Total_PRs-1+-FF6B6B?style=for-the-badge&logo=git&logoColor=white">
   <img src="https://img.shields.io/badge/Lines_Added-5000+-4ECDC4?style=for-the-badge&logo=codecov&logoColor=white">
 </div>
 
@@ -237,6 +237,36 @@ const mdYunus = {
     <th width="40%">Repository</th>
     <th width="30%">Contribution</th>
     <th width="15%">Status</th>
+  </tr>
+  <tr>
+    <td><strong>Mar 01, 2026</strong></td>
+    <td>
+      <a href="https://github.com/cloudflare/vinext">
+        <img src="https://img.shields.io/badge/cloudflare-vinext-0366d6?style=flat&logo=github" alt="cloudflare/vinext">
+      </a>
+    </td>
+    <td><strong>PR #217:</strong> opened<br><small>Pull request</small></td>
+    <td>🔀</td>
+  </tr>
+  <tr>
+    <td><strong>Mar 01, 2026</strong></td>
+    <td>
+      <a href="https://github.com/yunus25jmi1/vinext">
+        <img src="https://img.shields.io/badge/yunus25jmi1-vinext-0366d6?style=flat&logo=github" alt="yunus25jmi1/vinext">
+      </a>
+    </td>
+    <td><strong>Created:</strong> New branch<br><small>fix/issue-199-rewrites</small></td>
+    <td>🚀</td>
+  </tr>
+  <tr>
+    <td><strong>Mar 01, 2026</strong></td>
+    <td>
+      <a href="https://github.com/yunus25jmi1/vinext">
+        <img src="https://img.shields.io/badge/yunus25jmi1-vinext-0366d6?style=flat&logo=github" alt="yunus25jmi1/vinext">
+      </a>
+    </td>
+    <td><strong>Push:</strong> Code updates<br><small>Updated repository</small></td>
+    <td>✅</td>
   </tr>
   <tr>
     <td><strong>Feb 28, 2026</strong></td>
@@ -257,16 +287,6 @@ const mdYunus = {
     </td>
     <td><strong>Created:</strong> New branch<br><small>fix/issue-184-cloudflare-plugin-esm-require</small></td>
     <td>🚀</td>
-  </tr>
-  <tr>
-    <td><strong>Feb 28, 2026</strong></td>
-    <td>
-      <a href="https://github.com/yunus25jmi1/vinext">
-        <img src="https://img.shields.io/badge/yunus25jmi1-vinext-0366d6?style=flat&logo=github" alt="yunus25jmi1/vinext">
-      </a>
-    </td>
-    <td><strong>Push:</strong> Code updates<br><small>Updated repository</small></td>
-    <td>✅</td>
   </tr>
   <tr>
     <td><strong>Feb 28, 2026</strong></td>
@@ -318,26 +338,6 @@ const mdYunus = {
     <td><strong>PR #151:</strong> opened<br><small>Pull request</small></td>
     <td>🔀</td>
   </tr>
-  <tr>
-    <td><strong>Feb 27, 2026</strong></td>
-    <td>
-      <a href="https://github.com/yunus25jmi1/vinext">
-        <img src="https://img.shields.io/badge/yunus25jmi1-vinext-0366d6?style=flat&logo=github" alt="yunus25jmi1/vinext">
-      </a>
-    </td>
-    <td><strong>Created:</strong> New branch<br><small>fix/issue-145-server-inserted-html-context</small></td>
-    <td>🚀</td>
-  </tr>
-  <tr>
-    <td><strong>Feb 26, 2026</strong></td>
-    <td>
-      <a href="https://github.com/yunus25jmi1/obsidian-git-sync">
-        <img src="https://img.shields.io/badge/yunus25jmi1-obsidian--git--sync-0366d6?style=flat&logo=github" alt="yunus25jmi1/obsidian-git-sync">
-      </a>
-    </td>
-    <td><strong>Push:</strong> 5 commit(s) 🔒<br><small>vault backup: 2026-02-26 21:01:05</small></td>
-    <td>✅</td>
-  </tr>
 </table>
 
 #### 📈 **Contribution Impact**
@@ -346,11 +346,11 @@ const mdYunus = {
     <tr>
       <td align="center">
                 <img src="https://img.shields.io/badge/🔥-Total_Contributions-FF4500?style=for-the-badge">
-                <br><strong>4</strong><br><small>Includes private</small>
+                <br><strong>5</strong><br><small>Includes private</small>
       </td>
             <td align="center">
                 <img src="https://img.shields.io/badge/📊-Total_Activities-8A2BE2?style=for-the-badge">
-                <br><strong>30</strong><br><small>Last 7 Days</small>
+                <br><strong>31</strong><br><small>Last 7 Days</small>
             </td>
       <td align="center">
         <img src="https://img.shields.io/badge/📝-Public_Repos-32CD32?style=for-the-badge">
@@ -415,7 +415,7 @@ const mdYunus = {
 
 ---
 
-**Last Updated**: Mar 01, 2026 | **Auto-generated** from GitHub API
+**Last Updated**: Mar 02, 2026 | **Auto-generated** from GitHub API
 
 </details>
 
