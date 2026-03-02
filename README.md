@@ -395,7 +395,7 @@ const mdYunus = {
         <img src="https://img.shields.io/badge/yunus25jmi1-yunus25jmi1-0366d6?style=flat&logo=github" alt="yunus25jmi1/yunus25jmi1">
       </a>
     </td>
-    <td><strong>Push:</strong> 1 commit(s)<br><small>🤖 Enhance auto-update script & workflow</small></td>
+    <td><strong>Push:</strong> 2 commit(s)<br><small>fix: restructure About Me layout – full-width code block + 3-col highlights gr</small></td>
     <td>✅</td>
   </tr>
   <tr>
@@ -496,7 +496,7 @@ const mdYunus = {
     <tr>
       <td align="center">
         <img src="https://img.shields.io/badge/%F0%9F%94%A5-Commits_(2026)-FF4500?style=for-the-badge">
-        <br><strong>16</strong><br><small>This year</small>
+        <br><strong>17</strong><br><small>This year</small>
       </td>
       <td align="center">
         <img src="https://img.shields.io/badge/%F0%9F%94%80-Pull_Requests-8A2BE2?style=for-the-badge">
@@ -948,10 +948,10 @@ Other        █░░░░░░░░░░░░░░░░░░░░   0
 | 📓 Public Gists | **29** |
 | 👥 Followers | **11** |
 | 🐣 Following | **83** |
-| ✨ Commits (2026) | **16** |
+| ✨ Commits (2026) | **17** |
 | 🔀 Pull Requests | **5** |
 | 💡 Issues Opened | **0** |
-| 📅 Member Since | **Oct 2022** | **Oct 2022** | **Oct 2022** |
+| 📅 Member Since | **Oct 2022** | **Oct 2022** | **Oct 2022** | **Oct 2022** |
 
 <a href="https://github.com/yunus25jmi1">
   <img src="https://img.shields.io/badge/View_GitHub_Profile-181717?style=for-the-badge&logo=github&logoColor=white">
