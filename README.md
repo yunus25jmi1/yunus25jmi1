@@ -60,7 +60,7 @@ const mdYunus = {
   education: {
     degree     : "B.Tech — Electronics & Communication Engg.",
     university : "Guru Nanak Dev University, Amritsar",
-    graduated  : "July 2023",
+    Expected graduated  : "July 2027",
   },
 
   now: [
