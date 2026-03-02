@@ -947,7 +947,7 @@ Other        █░░░░░░░░░░░░░░░░░░░░   0
 | ✨ Commits (2026) | **20** |
 | 🔀 Pull Requests | **5** |
 | 💡 Issues Opened | **0** |
-| 📅 Member Since | **Oct 2022** | **Oct 2022** | **Oct 2022** | **Oct 2022** | **Oct 2022** | **Oct 2022** | **Oct 2022** |
+| 📅 Member Since | **Oct 2022** | **Oct 2022** | **Oct 2022** | **Oct 2022** | **Oct 2022** | **Oct 2022** | **Oct 2022** | **Oct 2022** |
 
 <a href="https://github.com/yunus25jmi1">
   <img src="https://img.shields.io/badge/View_GitHub_Profile-181717?style=for-the-badge&logo=github&logoColor=white">
