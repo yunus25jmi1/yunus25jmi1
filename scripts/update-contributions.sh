@@ -270,6 +270,9 @@ update_readme() {
     export _YEAR="$CURRENT_YEAR"
     export _DAYS="$DAYS_BACK"
 
+    # Write medium articles JSON to temp file (too large for env var)
+    printf '%s' "${MEDIUM_ARTICLES_JSON:-[]}" > /tmp/medium_articles.json
+
     python3 - <<'PYEOF'
 import re, os
 
@@ -426,6 +429,88 @@ patch('Sub footer timestamp',
       r'(🕒 Last updated: )[^\|]+(\|)',
       r'\g<1>' + cur_date + r' \2', flags=0)
 
+
+# ── 10. Medium Blog section (from RSS feed) ──────────────────────────────────
+try:
+    import json as _json
+    articles = _json.loads(open('/tmp/medium_articles.json').read())
+except Exception:
+    articles = []
+
+if articles:
+    # Tag → emoji mapping
+    TAG_EMOJI = {
+        'kubernetes': '☸️', 'k8s': '☸️', 'docker': '🐳',
+        'oracle-cloud': '🔶', 'oci': '🔶',
+        'devops': '⚙️', 'devsecops': '🔒', 'ci-cd': '🔄',
+        'security': '🛡️', 'cybersecurity': '🛡️',
+        'cloud-architecture': '🏗️', 'cloud-computing': '☁️',
+        'terraform': '🌍', 'ansible': '🤖',
+        'microservices': '🔗', 'distributed-systems': '🌐',
+        'site-reliability-engineer': '📊', 'observability': '🔍',
+        'kafka': '📨', 'scalability': '📈',
+        'java': '☕', 'python': '🐍',
+        'machine-learning': '🤖', 'ai': '🤖',
+        'system-design-concepts': '📐', 'cloud-native': '🚀',
+        'multitenancy': '👥', 'disaster-recovery': '🔥',
+        'kubernetes-cluster': '☸️'
+    }
+
+    def get_emoji(tags):
+        for t in tags:
+            e = TAG_EMOJI.get(t.lower())
+            if e: return e
+        return '📝'
+
+    def badge_url(tag):
+        t = tag.replace('-', '_').replace(' ', '_')[:20]
+        return f'https://img.shields.io/badge/{t}-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C'
+
+    # Split into two columns (left: odds, right: evens)
+    left  = articles[::2]   # indices 0,2,4,6,8
+    right = articles[1::2]  # indices 1,3,5,7,9
+
+    def render_col(arts):
+        out = ''
+        for a in arts:
+            emoji = get_emoji(a['tags'])
+            title = a['title'][:75] + ('…' if len(a['title'])>75 else '')
+            tag_badges = ' '.join(
+                f'<img src="{badge_url(t)}" height="14">'
+                for t in a['tags'][:2]
+            )
+            out += (
+                f'- {emoji} [**{title}**]({a["link"]})\n'
+                f'  <br><sub>📅 {a["date"]} &nbsp;{tag_badges}</sub>\n\n'
+            )
+        return out.rstrip()
+
+    new_blog = (
+        '<!-- Medium Blog -->\n'
+        '<h2 align="center">✍️ Latest from CloudRelic Medium Blog</h2>\n\n'
+        '<div align="center">\n'
+        '  <img src="https://img.shields.io/badge/Publication-cloudrelic.medium.com-00AB6C?style=for-the-badge&logo=medium&logoColor=white">\n'
+        '  <img src="https://img.shields.io/badge/Role-CTO_%26_Head_of_Engineering-FF6B6B?style=for-the-badge">\n'
+        '  <img src="https://img.shields.io/badge/Focus-Kubernetes_%7C_Cloud_%7C_Platform_Engineering-4ECDC4?style=for-the-badge">\n'
+        '</div>\n\n'
+        '<br>\n\n'
+        '<table width="100%">\n<tr>\n<td width="50%" valign="top">\n\n'
+        + render_col(left)
+        + '\n\n</td>\n<td width="50%" valign="top">\n\n'
+        + render_col(right)
+        + '\n\n</td>\n</tr>\n</table>\n\n'
+        '<div align="center">\n'
+        '<a href="https://cloudrelic.medium.com">\n'
+        '  <img src="https://img.shields.io/badge/Read_All_Articles_on_Medium-00AB6C?style=for-the-badge&logo=medium&logoColor=white">\n'
+        '</a>\n'
+        '</div>'
+    )
+    patch('Medium Blog section',
+          r'<!-- Medium Blog -->.*?</div>(?=\s*\n\s*---\s*\n\s*<!-- Connect)',
+          new_blog)
+else:
+    changes.append('⚠️  SKIPPED: Medium Blog section (no articles fetched)')
+
 open(os.environ['_README'], 'w', encoding='utf-8').write(readme)
 
 ok  = sum(1 for c in changes if c.startswith('✅'))
@@ -439,6 +524,47 @@ PYEOF
 }
 
 
+# ── 5. Medium RSS feed ────────────────────────────────────────────────────────
+fetch_medium_articles() {
+    log "Fetching Medium RSS feed..."
+    local RSS_URL="https://cloudrelic.medium.com/feed"
+
+    if ! curl -sfL --max-time 15 "$RSS_URL" -o /tmp/medium_feed.xml 2>/dev/null; then
+        warn "Medium RSS fetch failed – blog section unchanged"
+        MEDIUM_ARTICLES_JSON="[]"
+        return
+    fi
+
+    MEDIUM_ARTICLES_JSON=$(python3 - << 'PYPARSE'
+import re, json, html
+from datetime import datetime
+
+data = open('/tmp/medium_feed.xml', encoding='utf-8').read()
+items = re.findall(r'<item>(.*?)</item>', data, re.DOTALL)
+
+articles = []
+for item in items[:10]:
+    def xt(tag):
+        m = (re.search(rf'<{tag}><!\[CDATA\[(.*?)\]\]></{tag}>', item, re.DOTALL)
+          or re.search(rf'<{tag}>(.*?)</{tag}>', item, re.DOTALL))
+        return html.unescape(m.group(1).strip()) if m else ''
+    title = xt('title')
+    link  = xt('link') or xt('guid')
+    raw_d = xt('pubDate')[:16].strip()
+    cats  = re.findall(r'<category><!\[CDATA\[(.*?)\]\]></category>', item)
+    for fmt in ('%a, %d %b %Y %H:%M', '%a, %d %b %Y'):
+        try: raw_d = datetime.strptime(raw_d, fmt).strftime('%b %d, %Y'); break
+        except ValueError: pass
+    articles.append({'title': title, 'link': link, 'date': raw_d, 'tags': cats})
+
+print(json.dumps(articles))
+PYPARSE
+)
+
+    log "Medium: $(echo "$MEDIUM_ARTICLES_JSON" | python3 -c "import json,sys; print(len(json.load(sys.stdin)),'articles')")"
+}
+
+
 # ── Main ──────────────────────────────────────────────────────────────────────
 main() {
     log "🚀 Starting README auto-update..."
@@ -448,9 +574,10 @@ main() {
     fetch_profile_stats
     fetch_contribution_stats
     fetch_recent_activity
+    fetch_medium_articles
     update_readme
 
-    rm -f /tmp/recent_events.json /tmp/readme_html_rows.txt
+    rm -f /tmp/recent_events.json /tmp/readme_html_rows.txt /tmp/medium_feed.xml /tmp/medium_articles.json
     log "🎉 All done!"
 }
 

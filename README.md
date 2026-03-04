@@ -941,47 +941,40 @@ Other        █░░░░░░░░░░░░░░░░░░░░   0
 
 <table width="100%">
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-**☁️ Oracle Kubernetes Engine (OKE) Series**
+- 📨 [**When to NOT Use Kafka on OCI: A Cost and Complexity Analysis for Event Stre…**](https://levelup.gitconnected.com/when-to-not-use-kafka-on-oci-a-cost-and-complexity-analysis-for-event-streaming-architecture-c289b63825f7?source=rss-3abf238f1bcb------2)
+  <br><sub>📅 Mar 02, 2026 &nbsp;<img src="https://img.shields.io/badge/kafka-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/cloud_architecture-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
 
-- 🔗 [**Beyond NetworkPolicies: Infrastructure-Native Microsegmentation with OKE**](https://cloudrelic.medium.com/beyond-networkpolicies-infrastructure-native-microsegmentation-with-oracle-kubernetes-engine-9158b34ef530)
-  <sub>How VCN-native pod networking transforms Kubernetes security</sub>
+- ☸️ [**Beyond NetworkPolicies: Infrastructure-Native Microsegmentation with Oracle…**](https://cloudrelic.medium.com/beyond-networkpolicies-infrastructure-native-microsegmentation-with-oracle-kubernetes-engine-9158b34ef530?source=rss-3abf238f1bcb------2)
+  <br><sub>📅 Feb 25, 2026 &nbsp;<img src="https://img.shields.io/badge/kubernetes-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/microservices-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
 
-- 🎯 [**Control Plane High Availability on OKE: What Oracle Actually Manages**](https://cloudrelic.medium.com/control-plane-high-availability-on-oke-what-oracle-actually-manages-and-why-it-matters-741ef6b1d6a0)
-  <sub>Feb 22 • Why it matters for production workloads</sub>
+- 🔶 [**Control Plane High Availability on OKE: What Oracle Actually Manages (And W…**](https://cloudrelic.medium.com/control-plane-high-availability-on-oke-what-oracle-actually-manages-and-why-it-matters-741ef6b1d6a0?source=rss-3abf238f1bcb------2)
+  <br><sub>📅 Feb 22, 2026 &nbsp;<img src="https://img.shields.io/badge/oracle_cloud-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/kubernetes_cluster-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
 
-- 👥 [**Multi-Tenancy in Kubernetes: Soft vs. Hard Isolation**](https://cloudrelic.medium.com/multi-tenancy-in-kubernetes-soft-vs-hard-isolation-54b3ea1d499d)
-  <sub>Feb 15 • Why namespaces alone fail: economic, security, and isolation tradeoffs</sub>
+- 👥 [**Multi-Tenancy in Kubernetes: Soft vs. Hard Isolation**](https://cloudrelic.medium.com/multi-tenancy-in-kubernetes-soft-vs-hard-isolation-54b3ea1d499d?source=rss-3abf238f1bcb------2)
+  <br><sub>📅 Feb 15, 2026 &nbsp;<img src="https://img.shields.io/badge/multitenancy-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/oracle_cloud-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
 
-**🚀 High-Scale Systems**
-
-- ⚡ [**Designing a 1 Million RPS Kubernetes Ingress Layer**](https://cloudrelic.medium.com/designing-a-1-million-rps-kubernetes-ingress-layer-from-tcp-handshake-to-kernel-tuning-10d6bbeb6986)
-  <sub>From TCP handshake to kernel tuning</sub>
-
-- 📈 [**Scaling The Software Architecture: Beyond Linear Growth to Phase Transitions**](https://cloudrelic.medium.com/scaling-the-software-architecture-beyond-linear-growth-to-phase-transitions-c1b69d7cc4fb)
-  <sub>Feb 19</sub>
+- ☁️ [**Securing the Software Supply Chain: Beyond CVE Scanning to Cryptographic Ve…**](https://cloudrelic.medium.com/securing-the-software-supply-chain-beyond-cve-scanning-to-cryptographic-verification-5d65d35bb8ec?source=rss-3abf238f1bcb------2)
+  <br><sub>📅 Feb 05, 2026 &nbsp;<img src="https://img.shields.io/badge/cloud_computing-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/cybersecurity-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-**🔍 Observability & Reliability**
+- ☸️ [**The Cold Start Problem Nobody Talks About (It’s Not Just Serverless)**](https://cloudrelic.medium.com/the-cold-start-problem-nobody-talks-about-its-not-just-serverless-e1cbb61b073b?source=rss-3abf238f1bcb------2)
+  <br><sub>📅 Mar 02, 2026 &nbsp;<img src="https://img.shields.io/badge/kubernetes-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/devops-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
 
-- 💰 [**Observability Economics: Cost vs. Fidelity in Distributed Tracing**](https://cloudrelic.medium.com/observability-economics-cost-vs-fidelity-in-distributed-tracing-2fd3de1f685c)
-  <sub>Feb 11</sub>
+- ☁️ [**Designing a 1 Million RPS Kubernetes Ingress Layer: From TCP Handshake to K…**](https://cloudrelic.medium.com/designing-a-1-million-rps-kubernetes-ingress-layer-from-tcp-handshake-to-kernel-tuning-10d6bbeb6986?source=rss-3abf238f1bcb------2)
+  <br><sub>📅 Feb 23, 2026 &nbsp;<img src="https://img.shields.io/badge/cloud_computing-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/kubernetes-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
 
-- 🧠 [**The Split-Brain Dilemma: Architecting Consistency in Distributed Cloud Systems**](https://cloudrelic.medium.com/the-split-brain-dilemma-architecting-consistency-in-distributed-cloud-systems-72d0c330fc1e)
-  <sub>Jan 29 • Few failures as subtle and catastrophic as split-brain</sub>
+- 🏗️ [**Scaling The Software Architecture: Beyond Linear Growth to Phase Transition…**](https://blog.startupstash.com/scaling-the-software-architecture-beyond-linear-growth-to-phase-transitions-c1b69d7cc4fb?source=rss-3abf238f1bcb------2)
+  <br><sub>📅 Feb 19, 2026 &nbsp;<img src="https://img.shields.io/badge/cloud_architecture-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/kubernetes-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
 
-**🔒 Security & Supply Chain**
+- 🔶 [**Observability Economics: Cost vs. Fidelity in Distributed Tracing**](https://cloudrelic.medium.com/observability-economics-cost-vs-fidelity-in-distributed-tracing-2fd3de1f685c?source=rss-3abf238f1bcb------2)
+  <br><sub>📅 Feb 11, 2026 &nbsp;<img src="https://img.shields.io/badge/oracle_cloud-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/distributed_systems-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
 
-- 🔏 [**Securing the Software Supply Chain: Beyond CVE Scanning to Cryptographic Verification**](https://cloudrelic.medium.com/securing-the-software-supply-chain-beyond-cve-scanning-to-cryptographic-verification-5d65d35bb8ec)
-  <sub>Feb 5 • In the wake of high-profile supply chain attacks</sub>
-
-**📉 Cloud Incidents**
-
-- 🌐 [**The Day the Internet Stopped: Inside the AWS Outage of October 20, 2025**](https://cloudrelic.medium.com/the-day-the-internet-stopped-inside-the-aws-outage-of-october-20-2025-d856a4739de8)
-  <sub>Oct 20, 2025 • A significant portion of the global internet ground to a halt</sub>
+- 📐 [**The Split-Brain Dilemma: Architecting Consistency in Distributed Cloud Syst…**](https://cloudrelic.medium.com/the-split-brain-dilemma-architecting-consistency-in-distributed-cloud-systems-72d0c330fc1e?source=rss-3abf238f1bcb------2)
+  <br><sub>📅 Jan 29, 2026 &nbsp;<img src="https://img.shields.io/badge/system_design_concep-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/disaster_recovery-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
 
 </td>
 </tr>
