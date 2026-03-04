@@ -241,6 +241,8 @@ fetch_recent_activity() {
 }
 
 # ── 4. Patch README via Python ────────────────────────────────────────────────
+# NOTE: heredoc is QUOTED (<<'PYEOF') so bash NEVER interprets its contents.
+#       All values are passed via exported env-vars to avoid any substitution.
 update_readme() {
     log "Patching README.md..."
 
@@ -249,16 +251,45 @@ update_readme() {
     CURRENT_YEAR=$(date '+%Y')
     EFFECTIVE_REPOS="${REPO_COUNT_GQL:-$TOTAL_REPOS}"
 
-    # Write HTML rows to a temp file to avoid shell escaping issues
     printf '%s' "$RECENT_CONTRIBUTIONS_HTML" > /tmp/readme_html_rows.txt
-
     cp "$README_FILE" "${README_FILE}.backup"
 
-    python3 - <<PYEOF
-import re
+    # Export everything Python needs via env-vars (no shell expansion in heredoc)
+    export _README="$README_FILE"
+    export _REPOS="$EFFECTIVE_REPOS"
+    export _GISTS="$PUBLIC_GISTS"
+    export _FOLLOWERS="$FOLLOWERS"
+    export _FOLLOWING="$FOLLOWING"
+    export _COMMITS="$COMMITS_YTD"
+    export _PRS="$PRS_YTD"
+    export _ISSUES="$ISSUES_YTD"
+    export _REVIEWS="$REVIEWS_YTD"
+    export _STARS="$TOTAL_STARS"
+    export _FORKS="$TOTAL_FORKS"
+    export _DATE="$CURRENT_DATE"
+    export _YEAR="$CURRENT_YEAR"
+    export _DAYS="$DAYS_BACK"
 
-readme = open('$README_FILE', encoding='utf-8').read()
-changes = []
+    python3 - <<'PYEOF'
+import re, os
+
+readme   = open(os.environ['_README'], encoding='utf-8').read()
+html_rows = open('/tmp/readme_html_rows.txt', encoding='utf-8').read()
+changes  = []
+
+repos     = os.environ['_REPOS']
+gists     = os.environ['_GISTS']
+followers = os.environ['_FOLLOWERS']
+following = os.environ['_FOLLOWING']
+commits   = os.environ['_COMMITS']
+prs       = os.environ['_PRS']
+issues    = os.environ['_ISSUES']
+reviews   = os.environ['_REVIEWS']
+stars     = os.environ['_STARS']
+forks     = os.environ['_FORKS']
+cur_date  = os.environ['_DATE']
+cur_year  = os.environ['_YEAR']
+days_back = os.environ['_DAYS']
 
 def patch(label, pattern, replacement='__SKIP__', flags=re.DOTALL):
     global readme
@@ -271,101 +302,70 @@ def patch(label, pattern, replacement='__SKIP__', flags=re.DOTALL):
     changes.append('⚠️  NOT FOUND: ' + label)
     return False
 
-# ── values ───────────────────────────────────────────────────────────────────
-repos          = '$EFFECTIVE_REPOS'
-gists          = '$PUBLIC_GISTS'
-followers      = '$FOLLOWERS'
-following      = '$FOLLOWING'
-commits_ytd    = '$COMMITS_YTD'
-prs_ytd        = '$PRS_YTD'
-issues_ytd     = '$ISSUES_YTD'
-reviews_ytd    = '$REVIEWS_YTD'
-private_c      = '$PRIVATE_CONTRIBS'
-stars          = '$TOTAL_STARS'
-forks          = '$TOTAL_FORKS'
-activities_win = '$TOTAL_ACTIVITIES'
-activities_ytd = '$TOTAL_ACTIVITIES_YTD'
-current_date   = '$CURRENT_DATE'
-current_year   = '$CURRENT_YEAR'
-days_back      = '$DAYS_BACK'
-html_rows = open('/tmp/readme_html_rows.txt', encoding='utf-8').read()
-
 # ── 1. Active Contributor badge year ─────────────────────────────────────────
 patch('Active_Contributor badge year',
       r'Active_Contributor-\d{4}',
-      f'Active_Contributor-{current_year}',
+      f'Active_Contributor-{cur_year}',
       flags=0)
 
 # ── 2. Recent Contributions table ────────────────────────────────────────────
 new_table = (
     f"#### 🚀 **Recent Contributions** (Last {days_back} Days)\n"
-    f'<table width="100%">\n'
-    f'  <tr>\n'
-    f'    <th width="15%">Date</th>\n'
-    f'    <th width="40%">Repository</th>\n'
-    f'    <th width="30%">Contribution</th>\n'
-    f'    <th width="15%">Status</th>\n'
-    f'  </tr>\n'
+    '<table width="100%">\n'
+    '  <tr>\n'
+    '    <th width="15%">Date</th>\n'
+    '    <th width="40%">Repository</th>\n'
+    '    <th width="30%">Contribution</th>\n'
+    '    <th width="15%">Status</th>\n'
+    '  </tr>\n'
     f'{html_rows}</table>'
 )
 patch('Recent Contributions table',
       r'#### .{1,3}\s*\*\*Recent Contributions\*\*.*?</table>',
       new_table)
 
-# ── 3. Contribution Impact counters ──────────────────────────────────────────
+# ── 3. Contribution Impact counters (8 cells) ────────────────────────────────
 new_impact = (
-    f"#### 📈 **Contribution Impact** <sub>*(fetched via gh CLI · {current_date})*</sub>\n"
-    f'<div align="center">\n'
-    f'  <table>\n'
-    f'    <tr>\n'
-    f'      <td align="center">\n'
-    f'        <img src="https://img.shields.io/badge/%F0%9F%94%A5-Commits_({current_year})-FF4500?style=for-the-badge">\n'
-    f'        <br><strong>{commits_ytd}</strong><br><small>This year</small>\n'
-    f'      </td>\n'
-    f'      <td align="center">\n'
-    f'        <img src="https://img.shields.io/badge/%F0%9F%94%80-Pull_Requests-8A2BE2?style=for-the-badge">\n'
-    f'        <br><strong>{prs_ytd}</strong><br><small>Total PRs</small>\n'
-    f'      </td>\n'
-    f'      <td align="center">\n'
-    f'        <img src="https://img.shields.io/badge/%F0%9F%93%9D-Public_Repos-32CD32?style=for-the-badge">\n'
-    f'        <br><strong>{repos}</strong><br><small>Public</small>\n'
-    f'      </td>\n'
-    f'      <td align="center">\n'
-    f'        <img src="https://img.shields.io/badge/%F0%9F%93%9A-Gists-FFD700?style=for-the-badge">\n'
-    f'        <br><strong>{gists}</strong><br><small>Public Gists</small>\n'
-    f'      </td>\n'
-    f'      <td align="center">\n'
-    f'        <img src="https://img.shields.io/badge/%F0%9F%8E%AF-Issues_Opened-1E90FF?style=for-the-badge">\n'
-    f'        <br><strong>{issues_ytd}</strong><br><small>This year</small>\n'
-    f'      </td>\n'
-    f'      <td align="center">\n'
-    f'        <img src="https://img.shields.io/badge/%F0%9F%91%A5-Network-00D4AA?style=for-the-badge">\n'
-    f'        <br><strong>{following} / {followers}</strong><br><small>Following / Followers</small>\n'
-    f'      </td>\n'
-    f'    </tr>\n'
-    f'  </table>\n'
-    f'</div>'
+    f"#### 📈 **Contribution Impact** <sub>*(fetched via gh CLI · {cur_date})*</sub>\n"
+    '<div align="center">\n'
+    '  <table>\n'
+    '    <tr>\n'
+    f'      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%A5-Commits_({cur_year})-FF4500?style=for-the-badge"><br><strong>{commits}</strong><br><small>This year</small></td>\n'
+    f'      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%80-Pull_Requests-8A2BE2?style=for-the-badge"><br><strong>{prs}</strong><br><small>Total PRs</small></td>\n'
+    f'      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%93%9D-Public_Repos-32CD32?style=for-the-badge"><br><strong>{repos}</strong><br><small>Public</small></td>\n'
+    f'      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%93%9A-Gists-FFD700?style=for-the-badge"><br><strong>{gists}</strong><br><small>Public Gists</small></td>\n'
+    f'      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%8E%AF-Issues-1E90FF?style=for-the-badge"><br><strong>{issues}</strong><br><small>This year</small></td>\n'
+    f'      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%8D-PR_Reviews-FF69B4?style=for-the-badge"><br><strong>{reviews}</strong><br><small>Reviews</small></td>\n'
+    f'      <td align="center"><img src="https://img.shields.io/badge/%E2%AD%90-Stars-FFD700?style=for-the-badge"><br><strong>{stars}</strong><br><small>Stars earned</small></td>\n'
+    f'      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%91%A5-Network-00D4AA?style=for-the-badge"><br><strong>{following} / {followers}</strong><br><small>Following / Followers</small></td>\n'
+    '    </tr>\n'
+    '  </table>\n'
+    '</div>'
 )
 patch('Contribution Impact section',
       r'#### 📈 \*\*Contribution Impact\*\*.*?</table>\s*</div>',
       new_impact)
 
 # ── 4. Live Stats Dashboard – GitHub table ───────────────────────────────────
+# ROOT-CAUSE FIX: end match with [^\n]+ so it never accumulates duplicate cells
 github_rows = (
-    f"| Metric | Value |\n"
-    f"|--------|-------|\n"
+    "| Metric | Value |\n"
+    "|--------|-------|\n"
     f"| 🗂️ Public Repositories | **{repos}** |\n"
     f"| 📓 Public Gists | **{gists}** |\n"
     f"| 👥 Followers | **{followers}** |\n"
     f"| 🐣 Following | **{following}** |\n"
-    f"| ✨ Commits ({current_year}) | **{commits_ytd}** |\n"
-    f"| 🔀 Pull Requests | **{prs_ytd}** |\n"
-    f"| 💡 Issues Opened | **{issues_ytd}** |\n"
+    f"| ✨ Commits ({cur_year}) | **{commits}** |\n"
+    f"| 🔀 Pull Requests | **{prs}** |\n"
+    f"| 💡 Issues Opened | **{issues}** |\n"
+    f"| 🔍 PR Reviews | **{reviews}** |\n"
+    f"| ⭐ Total Stars | **{stars}** |\n"
+    f"| 🍴 Total Forks | **{forks}** |\n"
     f"| 📅 Member Since | **Oct 2022** |"
 )
 patch('Live Stats Dashboard GitHub table',
       r'(### ⚫ \*\*GitHub Stats\*\*.*?<sub><em>via gh CLI</em></sub>\s*\n\s*\n)'
-      r'\| Metric \| Value \|.*?\| 📅 Member Since.*?\|',
+      r'\| Metric \| Value \|.*?\| 📅 Member Since[^\n]+',
       r'\g<1>' + github_rows)
 
 # ── 5. Detailed Analytics badges ─────────────────────────────────────────────
@@ -379,7 +379,8 @@ patch('Public_Gists badge',
 
 patch('Network badge',
       r'Network-\d+_Following_%E2%80%A2_\d+_Followers-4ECDC4',
-      f'Network-{following}_Following_%E2%80%A2_{followers}_Followers-4ECDC4', flags=0)
+      f'Network-{following}_Following_%E2%80%A2_{followers}_Followers-4ECDC4',
+      flags=0)
 
 # ── 6. Achievement Highlights bullets ────────────────────────────────────────
 patch('Achievement Highlights – repo count',
@@ -388,31 +389,44 @@ patch('Achievement Highlights – repo count',
 
 patch('Achievement Highlights – LinkedIn line',
       r'(📅 \*\*Consistent Growth\*\*: ).*',
-      r'\g<1>2,328 LinkedIn followers, 500+ connections, 1,967 profile views', flags=0)
+      r'\g<1>2,328 LinkedIn followers, 500+ connections, 1,967 profile views',
+      flags=0)
 
-# ── 7. diff block stats ───────────────────────────────────────────────────────
-patch('diff block repos',
-      r'\+ \d+\+? Total Public Repositories',
-      f'+ {repos}+ Total Public Repositories', flags=0)
+# ── 7. LinkedIn Stats date ────────────────────────────────────────────────────
+patch('LinkedIn Stats date',
+      r'(<sub><em>as of )[^<]+(</em></sub>)',
+      r'\g<1>' + cur_date + r'\2', flags=0)
 
-patch('diff block gists',
-      r'\+ \d+ Public Gists',
-      f'+ {gists} Public Gists', flags=0)
+# ── 8. Long-term Statistics diff block (wholesale replace) ───────────────────
+fence = '```'
+new_diff = (
+    f'{fence}diff\n'
+    f'+ {repos}+ Total Public Repositories\n'
+    f'+ 57 Total Skills on LinkedIn\n'
+    f'+ {following} Following • {followers} Followers\n'
+    '+ 99.9% Uptime for CloudRelic microservices\n'
+    f'+ {gists} Public Gists created\n'
+    '+ Active since October 2022\n'
+    f'+ {stars} Total Stars across repositories\n'
+    f'+ {forks} Total Forks\n'
+    '+ 12 Technical Publications on YunusCloud\n'
+    '+ 53 Professional Certifications\n'
+    f'{fence}'
+)
+patch('Long-term Statistics diff block',
+      fence + r'diff.*?' + fence,
+      new_diff)
 
-patch('diff block network',
-      r'\+ \d+ Following • \d+ Followers',
-      f'+ {following} Following • {followers} Followers', flags=0)
-
-# ── 8. Footer timestamps ─────────────────────────────────────────────────────
+# ── 9. Footer timestamps ─────────────────────────────────────────────────────
 patch('Footer Last Updated',
       r'(Last updated: )[^\|<\n]+(\|)',
-      r'\g<1>' + current_date + r' \2', flags=0)
+      r'\g<1>' + cur_date + r' \2', flags=0)
 
 patch('Sub footer timestamp',
       r'(🕒 Last updated: )[^\|]+(\|)',
-      r'\g<1>' + current_date + r' \2', flags=0)
+      r'\g<1>' + cur_date + r' \2', flags=0)
 
-open('$README_FILE', 'w', encoding='utf-8').write(readme)
+open(os.environ['_README'], 'w', encoding='utf-8').write(readme)
 
 ok  = sum(1 for c in changes if c.startswith('✅'))
 bad = sum(1 for c in changes if c.startswith('⚠'))
@@ -423,6 +437,7 @@ PYEOF
 
     log "README.md patched."
 }
+
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 main() {
