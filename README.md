@@ -129,7 +129,7 @@ DevOps Engineer and Platform Architect with 2+ years of experience designing, se
 ## Education
 
 ### B.Tech — Electronics & Communication Engineering
-**Guru Nanak Dev University**, Amritsar &nbsp;·&nbsp; Graduated July 2023
+**Guru Nanak Dev University**, Amritsar &nbsp;·&nbsp; Graduated July 2027
 
 ---
 
