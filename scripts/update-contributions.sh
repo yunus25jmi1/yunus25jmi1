@@ -171,6 +171,8 @@ fetch_recent_activity() {
 
         case "$type" in
             PushEvent)
+                [[ -v REPOS_SEEN["$repo"] ]] && continue
+                REPOS_SEEN["$repo"]=1
                 local commits_data commit_count latest_msg
                 commits_data=$(gh_api "/repos/$repo/commits?since=${SINCE_ISO}&author=${USERNAME}&per_page=100" 2>/dev/null || echo "[]")
                 commit_count=$(echo "$commits_data" | jq 'length // 0')
@@ -498,7 +500,7 @@ if articles:
         + render_col(right)
         + '\n\n</td>\n</tr>\n</table>\n\n'
         '<div align="center">\n'
-        '<a href="https://medium.com/@yunus25jmi">\n'
+        '<a href="https://cloudrelic.medium.com">\n'
         '  <img src="https://img.shields.io/badge/Read_More_on_Medium-00AB6C?style=for-the-badge&logo=medium&logoColor=white">\n'
         '</a>\n'
         '</div>'

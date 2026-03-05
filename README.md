@@ -6,7 +6,7 @@
 <img src="https://img.shields.io/badge/4x_Oracle_Certified-F80000?style=flat-square&logo=oracle&logoColor=white">
 <img src="https://img.shields.io/badge/3x_Hacktoberfest-FF6550?style=flat-square&logo=hacktoberfest&logoColor=white">
 
-[**Website**](https://yunuscloud.eu.org) · [**LinkedIn**](https://linkedin.com/in/yunus25jmi) · [**Medium**](https://medium.com/@yunus25jmi) · [**Email**](mailto:admin@yunuscloud.eu.org)
+[**Website**](https://yunuscloud.eu.org) · [**LinkedIn**](https://linkedin.com/in/yunus25jmi) · [**Medium**](https://cloudrelic.medium.com) · [**Email**](mailto:admin@yunuscloud.eu.org)
 
 </div>
 
@@ -350,7 +350,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 </table>
 
 <div align="center">
-<a href="https://medium.com/@yunus25jmi">
+<a href="https://cloudrelic.medium.com">
   <img src="https://img.shields.io/badge/Read_More_on_Medium-00AB6C?style=for-the-badge&logo=medium&logoColor=white">
 </a>
 </div>
@@ -362,7 +362,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 
 <div align="center">
 
-**[Website](https://yunuscloud.eu.org)** · **[LinkedIn](https://linkedin.com/in/yunus25jmi)** · **[Email](mailto:admin@yunuscloud.eu.org)** · **[Medium](https://medium.com/@yunus25jmi)** · **[GitHub](https://github.com/yunus25jmi1)**
+**[Website](https://yunuscloud.eu.org)** · **[LinkedIn](https://linkedin.com/in/yunus25jmi)** · **[Email](mailto:admin@yunuscloud.eu.org)** · **[Medium](https://cloudrelic.medium.com)** · **[GitHub](https://github.com/yunus25jmi1)**
 
 <img src="https://komarev.com/ghpvc/?username=yunus25jmi1&label=Profile+Views&color=0e75b6&style=flat-square">
 
