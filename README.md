@@ -44,12 +44,22 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
   <tr>
     <td><strong>Mar 05, 2026</strong></td>
     <td>
-      <a href="https://github.com/yunus25jmi1/yunus25jmi1">
-        <img src="https://img.shields.io/badge/yunus25jmi1-yunus25jmi1-0366d6?style=flat&logo=github" alt="yunus25jmi1/yunus25jmi1">
+      <a href="https://github.com/yunus25jmi1/vinext">
+        <img src="https://img.shields.io/badge/yunus25jmi1-vinext-0366d6?style=flat&logo=github" alt="yunus25jmi1/vinext">
       </a>
     </td>
-    <td><strong>Push:</strong> 12 commit(s)<br><small>redesign: combined best practices from 12+ top GitHub profiles</small></td>
+    <td><strong>Push:</strong> 1 commit(s)<br><small>fix: export ServerInsertedHTMLContext from next/navigation shim (#145) (#151)</small></td>
     <td>✅</td>
+  </tr>
+  <tr>
+    <td><strong>Mar 05, 2026</strong></td>
+    <td>
+      <a href="https://github.com/cloudflare/vinext">
+        <img src="https://img.shields.io/badge/cloudflare-vinext-0366d6?style=flat&logo=github" alt="cloudflare/vinext">
+      </a>
+    </td>
+    <td><strong>PR #262:</strong> opened<br><small>Pull request</small></td>
+    <td>🔀</td>
   </tr>
   <tr>
     <td><strong>Mar 05, 2026</strong></td>
@@ -58,7 +68,17 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
         <img src="https://img.shields.io/badge/yunus25jmi1-vinext-0366d6?style=flat&logo=github" alt="yunus25jmi1/vinext">
       </a>
     </td>
-    <td><strong>Push:</strong> 1 commit(s)<br><small>fix: export ServerInsertedHTMLContext from next/navigation shim (#145) (#151)</small></td>
+    <td><strong>Created:</strong> New branch<br><small>feat/font-vite-transform</small></td>
+    <td>🚀</td>
+  </tr>
+  <tr>
+    <td><strong>Mar 05, 2026</strong></td>
+    <td>
+      <a href="https://github.com/yunus25jmi1/yunus25jmi1">
+        <img src="https://img.shields.io/badge/yunus25jmi1-yunus25jmi1-0366d6?style=flat&logo=github" alt="yunus25jmi1/yunus25jmi1">
+      </a>
+    </td>
+    <td><strong>Push:</strong> 12 commit(s)<br><small>redesign: combined best practices from 12+ top GitHub profiles</small></td>
     <td>✅</td>
   </tr>
   <tr>
@@ -101,16 +121,6 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
     <td><strong>Created:</strong> New branch<br><small>refactor/shared-request-handling</small></td>
     <td>🚀</td>
   </tr>
-  <tr>
-    <td><strong>Mar 04, 2026</strong></td>
-    <td>
-      <a href="https://github.com/cloudflare/vinext">
-        <img src="https://img.shields.io/badge/cloudflare-vinext-0366d6?style=flat&logo=github" alt="cloudflare/vinext">
-      </a>
-    </td>
-    <td><strong>PR #249:</strong> merged<br><small>Pull request</small></td>
-    <td>🔀</td>
-  </tr>
 </table>
 
 </td>
@@ -121,7 +131,7 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
   <table>
     <tr>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%A5-Commits_(2026)-FF4500?style=for-the-badge"><br><strong>29</strong><br><small>This year</small></td>
-      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%80-Pull_Requests-8A2BE2?style=for-the-badge"><br><strong>9</strong><br><small>Total PRs</small></td>
+      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%80-Pull_Requests-8A2BE2?style=for-the-badge"><br><strong>10</strong><br><small>Total PRs</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%93%9D-Public_Repos-32CD32?style=for-the-badge"><br><strong>226</strong><br><small>Public</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%93%9A-Gists-FFD700?style=for-the-badge"><br><strong>29</strong><br><small>Public Gists</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%8E%AF-Issues-1E90FF?style=for-the-badge"><br><strong>0</strong><br><small>This year</small></td>
@@ -258,7 +268,7 @@ Technical writing on Medium · Cloud architecture consulting · Open-source cont
 | 👥 Followers | **11** |
 | 🐣 Following | **84** |
 | ✨ Commits (2026) | **29** |
-| 🔀 Pull Requests | **9** |
+| 🔀 Pull Requests | **10** |
 | 💡 Issues Opened | **0** |
 | 🔍 PR Reviews | **1** |
 | ⭐ Total Stars | **0** |
