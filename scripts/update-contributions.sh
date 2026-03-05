@@ -186,7 +186,17 @@ fetch_recent_activity() {
                 local pr_action pr_num pr_title
                 pr_action=$(echo "$event" | jq -r '.payload.action')
                 pr_num=$(echo "$event"    | jq -r '.payload.number // "N/A"')
-                pr_title=$(echo "$event"  | jq -r '.payload.pull_request.title // "Pull request"' | head -c 60)
+                pr_title=$(echo "$event"  | jq -r '.payload.pull_request.title // ""')
+                
+                # If title is empty, fetch it from the PR API
+                if [[ -z "$pr_title" || "$pr_title" == "null" ]]; then
+                    pr_title=$(gh_api "/repos/$repo/pulls/$pr_num" 2>/dev/null | jq -r '.title // "Pull request"' | head -c 60)
+                fi
+                
+                # Truncate if needed
+                pr_title=$(echo "$pr_title" | head -c 60)
+                [[ -z "$pr_title" || "$pr_title" == "null" ]] && pr_title="Pull request"
+                
                 activity_desc="<strong>PR #${pr_num}:</strong> ${pr_action}<br><small>${pr_title}</small>"
                 status_icon="🔀"
                 ;;
@@ -198,10 +208,21 @@ fetch_recent_activity() {
                 status_icon="🚀"
                 ;;
             IssuesEvent)
-                local iss_action iss_num
+                local iss_action iss_num iss_title
                 iss_action=$(echo "$event" | jq -r '.payload.action')
                 iss_num=$(echo "$event"    | jq -r '.payload.issue.number // "N/A"')
-                activity_desc="<strong>Issue #${iss_num}:</strong> ${iss_action}<br><small>Issue activity</small>"
+                iss_title=$(echo "$event"  | jq -r '.payload.issue.title // ""')
+                
+                # If title is empty, fetch it from the Issue API
+                if [[ -z "$iss_title" || "$iss_title" == "null" ]]; then
+                    iss_title=$(gh_api "/repos/$repo/issues/$iss_num" 2>/dev/null | jq -r '.title // "Issue"' | head -c 60)
+                fi
+                
+                # Truncate if needed
+                iss_title=$(echo "$iss_title" | head -c 60)
+                [[ -z "$iss_title" || "$iss_title" == "null" ]] && iss_title="Issue activity"
+                
+                activity_desc="<strong>Issue #${iss_num}:</strong> ${iss_action}<br><small>${iss_title}</small>"
                 status_icon="🐛"
                 ;;
             *)

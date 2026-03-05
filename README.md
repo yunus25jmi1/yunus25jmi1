@@ -44,7 +44,7 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
         <img src="https://img.shields.io/badge/cloudflare-vinext-0366d6?style=flat&logo=github" alt="cloudflare/vinext">
       </a>
     </td>
-    <td><strong>PR #262:</strong> opened<br><small>Pull request</small></td>
+    <td><strong>PR #262:</strong> opened<br><small>feat(font): replace generated font catalog with Vite import-</small></td>
     <td>🔀</td>
   </tr>
   <tr>
@@ -54,7 +54,7 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
         <img src="https://img.shields.io/badge/cloudflare-vinext-0366d6?style=flat&logo=github" alt="cloudflare/vinext">
       </a>
     </td>
-    <td><strong>PR #259:</strong> opened<br><small>Pull request</small></td>
+    <td><strong>PR #259:</strong> opened<br><small>refactor: extract template string code generation into entri</small></td>
     <td>🔀</td>
   </tr>
   <tr>
@@ -64,7 +64,7 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
         <img src="https://img.shields.io/badge/cloudflare-vinext-0366d6?style=flat&logo=github" alt="cloudflare/vinext">
       </a>
     </td>
-    <td><strong>PR #258:</strong> opened<br><small>Pull request</small></td>
+    <td><strong>PR #258:</strong> opened<br><small>refactor: extract shared request handling from server entry </small></td>
     <td>🔀</td>
   </tr>
   <tr>
@@ -74,7 +74,7 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
         <img src="https://img.shields.io/badge/cloudflare-vinext-0366d6?style=flat&logo=github" alt="cloudflare/vinext">
       </a>
     </td>
-    <td><strong>PR #249:</strong> merged<br><small>Pull request</small></td>
+    <td><strong>PR #249:</strong> merged<br><small>fix: wire up RouterContext.Provider in Pages Router</small></td>
     <td>🔀</td>
   </tr>
   <tr>
@@ -84,7 +84,7 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
         <img src="https://img.shields.io/badge/cloudflare-vinext-0366d6?style=flat&logo=github" alt="cloudflare/vinext">
       </a>
     </td>
-    <td><strong>PR #249:</strong> opened<br><small>Pull request</small></td>
+    <td><strong>PR #249:</strong> opened<br><small>fix: wire up RouterContext.Provider in Pages Router</small></td>
     <td>🔀</td>
   </tr>
   <tr>
@@ -94,7 +94,7 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
         <img src="https://img.shields.io/badge/cloudflare-vinext-0366d6?style=flat&logo=github" alt="cloudflare/vinext">
       </a>
     </td>
-    <td><strong>PR #151:</strong> merged<br><small>Pull request</small></td>
+    <td><strong>PR #151:</strong> merged<br><small>fix: export ServerInsertedHTMLContext from next/navigation s</small></td>
     <td>🔀</td>
   </tr>
   <tr>
@@ -104,7 +104,7 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
         <img src="https://img.shields.io/badge/cloudflare-vinext-0366d6?style=flat&logo=github" alt="cloudflare/vinext">
       </a>
     </td>
-    <td><strong>PR #217:</strong> opened<br><small>Pull request</small></td>
+    <td><strong>PR #217:</strong> opened<br><small>fix(rewrites): serve static files from public/ when rewrite </small></td>
     <td>🔀</td>
   </tr>
   <tr>
@@ -114,7 +114,7 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
         <img src="https://img.shields.io/badge/cloudflare-vinext-0366d6?style=flat&logo=github" alt="cloudflare/vinext">
       </a>
     </td>
-    <td><strong>PR #197:</strong> opened<br><small>Pull request</small></td>
+    <td><strong>PR #197:</strong> opened<br><small>fix(cli): ensure type:module before Vite loads vite.config.t</small></td>
     <td>🔀</td>
   </tr>
   <tr>
@@ -124,7 +124,7 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
         <img src="https://img.shields.io/badge/cloudflare-vinext-0366d6?style=flat&logo=github" alt="cloudflare/vinext">
       </a>
     </td>
-    <td><strong>PR #193:</strong> opened<br><small>Pull request</small></td>
+    <td><strong>PR #193:</strong> opened<br><small>fix: document ESM resolution workaround for validator and si</small></td>
     <td>🔀</td>
   </tr>
   <tr>
@@ -134,7 +134,7 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
         <img src="https://img.shields.io/badge/cloudflare-vinext-0366d6?style=flat&logo=github" alt="cloudflare/vinext">
       </a>
     </td>
-    <td><strong>PR #192:</strong> opened<br><small>Pull request</small></td>
+    <td><strong>PR #192:</strong> opened<br><small>fix: export Space_Grotesk from next/font/google (#190)</small></td>
     <td>🔀</td>
   </tr>
 </table>
@@ -147,7 +147,7 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
     <tr>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%A5-Commits_(2026)-FF4500?style=for-the-badge"><br><strong>34</strong><br><small>This year</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%80-Pull_Requests-8A2BE2?style=for-the-badge"><br><strong>10</strong><br><small>Total PRs</small></td>
-      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%93%9D-Public_Repos-32CD32?style=for-the-badge"><br><strong>226</strong><br><small>Public</small></td>
+      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%93%9D-Public_Repos-32CD32?style=for-the-badge"><br><strong>142</strong><br><small>Public</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%93%9A-Gists-FFD700?style=for-the-badge"><br><strong>29</strong><br><small>Public Gists</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%8E%AF-Issues-1E90FF?style=for-the-badge"><br><strong>0</strong><br><small>This year</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%8D-PR_Reviews-FF69B4?style=for-the-badge"><br><strong>1</strong><br><small>Reviews</small></td>
@@ -218,7 +218,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 <br>
 
 <div align="center">
-<img src="https://img.shields.io/badge/Total_Repositories-226-00D4AA?style=flat-square">
+<img src="https://img.shields.io/badge/Total_Repositories-142-00D4AA?style=flat-square">
 <img src="https://img.shields.io/badge/Public_Gists-29-FFD93D?style=flat-square">
 <img src="https://img.shields.io/badge/Network-84_Following_%E2%80%A2_11_Followers-4ECDC4?style=flat-square">
 </div>
@@ -227,7 +227,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 
 **Achievement Highlights**
 
-- 🔥 **GitHub Journey**: Started October 2022, now 226+ repositories across DevOps, AI/ML, Security, and Platform Engineering
+- 🔥 **GitHub Journey**: Started October 2022, now 142+ repositories across DevOps, AI/ML, Security, and Platform Engineering
 - 📅 **Consistent Growth**: 2,328 LinkedIn followers, 500+ connections, 1,967 profile views
 - **Cloudflare Vinext**: Fixed Pages Router context provider issues (PR #249, PR #151 merged)
 - **Hacktoberfest 2025**: 10 PRs submitted across multiple projects, 7 accepted — Earned T-Shirt
@@ -240,14 +240,14 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 **Long-term Statistics**
 
 ```diff
-+ 226+ Total Public Repositories
++ 142+ Total Public Repositories
 + 57 Total Skills on LinkedIn
 + 84 Following • 11 Followers
 + 99.9% Infrastructure uptime achieved
 + 29 Public Gists created
 + Active since October 2022
 + 0 Total Stars across repositories
-+ 3 Total Forks
++ 2 Total Forks
 + 12 Technical Publications on YunusCloud
 + 53 Professional Certifications
 ```
@@ -280,7 +280,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 
 | Metric | Value |
 |--------|-------|
-| 🗂️ Public Repositories | **226** |
+| 🗂️ Public Repositories | **142** |
 | 📓 Public Gists | **29** |
 | 👥 Followers | **11** |
 | 🐣 Following | **84** |
@@ -289,7 +289,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 | 💡 Issues Opened | **0** |
 | 🔍 PR Reviews | **1** |
 | ⭐ Total Stars | **0** |
-| 🍴 Total Forks | **3** |
+| 🍴 Total Forks | **2** |
 | 📅 Member Since | **Oct 2022** |
 
 </td>
