@@ -72,16 +72,16 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
 ## Work & Experience
 
 **Oracle ACE Apprentice** — Oracle Cloud Infrastructure _(2024–Present)_  
-Cloud architecture evangelism · Community contributions · Technical content creation · Kubernetes optimization guides
+Cloud architecture evangelism · Community contributions · Technical content creation · Kubernetes optimization guides · 1M RPS ingress architecture documentation
 
-**DevOps Intern** — Infrastructure Automation _(2023–2024)_  
-CI/CD pipeline development · Container orchestration · Infrastructure as Code · Monitoring and observability
+**Machine Learning Intern** — Shell India Market Private Limited _(Oct 2025–Nov 2025)_  
+Built end-to-end ML system analyzing 2.5M+ aircraft landing records · 12-month forecasting using Prophet · Anomaly detection with Isolation Forest · FastAPI backend + Dash dashboard · 100% test pass rate with pytest
 
-**ML Intern** — Machine Learning Engineering _(2022–2023)_  
-Model development and deployment · Data pipeline automation · ML infrastructure setup · Python/TensorFlow projects
+**DevOps Intern** — Infrastructure Automation _(Jun 2024–Jul 2024)_  
+Docker-based environments (30% faster deployment) · Integrated Rclone/Flask for file APIs · CI/CD with Jenkins & GitHub Actions (25% faster) · Secure networks with Tailscale VPN & Ngrok
 
-**Open-Source Contributor** — Global Community _(2022–Present)_  
-Hacktoberfest 3x participant · Cloudflare Vinext contributions · DevOps tools development · 142+ public repositories
+**Open-Source Contributor** — Global Community _(Oct 2024–Present)_  
+Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext contributions (PR #249, #151 merged) · DevOps tools development · 142+ public repositories
 
 ---
 
