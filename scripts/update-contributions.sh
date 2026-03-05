@@ -159,11 +159,6 @@ fetch_recent_activity() {
         repo=$(echo "$event"     | jq -r '.repo')
         repo_url=$(echo "$event" | jq -r '.repo_url')
 
-        # Skip forked repos that are not the user's primary work
-        if [[ "$repo" == *"/vinext" ]]; then
-            continue
-        fi
-
         local formatted_date
         formatted_date=$(date -d "$date" '+%b %d, %Y' 2>/dev/null \
                         || date -j -f "%Y-%m-%dT%H:%M:%SZ" "$date" '+%b %d, %Y' 2>/dev/null \
@@ -176,8 +171,6 @@ fetch_recent_activity() {
 
         case "$type" in
             PushEvent)
-                [[ -v REPOS_SEEN["$repo"] ]] && continue
-                REPOS_SEEN["$repo"]=1
                 local commits_data commit_count latest_msg
                 commits_data=$(gh_api "/repos/$repo/commits?since=${SINCE_ISO}&author=${USERNAME}&per_page=100" 2>/dev/null || echo "[]")
                 commit_count=$(echo "$commits_data" | jq 'length // 0')
