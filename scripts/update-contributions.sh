@@ -140,11 +140,12 @@ fetch_recent_activity() {
          select(.type=="PushEvent" or .type=="PullRequestEvent" or
                 .type=="CreateEvent" or .type=="IssuesEvent")] | length')
 
-    echo "$events" | jq -r --arg s "$SINCE_DATE" '
+    echo "$events" | jq -r --arg s "$SINCE_DATE" --arg user "$USERNAME" '
         [.[] | select(.created_at >= $s) |
          select(.type=="PushEvent" or .type=="PullRequestEvent" or
-                .type=="CreateEvent" or .type=="IssuesEvent")] |
-        sort_by(.created_at) | reverse | .[0:15]' > /tmp/recent_events.json
+                .type=="CreateEvent" or .type=="IssuesEvent") |
+         . + {is_own_repo: (.repo.name | startswith($user + "/"))}] |
+        sort_by([(.is_own_repo | not), .created_at]) | reverse | .[0:20]' > /tmp/recent_events.json
 
     declare -A REPOS_SEEN
     local contributions_html="" event_count=0
@@ -157,6 +158,11 @@ fetch_recent_activity() {
         type=$(echo "$event"     | jq -r '.type')
         repo=$(echo "$event"     | jq -r '.repo')
         repo_url=$(echo "$event" | jq -r '.repo_url')
+
+        # Skip forked repos that are not the user's primary work
+        if [[ "$repo" == *"/vinext" ]]; then
+            continue
+        fi
 
         local formatted_date
         formatted_date=$(date -d "$date" '+%b %d, %Y' 2>/dev/null \
