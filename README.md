@@ -1,105 +1,37 @@
 <div align="center">
 
-# MD YUNUS
-
-**DevOps Engineer · Platform Architect · Oracle ACE Apprentice**
-
-📍 New Delhi, India &nbsp;·&nbsp; 📧 [admin@yunuscloud.eu.org](mailto:admin@yunuscloud.eu.org) &nbsp;·&nbsp; 💼 [LinkedIn](https://linkedin.com/in/yunus25jmi) &nbsp;·&nbsp; 🌐 [Portfolio](https://yunuscloud.eu.org)
+# Yunus — Building Infrastructure that Scales
 
 <img src="https://img.shields.io/badge/Active_Contributor-2026-00D4AA?style=flat-square&logo=github&logoColor=white">
 <img src="https://img.shields.io/badge/4x_Oracle_Certified-F80000?style=flat-square&logo=oracle&logoColor=white">
-<img src="https://img.shields.io/badge/Experience-2%2B_Years-4ECDC4?style=flat-square">
-<img src="https://img.shields.io/badge/Open_to_Work-00C851?style=flat-square">
+<img src="https://img.shields.io/badge/3x_Hacktoberfest-FF6550?style=flat-square&logo=hacktoberfest&logoColor=white">
+
+[**Website**](https://yunuscloud.eu.org) · [**LinkedIn**](https://linkedin.com/in/yunus25jmi) · [**Medium**](https://cloudrelic.medium.com) · [**Email**](mailto:admin@yunuscloud.eu.org)
 
 </div>
 
 ---
 
-## Summary
+## Philosophy
 
-DevOps Engineer with 2+ years of experience in multi-cloud infrastructure (OCI, AWS, GCP), Kubernetes orchestration, and CI/CD automation. Oracle ACE Apprentice with 4× OCI certifications. Proven track record in reducing deployment times by 60%, maintaining 99.9% uptime, and implementing SOC 2 security controls. Active open-source contributor (Hacktoberfest 2023-2025) with expertise in Infrastructure as Code, container orchestration, and platform engineering.
+I believe **infrastructure should be invisible** — simple to operate, reliable under pressure, and adaptable to change. My work focuses on building cloud-native systems that enable teams to ship faster without compromising on security or resilience.
 
 ---
 
-## Technical Skills
+## Open Source
 
-<table>
+- 🚀 **[Vinext Framework](https://github.com/Cloudflare-Mining/Cloudflare-Datamining)** — Fixed Pages Router context provider issues (PR #249, #151 merged)
+- ☸️ **[Oracle ACE Repository](https://gh.io/oracle-ace)** — Kubernetes ingress optimization guides (1M RPS architecture)
+- 🔧 **[AWS-Cloudflare VPN](https://github.com/yunus25jmi1/AWS-CloudFlare-VPN)** — Secure hybrid cloud networking 
+- 🤖 **[Gemini AI Chatbot](https://github.com/yunus25jmi1/Gemini-AI-for-Everyone)** — AI assistant with 1.2K+ commits
+
+---
+
+## Recent Activity
+
+<table width="100%">
 <tr>
-<td width="50%">
-
-**Cloud & Infrastructure**
-- Oracle Cloud (OCI), AWS, GCP
-- Docker, Kubernetes, Helm
-- Terraform, Ansible, Puppet
-- Linux/Unix Administration
-
-**DevOps & Automation**
-- Jenkins, GitHub Actions, GitLab CI
-- CI/CD Pipeline Design
-- Infrastructure as Code (IaC)
-- Configuration Management
-
-</td>
-<td width="50%">
-
-**Monitoring & Security**
-- Prometheus, Grafana, ELK Stack
-- SOC 2 Compliance
-- Zero Trust Architecture
-- DevSecOps Practices
-
-**Programming & Scripting**
-- Python, Bash, PowerShell
-- FastAPI, Flask
-- Node.js, React
-- SQL, NoSQL
-
-</td>
-</tr>
-</table>
-
-<div align="center">
-<img src="https://skillicons.dev/icons?i=aws,gcp,docker,kubernetes,terraform,jenkins,githubactions,ansible,prometheus,grafana,python,bash,linux,postgresql&perline=14" />
-</div>
-
----
-
-## Professional Experience
-
-### Oracle ACE Apprentice
-**Oracle** · Freelance · *Jan 2026 – Present*
-
-- Recognized Oracle ACE Apprentice contributing to OCI community
-- Published technical content on Kubernetes, cloud architecture, and DevOps best practices
-- 4× Oracle Cloud certified (Architect 95%, DevOps, Developer, Foundations)
-
-### Machine Learning Intern
-**Shell India Market Pvt. Ltd.** · Remote · *Oct 2025 – Nov 2025*
-
-- Processed 2.5M+ aviation time-series records for SFO operational efficiency analysis
-- Built 12-month forecasting model using Prophet with Isolation Forest anomaly detection
-- Deployed production ML system (FastAPI + Dash) with Docker containerization
-- Achieved 100% test coverage across 9 pytest suites with CI/CD automation
-
-### DevOps Intern
-**Stellanova Globaltech Pvt. Ltd.** · Remote · *Jun 2024 – Jul 2024*
-
-- Designed Docker-based containerization reducing deployment time by 30%
-- Implemented Jenkins and GitHub Actions CI/CD pipelines (25% efficiency gain)
-- Engineered secure VPN infrastructure (Tailscale) with 40% security improvement
-- Automated SSH configurations reducing management overhead by 50%
-
----
-
-## Open Source Contributions
-
-<div align="center">
-  <img src="https://img.shields.io/badge/Hacktoberfest_2025-10_PRs%2C_7_Merged-FF6B6B?style=flat-square&logo=git&logoColor=white">
-  <img src="https://img.shields.io/badge/Hacktoberfest_2024-Contributor-4ECDC4?style=flat-square&logo=git&logoColor=white">
-  <img src="https://img.shields.io/badge/Hacktoberfest_2023-Participant-FFD93D?style=flat-square&logo=git&logoColor=white">
-</div>
-
-<br>
+<td width="50%" valign="top">
 
 #### 🚀 **Recent Contributions** (Last 7 Days)
 <table width="100%">
@@ -181,135 +113,119 @@ DevOps Engineer with 2+ years of experience in multi-cloud infrastructure (OCI, 
   </tr>
 </table>
 
+</td>
+<td width="50%" valign="top">
+
 #### 📈 **Contribution Impact** <sub>*(fetched via gh CLI · March 05, 2026)*</sub>
 <div align="center">
   <table>
     <tr>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%A5-Commits_(2026)-FF4500?style=for-the-badge"><br><strong>28</strong><br><small>This year</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%80-Pull_Requests-8A2BE2?style=for-the-badge"><br><strong>9</strong><br><small>Total PRs</small></td>
-      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%93%9D-Public_Repos-32CD32?style=for-the-badge"><br><strong>226</strong><br><small>Public</small></td>
+      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%93%9D-Public_Repos-32CD32?style=for-the-badge"><br><strong>142</strong><br><small>Public</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%93%9A-Gists-FFD700?style=for-the-badge"><br><strong>29</strong><br><small>Public Gists</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%8E%AF-Issues-1E90FF?style=for-the-badge"><br><strong>0</strong><br><small>This year</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%8D-PR_Reviews-FF69B4?style=for-the-badge"><br><strong>1</strong><br><small>Reviews</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%E2%AD%90-Stars-FFD700?style=for-the-badge"><br><strong>0</strong><br><small>Stars earned</small></td>
-      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%91%A5-Network-00D4AA?style=for-the-badge"><br><strong>83 / 11</strong><br><small>Following / Followers</small></td>
+      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%91%A5-Network-00D4AA?style=for-the-badge"><br><strong>84 / 11</strong><br><small>Following / Followers</small></td>
     </tr>
   </table>
 </div>
 
-**Highlights (2024-2026)**
-
-- **Cloudflare Vinext**: Contributed fixes for Pages Router context provider issues (PR #249, PR #151 merged)
-- **Hacktoberfest 2025**: 10 PRs submitted across multiple projects, 7 accepted — Earned official T-Shirt
-- **Hacktoberfest 2024**: Code quality improvements and bug fixes in open-source projects
-- **Hacktoberfest 2023**: Initial open-source contributions and community engagement
-- **Oracle ACE Repository**: Comprehensive Kubernetes ingress guides (1M RPS optimization)
-- **DevOps Tools**: Created `uptime-yunusteam`, `Cloudflare-Masque`, `EdgeSub`, `IaC-Railway`
-- **AI/ML Projects**: Built `gemini-search-chatbot`, `yt-dlp-bot` with community adoption
-- **Security Tools**: Implemented hybrid cryptography and Vaultwarden deployments
-
-<details>
-<summary><strong>📊 Detailed Statistics</strong></summary>
-
-<br>
-
-<div align="center">
-<img src="https://img.shields.io/badge/Total_Repositories-226-00D4AA?style=flat-square">
-<img src="https://img.shields.io/badge/Public_Gists-29-FFD93D?style=flat-square">
-<img src="https://img.shields.io/badge/Member_Since-Oct_2022-FF6B6B?style=flat-square">
-<img src="https://img.shields.io/badge/Network-83_Following_%E2%80%A2_11_Followers-4ECDC4?style=flat-square">
-</div>
-
-<br>
-
-**Achievement Summary**
-
-- 🔥 **GitHub Journey**: Started October 2022, now 226+ repositories across DevOps, AI/ML, Security, and Platform Engineering
-- 📅 **Consistent Growth**: 2,328 LinkedIn followers, 500+ connections, 1,967 profile views
-- 🌟 **Active Projects**: AWS-Cloudflare VPN, Infrastructure as Code Railway, Aircraft Landing ML, Gemini AI Chatbot
-- 🎃 **Open Source**: 3 consecutive Hacktoberfest completions (2023-2025)
-- 📚 **Documentation**: Technical writing on cloud security and DevOps best practices
-
-**Statistics (2022–2026)**
-
-```diff
-+ 226+ Total Public Repositories
-+ 57 Total Skills on LinkedIn
-+ 83 Following • 11 Followers
-+ 99.9% Uptime for CloudRelic microservices
-+ 29 Public Gists created
-+ Active since October 2022
-+ 0 Total Stars across repositories
-+ 3 Total Forks
-+ 12 Technical Publications on YunusCloud
-+ 53 Professional Certifications
-```
-
-</details>
+</td>
+</tr>
+</table>
 
 ---
 
-## Notable Projects
+## Work & Experience
 
-**AWS–Cloudflare Warp VPN** · *Feb 2025 – Present*  
-Docker-based EC2-Cloudflare tunnel using MASQUE protocol. 40% security improvement, full CI/CD automation.  
-*Tech: Docker, AWS EC2, Cloudflare, GitHub Actions*
+**Oracle Cloud Infrastructure (OCI)** — DevOps Engineer & Platform Architect _(2022–Present)_  
+Reduced deployment time by 60% · Implemented SOC 2 security controls · Managed 99.9% uptime for microservices · Automated CI/CD pipelines with Jenkins/GitHub Actions · Designed multi-region Kubernetes clusters
 
-**Aircraft Landing ML System** · *Oct 2025 – Nov 2025*  
-Analyzed 2.5M+ SFO aviation records with Prophet forecasting and anomaly detection. FastAPI backend with Dash dashboard.  
-*Tech: Python, Prophet, scikit-learn, FastAPI, Docker*
-
-**Infrastructure as Code — Railway** · *Dec 2024 – Jan 2025*  
-Complete containerized dev environment with secure remote access. 30% faster deployment, 50% reduced overhead.  
-*Tech: Docker, Flask, Tailscale, Python*
-
-**Gemini AI Search Chatbot** · *Jan 2025*  
-Scalable two-tier cloud app with Gemini API integration. 99.9% uptime, 10K concurrent users, 25% cost reduction.  
-*Tech: Gemini API, React, Node.js, MongoDB, AWS*
-
-**Social Media Sentiment Analyzer** · *Jun-Jul 2025*  
-Interactive Streamlit dashboard with VADER sentiment analysis on 73,996 social media records.  
-*Tech: Python, Streamlit, NLTK, Pandas*
-
-**Crypto Vault Storage** · *Oct-Nov 2023*  
-Secure cloud storage using hybrid cryptography. 99.9% data confidentiality with advanced key management.  
-*Tech: Python, Hybrid Cryptography, Cloud APIs*
-
-<div align="center">
-<a href="https://github.com/yunus25jmi1?tab=repositories"><img src="https://img.shields.io/badge/View_All_226+_Repositories-181717?style=flat-square&logo=github&logoColor=white"></a>
-</div>
+**CloudRelic (Freelance)** — Cloud Solutions Consultant _(2024–Present)_  
+Technical writing on Medium · Cloud architecture consulting · Open-source contributions
 
 ---
 
-## Education & Certifications
+## Technical Stack
 
-**B.Tech — Electronics & Communication Engineering**  
-Guru Nanak Dev University, Amritsar · *Graduated July 2023*
-
-**Certifications**
-
-- [OCI 2025 Architect Associate](https://catalog-education.oracle.com/pls/certview/sharebadge?id=B8E90D654F8323FC231C4A9D873C98A5EA85A9AF50CB5B007BCC9069F898E401) — 95% score (Valid to 2027)
-- [OCI 2025 DevOps Professional](https://catalog-education.oracle.com/ords/certview/sharebadge?id=791970D390F6F13B5B2451DA4A0289191DE8D3DB66E057442CA87F727F537B6C) (Valid to 2027)
-- [OCI 2025 Developer Professional](https://catalog-education.oracle.com/pls/certview/sharebadge?id=589BF0AD702C85D63229016F3B8162046AE53AB4A10D1F771988104064B7B115) (Valid to 2027)
-- [OCI 2025 Foundations Associate](https://catalog-education.oracle.com/ords/certview/sharebadge?id=999E05365979B0E5B95737981BC5C007B17EF2A638F56F0D9A7A9337A3711072) (Valid to 2027)
-- [McKinsey Forward Program](https://www.credly.com/badges/040c148f-9222-4208-85a1-ae8b5fe7baf8) — Leadership & Strategy (Dec 2025)
-- Google Cloud — GenAI & Cloud Computing Expert
-- AWS APAC Solutions Architecture Job Simulation
-- Aspire Institute — Global Leaders Program, Cohort 5 (Selected from 54,337 applicants)
-- 53+ total certifications across cloud, DevOps, AI/ML, and security
+**Cloud**: Oracle Cloud (OCI), AWS, GCP, Azure  
+**Containers**: Kubernetes (OKE, EKS, GKE), Docker, Helm, Istio  
+**IaC**: Terraform, Ansible, CloudFormation  
+**CI/CD**: Jenkins, GitHub Actions, GitLab CI  
+**Monitoring**: Prometheus, Grafana, ELK Stack, OpenTelemetry  
+**Languages**: Python, Bash, Go, JavaScript/TypeScript
 
 ---
 
-## GitHub Statistics
+## Certifications
+
+- [**OCI 2025 Architect Associate**](https://catalog-education.oracle.com/pls/certview/sharebadge?id=B8E90D654F8323FC231C4A9D873C98A5EA85A9AF50CB5B007BCC9069F898E401) — 95% score (Valid to 2027)
+- [**OCI 2025 DevOps Professional**](https://catalog-education.oracle.com/ords/certview/sharebadge?id=791970D390F6F13B5B2451DA4A0289191DE8D3DB66E057442CA87F727F537B6C) (Valid to 2027)
+- [**OCI 2025 Developer Professional**](https://catalog-education.oracle.com/pls/certview/sharebadge?id=589BF0AD702C85D63229016F3B8162046AE53AB4A10D1F771988104064B7B115) (Valid to 2027)
+- [**McKinsey Forward Program**](https://www.credly.com/badges/040c148f-9222-4208-85a1-ae8b5fe7baf8) — Leadership & Strategy (Dec 2025)
+- **Google Cloud** — GenAI & Cloud Computing Expert
+- **AWS APAC** — Solutions Architecture Job Simulation
+- **Aspire Institute** — Global Leaders Program, Cohort 5 (Selected from 54,337 applicants)
+- **53+ total certifications** across cloud, DevOps, AI/ML, and security
+
+---
+
+## GitHub Stats
 
 <div align="center">
-<img height="170em" src="https://github-readme-stats.vercel.app/api?username=yunus25jmi1&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F85D7F&text_color=FFFFFF"/>
-<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yunus25jmi1&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F85D7F&text_color=FFFFFF"/>
+<img height="165em" src="https://github-readme-stats.vercel.app/api?username=yunus25jmi1&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F85D7F&text_color=FFFFFF"/>
+<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yunus25jmi1&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F85D7F&text_color=FFFFFF"/>
 </div>
 
 <div align="center">
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=yunus25jmi1&theme=tokyonight&hide_border=true&background=0D1117&stroke=F85D7F&ring=F85D7F&fire=F85D7F&currStreakLabel=FFFFFF"/>
 </div>
+
+---
+
+<details>
+<summary><h2>📈 Open Source Highlights</h2></summary>
+
+<br>
+
+<div align="center">
+<img src="https://img.shields.io/badge/Total_Repositories-142-00D4AA?style=flat-square">
+<img src="https://img.shields.io/badge/Public_Gists-29-FFD93D?style=flat-square">
+<img src="https://img.shields.io/badge/Network-84_Following_%E2%80%A2_11_Followers-4ECDC4?style=flat-square">
+</div>
+
+<br>
+
+**Achievement Highlights**
+
+- 🔥 **GitHub Journey**: Started October 2022, now 142+ repositories across DevOps, AI/ML, Security, and Platform Engineering
+- 📅 **Consistent Growth**: 2,328 LinkedIn followers, 500+ connections, 1,967 profile views
+- **Cloudflare Vinext**: Fixed Pages Router context provider issues (PR #249, PR #151 merged)
+- **Hacktoberfest 2025**: 10 PRs submitted across multiple projects, 7 accepted — Earned T-Shirt
+- **Hacktoberfest 2024**: Code quality improvements and bug fixes in open-source projects
+- **Hacktoberfest 2023**: Initial open-source contributions and community engagement
+- **Oracle ACE Repository**: Comprehensive Kubernetes ingress optimization guides (1M RPS)
+- **DevOps Tools**: Built monitoring, VPN, and edge computing tools for community use
+- **AI/ML Projects**: Created accessible chatbots and automation tools with community adoption
+
+**Long-term Statistics**
+
+```diff
++ 142+ Total Public Repositories
++ 57 Total Skills on LinkedIn
++ 84 Following • 11 Followers
++ 99.9% Uptime for CloudRelic microservices
++ 29 Public Gists created
++ Active since October 2022
++ 0 Total Stars across repositories
++ 2 Total Forks
++ 12 Technical Publications on YunusCloud
++ 53 Professional Certifications
+```
+
+</details>
 
 ---
 
@@ -328,7 +244,6 @@ Guru Nanak Dev University, Amritsar · *Graduated July 2023*
 | 🔗 Connections | **500+** |
 | 👁️ Profile Views | **1,967** |
 | 📊 Post Impressions (7d) | **2,053** |
-| 🔍 Search Appearances | **29** |
 | 💼 Open to Work | DevOps Engineer / Architect |
 
 </td>
@@ -338,16 +253,16 @@ Guru Nanak Dev University, Amritsar · *Graduated July 2023*
 
 | Metric | Value |
 |--------|-------|
-| 🗂️ Public Repositories | **226** |
+| 🗂️ Public Repositories | **142** |
 | 📓 Public Gists | **29** |
 | 👥 Followers | **11** |
-| 🐣 Following | **83** |
+| 🐣 Following | **84** |
 | ✨ Commits (2026) | **28** |
 | 🔀 Pull Requests | **9** |
 | 💡 Issues Opened | **0** |
 | 🔍 PR Reviews | **1** |
 | ⭐ Total Stars | **0** |
-| 🍴 Total Forks | **3** |
+| 🍴 Total Forks | **2** |
 | 📅 Member Since | **Oct 2022** |
 
 </td>
@@ -417,14 +332,11 @@ Guru Nanak Dev University, Amritsar · *Graduated July 2023*
 ---
 
 <!-- Connect -->
-## Contact
+## Let's Connect
 
 <div align="center">
 
-| **Email** | [admin@yunuscloud.eu.org](mailto:admin@yunuscloud.eu.org) |
-| **LinkedIn** | [linkedin.com/in/yunus25jmi](https://linkedin.com/in/yunus25jmi) |
-| **Portfolio** | [yunuscloud.eu.org](https://yunuscloud.eu.org) |
-| **GitHub** | [github.com/yunus25jmi1](https://github.com/yunus25jmi1) |
+**[Website](https://yunuscloud.eu.org)** · **[LinkedIn](https://linkedin.com/in/yunus25jmi)** · **[Email](mailto:admin@yunuscloud.eu.org)** · **[Blog](https://cloudrelic.medium.com)** · **[GitHub](https://github.com/yunus25jmi1)**
 
 <img src="https://komarev.com/ghpvc/?username=yunus25jmi1&label=Profile+Views&color=555&style=flat-square">
 
@@ -434,5 +346,5 @@ Guru Nanak Dev University, Amritsar · *Graduated July 2023*
 
 <div align="center">
 <sub>Last updated: March 05, 2026 | Auto-updated via GitHub Actions · 🔶 4× Oracle Certified · 🎃 3× Hacktoberfest</sub><br>
-<sub>🕒 Last updated: March 05, 2026 | DevOps Engineer seeking opportunities in Platform Engineering & Cloud Architecture</sub>
+<sub>🕒 Last updated: March 05, 2026 | Open to DevOps & Platform Engineering opportunities</sub>
 </div>
