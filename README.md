@@ -112,6 +112,16 @@ DevOps Engineer with 2+ years of experience in multi-cloud infrastructure (OCI, 
   <tr>
     <td><strong>Mar 05, 2026</strong></td>
     <td>
+      <a href="https://github.com/yunus25jmi1/yunus25jmi1">
+        <img src="https://img.shields.io/badge/yunus25jmi1-yunus25jmi1-0366d6?style=flat&logo=github" alt="yunus25jmi1/yunus25jmi1">
+      </a>
+    </td>
+    <td><strong>Push:</strong> 11 commit(s)<br><small>refactor: concise professional resume - added open-source contributions (2024-20</small></td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td><strong>Mar 05, 2026</strong></td>
+    <td>
       <a href="https://github.com/yunus25jmi1/vinext">
         <img src="https://img.shields.io/badge/yunus25jmi1-vinext-0366d6?style=flat&logo=github" alt="yunus25jmi1/vinext">
       </a>
@@ -169,25 +179,15 @@ DevOps Engineer with 2+ years of experience in multi-cloud infrastructure (OCI, 
     <td><strong>PR #249:</strong> merged<br><small>Pull request</small></td>
     <td>🔀</td>
   </tr>
-  <tr>
-    <td><strong>Mar 04, 2026</strong></td>
-    <td>
-      <a href="https://github.com/yunus25jmi1/yunus25jmi1">
-        <img src="https://img.shields.io/badge/yunus25jmi1-yunus25jmi1-0366d6?style=flat&logo=github" alt="yunus25jmi1/yunus25jmi1">
-      </a>
-    </td>
-    <td><strong>Push:</strong> 10 commit(s)<br><small>Update graduation year from 2023 to 2027</small></td>
-    <td>✅</td>
-  </tr>
 </table>
 
 #### 📈 **Contribution Impact** <sub>*(fetched via gh CLI · March 05, 2026)*</sub>
 <div align="center">
   <table>
     <tr>
-      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%A5-Commits_(2026)-FF4500?style=for-the-badge"><br><strong>27</strong><br><small>This year</small></td>
+      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%A5-Commits_(2026)-FF4500?style=for-the-badge"><br><strong>28</strong><br><small>This year</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%80-Pull_Requests-8A2BE2?style=for-the-badge"><br><strong>9</strong><br><small>Total PRs</small></td>
-      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%93%9D-Public_Repos-32CD32?style=for-the-badge"><br><strong>142</strong><br><small>Public</small></td>
+      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%93%9D-Public_Repos-32CD32?style=for-the-badge"><br><strong>226</strong><br><small>Public</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%93%9A-Gists-FFD700?style=for-the-badge"><br><strong>29</strong><br><small>Public Gists</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%8E%AF-Issues-1E90FF?style=for-the-badge"><br><strong>0</strong><br><small>This year</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%8D-PR_Reviews-FF69B4?style=for-the-badge"><br><strong>1</strong><br><small>Reviews</small></td>
@@ -214,7 +214,7 @@ DevOps Engineer with 2+ years of experience in multi-cloud infrastructure (OCI, 
 <br>
 
 <div align="center">
-<img src="https://img.shields.io/badge/Total_Repositories-142-00D4AA?style=flat-square">
+<img src="https://img.shields.io/badge/Total_Repositories-226-00D4AA?style=flat-square">
 <img src="https://img.shields.io/badge/Public_Gists-29-FFD93D?style=flat-square">
 <img src="https://img.shields.io/badge/Member_Since-Oct_2022-FF6B6B?style=flat-square">
 <img src="https://img.shields.io/badge/Network-83_Following_%E2%80%A2_11_Followers-4ECDC4?style=flat-square">
@@ -224,7 +224,7 @@ DevOps Engineer with 2+ years of experience in multi-cloud infrastructure (OCI, 
 
 **Achievement Summary**
 
-- 🔥 **GitHub Journey**: Started October 2022, now 142+ repositories across DevOps, AI/ML, Security, and Platform Engineering
+- 🔥 **GitHub Journey**: Started October 2022, now 226+ repositories across DevOps, AI/ML, Security, and Platform Engineering
 - 📅 **Consistent Growth**: 2,328 LinkedIn followers, 500+ connections, 1,967 profile views
 - 🌟 **Active Projects**: AWS-Cloudflare VPN, Infrastructure as Code Railway, Aircraft Landing ML, Gemini AI Chatbot
 - 🎃 **Open Source**: 3 consecutive Hacktoberfest completions (2023-2025)
@@ -233,14 +233,14 @@ DevOps Engineer with 2+ years of experience in multi-cloud infrastructure (OCI, 
 **Statistics (2022–2026)**
 
 ```diff
-+ 142+ Total Public Repositories
++ 226+ Total Public Repositories
 + 57 Total Skills on LinkedIn
 + 83 Following • 11 Followers
 + 99.9% Uptime for CloudRelic microservices
 + 29 Public Gists created
 + Active since October 2022
 + 0 Total Stars across repositories
-+ 2 Total Forks
++ 3 Total Forks
 + 12 Technical Publications on YunusCloud
 + 53 Professional Certifications
 ```
@@ -338,16 +338,16 @@ Guru Nanak Dev University, Amritsar · *Graduated July 2023*
 
 | Metric | Value |
 |--------|-------|
-| 🗂️ Public Repositories | **142** |
+| 🗂️ Public Repositories | **226** |
 | 📓 Public Gists | **29** |
 | 👥 Followers | **11** |
 | 🐣 Following | **83** |
-| ✨ Commits (2026) | **27** |
+| ✨ Commits (2026) | **28** |
 | 🔀 Pull Requests | **9** |
 | 💡 Issues Opened | **0** |
 | 🔍 PR Reviews | **1** |
 | ⭐ Total Stars | **0** |
-| 🍴 Total Forks | **2** |
+| 🍴 Total Forks | **3** |
 | 📅 Member Since | **Oct 2022** |
 
 </td>
