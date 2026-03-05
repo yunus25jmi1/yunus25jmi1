@@ -6,7 +6,7 @@
 <img src="https://img.shields.io/badge/4x_Oracle_Certified-F80000?style=flat-square&logo=oracle&logoColor=white">
 <img src="https://img.shields.io/badge/3x_Hacktoberfest-FF6550?style=flat-square&logo=hacktoberfest&logoColor=white">
 
-[**Website**](https://yunuscloud.eu.org) · [**LinkedIn**](https://linkedin.com/in/yunus25jmi) · [**Medium**](https://cloudrelic.medium.com) · [**Email**](mailto:admin@yunuscloud.eu.org)
+[**Website**](https://yunuscloud.eu.org) · [**LinkedIn**](https://linkedin.com/in/yunus25jmi) · [**Medium**](https://medium.com/@yunus25jmi) · [**Email**](mailto:admin@yunuscloud.eu.org)
 
 </div>
 
@@ -71,11 +71,17 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
 
 ## Work & Experience
 
-**Oracle Cloud Infrastructure (OCI)** — DevOps Engineer & Platform Architect _(2022–Present)_  
-Reduced deployment time by 60% · Implemented SOC 2 security controls · Managed 99.9% uptime for microservices · Automated CI/CD pipelines with Jenkins/GitHub Actions · Designed multi-region Kubernetes clusters
+**Oracle ACE Apprentice** — Oracle Cloud Infrastructure _(2024–Present)_  
+Cloud architecture evangelism · Community contributions · Technical content creation · Kubernetes optimization guides
 
-**CloudRelic (Freelance)** — Cloud Solutions Consultant _(2024–Present)_  
-Technical writing on Medium · Cloud architecture consulting · Open-source contributions
+**DevOps Intern** — Infrastructure Automation _(2023–2024)_  
+CI/CD pipeline development · Container orchestration · Infrastructure as Code · Monitoring and observability
+
+**ML Intern** — Machine Learning Engineering _(2022–2023)_  
+Model development and deployment · Data pipeline automation · ML infrastructure setup · Python/TensorFlow projects
+
+**Open-Source Contributor** — Global Community _(2022–Present)_  
+Hacktoberfest 3x participant · Cloudflare Vinext contributions · DevOps tools development · 142+ public repositories
 
 ---
 
@@ -147,7 +153,7 @@ Technical writing on Medium · Cloud architecture consulting · Open-source cont
 + 226+ Total Public Repositories
 + 57 Total Skills on LinkedIn
 + 84 Following • 11 Followers
-+ 99.9% Uptime for CloudRelic microservices
++ 99.9% Infrastructure uptime achieved
 + 29 Public Gists created
 + Active since October 2022
 + 0 Total Stars across repositories
@@ -203,12 +209,11 @@ Technical writing on Medium · Cloud architecture consulting · Open-source cont
 ---
 
 <!-- Medium Blog -->
-<h2 align="center">✍️ Latest from CloudRelic Medium Blog</h2>
+<h2 align="center">✍️ Latest Technical Writing</h2>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Publication-cloudrelic.medium.com-00AB6C?style=for-the-badge&logo=medium&logoColor=white">
-  <img src="https://img.shields.io/badge/Role-CTO_%26_Head_of_Engineering-FF6B6B?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Focus-Kubernetes_%7C_Cloud_%7C_Platform_Engineering-4ECDC4?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Platform-Medium-00AB6C?style=for-the-badge&logo=medium&logoColor=white">
+  <img src="https://img.shields.io/badge/Focus-Kubernetes_%7C_Cloud_%7C_DevOps-4ECDC4?style=for-the-badge">
 </div>
 
 <br>
@@ -255,8 +260,8 @@ Technical writing on Medium · Cloud architecture consulting · Open-source cont
 </table>
 
 <div align="center">
-<a href="https://cloudrelic.medium.com">
-  <img src="https://img.shields.io/badge/Read_All_Articles_on_Medium-00AB6C?style=for-the-badge&logo=medium&logoColor=white">
+<a href="https://medium.com/@yunus25jmi">
+  <img src="https://img.shields.io/badge/Read_More_on_Medium-00AB6C?style=for-the-badge&logo=medium&logoColor=white">
 </a>
 </div>
 
@@ -267,9 +272,9 @@ Technical writing on Medium · Cloud architecture consulting · Open-source cont
 
 <div align="center">
 
-**[Website](https://yunuscloud.eu.org)** · **[LinkedIn](https://linkedin.com/in/yunus25jmi)** · **[Email](mailto:admin@yunuscloud.eu.org)** · **[Blog](https://cloudrelic.medium.com)** · **[GitHub](https://github.com/yunus25jmi1)**
+**[Website](https://yunuscloud.eu.org)** · **[LinkedIn](https://linkedin.com/in/yunus25jmi)** · **[Email](mailto:admin@yunuscloud.eu.org)** · **[Medium](https://medium.com/@yunus25jmi)** · **[GitHub](https://github.com/yunus25jmi1)**
 
-<img src="https://komarev.com/ghpvc/?username=yunus25jmi1&label=Profile+Views&color=555&style=flat-square">
+<img src="https://komarev.com/ghpvc/?username=yunus25jmi1&label=Profile+Views&color=0e75b6&style=flat-square">
 
 </div>
 

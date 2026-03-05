@@ -413,7 +413,7 @@ new_diff = (
     f'+ {repos}+ Total Public Repositories\n'
     f'+ 57 Total Skills on LinkedIn\n'
     f'+ {following} Following • {followers} Followers\n'
-    '+ 99.9% Uptime for CloudRelic microservices\n'
+    '+ 99.9% Infrastructure uptime achieved\n'
     f'+ {gists} Public Gists created\n'
     '+ Active since October 2022\n'
     f'+ {stars} Total Stars across repositories\n'
@@ -493,11 +493,10 @@ if articles:
 
     new_blog = (
         '<!-- Medium Blog -->\n'
-        '<h2 align="center">✍️ Latest from CloudRelic Medium Blog</h2>\n\n'
+        '<h2 align="center">✍️ Latest Technical Writing</h2>\n\n'
         '<div align="center">\n'
-        '  <img src="https://img.shields.io/badge/Publication-cloudrelic.medium.com-00AB6C?style=for-the-badge&logo=medium&logoColor=white">\n'
-        '  <img src="https://img.shields.io/badge/Role-CTO_%26_Head_of_Engineering-FF6B6B?style=for-the-badge">\n'
-        '  <img src="https://img.shields.io/badge/Focus-Kubernetes_%7C_Cloud_%7C_Platform_Engineering-4ECDC4?style=for-the-badge">\n'
+        '  <img src="https://img.shields.io/badge/Platform-Medium-00AB6C?style=for-the-badge&logo=medium&logoColor=white">\n'
+        '  <img src="https://img.shields.io/badge/Focus-Kubernetes_%7C_Cloud_%7C_DevOps-4ECDC4?style=for-the-badge">\n'
         '</div>\n\n'
         '<br>\n\n'
         '<table width="100%">\n<tr>\n<td width="50%" valign="top">\n\n'
@@ -506,8 +505,8 @@ if articles:
         + render_col(right)
         + '\n\n</td>\n</tr>\n</table>\n\n'
         '<div align="center">\n'
-        '<a href="https://cloudrelic.medium.com">\n'
-        '  <img src="https://img.shields.io/badge/Read_All_Articles_on_Medium-00AB6C?style=for-the-badge&logo=medium&logoColor=white">\n'
+        '<a href="https://medium.com/@yunus25jmi">\n'
+        '  <img src="https://img.shields.io/badge/Read_More_on_Medium-00AB6C?style=for-the-badge&logo=medium&logoColor=white">\n'
         '</a>\n'
         '</div>'
     )
