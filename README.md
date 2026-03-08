@@ -167,7 +167,7 @@ Cloud architecture evangelism · Community contributions · Technical content cr
 **Machine Learning Intern** — Shell India Market Private Limited _(Oct 2025–Nov 2025)_  
 Built end-to-end ML system analyzing 2.5M+ aircraft landing records · 12-month forecasting using Prophet · Anomaly detection with Isolation Forest · FastAPI backend + Dash dashboard · 100% test pass rate with pytest
 
-**DevOps Intern** — Infrastructure Automation _(Jun 2024–Jul 2024)_  
+**DevOps Intern** — Stellanova GlobalTech Pvt. Ltd. _(Jun 2024–Jul 2024)_  
 Docker-based environments (30% faster deployment) · Integrated Rclone/Flask for file APIs · CI/CD with Jenkins & GitHub Actions (25% faster) · Secure networks with Tailscale VPN & Ngrok
 
 **Open-Source Contributor** — Global Community _(Oct 2024–Present)_  
@@ -200,11 +200,6 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 ---
 
 ## GitHub Stats
-
-<div align="center">
-<img height="165em" src="https://github-readme-stats.vercel.app/api?username=yunus25jmi1&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F85D7F&text_color=FFFFFF"/>
-<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yunus25jmi1&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F85D7F&text_color=FFFFFF"/>
-</div>
 
 <div align="center">
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=yunus25jmi1&theme=tokyonight&hide_border=true&background=0D1117&stroke=F85D7F&ring=F85D7F&fire=F85D7F&currStreakLabel=FFFFFF"/>
