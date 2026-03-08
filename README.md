@@ -44,6 +44,26 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
         <img src="https://img.shields.io/badge/cloudflare-vinext-0366d6?style=flat&logo=github" alt="cloudflare/vinext">
       </a>
     </td>
+    <td><strong>PR #197:</strong> merged<br><small>fix(cli): ensure type:module before Vite loads vite.config.t</small></td>
+    <td>🔀</td>
+  </tr>
+  <tr>
+    <td><strong>Mar 08, 2026</strong></td>
+    <td>
+      <a href="https://github.com/cloudflare/vinext">
+        <img src="https://img.shields.io/badge/cloudflare-vinext-0366d6?style=flat&logo=github" alt="cloudflare/vinext">
+      </a>
+    </td>
+    <td><strong>PR #259:</strong> closed<br><small>refactor: extract template string code generation into entri</small></td>
+    <td>🔀</td>
+  </tr>
+  <tr>
+    <td><strong>Mar 08, 2026</strong></td>
+    <td>
+      <a href="https://github.com/cloudflare/vinext">
+        <img src="https://img.shields.io/badge/cloudflare-vinext-0366d6?style=flat&logo=github" alt="cloudflare/vinext">
+      </a>
+    </td>
     <td><strong>PR #345:</strong> opened<br><small>test: add snapshot tests for entry template generators</small></td>
     <td>🔀</td>
   </tr>
@@ -117,26 +137,6 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
     <td><strong>PR #249:</strong> opened<br><small>fix: wire up RouterContext.Provider in Pages Router</small></td>
     <td>🔀</td>
   </tr>
-  <tr>
-    <td><strong>Mar 04, 2026</strong></td>
-    <td>
-      <a href="https://github.com/cloudflare/vinext">
-        <img src="https://img.shields.io/badge/cloudflare-vinext-0366d6?style=flat&logo=github" alt="cloudflare/vinext">
-      </a>
-    </td>
-    <td><strong>PR #151:</strong> merged<br><small>fix: export ServerInsertedHTMLContext from next/navigation s</small></td>
-    <td>🔀</td>
-  </tr>
-  <tr>
-    <td><strong>Mar 08, 2026</strong></td>
-    <td>
-      <a href="https://github.com/yunus25jmi1/vinext">
-        <img src="https://img.shields.io/badge/yunus25jmi1-vinext-0366d6?style=flat&logo=github" alt="yunus25jmi1/vinext">
-      </a>
-    </td>
-    <td><strong>Push:</strong> 1 commit(s)<br><small>fix: export ServerInsertedHTMLContext from next/navigation shim (#145) (#151)</small></td>
-    <td>✅</td>
-  </tr>
 </table>
 
 ---
@@ -145,7 +145,7 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
 <div align="center">
   <table>
     <tr>
-      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%A5-Commits_(2026)-FF4500?style=for-the-badge"><br><strong>36</strong><br><small>This year</small></td>
+      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%A5-Commits_(2026)-FF4500?style=for-the-badge"><br><strong>38</strong><br><small>This year</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%80-Pull_Requests-8A2BE2?style=for-the-badge"><br><strong>13</strong><br><small>Total PRs</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%93%9D-Public_Repos-32CD32?style=for-the-badge"><br><strong>227</strong><br><small>Public</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%93%9A-Gists-FFD700?style=for-the-badge"><br><strong>29</strong><br><small>Public Gists</small></td>
@@ -284,7 +284,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 | 📓 Public Gists | **29** |
 | 👥 Followers | **11** |
 | 🐣 Following | **85** |
-| ✨ Commits (2026) | **36** |
+| ✨ Commits (2026) | **38** |
 | 🔀 Pull Requests | **13** |
 | 💡 Issues Opened | **0** |
 | 🔍 PR Reviews | **1** |
