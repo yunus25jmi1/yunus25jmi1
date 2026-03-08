@@ -20,7 +20,7 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
 
 ## Open Source
 
-- 🚀 **[Vinext Framework](https://github.com/Cloudflare-Mining/Cloudflare-Datamining)** — Fixed Pages Router context provider issues (PR #249, #151 merged)
+- 🚀 **[Vinext Framework](https://github.com/cloudflare/vinext)** — Fixed Pages Router context provider & font optimization (PR #249, #151 merged; #262, #259, #258 active)
 - ☸️ **[Oracle ACE Repository](https://gh.io/oracle-ace)** — Kubernetes ingress optimization guides (1M RPS architecture)
 - 🔧 **[AWS-Cloudflare VPN](https://github.com/yunus25jmi1/AWS-CloudFlare-VPN)** — Secure hybrid cloud networking 
 - 🤖 **[Gemini AI Chatbot](https://github.com/yunus25jmi1/Gemini-AI-for-Everyone)** — AI assistant with 1.2K+ commits
