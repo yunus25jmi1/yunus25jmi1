@@ -20,7 +20,7 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
 
 ## Open Source
 
-- 🚀 **[Vinext Framework](https://github.com/cloudflare/vinext)** — Fixed Pages Router context provider & font optimization (PR #249, #151 merged; #262, #259, #258 active)
+- 🚀 **[Vinext Framework](https://github.com/cloudflare/vinext)** — Router context fixes, CLI config loading, ESM resolution & navigation exports (PR #249, #197, #193, #151 merged)
 - ☸️ **[Oracle ACE Repository](https://gh.io/oracle-ace)** — Kubernetes ingress optimization guides (1M RPS architecture)
 - 🔧 **[AWS-Cloudflare VPN](https://github.com/yunus25jmi1/AWS-CloudFlare-VPN)** — Secure hybrid cloud networking 
 - 🤖 **[Gemini AI Chatbot](https://github.com/yunus25jmi1/Gemini-AI-for-Everyone)** — AI assistant with 1.2K+ commits
@@ -147,7 +147,7 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
     <tr>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%A5-Commits_(2026)-FF4500?style=for-the-badge"><br><strong>38</strong><br><small>This year</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%80-Pull_Requests-8A2BE2?style=for-the-badge"><br><strong>13</strong><br><small>Total PRs</small></td>
-      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%93%9D-Public_Repos-32CD32?style=for-the-badge"><br><strong>227</strong><br><small>Public</small></td>
+      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%93%9D-Public_Repos-32CD32?style=for-the-badge"><br><strong>143</strong><br><small>Public</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%93%9A-Gists-FFD700?style=for-the-badge"><br><strong>29</strong><br><small>Public Gists</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%8E%AF-Issues-1E90FF?style=for-the-badge"><br><strong>0</strong><br><small>This year</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%8D-PR_Reviews-FF69B4?style=for-the-badge"><br><strong>1</strong><br><small>Reviews</small></td>
@@ -218,7 +218,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 <br>
 
 <div align="center">
-<img src="https://img.shields.io/badge/Total_Repositories-227-00D4AA?style=flat-square">
+<img src="https://img.shields.io/badge/Total_Repositories-143-00D4AA?style=flat-square">
 <img src="https://img.shields.io/badge/Public_Gists-29-FFD93D?style=flat-square">
 <img src="https://img.shields.io/badge/Network-85_Following_%E2%80%A2_11_Followers-4ECDC4?style=flat-square">
 </div>
@@ -227,7 +227,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 
 **Achievement Highlights**
 
-- 🔥 **GitHub Journey**: Started October 2022, now 227+ repositories across DevOps, AI/ML, Security, and Platform Engineering
+- 🔥 **GitHub Journey**: Started October 2022, now 143+ repositories across DevOps, AI/ML, Security, and Platform Engineering
 - 📅 **Consistent Growth**: 2,328 LinkedIn followers, 500+ connections, 1,967 profile views
 - **Cloudflare Vinext**: Fixed Pages Router context provider issues (PR #249, PR #151 merged)
 - **Hacktoberfest 2025**: 10 PRs submitted across multiple projects, 7 accepted — Earned T-Shirt
@@ -240,14 +240,14 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 **Long-term Statistics**
 
 ```diff
-+ 227+ Total Public Repositories
++ 143+ Total Public Repositories
 + 57 Total Skills on LinkedIn
 + 85 Following • 11 Followers
 + 99.9% Infrastructure uptime achieved
 + 29 Public Gists created
 + Active since October 2022
 + 0 Total Stars across repositories
-+ 3 Total Forks
++ 2 Total Forks
 + 12 Technical Publications on YunusCloud
 + 53 Professional Certifications
 ```
@@ -280,7 +280,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 
 | Metric | Value |
 |--------|-------|
-| 🗂️ Public Repositories | **227** |
+| 🗂️ Public Repositories | **143** |
 | 📓 Public Gists | **29** |
 | 👥 Followers | **11** |
 | 🐣 Following | **85** |
@@ -289,7 +289,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 | 💡 Issues Opened | **0** |
 | 🔍 PR Reviews | **1** |
 | ⭐ Total Stars | **0** |
-| 🍴 Total Forks | **3** |
+| 🍴 Total Forks | **2** |
 | 📅 Member Since | **Oct 2022** |
 
 </td>
