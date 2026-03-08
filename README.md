@@ -118,30 +118,30 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
     <td>🔀</td>
   </tr>
   <tr>
-    <td><strong>Feb 28, 2026</strong></td>
+    <td><strong>Mar 06, 2026</strong></td>
     <td>
-      <a href="https://github.com/cloudflare/vinext">
-        <img src="https://img.shields.io/badge/cloudflare-vinext-0366d6?style=flat&logo=github" alt="cloudflare/vinext">
+      <a href="https://github.com/yunus25jmi1/docker-agent">
+        <img src="https://img.shields.io/badge/yunus25jmi1-docker--agent-0366d6?style=flat&logo=github" alt="yunus25jmi1/docker-agent">
       </a>
     </td>
-    <td><strong>PR #197:</strong> opened<br><small>fix(cli): ensure type:module before Vite loads vite.config.t</small></td>
+    <td><strong>PR #1:</strong> opened<br><small>Fix context window overflow: auto-recovery and proactive com</small></td>
     <td>🔀</td>
   </tr>
   <tr>
-    <td><strong>Feb 28, 2026</strong></td>
+    <td><strong>Mar 06, 2026</strong></td>
     <td>
-      <a href="https://github.com/cloudflare/vinext">
-        <img src="https://img.shields.io/badge/cloudflare-vinext-0366d6?style=flat&logo=github" alt="cloudflare/vinext">
+      <a href="https://github.com/yunus25jmi1/docker-agent">
+        <img src="https://img.shields.io/badge/yunus25jmi1-docker--agent-0366d6?style=flat&logo=github" alt="yunus25jmi1/docker-agent">
       </a>
     </td>
-    <td><strong>PR #193:</strong> opened<br><small>fix: document ESM resolution workaround for validator and si</small></td>
+    <td><strong>PR #1:</strong> closed<br><small>Fix context window overflow: auto-recovery and proactive com</small></td>
     <td>🔀</td>
   </tr>
 </table>
 
 ---
 
-#### 📈 **Contribution Impact** <sub>*(fetched via gh CLI · March 07, 2026)*</sub>
+#### 📈 **Contribution Impact** <sub>*(fetched via gh CLI · March 08, 2026)*</sub>
 <div align="center">
   <table>
     <tr>
@@ -263,7 +263,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 <td width="50%" align="center">
 
 ### 🔵 **LinkedIn Stats**
-<sub><em>as of March 07, 2026</em></sub>
+<sub><em>as of March 08, 2026</em></sub>
 
 | Metric | Value |
 |--------|-------|
@@ -371,6 +371,6 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 ---
 
 <div align="center">
-<sub>Last updated: March 07, 2026 | Auto-updated via GitHub Actions · 🔶 4× Oracle Certified · 🎃 3× Hacktoberfest</sub><br>
-<sub>🕒 Last updated: March 07, 2026 | Open to DevOps & Platform Engineering opportunities</sub>
+<sub>Last updated: March 08, 2026 | Auto-updated via GitHub Actions · 🔶 4× Oracle Certified · 🎃 3× Hacktoberfest</sub><br>
+<sub>🕒 Last updated: March 08, 2026 | Open to DevOps & Platform Engineering opportunities</sub>
 </div>
