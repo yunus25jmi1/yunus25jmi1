@@ -38,6 +38,26 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
     <th width="15%">Status</th>
   </tr>
   <tr>
+    <td><strong>Mar 09, 2026</strong></td>
+    <td>
+      <a href="https://github.com/docker/docker-agent">
+        <img src="https://img.shields.io/badge/docker-docker--agent-0366d6?style=flat&logo=github" alt="docker/docker-agent">
+      </a>
+    </td>
+    <td><strong>PR #1973:</strong> merged<br><small>Fix context window overflow: auto-recovery and proactive com</small></td>
+    <td>🔀</td>
+  </tr>
+  <tr>
+    <td><strong>Mar 09, 2026</strong></td>
+    <td>
+      <a href="https://github.com/cloudflare/vinext">
+        <img src="https://img.shields.io/badge/cloudflare-vinext-0366d6?style=flat&logo=github" alt="cloudflare/vinext">
+      </a>
+    </td>
+    <td><strong>PR #258:</strong> merged<br><small>refactor: extract shared request handling from server entry </small></td>
+    <td>🔀</td>
+  </tr>
+  <tr>
     <td><strong>Mar 08, 2026</strong></td>
     <td>
       <a href="https://github.com/cloudflare/vinext">
@@ -117,16 +137,6 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
     <td><strong>Push:</strong> 1 commit(s)<br><small>fix: export ServerInsertedHTMLContext from next/navigation shim (#145) (#151)</small></td>
     <td>✅</td>
   </tr>
-  <tr>
-    <td><strong>Mar 08, 2026</strong></td>
-    <td>
-      <a href="https://github.com/yunus25jmi1/yunus25jmi1">
-        <img src="https://img.shields.io/badge/yunus25jmi1-yunus25jmi1-0366d6?style=flat&logo=github" alt="yunus25jmi1/yunus25jmi1">
-      </a>
-    </td>
-    <td><strong>Push:</strong> 21 commit(s)<br><small>Update README.md</small></td>
-    <td>✅</td>
-  </tr>
 </table>
 
 ---
@@ -135,7 +145,7 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
 <div align="center">
   <table>
     <tr>
-      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%A5-Commits_(2026)-FF4500?style=for-the-badge"><br><strong>41</strong><br><small>This year</small></td>
+      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%A5-Commits_(2026)-FF4500?style=for-the-badge"><br><strong>43</strong><br><small>This year</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%80-Pull_Requests-8A2BE2?style=for-the-badge"><br><strong>13</strong><br><small>Total PRs</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%93%9D-Public_Repos-32CD32?style=for-the-badge"><br><strong>227</strong><br><small>Public</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%93%9A-Gists-FFD700?style=for-the-badge"><br><strong>29</strong><br><small>Public Gists</small></td>
@@ -269,7 +279,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 | 📓 Public Gists | **29** |
 | 👥 Followers | **11** |
 | 🐣 Following | **85** |
-| ✨ Commits (2026) | **41** |
+| ✨ Commits (2026) | **43** |
 | 🔀 Pull Requests | **13** |
 | 💡 Issues Opened | **0** |
 | 🔍 PR Reviews | **1** |
