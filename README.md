@@ -38,6 +38,16 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
     <th width="15%">Status</th>
   </tr>
   <tr>
+    <td><strong>Mar 22, 2026</strong></td>
+    <td>
+      <a href="https://github.com/cloudflare/vinext">
+        <img src="https://img.shields.io/badge/cloudflare-vinext-0366d6?style=flat&logo=github" alt="cloudflare/vinext">
+      </a>
+    </td>
+    <td><strong>PR #620:</strong> merged<br><small>fix: prevent useActionState state becoming undefined when re</small></td>
+    <td>🔀</td>
+  </tr>
+  <tr>
     <td><strong>Mar 21, 2026</strong></td>
     <td>
       <a href="https://github.com/cloudflare/vinext">
@@ -118,37 +128,27 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
     <td>🔀</td>
   </tr>
   <tr>
-    <td><strong>Mar 15, 2026</strong></td>
+    <td><strong>Mar 22, 2026</strong></td>
     <td>
-      <a href="https://github.com/docker/docker-agent">
-        <img src="https://img.shields.io/badge/docker-docker--agent-0366d6?style=flat&logo=github" alt="docker/docker-agent">
+      <a href="https://github.com/yunus25jmi1/vinext">
+        <img src="https://img.shields.io/badge/yunus25jmi1-vinext-0366d6?style=flat&logo=github" alt="yunus25jmi1/vinext">
       </a>
     </td>
-    <td><strong>PR #2107:</strong> opened<br><small>fix: remove redundant listener close in cleanup function</small></td>
-    <td>🔀</td>
-  </tr>
-  <tr>
-    <td><strong>Mar 15, 2026</strong></td>
-    <td>
-      <a href="https://github.com/docker/docker-agent">
-        <img src="https://img.shields.io/badge/docker-docker--agent-0366d6?style=flat&logo=github" alt="docker/docker-agent">
-      </a>
-    </td>
-    <td><strong>PR #2106:</strong> opened<br><small>fix: propagate cleanup errors in defer functions</small></td>
+    <td><strong>PR #3:</strong> closed<br><small>[WIP] Fix onwarn reads from wrong config key in Vite 8 branc</small></td>
     <td>🔀</td>
   </tr>
 </table>
 
 ---
 
-#### 📈 **Contribution Impact** <sub>*(fetched via gh CLI · March 22, 2026)*</sub>
+#### 📈 **Contribution Impact** <sub>*(fetched via gh CLI · March 23, 2026)*</sub>
 <div align="center">
   <table>
     <tr>
-      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%A5-Commits_(2026)-FF4500?style=for-the-badge"><br><strong>46</strong><br><small>This year</small></td>
+      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%A5-Commits_(2026)-FF4500?style=for-the-badge"><br><strong>47</strong><br><small>This year</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%80-Pull_Requests-8A2BE2?style=for-the-badge"><br><strong>22</strong><br><small>Total PRs</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%93%9D-Public_Repos-32CD32?style=for-the-badge"><br><strong>227</strong><br><small>Public</small></td>
-      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%93%9A-Gists-FFD700?style=for-the-badge"><br><strong>29</strong><br><small>Public Gists</small></td>
+      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%93%9A-Gists-FFD700?style=for-the-badge"><br><strong>31</strong><br><small>Public Gists</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%8E%AF-Issues-1E90FF?style=for-the-badge"><br><strong>0</strong><br><small>This year</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%8D-PR_Reviews-FF69B4?style=for-the-badge"><br><strong>1</strong><br><small>Reviews</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%E2%AD%90-Stars-FFD700?style=for-the-badge"><br><strong>0</strong><br><small>Stars earned</small></td>
@@ -214,7 +214,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 
 <div align="center">
 <img src="https://img.shields.io/badge/Total_Repositories-227-00D4AA?style=flat-square">
-<img src="https://img.shields.io/badge/Public_Gists-29-FFD93D?style=flat-square">
+<img src="https://img.shields.io/badge/Public_Gists-31-FFD93D?style=flat-square">
 <img src="https://img.shields.io/badge/Network-86_Following_%E2%80%A2_11_Followers-4ECDC4?style=flat-square">
 </div>
 
@@ -239,7 +239,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 + 57 Total Skills on LinkedIn
 + 86 Following • 11 Followers
 + 99.9% Infrastructure uptime achieved
-+ 29 Public Gists created
++ 31 Public Gists created
 + Active since October 2022
 + 0 Total Stars across repositories
 + 3 Total Forks
@@ -258,7 +258,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 <td width="50%" align="center">
 
 ### 🔵 **LinkedIn Stats**
-<sub><em>as of March 22, 2026</em></sub>
+<sub><em>as of March 23, 2026</em></sub>
 
 | Metric | Value |
 |--------|-------|
@@ -276,10 +276,10 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 | Metric | Value |
 |--------|-------|
 | 🗂️ Public Repositories | **227** |
-| 📓 Public Gists | **29** |
+| 📓 Public Gists | **31** |
 | 👥 Followers | **11** |
 | 🐣 Following | **86** |
-| ✨ Commits (2026) | **46** |
+| ✨ Commits (2026) | **47** |
 | 🔀 Pull Requests | **22** |
 | 💡 Issues Opened | **0** |
 | 🔍 PR Reviews | **1** |
@@ -307,6 +307,24 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 <tr>
 <td width="50%" valign="top">
 
+- 🏗️ [**Building a Lightweight, Scalable Database Stack with Oracle Container Engin…**](https://cloudrelic.medium.com/building-a-lightweight-scalable-database-stack-with-oracle-container-engine-bc7adbb8e521?source=rss-3abf238f1bcb------2)
+  <br><sub>📅 Mar 22, 2026 &nbsp;<img src="https://img.shields.io/badge/cloud_architecture-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/database-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
+
+- 📨 [**When to NOT Use Kafka on OCI: A Cost and Complexity Analysis for Event Stre…**](https://levelup.gitconnected.com/when-to-not-use-kafka-on-oci-a-cost-and-complexity-analysis-for-event-streaming-architecture-c289b63825f7?source=rss-3abf238f1bcb------2)
+  <br><sub>📅 Mar 02, 2026 &nbsp;<img src="https://img.shields.io/badge/kafka-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/cloud_architecture-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
+
+- ☸️ [**Beyond NetworkPolicies: Infrastructure-Native Microsegmentation with Oracle…**](https://cloudrelic.medium.com/beyond-networkpolicies-infrastructure-native-microsegmentation-with-oracle-kubernetes-engine-9158b34ef530?source=rss-3abf238f1bcb------2)
+  <br><sub>📅 Feb 25, 2026 &nbsp;<img src="https://img.shields.io/badge/kubernetes-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/microservices-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
+
+- 🔶 [**Control Plane High Availability on OKE: What Oracle Actually Manages (And W…**](https://cloudrelic.medium.com/control-plane-high-availability-on-oke-what-oracle-actually-manages-and-why-it-matters-741ef6b1d6a0?source=rss-3abf238f1bcb------2)
+  <br><sub>📅 Feb 22, 2026 &nbsp;<img src="https://img.shields.io/badge/oracle_cloud-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/kubernetes_cluster-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
+
+- 👥 [**Multi-Tenancy in Kubernetes: Soft vs. Hard Isolation**](https://cloudrelic.medium.com/multi-tenancy-in-kubernetes-soft-vs-hard-isolation-54b3ea1d499d?source=rss-3abf238f1bcb------2)
+  <br><sub>📅 Feb 15, 2026 &nbsp;<img src="https://img.shields.io/badge/multitenancy-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/oracle_cloud-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
+
+</td>
+<td width="50%" valign="top">
+
 - 📝 [**How I Fixed ESM Resolution in Cloudflare’s vinext**](https://cloudrelic.medium.com/how-i-fixed-esm-resolution-in-cloudflares-vinext-f2e127ef57b9?source=rss-3abf238f1bcb------2)
   <br><sub>📅 Mar 16, 2026 &nbsp;<img src="https://img.shields.io/badge/web_development-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/nodejs-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
 
@@ -321,24 +339,6 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 
 - 🔶 [**Observability Economics: Cost vs. Fidelity in Distributed Tracing**](https://cloudrelic.medium.com/observability-economics-cost-vs-fidelity-in-distributed-tracing-2fd3de1f685c?source=rss-3abf238f1bcb------2)
   <br><sub>📅 Feb 11, 2026 &nbsp;<img src="https://img.shields.io/badge/oracle_cloud-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/distributed_systems-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
-
-</td>
-<td width="50%" valign="top">
-
-- 📨 [**When to NOT Use Kafka on OCI: A Cost and Complexity Analysis for Event Stre…**](https://levelup.gitconnected.com/when-to-not-use-kafka-on-oci-a-cost-and-complexity-analysis-for-event-streaming-architecture-c289b63825f7?source=rss-3abf238f1bcb------2)
-  <br><sub>📅 Mar 02, 2026 &nbsp;<img src="https://img.shields.io/badge/kafka-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/cloud_architecture-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
-
-- ☸️ [**Beyond NetworkPolicies: Infrastructure-Native Microsegmentation with Oracle…**](https://cloudrelic.medium.com/beyond-networkpolicies-infrastructure-native-microsegmentation-with-oracle-kubernetes-engine-9158b34ef530?source=rss-3abf238f1bcb------2)
-  <br><sub>📅 Feb 25, 2026 &nbsp;<img src="https://img.shields.io/badge/kubernetes-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/microservices-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
-
-- 🔶 [**Control Plane High Availability on OKE: What Oracle Actually Manages (And W…**](https://cloudrelic.medium.com/control-plane-high-availability-on-oke-what-oracle-actually-manages-and-why-it-matters-741ef6b1d6a0?source=rss-3abf238f1bcb------2)
-  <br><sub>📅 Feb 22, 2026 &nbsp;<img src="https://img.shields.io/badge/oracle_cloud-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/kubernetes_cluster-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
-
-- 👥 [**Multi-Tenancy in Kubernetes: Soft vs. Hard Isolation**](https://cloudrelic.medium.com/multi-tenancy-in-kubernetes-soft-vs-hard-isolation-54b3ea1d499d?source=rss-3abf238f1bcb------2)
-  <br><sub>📅 Feb 15, 2026 &nbsp;<img src="https://img.shields.io/badge/multitenancy-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/oracle_cloud-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
-
-- ☁️ [**Securing the Software Supply Chain: Beyond CVE Scanning to Cryptographic Ve…**](https://cloudrelic.medium.com/securing-the-software-supply-chain-beyond-cve-scanning-to-cryptographic-verification-5d65d35bb8ec?source=rss-3abf238f1bcb------2)
-  <br><sub>📅 Feb 05, 2026 &nbsp;<img src="https://img.shields.io/badge/cloud_computing-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/cybersecurity-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
 
 </td>
 </tr>
@@ -366,6 +366,6 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 ---
 
 <div align="center">
-<sub>Last updated: March 22, 2026 | Auto-updated via GitHub Actions · 🔶 4× Oracle Certified · 🎃 3× Hacktoberfest</sub><br>
-<sub>🕒 Last updated: March 22, 2026 | Open to DevOps & Platform Engineering opportunities</sub>
+<sub>Last updated: March 23, 2026 | Auto-updated via GitHub Actions · 🔶 4× Oracle Certified · 🎃 3× Hacktoberfest</sub><br>
+<sub>🕒 Last updated: March 23, 2026 | Open to DevOps & Platform Engineering opportunities</sub>
 </div>
