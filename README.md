@@ -128,20 +128,20 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
     <td>🔀</td>
   </tr>
   <tr>
-    <td><strong>Mar 22, 2026</strong></td>
+    <td><strong>Mar 23, 2026</strong></td>
     <td>
       <a href="https://github.com/yunus25jmi1/vinext">
         <img src="https://img.shields.io/badge/yunus25jmi1-vinext-0366d6?style=flat&logo=github" alt="yunus25jmi1/vinext">
       </a>
     </td>
-    <td><strong>PR #3:</strong> closed<br><small>[WIP] Fix onwarn reads from wrong config key in Vite 8 branc</small></td>
-    <td>🔀</td>
+    <td><strong>Push:</strong> 1 commit(s)<br><small>Updated repository</small></td>
+    <td>✅</td>
   </tr>
 </table>
 
 ---
 
-#### 📈 **Contribution Impact** <sub>*(fetched via gh CLI · March 23, 2026)*</sub>
+#### 📈 **Contribution Impact** <sub>*(fetched via gh CLI · March 24, 2026)*</sub>
 <div align="center">
   <table>
     <tr>
@@ -258,7 +258,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 <td width="50%" align="center">
 
 ### 🔵 **LinkedIn Stats**
-<sub><em>as of March 23, 2026</em></sub>
+<sub><em>as of March 24, 2026</em></sub>
 
 | Metric | Value |
 |--------|-------|
@@ -307,6 +307,24 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 <tr>
 <td width="50%" valign="top">
 
+- 📝 [**How I Fixed Apollo Client SSR in Cloudflare’s vinext by Wiring a Missing Re…**](https://levelup.gitconnected.com/how-i-fixed-apollo-client-ssr-in-cloudflares-vinext-by-wiring-a-missing-react-context-2798bc922c0d?source=rss-3abf238f1bcb------2)
+  <br><sub>📅 Mar 23, 2026 &nbsp;<img src="https://img.shields.io/badge/react-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/cloudflare-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
+
+- 📝 [**How I Fixed ESM Resolution in Cloudflare’s vinext**](https://cloudrelic.medium.com/how-i-fixed-esm-resolution-in-cloudflares-vinext-f2e127ef57b9?source=rss-3abf238f1bcb------2)
+  <br><sub>📅 Mar 16, 2026 &nbsp;<img src="https://img.shields.io/badge/web_development-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/nodejs-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
+
+- ☸️ [**The Cold Start Problem Nobody Talks About (It’s Not Just Serverless)**](https://cloudrelic.medium.com/the-cold-start-problem-nobody-talks-about-its-not-just-serverless-e1cbb61b073b?source=rss-3abf238f1bcb------2)
+  <br><sub>📅 Mar 02, 2026 &nbsp;<img src="https://img.shields.io/badge/kubernetes-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/devops-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
+
+- ☁️ [**Designing a 1 Million RPS Kubernetes Ingress Layer: From TCP Handshake to K…**](https://cloudrelic.medium.com/designing-a-1-million-rps-kubernetes-ingress-layer-from-tcp-handshake-to-kernel-tuning-10d6bbeb6986?source=rss-3abf238f1bcb------2)
+  <br><sub>📅 Feb 23, 2026 &nbsp;<img src="https://img.shields.io/badge/cloud_computing-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/kubernetes-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
+
+- 🏗️ [**Scaling The Software Architecture: Beyond Linear Growth to Phase Transition…**](https://blog.startupstash.com/scaling-the-software-architecture-beyond-linear-growth-to-phase-transitions-c1b69d7cc4fb?source=rss-3abf238f1bcb------2)
+  <br><sub>📅 Feb 19, 2026 &nbsp;<img src="https://img.shields.io/badge/cloud_architecture-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/kubernetes-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
+
+</td>
+<td width="50%" valign="top">
+
 - 🏗️ [**Building a Lightweight, Scalable Database Stack with Oracle Container Engin…**](https://cloudrelic.medium.com/building-a-lightweight-scalable-database-stack-with-oracle-container-engine-bc7adbb8e521?source=rss-3abf238f1bcb------2)
   <br><sub>📅 Mar 22, 2026 &nbsp;<img src="https://img.shields.io/badge/cloud_architecture-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/database-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
 
@@ -321,24 +339,6 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 
 - 👥 [**Multi-Tenancy in Kubernetes: Soft vs. Hard Isolation**](https://cloudrelic.medium.com/multi-tenancy-in-kubernetes-soft-vs-hard-isolation-54b3ea1d499d?source=rss-3abf238f1bcb------2)
   <br><sub>📅 Feb 15, 2026 &nbsp;<img src="https://img.shields.io/badge/multitenancy-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/oracle_cloud-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
-
-</td>
-<td width="50%" valign="top">
-
-- 📝 [**How I Fixed ESM Resolution in Cloudflare’s vinext**](https://cloudrelic.medium.com/how-i-fixed-esm-resolution-in-cloudflares-vinext-f2e127ef57b9?source=rss-3abf238f1bcb------2)
-  <br><sub>📅 Mar 16, 2026 &nbsp;<img src="https://img.shields.io/badge/web_development-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/nodejs-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
-
-- ☸️ [**The Cold Start Problem Nobody Talks About (It’s Not Just Serverless)**](https://cloudrelic.medium.com/the-cold-start-problem-nobody-talks-about-its-not-just-serverless-e1cbb61b073b?source=rss-3abf238f1bcb------2)
-  <br><sub>📅 Mar 02, 2026 &nbsp;<img src="https://img.shields.io/badge/kubernetes-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/devops-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
-
-- ☁️ [**Designing a 1 Million RPS Kubernetes Ingress Layer: From TCP Handshake to K…**](https://cloudrelic.medium.com/designing-a-1-million-rps-kubernetes-ingress-layer-from-tcp-handshake-to-kernel-tuning-10d6bbeb6986?source=rss-3abf238f1bcb------2)
-  <br><sub>📅 Feb 23, 2026 &nbsp;<img src="https://img.shields.io/badge/cloud_computing-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/kubernetes-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
-
-- 🏗️ [**Scaling The Software Architecture: Beyond Linear Growth to Phase Transition…**](https://blog.startupstash.com/scaling-the-software-architecture-beyond-linear-growth-to-phase-transitions-c1b69d7cc4fb?source=rss-3abf238f1bcb------2)
-  <br><sub>📅 Feb 19, 2026 &nbsp;<img src="https://img.shields.io/badge/cloud_architecture-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/kubernetes-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
-
-- 🔶 [**Observability Economics: Cost vs. Fidelity in Distributed Tracing**](https://cloudrelic.medium.com/observability-economics-cost-vs-fidelity-in-distributed-tracing-2fd3de1f685c?source=rss-3abf238f1bcb------2)
-  <br><sub>📅 Feb 11, 2026 &nbsp;<img src="https://img.shields.io/badge/oracle_cloud-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/distributed_systems-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
 
 </td>
 </tr>
@@ -366,6 +366,6 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 ---
 
 <div align="center">
-<sub>Last updated: March 23, 2026 | Auto-updated via GitHub Actions · 🔶 4× Oracle Certified · 🎃 3× Hacktoberfest</sub><br>
-<sub>🕒 Last updated: March 23, 2026 | Open to DevOps & Platform Engineering opportunities</sub>
+<sub>Last updated: March 24, 2026 | Auto-updated via GitHub Actions · 🔶 4× Oracle Certified · 🎃 3× Hacktoberfest</sub><br>
+<sub>🕒 Last updated: March 24, 2026 | Open to DevOps & Platform Engineering opportunities</sub>
 </div>
