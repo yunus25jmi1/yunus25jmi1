@@ -38,6 +38,16 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
     <th width="15%">Status</th>
   </tr>
   <tr>
+    <td><strong>Mar 27, 2026</strong></td>
+    <td>
+      <a href="https://github.com/cloudflare/vinext">
+        <img src="https://img.shields.io/badge/cloudflare-vinext-0366d6?style=flat&logo=github" alt="cloudflare/vinext">
+      </a>
+    </td>
+    <td><strong>PR #698:</strong> opened<br><small>fix: server action redirects use soft RSC navigation instead</small></td>
+    <td>🔀</td>
+  </tr>
+  <tr>
     <td><strong>Mar 22, 2026</strong></td>
     <td>
       <a href="https://github.com/cloudflare/vinext">
@@ -78,7 +88,7 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
     <td>🔀</td>
   </tr>
   <tr>
-    <td><strong>Mar 23, 2026</strong></td>
+    <td><strong>Mar 27, 2026</strong></td>
     <td>
       <a href="https://github.com/yunus25jmi1/vinext">
         <img src="https://img.shields.io/badge/yunus25jmi1-vinext-0366d6?style=flat&logo=github" alt="yunus25jmi1/vinext">
@@ -86,6 +96,16 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
     </td>
     <td><strong>Push:</strong> 1 commit(s)<br><small>Updated repository</small></td>
     <td>✅</td>
+  </tr>
+  <tr>
+    <td><strong>Mar 27, 2026</strong></td>
+    <td>
+      <a href="https://github.com/yunus25jmi1/vinext">
+        <img src="https://img.shields.io/badge/yunus25jmi1-vinext-0366d6?style=flat&logo=github" alt="yunus25jmi1/vinext">
+      </a>
+    </td>
+    <td><strong>Created:</strong> New branch<br><small>fix/issue-654-action-redirect-soft-nav</small></td>
+    <td>🚀</td>
   </tr>
   <tr>
     <td><strong>Mar 22, 2026</strong></td>
@@ -101,18 +121,18 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
 
 ---
 
-#### 📈 **Contribution Impact** <sub>*(fetched via gh CLI · March 27, 2026)*</sub>
+#### 📈 **Contribution Impact** <sub>*(fetched via gh CLI · March 28, 2026)*</sub>
 <div align="center">
   <table>
     <tr>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%A5-Commits_(2026)-FF4500?style=for-the-badge"><br><strong>47</strong><br><small>This year</small></td>
-      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%80-Pull_Requests-8A2BE2?style=for-the-badge"><br><strong>22</strong><br><small>Total PRs</small></td>
+      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%80-Pull_Requests-8A2BE2?style=for-the-badge"><br><strong>23</strong><br><small>Total PRs</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%93%9D-Public_Repos-32CD32?style=for-the-badge"><br><strong>227</strong><br><small>Public</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%93%9A-Gists-FFD700?style=for-the-badge"><br><strong>31</strong><br><small>Public Gists</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%8E%AF-Issues-1E90FF?style=for-the-badge"><br><strong>0</strong><br><small>This year</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%8D-PR_Reviews-FF69B4?style=for-the-badge"><br><strong>1</strong><br><small>Reviews</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%E2%AD%90-Stars-FFD700?style=for-the-badge"><br><strong>0</strong><br><small>Stars earned</small></td>
-      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%91%A5-Network-00D4AA?style=for-the-badge"><br><strong>87 / 12</strong><br><small>Following / Followers</small></td>
+      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%91%A5-Network-00D4AA?style=for-the-badge"><br><strong>88 / 12</strong><br><small>Following / Followers</small></td>
     </tr>
   </table>
 </div>
@@ -175,7 +195,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 <div align="center">
 <img src="https://img.shields.io/badge/Total_Repositories-227-00D4AA?style=flat-square">
 <img src="https://img.shields.io/badge/Public_Gists-31-FFD93D?style=flat-square">
-<img src="https://img.shields.io/badge/Network-87_Following_%E2%80%A2_12_Followers-4ECDC4?style=flat-square">
+<img src="https://img.shields.io/badge/Network-88_Following_%E2%80%A2_12_Followers-4ECDC4?style=flat-square">
 </div>
 
 <br>
@@ -197,7 +217,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 ```diff
 + 227+ Total Public Repositories
 + 57 Total Skills on LinkedIn
-+ 87 Following • 12 Followers
++ 88 Following • 12 Followers
 + 99.9% Infrastructure uptime achieved
 + 31 Public Gists created
 + Active since October 2022
@@ -218,7 +238,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 <td width="50%" align="center">
 
 ### 🔵 **LinkedIn Stats**
-<sub><em>as of March 27, 2026</em></sub>
+<sub><em>as of March 28, 2026</em></sub>
 
 | Metric | Value |
 |--------|-------|
@@ -238,9 +258,9 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 | 🗂️ Public Repositories | **227** |
 | 📓 Public Gists | **31** |
 | 👥 Followers | **12** |
-| 🐣 Following | **87** |
+| 🐣 Following | **88** |
 | ✨ Commits (2026) | **47** |
-| 🔀 Pull Requests | **22** |
+| 🔀 Pull Requests | **23** |
 | 💡 Issues Opened | **0** |
 | 🔍 PR Reviews | **1** |
 | ⭐ Total Stars | **0** |
@@ -326,6 +346,6 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 ---
 
 <div align="center">
-<sub>Last updated: March 27, 2026 | Auto-updated via GitHub Actions · 🔶 4× Oracle Certified · 🎃 3× Hacktoberfest</sub><br>
-<sub>🕒 Last updated: March 27, 2026 | Open to DevOps & Platform Engineering opportunities</sub>
+<sub>Last updated: March 28, 2026 | Auto-updated via GitHub Actions · 🔶 4× Oracle Certified · 🎃 3× Hacktoberfest</sub><br>
+<sub>🕒 Last updated: March 28, 2026 | Open to DevOps & Platform Engineering opportunities</sub>
 </div>
