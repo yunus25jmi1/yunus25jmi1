@@ -38,6 +38,66 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
     <th width="15%">Status</th>
   </tr>
   <tr>
+    <td><strong>Mar 28, 2026</strong></td>
+    <td>
+      <a href="https://github.com/docker/docker-agent">
+        <img src="https://img.shields.io/badge/docker-docker--agent-0366d6?style=flat&logo=github" alt="docker/docker-agent">
+      </a>
+    </td>
+    <td><strong>PR #2273:</strong> opened<br><small>feat: Explicit OAuth Configuration for Remote MCP Servers (#</small></td>
+    <td>🔀</td>
+  </tr>
+  <tr>
+    <td><strong>Mar 28, 2026</strong></td>
+    <td>
+      <a href="https://github.com/docker/docker-agent">
+        <img src="https://img.shields.io/badge/docker-docker--agent-0366d6?style=flat&logo=github" alt="docker/docker-agent">
+      </a>
+    </td>
+    <td><strong>PR #2272:</strong> closed<br><small>feat: Explicit OAuth Configuration for Remote MCP Servers (#</small></td>
+    <td>🔀</td>
+  </tr>
+  <tr>
+    <td><strong>Mar 28, 2026</strong></td>
+    <td>
+      <a href="https://github.com/docker/docker-agent">
+        <img src="https://img.shields.io/badge/docker-docker--agent-0366d6?style=flat&logo=github" alt="docker/docker-agent">
+      </a>
+    </td>
+    <td><strong>PR #2272:</strong> opened<br><small>feat: Explicit OAuth Configuration for Remote MCP Servers (#</small></td>
+    <td>🔀</td>
+  </tr>
+  <tr>
+    <td><strong>Mar 28, 2026</strong></td>
+    <td>
+      <a href="https://github.com/docker/docker-agent">
+        <img src="https://img.shields.io/badge/docker-docker--agent-0366d6?style=flat&logo=github" alt="docker/docker-agent">
+      </a>
+    </td>
+    <td><strong>PR #2271:</strong> closed<br><small>feat: Explicit OAuth Configuration for Remote MCP Servers (#</small></td>
+    <td>🔀</td>
+  </tr>
+  <tr>
+    <td><strong>Mar 28, 2026</strong></td>
+    <td>
+      <a href="https://github.com/docker/docker-agent">
+        <img src="https://img.shields.io/badge/docker-docker--agent-0366d6?style=flat&logo=github" alt="docker/docker-agent">
+      </a>
+    </td>
+    <td><strong>PR #2271:</strong> opened<br><small>feat: Explicit OAuth Configuration for Remote MCP Servers (#</small></td>
+    <td>🔀</td>
+  </tr>
+  <tr>
+    <td><strong>Mar 28, 2026</strong></td>
+    <td>
+      <a href="https://github.com/docker/docker-agent">
+        <img src="https://img.shields.io/badge/docker-docker--agent-0366d6?style=flat&logo=github" alt="docker/docker-agent">
+      </a>
+    </td>
+    <td><strong>PR #2270:</strong> opened<br><small>feat: Add cryptographic audit trails for governance and comp</small></td>
+    <td>🔀</td>
+  </tr>
+  <tr>
     <td><strong>Mar 27, 2026</strong></td>
     <td>
       <a href="https://github.com/cloudflare/vinext">
@@ -58,77 +118,37 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
     <td>🔀</td>
   </tr>
   <tr>
-    <td><strong>Mar 21, 2026</strong></td>
+    <td><strong>Mar 28, 2026</strong></td>
     <td>
-      <a href="https://github.com/cloudflare/vinext">
-        <img src="https://img.shields.io/badge/cloudflare-vinext-0366d6?style=flat&logo=github" alt="cloudflare/vinext">
+      <a href="https://github.com/yunus25jmi1/docker-agent">
+        <img src="https://img.shields.io/badge/yunus25jmi1-docker--agent-0366d6?style=flat&logo=github" alt="yunus25jmi1/docker-agent">
       </a>
     </td>
-    <td><strong>PR #620:</strong> reopened<br><small>fix: prevent useActionState state becoming undefined when re</small></td>
-    <td>🔀</td>
+    <td><strong>Created:</strong> New branch<br><small>feature/explicit-oauth-config-v3</small></td>
+    <td>🚀</td>
   </tr>
   <tr>
-    <td><strong>Mar 21, 2026</strong></td>
+    <td><strong>Mar 28, 2026</strong></td>
     <td>
-      <a href="https://github.com/cloudflare/vinext">
-        <img src="https://img.shields.io/badge/cloudflare-vinext-0366d6?style=flat&logo=github" alt="cloudflare/vinext">
-      </a>
-    </td>
-    <td><strong>PR #620:</strong> closed<br><small>fix: prevent useActionState state becoming undefined when re</small></td>
-    <td>🔀</td>
-  </tr>
-  <tr>
-    <td><strong>Mar 21, 2026</strong></td>
-    <td>
-      <a href="https://github.com/cloudflare/vinext">
-        <img src="https://img.shields.io/badge/cloudflare-vinext-0366d6?style=flat&logo=github" alt="cloudflare/vinext">
-      </a>
-    </td>
-    <td><strong>PR #620:</strong> opened<br><small>fix: prevent useActionState state becoming undefined when re</small></td>
-    <td>🔀</td>
-  </tr>
-  <tr>
-    <td><strong>Mar 27, 2026</strong></td>
-    <td>
-      <a href="https://github.com/yunus25jmi1/vinext">
-        <img src="https://img.shields.io/badge/yunus25jmi1-vinext-0366d6?style=flat&logo=github" alt="yunus25jmi1/vinext">
+      <a href="https://github.com/yunus25jmi1/docker-agent">
+        <img src="https://img.shields.io/badge/yunus25jmi1-docker--agent-0366d6?style=flat&logo=github" alt="yunus25jmi1/docker-agent">
       </a>
     </td>
     <td><strong>Push:</strong> 1 commit(s)<br><small>Updated repository</small></td>
     <td>✅</td>
   </tr>
-  <tr>
-    <td><strong>Mar 27, 2026</strong></td>
-    <td>
-      <a href="https://github.com/yunus25jmi1/vinext">
-        <img src="https://img.shields.io/badge/yunus25jmi1-vinext-0366d6?style=flat&logo=github" alt="yunus25jmi1/vinext">
-      </a>
-    </td>
-    <td><strong>Created:</strong> New branch<br><small>fix/issue-654-action-redirect-soft-nav</small></td>
-    <td>🚀</td>
-  </tr>
-  <tr>
-    <td><strong>Mar 22, 2026</strong></td>
-    <td>
-      <a href="https://github.com/yunus25jmi1/vinext">
-        <img src="https://img.shields.io/badge/yunus25jmi1-vinext-0366d6?style=flat&logo=github" alt="yunus25jmi1/vinext">
-      </a>
-    </td>
-    <td><strong>PR #3:</strong> closed<br><small>[WIP] Fix onwarn reads from wrong config key in Vite 8 branc</small></td>
-    <td>🔀</td>
-  </tr>
 </table>
 
 ---
 
-#### 📈 **Contribution Impact** <sub>*(fetched via gh CLI · March 28, 2026)*</sub>
+#### 📈 **Contribution Impact** <sub>*(fetched via gh CLI · March 29, 2026)*</sub>
 <div align="center">
   <table>
     <tr>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%A5-Commits_(2026)-FF4500?style=for-the-badge"><br><strong>47</strong><br><small>This year</small></td>
-      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%80-Pull_Requests-8A2BE2?style=for-the-badge"><br><strong>23</strong><br><small>Total PRs</small></td>
-      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%93%9D-Public_Repos-32CD32?style=for-the-badge"><br><strong>227</strong><br><small>Public</small></td>
-      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%93%9A-Gists-FFD700?style=for-the-badge"><br><strong>31</strong><br><small>Public Gists</small></td>
+      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%80-Pull_Requests-8A2BE2?style=for-the-badge"><br><strong>28</strong><br><small>Total PRs</small></td>
+      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%93%9D-Public_Repos-32CD32?style=for-the-badge"><br><strong>228</strong><br><small>Public</small></td>
+      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%93%9A-Gists-FFD700?style=for-the-badge"><br><strong>39</strong><br><small>Public Gists</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%8E%AF-Issues-1E90FF?style=for-the-badge"><br><strong>0</strong><br><small>This year</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%8D-PR_Reviews-FF69B4?style=for-the-badge"><br><strong>1</strong><br><small>Reviews</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%E2%AD%90-Stars-FFD700?style=for-the-badge"><br><strong>0</strong><br><small>Stars earned</small></td>
@@ -193,8 +213,8 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 <br>
 
 <div align="center">
-<img src="https://img.shields.io/badge/Total_Repositories-227-00D4AA?style=flat-square">
-<img src="https://img.shields.io/badge/Public_Gists-31-FFD93D?style=flat-square">
+<img src="https://img.shields.io/badge/Total_Repositories-228-00D4AA?style=flat-square">
+<img src="https://img.shields.io/badge/Public_Gists-39-FFD93D?style=flat-square">
 <img src="https://img.shields.io/badge/Network-88_Following_%E2%80%A2_12_Followers-4ECDC4?style=flat-square">
 </div>
 
@@ -202,7 +222,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 
 **Achievement Highlights**
 
-- 🔥 **GitHub Journey**: Started October 2022, now 227+ repositories across DevOps, AI/ML, Security, and Platform Engineering
+- 🔥 **GitHub Journey**: Started October 2022, now 228+ repositories across DevOps, AI/ML, Security, and Platform Engineering
 - 📅 **Consistent Growth**: 2,328 LinkedIn followers, 500+ connections, 1,967 profile views
 - **Cloudflare Vinext**: Fixed Pages Router context provider issues (PR #249, PR #151 merged)
 - **Hacktoberfest 2025**: 10 PRs submitted across multiple projects, 7 accepted — Earned T-Shirt
@@ -215,11 +235,11 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 **Long-term Statistics**
 
 ```diff
-+ 227+ Total Public Repositories
++ 228+ Total Public Repositories
 + 57 Total Skills on LinkedIn
 + 88 Following • 12 Followers
 + 99.9% Infrastructure uptime achieved
-+ 31 Public Gists created
++ 39 Public Gists created
 + Active since October 2022
 + 0 Total Stars across repositories
 + 3 Total Forks
@@ -238,7 +258,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 <td width="50%" align="center">
 
 ### 🔵 **LinkedIn Stats**
-<sub><em>as of March 28, 2026</em></sub>
+<sub><em>as of March 29, 2026</em></sub>
 
 | Metric | Value |
 |--------|-------|
@@ -255,12 +275,12 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 
 | Metric | Value |
 |--------|-------|
-| 🗂️ Public Repositories | **227** |
-| 📓 Public Gists | **31** |
+| 🗂️ Public Repositories | **228** |
+| 📓 Public Gists | **39** |
 | 👥 Followers | **12** |
 | 🐣 Following | **88** |
 | ✨ Commits (2026) | **47** |
-| 🔀 Pull Requests | **23** |
+| 🔀 Pull Requests | **28** |
 | 💡 Issues Opened | **0** |
 | 🔍 PR Reviews | **1** |
 | ⭐ Total Stars | **0** |
@@ -287,6 +307,24 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 <tr>
 <td width="50%" valign="top">
 
+- 📝 [**Zero-Downtime Migration to Oracle Autonomous Database**](https://cloudrelic.medium.com/zero-downtime-migration-to-oracle-autonomous-database-99c712bb7cc7?source=rss-3abf238f1bcb------2)
+  <br><sub>📅 Mar 28, 2026 &nbsp;</sub>
+
+- 📝 [**How I Fixed Apollo Client SSR in Cloudflare’s vinext by Wiring a Missing Re…**](https://levelup.gitconnected.com/how-i-fixed-apollo-client-ssr-in-cloudflares-vinext-by-wiring-a-missing-react-context-2798bc922c0d?source=rss-3abf238f1bcb------2)
+  <br><sub>📅 Mar 23, 2026 &nbsp;<img src="https://img.shields.io/badge/react-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/cloudflare-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
+
+- 📝 [**How I Fixed ESM Resolution in Cloudflare’s vinext**](https://cloudrelic.medium.com/how-i-fixed-esm-resolution-in-cloudflares-vinext-f2e127ef57b9?source=rss-3abf238f1bcb------2)
+  <br><sub>📅 Mar 16, 2026 &nbsp;<img src="https://img.shields.io/badge/web_development-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/nodejs-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
+
+- ☸️ [**The Cold Start Problem Nobody Talks About (It’s Not Just Serverless)**](https://cloudrelic.medium.com/the-cold-start-problem-nobody-talks-about-its-not-just-serverless-e1cbb61b073b?source=rss-3abf238f1bcb------2)
+  <br><sub>📅 Mar 02, 2026 &nbsp;<img src="https://img.shields.io/badge/kubernetes-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/devops-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
+
+- ☁️ [**Designing a 1 Million RPS Kubernetes Ingress Layer: From TCP Handshake to K…**](https://cloudrelic.medium.com/designing-a-1-million-rps-kubernetes-ingress-layer-from-tcp-handshake-to-kernel-tuning-10d6bbeb6986?source=rss-3abf238f1bcb------2)
+  <br><sub>📅 Feb 23, 2026 &nbsp;<img src="https://img.shields.io/badge/cloud_computing-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/kubernetes-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
+
+</td>
+<td width="50%" valign="top">
+
 - 📝 [**How I Fixed Vite’s “Dynamic require of .mjs is not supported” Error in Clou…**](https://levelup.gitconnected.com/how-i-fixed-vites-dynamic-require-of-mjs-is-not-supported-error-in-cloudflare-s-vinext-58656746484f?source=rss-3abf238f1bcb------2)
   <br><sub>📅 Mar 26, 2026 &nbsp;<img src="https://img.shields.io/badge/vitejs-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/cloudflare-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
 
@@ -301,24 +339,6 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 
 - 🔶 [**Control Plane High Availability on OKE: What Oracle Actually Manages (And W…**](https://cloudrelic.medium.com/control-plane-high-availability-on-oke-what-oracle-actually-manages-and-why-it-matters-741ef6b1d6a0?source=rss-3abf238f1bcb------2)
   <br><sub>📅 Feb 22, 2026 &nbsp;<img src="https://img.shields.io/badge/oracle_cloud-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/kubernetes_cluster-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
-
-</td>
-<td width="50%" valign="top">
-
-- 📝 [**How I Fixed Apollo Client SSR in Cloudflare’s vinext by Wiring a Missing Re…**](https://levelup.gitconnected.com/how-i-fixed-apollo-client-ssr-in-cloudflares-vinext-by-wiring-a-missing-react-context-2798bc922c0d?source=rss-3abf238f1bcb------2)
-  <br><sub>📅 Mar 23, 2026 &nbsp;<img src="https://img.shields.io/badge/react-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/cloudflare-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
-
-- 📝 [**How I Fixed ESM Resolution in Cloudflare’s vinext**](https://cloudrelic.medium.com/how-i-fixed-esm-resolution-in-cloudflares-vinext-f2e127ef57b9?source=rss-3abf238f1bcb------2)
-  <br><sub>📅 Mar 16, 2026 &nbsp;<img src="https://img.shields.io/badge/web_development-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/nodejs-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
-
-- ☸️ [**The Cold Start Problem Nobody Talks About (It’s Not Just Serverless)**](https://cloudrelic.medium.com/the-cold-start-problem-nobody-talks-about-its-not-just-serverless-e1cbb61b073b?source=rss-3abf238f1bcb------2)
-  <br><sub>📅 Mar 02, 2026 &nbsp;<img src="https://img.shields.io/badge/kubernetes-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/devops-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
-
-- ☁️ [**Designing a 1 Million RPS Kubernetes Ingress Layer: From TCP Handshake to K…**](https://cloudrelic.medium.com/designing-a-1-million-rps-kubernetes-ingress-layer-from-tcp-handshake-to-kernel-tuning-10d6bbeb6986?source=rss-3abf238f1bcb------2)
-  <br><sub>📅 Feb 23, 2026 &nbsp;<img src="https://img.shields.io/badge/cloud_computing-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/kubernetes-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
-
-- 🏗️ [**Scaling The Software Architecture: Beyond Linear Growth to Phase Transition…**](https://blog.startupstash.com/scaling-the-software-architecture-beyond-linear-growth-to-phase-transitions-c1b69d7cc4fb?source=rss-3abf238f1bcb------2)
-  <br><sub>📅 Feb 19, 2026 &nbsp;<img src="https://img.shields.io/badge/cloud_architecture-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/kubernetes-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
 
 </td>
 </tr>
@@ -346,6 +366,6 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 ---
 
 <div align="center">
-<sub>Last updated: March 28, 2026 | Auto-updated via GitHub Actions · 🔶 4× Oracle Certified · 🎃 3× Hacktoberfest</sub><br>
-<sub>🕒 Last updated: March 28, 2026 | Open to DevOps & Platform Engineering opportunities</sub>
+<sub>Last updated: March 29, 2026 | Auto-updated via GitHub Actions · 🔶 4× Oracle Certified · 🎃 3× Hacktoberfest</sub><br>
+<sub>🕒 Last updated: March 29, 2026 | Open to DevOps & Platform Engineering opportunities</sub>
 </div>
