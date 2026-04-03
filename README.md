@@ -131,7 +131,7 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
 
 ---
 
-#### 📈 **Contribution Impact** <sub>*(fetched via gh CLI · April 02, 2026)*</sub>
+#### 📈 **Contribution Impact** <sub>*(fetched via gh CLI · April 03, 2026)*</sub>
 <div align="center">
   <table>
     <tr>
@@ -142,7 +142,7 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%8E%AF-Issues-1E90FF?style=for-the-badge"><br><strong>0</strong><br><small>This year</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%8D-PR_Reviews-FF69B4?style=for-the-badge"><br><strong>1</strong><br><small>Reviews</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%E2%AD%90-Stars-FFD700?style=for-the-badge"><br><strong>0</strong><br><small>Stars earned</small></td>
-      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%91%A5-Network-00D4AA?style=for-the-badge"><br><strong>88 / 12</strong><br><small>Following / Followers</small></td>
+      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%91%A5-Network-00D4AA?style=for-the-badge"><br><strong>87 / 12</strong><br><small>Following / Followers</small></td>
     </tr>
   </table>
 </div>
@@ -205,7 +205,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 <div align="center">
 <img src="https://img.shields.io/badge/Total_Repositories-228-00D4AA?style=flat-square">
 <img src="https://img.shields.io/badge/Public_Gists-39-FFD93D?style=flat-square">
-<img src="https://img.shields.io/badge/Network-88_Following_%E2%80%A2_12_Followers-4ECDC4?style=flat-square">
+<img src="https://img.shields.io/badge/Network-87_Following_%E2%80%A2_12_Followers-4ECDC4?style=flat-square">
 </div>
 
 <br>
@@ -227,7 +227,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 ```diff
 + 228+ Total Public Repositories
 + 57 Total Skills on LinkedIn
-+ 88 Following • 12 Followers
++ 87 Following • 12 Followers
 + 99.9% Infrastructure uptime achieved
 + 39 Public Gists created
 + Active since October 2022
@@ -248,7 +248,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 <td width="50%" align="center">
 
 ### 🔵 **LinkedIn Stats**
-<sub><em>as of April 02, 2026</em></sub>
+<sub><em>as of April 03, 2026</em></sub>
 
 | Metric | Value |
 |--------|-------|
@@ -268,7 +268,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 | 🗂️ Public Repositories | **228** |
 | 📓 Public Gists | **39** |
 | 👥 Followers | **12** |
-| 🐣 Following | **88** |
+| 🐣 Following | **87** |
 | ✨ Commits (2026) | **47** |
 | 🔀 Pull Requests | **29** |
 | 💡 Issues Opened | **0** |
@@ -356,6 +356,6 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 ---
 
 <div align="center">
-<sub>Last updated: April 02, 2026 | Auto-updated via GitHub Actions · 🔶 4× Oracle Certified · 🎃 3× Hacktoberfest</sub><br>
-<sub>🕒 Last updated: April 02, 2026 | Open to DevOps & Platform Engineering opportunities</sub>
+<sub>Last updated: April 03, 2026 | Auto-updated via GitHub Actions · 🔶 4× Oracle Certified · 🎃 3× Hacktoberfest</sub><br>
+<sub>🕒 Last updated: April 03, 2026 | Open to DevOps & Platform Engineering opportunities</sub>
 </div>
