@@ -38,6 +38,36 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
     <th width="15%">Status</th>
   </tr>
   <tr>
+    <td><strong>Apr 04, 2026</strong></td>
+    <td>
+      <a href="https://github.com/compose-spec/compose-go">
+        <img src="https://img.shields.io/badge/compose-spec-compose--go-0366d6?style=flat&logo=github" alt="compose-spec/compose-go">
+      </a>
+    </td>
+    <td><strong>PR #860:</strong> opened<br><small>fix: ensure deterministic variable interpolation</small></td>
+    <td>🔀</td>
+  </tr>
+  <tr>
+    <td><strong>Apr 04, 2026</strong></td>
+    <td>
+      <a href="https://github.com/docker/compose">
+        <img src="https://img.shields.io/badge/docker-compose-0366d6?style=flat&logo=github" alt="docker/compose">
+      </a>
+    </td>
+    <td><strong>PR #13713:</strong> opened<br><small>fix: ensure deterministic variable interpolation (#13712)</small></td>
+    <td>🔀</td>
+  </tr>
+  <tr>
+    <td><strong>Apr 04, 2026</strong></td>
+    <td>
+      <a href="https://github.com/cloudflare/vinext">
+        <img src="https://img.shields.io/badge/cloudflare-vinext-0366d6?style=flat&logo=github" alt="cloudflare/vinext">
+      </a>
+    </td>
+    <td><strong>PR #776:</strong> opened<br><small>fix(rewrites): include middleware headers in static file res</small></td>
+    <td>🔀</td>
+  </tr>
+  <tr>
     <td><strong>Mar 29, 2026</strong></td>
     <td>
       <a href="https://github.com/docker/docker-agent">
@@ -48,74 +78,34 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
     <td>🔀</td>
   </tr>
   <tr>
-    <td><strong>Mar 28, 2026</strong></td>
+    <td><strong>Apr 04, 2026</strong></td>
     <td>
-      <a href="https://github.com/docker/docker-agent">
-        <img src="https://img.shields.io/badge/docker-docker--agent-0366d6?style=flat&logo=github" alt="docker/docker-agent">
+      <a href="https://github.com/yunus25jmi1/compose-go">
+        <img src="https://img.shields.io/badge/yunus25jmi1-compose--go-0366d6?style=flat&logo=github" alt="yunus25jmi1/compose-go">
       </a>
     </td>
-    <td><strong>PR #2273:</strong> opened<br><small>feat: Explicit OAuth Configuration for Remote MCP Servers (#</small></td>
-    <td>🔀</td>
-  </tr>
-  <tr>
-    <td><strong>Mar 28, 2026</strong></td>
-    <td>
-      <a href="https://github.com/docker/docker-agent">
-        <img src="https://img.shields.io/badge/docker-docker--agent-0366d6?style=flat&logo=github" alt="docker/docker-agent">
-      </a>
-    </td>
-    <td><strong>PR #2272:</strong> closed<br><small>feat: Explicit OAuth Configuration for Remote MCP Servers (#</small></td>
-    <td>🔀</td>
-  </tr>
-  <tr>
-    <td><strong>Mar 28, 2026</strong></td>
-    <td>
-      <a href="https://github.com/docker/docker-agent">
-        <img src="https://img.shields.io/badge/docker-docker--agent-0366d6?style=flat&logo=github" alt="docker/docker-agent">
-      </a>
-    </td>
-    <td><strong>PR #2272:</strong> opened<br><small>feat: Explicit OAuth Configuration for Remote MCP Servers (#</small></td>
-    <td>🔀</td>
-  </tr>
-  <tr>
-    <td><strong>Mar 28, 2026</strong></td>
-    <td>
-      <a href="https://github.com/docker/docker-agent">
-        <img src="https://img.shields.io/badge/docker-docker--agent-0366d6?style=flat&logo=github" alt="docker/docker-agent">
-      </a>
-    </td>
-    <td><strong>PR #2271:</strong> closed<br><small>feat: Explicit OAuth Configuration for Remote MCP Servers (#</small></td>
-    <td>🔀</td>
-  </tr>
-  <tr>
-    <td><strong>Mar 28, 2026</strong></td>
-    <td>
-      <a href="https://github.com/docker/docker-agent">
-        <img src="https://img.shields.io/badge/docker-docker--agent-0366d6?style=flat&logo=github" alt="docker/docker-agent">
-      </a>
-    </td>
-    <td><strong>PR #2271:</strong> opened<br><small>feat: Explicit OAuth Configuration for Remote MCP Servers (#</small></td>
-    <td>🔀</td>
-  </tr>
-  <tr>
-    <td><strong>Mar 28, 2026</strong></td>
-    <td>
-      <a href="https://github.com/docker/docker-agent">
-        <img src="https://img.shields.io/badge/docker-docker--agent-0366d6?style=flat&logo=github" alt="docker/docker-agent">
-      </a>
-    </td>
-    <td><strong>PR #2270:</strong> opened<br><small>feat: Add cryptographic audit trails for governance and comp</small></td>
-    <td>🔀</td>
+    <td><strong>Push:</strong> 2 commit(s)<br><small>fix: ensure deterministic map iteration during variable interpolation</small></td>
+    <td>✅</td>
   </tr>
   <tr>
     <td><strong>Apr 04, 2026</strong></td>
     <td>
-      <a href="https://github.com/yunus25jmi1/vinext">
-        <img src="https://img.shields.io/badge/yunus25jmi1-vinext-0366d6?style=flat&logo=github" alt="yunus25jmi1/vinext">
+      <a href="https://github.com/yunus25jmi1/docker-agent">
+        <img src="https://img.shields.io/badge/yunus25jmi1-docker--agent-0366d6?style=flat&logo=github" alt="yunus25jmi1/docker-agent">
       </a>
     </td>
-    <td><strong>Created:</strong> New branch<br><small>fix/static-file-rewrites-middleware-headers</small></td>
-    <td>🚀</td>
+    <td><strong>Push:</strong> 1 commit(s)<br><small>Updated repository</small></td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td><strong>Apr 04, 2026</strong></td>
+    <td>
+      <a href="https://github.com/yunus25jmi1/compose">
+        <img src="https://img.shields.io/badge/yunus25jmi1-compose-0366d6?style=flat&logo=github" alt="yunus25jmi1/compose">
+      </a>
+    </td>
+    <td><strong>Push:</strong> 2 commit(s)<br><small>chore: add TODO comment for replace directive removal plan</small></td>
+    <td>✅</td>
   </tr>
   <tr>
     <td><strong>Apr 04, 2026</strong></td>
@@ -127,17 +117,27 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
     <td><strong>Push:</strong> 1 commit(s)<br><small>Updated repository</small></td>
     <td>✅</td>
   </tr>
+  <tr>
+    <td><strong>Apr 04, 2026</strong></td>
+    <td>
+      <a href="https://github.com/yunus25jmi1/vinext">
+        <img src="https://img.shields.io/badge/yunus25jmi1-vinext-0366d6?style=flat&logo=github" alt="yunus25jmi1/vinext">
+      </a>
+    </td>
+    <td><strong>Created:</strong> New branch<br><small>fix/static-file-rewrites-middleware-headers</small></td>
+    <td>🚀</td>
+  </tr>
 </table>
 
 ---
 
-#### 📈 **Contribution Impact** <sub>*(fetched via gh CLI · April 04, 2026)*</sub>
+#### 📈 **Contribution Impact** <sub>*(fetched via gh CLI · April 05, 2026)*</sub>
 <div align="center">
   <table>
     <tr>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%A5-Commits_(2026)-FF4500?style=for-the-badge"><br><strong>47</strong><br><small>This year</small></td>
-      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%80-Pull_Requests-8A2BE2?style=for-the-badge"><br><strong>29</strong><br><small>Total PRs</small></td>
-      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%93%9D-Public_Repos-32CD32?style=for-the-badge"><br><strong>228</strong><br><small>Public</small></td>
+      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%80-Pull_Requests-8A2BE2?style=for-the-badge"><br><strong>32</strong><br><small>Total PRs</small></td>
+      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%93%9D-Public_Repos-32CD32?style=for-the-badge"><br><strong>230</strong><br><small>Public</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%93%9A-Gists-FFD700?style=for-the-badge"><br><strong>39</strong><br><small>Public Gists</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%8E%AF-Issues-1E90FF?style=for-the-badge"><br><strong>0</strong><br><small>This year</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%8D-PR_Reviews-FF69B4?style=for-the-badge"><br><strong>1</strong><br><small>Reviews</small></td>
@@ -203,7 +203,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 <br>
 
 <div align="center">
-<img src="https://img.shields.io/badge/Total_Repositories-228-00D4AA?style=flat-square">
+<img src="https://img.shields.io/badge/Total_Repositories-230-00D4AA?style=flat-square">
 <img src="https://img.shields.io/badge/Public_Gists-39-FFD93D?style=flat-square">
 <img src="https://img.shields.io/badge/Network-87_Following_%E2%80%A2_12_Followers-4ECDC4?style=flat-square">
 </div>
@@ -212,7 +212,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 
 **Achievement Highlights**
 
-- 🔥 **GitHub Journey**: Started October 2022, now 228+ repositories across DevOps, AI/ML, Security, and Platform Engineering
+- 🔥 **GitHub Journey**: Started October 2022, now 230+ repositories across DevOps, AI/ML, Security, and Platform Engineering
 - 📅 **Consistent Growth**: 2,328 LinkedIn followers, 500+ connections, 1,967 profile views
 - **Cloudflare Vinext**: Fixed Pages Router context provider issues (PR #249, PR #151 merged)
 - **Hacktoberfest 2025**: 10 PRs submitted across multiple projects, 7 accepted — Earned T-Shirt
@@ -225,7 +225,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 **Long-term Statistics**
 
 ```diff
-+ 228+ Total Public Repositories
++ 230+ Total Public Repositories
 + 57 Total Skills on LinkedIn
 + 87 Following • 12 Followers
 + 99.9% Infrastructure uptime achieved
@@ -248,7 +248,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 <td width="50%" align="center">
 
 ### 🔵 **LinkedIn Stats**
-<sub><em>as of April 04, 2026</em></sub>
+<sub><em>as of April 05, 2026</em></sub>
 
 | Metric | Value |
 |--------|-------|
@@ -265,12 +265,12 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 
 | Metric | Value |
 |--------|-------|
-| 🗂️ Public Repositories | **228** |
+| 🗂️ Public Repositories | **230** |
 | 📓 Public Gists | **39** |
 | 👥 Followers | **12** |
 | 🐣 Following | **87** |
 | ✨ Commits (2026) | **47** |
-| 🔀 Pull Requests | **29** |
+| 🔀 Pull Requests | **32** |
 | 💡 Issues Opened | **0** |
 | 🔍 PR Reviews | **1** |
 | ⭐ Total Stars | **0** |
@@ -356,6 +356,6 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 ---
 
 <div align="center">
-<sub>Last updated: April 04, 2026 | Auto-updated via GitHub Actions · 🔶 4× Oracle Certified · 🎃 3× Hacktoberfest</sub><br>
-<sub>🕒 Last updated: April 04, 2026 | Open to DevOps & Platform Engineering opportunities</sub>
+<sub>Last updated: April 05, 2026 | Auto-updated via GitHub Actions · 🔶 4× Oracle Certified · 🎃 3× Hacktoberfest</sub><br>
+<sub>🕒 Last updated: April 05, 2026 | Open to DevOps & Platform Engineering opportunities</sub>
 </div>
