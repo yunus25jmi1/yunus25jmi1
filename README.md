@@ -38,6 +38,16 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
     <th width="15%">Status</th>
   </tr>
   <tr>
+    <td><strong>Apr 12, 2026</strong></td>
+    <td>
+      <a href="https://github.com/yunus25jmi1/vinext">
+        <img src="https://img.shields.io/badge/yunus25jmi1-vinext-0366d6?style=flat&logo=github" alt="yunus25jmi1/vinext">
+      </a>
+    </td>
+    <td><strong>Push:</strong> 1 commit(s)<br><small>Updated repository</small></td>
+    <td>✅</td>
+  </tr>
+  <tr>
     <td><strong>Apr 11, 2026</strong></td>
     <td>
       <a href="https://github.com/yunus25jmi1/compose">
@@ -57,21 +67,11 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
     <td><strong>Push:</strong> 3 commit(s)<br><small>test: add test cases for nested variable expansion (maintainer's example)</small></td>
     <td>✅</td>
   </tr>
-  <tr>
-    <td><strong>Apr 05, 2026</strong></td>
-    <td>
-      <a href="https://github.com/yunus25jmi1/vinext">
-        <img src="https://img.shields.io/badge/yunus25jmi1-vinext-0366d6?style=flat&logo=github" alt="yunus25jmi1/vinext">
-      </a>
-    </td>
-    <td><strong>Push:</strong> 1 commit(s)<br><small>Updated repository</small></td>
-    <td>✅</td>
-  </tr>
 </table>
 
 ---
 
-#### 📈 **Contribution Impact** <sub>*(fetched via gh CLI · April 12, 2026)*</sub>
+#### 📈 **Contribution Impact** <sub>*(fetched via gh CLI · April 13, 2026)*</sub>
 <div align="center">
   <table>
     <tr>
@@ -188,7 +188,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 <td width="50%" align="center">
 
 ### 🔵 **LinkedIn Stats**
-<sub><em>as of April 12, 2026</em></sub>
+<sub><em>as of April 13, 2026</em></sub>
 
 | Metric | Value |
 |--------|-------|
@@ -296,6 +296,6 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 ---
 
 <div align="center">
-<sub>Last updated: April 12, 2026 | Auto-updated via GitHub Actions · 🔶 4× Oracle Certified · 🎃 3× Hacktoberfest</sub><br>
-<sub>🕒 Last updated: April 12, 2026 | Open to DevOps & Platform Engineering opportunities</sub>
+<sub>Last updated: April 13, 2026 | Auto-updated via GitHub Actions · 🔶 4× Oracle Certified · 🎃 3× Hacktoberfest</sub><br>
+<sub>🕒 Last updated: April 13, 2026 | Open to DevOps & Platform Engineering opportunities</sub>
 </div>
