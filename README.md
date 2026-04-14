@@ -71,7 +71,7 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
 
 ---
 
-#### 📈 **Contribution Impact** <sub>*(fetched via gh CLI · April 13, 2026)*</sub>
+#### 📈 **Contribution Impact** <sub>*(fetched via gh CLI · April 14, 2026)*</sub>
 <div align="center">
   <table>
     <tr>
@@ -188,7 +188,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 <td width="50%" align="center">
 
 ### 🔵 **LinkedIn Stats**
-<sub><em>as of April 13, 2026</em></sub>
+<sub><em>as of April 14, 2026</em></sub>
 
 | Metric | Value |
 |--------|-------|
@@ -296,6 +296,6 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 ---
 
 <div align="center">
-<sub>Last updated: April 13, 2026 | Auto-updated via GitHub Actions · 🔶 4× Oracle Certified · 🎃 3× Hacktoberfest</sub><br>
-<sub>🕒 Last updated: April 13, 2026 | Open to DevOps & Platform Engineering opportunities</sub>
+<sub>Last updated: April 14, 2026 | Auto-updated via GitHub Actions · 🔶 4× Oracle Certified · 🎃 3× Hacktoberfest</sub><br>
+<sub>🕒 Last updated: April 14, 2026 | Open to DevOps & Platform Engineering opportunities</sub>
 </div>
