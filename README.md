@@ -38,13 +38,33 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
     <th width="15%">Status</th>
   </tr>
   <tr>
+    <td><strong>May 03, 2026</strong></td>
+    <td>
+      <a href="https://github.com/yunus25jmi1/health-monitoring-system">
+        <img src="https://img.shields.io/badge/yunus25jmi1-health--monitoring--system-0366d6?style=flat&logo=github" alt="yunus25jmi1/health-monitoring-system">
+      </a>
+    </td>
+    <td><strong>PR #25:</strong> opened<br><small>Implement Auth Service Tests #1</small></td>
+    <td>🔀</td>
+  </tr>
+  <tr>
+    <td><strong>May 03, 2026</strong></td>
+    <td>
+      <a href="https://github.com/yunus25jmi1/health-monitoring-system">
+        <img src="https://img.shields.io/badge/yunus25jmi1-health--monitoring--system-0366d6?style=flat&logo=github" alt="yunus25jmi1/health-monitoring-system">
+      </a>
+    </td>
+    <td><strong>Created:</strong> New branch<br><small>tests/auth-service-tests-implementation</small></td>
+    <td>🚀</td>
+  </tr>
+  <tr>
     <td><strong>May 02, 2026</strong></td>
     <td>
       <a href="https://github.com/yunus25jmi1/health-monitoring-system">
         <img src="https://img.shields.io/badge/yunus25jmi1-health--monitoring--system-0366d6?style=flat&logo=github" alt="yunus25jmi1/health-monitoring-system">
       </a>
     </td>
-    <td><strong>Issue #8:</strong> labeled<br><small>Bug: Ignored Errors Can Cause Silent Failures</small></td>
+    <td><strong>Issue #23:</strong> closed<br><small>Security: Fix GO-2025-3553 - Excessive memory allocation dur</small></td>
     <td>🐛</td>
   </tr>
   <tr>
@@ -54,105 +74,85 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
         <img src="https://img.shields.io/badge/yunus25jmi1-health--monitoring--system-0366d6?style=flat&logo=github" alt="yunus25jmi1/health-monitoring-system">
       </a>
     </td>
-    <td><strong>Issue #8:</strong> opened<br><small>Bug: Ignored Errors Can Cause Silent Failures</small></td>
-    <td>🐛</td>
-  </tr>
-  <tr>
-    <td><strong>May 02, 2026</strong></td>
-    <td>
-      <a href="https://github.com/yunus25jmi1/health-monitoring-system">
-        <img src="https://img.shields.io/badge/yunus25jmi1-health--monitoring--system-0366d6?style=flat&logo=github" alt="yunus25jmi1/health-monitoring-system">
-      </a>
-    </td>
-    <td><strong>Issue #7:</strong> opened<br><small>Implement PDF Service Tests</small></td>
-    <td>🐛</td>
-  </tr>
-  <tr>
-    <td><strong>May 02, 2026</strong></td>
-    <td>
-      <a href="https://github.com/yunus25jmi1/health-monitoring-system">
-        <img src="https://img.shields.io/badge/yunus25jmi1-health--monitoring--system-0366d6?style=flat&logo=github" alt="yunus25jmi1/health-monitoring-system">
-      </a>
-    </td>
-    <td><strong>Issue #6:</strong> opened<br><small>Implement Reading Handler Tests</small></td>
-    <td>🐛</td>
-  </tr>
-  <tr>
-    <td><strong>May 02, 2026</strong></td>
-    <td>
-      <a href="https://github.com/yunus25jmi1/health-monitoring-system">
-        <img src="https://img.shields.io/badge/yunus25jmi1-health--monitoring--system-0366d6?style=flat&logo=github" alt="yunus25jmi1/health-monitoring-system">
-      </a>
-    </td>
-    <td><strong>Issue #5:</strong> opened<br><small>Security Audit Plan - Comprehensive Testing and Resilience I</small></td>
-    <td>🐛</td>
-  </tr>
-  <tr>
-    <td><strong>May 02, 2026</strong></td>
-    <td>
-      <a href="https://github.com/yunus25jmi1/health-monitoring-system">
-        <img src="https://img.shields.io/badge/yunus25jmi1-health--monitoring--system-0366d6?style=flat&logo=github" alt="yunus25jmi1/health-monitoring-system">
-      </a>
-    </td>
-    <td><strong>Issue #4:</strong> opened<br><small>Implement Async Job Service Tests</small></td>
-    <td>🐛</td>
-  </tr>
-  <tr>
-    <td><strong>May 02, 2026</strong></td>
-    <td>
-      <a href="https://github.com/yunus25jmi1/health-monitoring-system">
-        <img src="https://img.shields.io/badge/yunus25jmi1-health--monitoring--system-0366d6?style=flat&logo=github" alt="yunus25jmi1/health-monitoring-system">
-      </a>
-    </td>
-    <td><strong>Issue #3:</strong> opened<br><small>Implement Retry Utility Tests</small></td>
-    <td>🐛</td>
-  </tr>
-  <tr>
-    <td><strong>May 02, 2026</strong></td>
-    <td>
-      <a href="https://github.com/yunus25jmi1/health-monitoring-system">
-        <img src="https://img.shields.io/badge/yunus25jmi1-health--monitoring--system-0366d6?style=flat&logo=github" alt="yunus25jmi1/health-monitoring-system">
-      </a>
-    </td>
-    <td><strong>Issue #2:</strong> opened<br><small>Implement Auth Handler Tests</small></td>
-    <td>🐛</td>
-  </tr>
-  <tr>
-    <td><strong>May 02, 2026</strong></td>
-    <td>
-      <a href="https://github.com/yunus25jmi1/health-monitoring-system">
-        <img src="https://img.shields.io/badge/yunus25jmi1-health--monitoring--system-0366d6?style=flat&logo=github" alt="yunus25jmi1/health-monitoring-system">
-      </a>
-    </td>
-    <td><strong>Issue #1:</strong> opened<br><small>Implement Auth Service Tests</small></td>
-    <td>🐛</td>
-  </tr>
-  <tr>
-    <td><strong>Apr 27, 2026</strong></td>
-    <td>
-      <a href="https://github.com/yunus25jmi1/health-monitoring-system">
-        <img src="https://img.shields.io/badge/yunus25jmi1-health--monitoring--system-0366d6?style=flat&logo=github" alt="yunus25jmi1/health-monitoring-system">
-      </a>
-    </td>
-    <td><strong>Push:</strong> 21 commit(s)<br><small>fix: allow doctors to view any patient for demo purposes</small></td>
+    <td><strong>Push:</strong> 3 commit(s)<br><small>Merge pull request #24 from yunus25jmi1/security/fix-jwt-vulnerability-GO-2025-3</small></td>
     <td>✅</td>
+  </tr>
+  <tr>
+    <td><strong>May 02, 2026</strong></td>
+    <td>
+      <a href="https://github.com/yunus25jmi1/health-monitoring-system">
+        <img src="https://img.shields.io/badge/yunus25jmi1-health--monitoring--system-0366d6?style=flat&logo=github" alt="yunus25jmi1/health-monitoring-system">
+      </a>
+    </td>
+    <td><strong>PR #24:</strong> merged<br><small>Security: Fix GO-2025-3553 - Update jwt/v5 to v5.2.2</small></td>
+    <td>🔀</td>
+  </tr>
+  <tr>
+    <td><strong>May 02, 2026</strong></td>
+    <td>
+      <a href="https://github.com/yunus25jmi1/health-monitoring-system">
+        <img src="https://img.shields.io/badge/yunus25jmi1-health--monitoring--system-0366d6?style=flat&logo=github" alt="yunus25jmi1/health-monitoring-system">
+      </a>
+    </td>
+    <td><strong>PR #24:</strong> opened<br><small>Security: Fix GO-2025-3553 - Update jwt/v5 to v5.2.2</small></td>
+    <td>🔀</td>
+  </tr>
+  <tr>
+    <td><strong>May 02, 2026</strong></td>
+    <td>
+      <a href="https://github.com/yunus25jmi1/health-monitoring-system">
+        <img src="https://img.shields.io/badge/yunus25jmi1-health--monitoring--system-0366d6?style=flat&logo=github" alt="yunus25jmi1/health-monitoring-system">
+      </a>
+    </td>
+    <td><strong>Created:</strong> New branch<br><small>security/fix-jwt-vulnerability-GO-2025-3553</small></td>
+    <td>🚀</td>
+  </tr>
+  <tr>
+    <td><strong>May 02, 2026</strong></td>
+    <td>
+      <a href="https://github.com/yunus25jmi1/health-monitoring-system">
+        <img src="https://img.shields.io/badge/yunus25jmi1-health--monitoring--system-0366d6?style=flat&logo=github" alt="yunus25jmi1/health-monitoring-system">
+      </a>
+    </td>
+    <td><strong>Issue #23:</strong> labeled<br><small>Security: Fix GO-2025-3553 - Excessive memory allocation dur</small></td>
+    <td>🐛</td>
+  </tr>
+  <tr>
+    <td><strong>May 02, 2026</strong></td>
+    <td>
+      <a href="https://github.com/yunus25jmi1/health-monitoring-system">
+        <img src="https://img.shields.io/badge/yunus25jmi1-health--monitoring--system-0366d6?style=flat&logo=github" alt="yunus25jmi1/health-monitoring-system">
+      </a>
+    </td>
+    <td><strong>Issue #23:</strong> opened<br><small>Security: Fix GO-2025-3553 - Excessive memory allocation dur</small></td>
+    <td>🐛</td>
+  </tr>
+  <tr>
+    <td><strong>May 02, 2026</strong></td>
+    <td>
+      <a href="https://github.com/yunus25jmi1/health-monitoring-system">
+        <img src="https://img.shields.io/badge/yunus25jmi1-health--monitoring--system-0366d6?style=flat&logo=github" alt="yunus25jmi1/health-monitoring-system">
+      </a>
+    </td>
+    <td><strong>Issue #22:</strong> opened<br><small>Security: Fix GO-2025-3595 - Incorrect Neutralization of Inp</small></td>
+    <td>🐛</td>
   </tr>
 </table>
 
 ---
 
-#### 📈 **Contribution Impact** <sub>*(fetched via gh CLI · May 02, 2026)*</sub>
+#### 📈 **Contribution Impact** <sub>*(fetched via gh CLI · May 03, 2026)*</sub>
 <div align="center">
   <table>
     <tr>
-      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%A5-Commits_(2026)-FF4500?style=for-the-badge"><br><strong>83</strong><br><small>This year</small></td>
-      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%80-Pull_Requests-8A2BE2?style=for-the-badge"><br><strong>33</strong><br><small>Total PRs</small></td>
+      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%A5-Commits_(2026)-FF4500?style=for-the-badge"><br><strong>85</strong><br><small>This year</small></td>
+      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%80-Pull_Requests-8A2BE2?style=for-the-badge"><br><strong>35</strong><br><small>Total PRs</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%93%9D-Public_Repos-32CD32?style=for-the-badge"><br><strong>232</strong><br><small>Public</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%93%9A-Gists-FFD700?style=for-the-badge"><br><strong>39</strong><br><small>Public Gists</small></td>
-      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%8E%AF-Issues-1E90FF?style=for-the-badge"><br><strong>9</strong><br><small>This year</small></td>
+      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%8E%AF-Issues-1E90FF?style=for-the-badge"><br><strong>24</strong><br><small>This year</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%8D-PR_Reviews-FF69B4?style=for-the-badge"><br><strong>1</strong><br><small>Reviews</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%E2%AD%90-Stars-FFD700?style=for-the-badge"><br><strong>0</strong><br><small>Stars earned</small></td>
-      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%91%A5-Network-00D4AA?style=for-the-badge"><br><strong>93 / 12</strong><br><small>Following / Followers</small></td>
+      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%91%A5-Network-00D4AA?style=for-the-badge"><br><strong>94 / 12</strong><br><small>Following / Followers</small></td>
     </tr>
   </table>
 </div>
@@ -215,7 +215,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 <div align="center">
 <img src="https://img.shields.io/badge/Total_Repositories-232-00D4AA?style=flat-square">
 <img src="https://img.shields.io/badge/Public_Gists-39-FFD93D?style=flat-square">
-<img src="https://img.shields.io/badge/Network-93_Following_%E2%80%A2_12_Followers-4ECDC4?style=flat-square">
+<img src="https://img.shields.io/badge/Network-94_Following_%E2%80%A2_12_Followers-4ECDC4?style=flat-square">
 </div>
 
 <br>
@@ -237,7 +237,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 ```diff
 + 232+ Total Public Repositories
 + 57 Total Skills on LinkedIn
-+ 93 Following • 12 Followers
++ 94 Following • 12 Followers
 + 99.9% Infrastructure uptime achieved
 + 39 Public Gists created
 + Active since October 2022
@@ -258,7 +258,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 <td width="50%" align="center">
 
 ### 🔵 **LinkedIn Stats**
-<sub><em>as of May 02, 2026</em></sub>
+<sub><em>as of May 03, 2026</em></sub>
 
 | Metric | Value |
 |--------|-------|
@@ -278,10 +278,10 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 | 🗂️ Public Repositories | **232** |
 | 📓 Public Gists | **39** |
 | 👥 Followers | **12** |
-| 🐣 Following | **93** |
-| ✨ Commits (2026) | **83** |
-| 🔀 Pull Requests | **33** |
-| 💡 Issues Opened | **9** |
+| 🐣 Following | **94** |
+| ✨ Commits (2026) | **85** |
+| 🔀 Pull Requests | **35** |
+| 💡 Issues Opened | **24** |
 | 🔍 PR Reviews | **1** |
 | ⭐ Total Stars | **0** |
 | 🍴 Total Forks | **3** |
@@ -366,6 +366,6 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 ---
 
 <div align="center">
-<sub>Last updated: May 02, 2026 | Auto-updated via GitHub Actions · 🔶 4× Oracle Certified · 🎃 3× Hacktoberfest</sub><br>
-<sub>🕒 Last updated: May 02, 2026 | Open to DevOps & Platform Engineering opportunities</sub>
+<sub>Last updated: May 03, 2026 | Auto-updated via GitHub Actions · 🔶 4× Oracle Certified · 🎃 3× Hacktoberfest</sub><br>
+<sub>🕒 Last updated: May 03, 2026 | Open to DevOps & Platform Engineering opportunities</sub>
 </div>
