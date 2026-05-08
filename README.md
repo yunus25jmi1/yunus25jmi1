@@ -38,6 +38,46 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
     <th width="15%">Status</th>
   </tr>
   <tr>
+    <td><strong>May 08, 2026</strong></td>
+    <td>
+      <a href="https://github.com/docker/docker-agent">
+        <img src="https://img.shields.io/badge/docker-docker--agent-0366d6?style=flat&logo=github" alt="docker/docker-agent">
+      </a>
+    </td>
+    <td><strong>PR #2710:</strong> opened<br><small>fix: centralize environment variable expansion at config bou</small></td>
+    <td>🔀</td>
+  </tr>
+  <tr>
+    <td><strong>May 08, 2026</strong></td>
+    <td>
+      <a href="https://github.com/yunus25jmi1/docker-agent">
+        <img src="https://img.shields.io/badge/yunus25jmi1-docker--agent-0366d6?style=flat&logo=github" alt="yunus25jmi1/docker-agent">
+      </a>
+    </td>
+    <td><strong>Push:</strong> 1 commit(s)<br><small>Updated repository</small></td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td><strong>May 08, 2026</strong></td>
+    <td>
+      <a href="https://github.com/yunus25jmi1/docker-agent">
+        <img src="https://img.shields.io/badge/yunus25jmi1-docker--agent-0366d6?style=flat&logo=github" alt="yunus25jmi1/docker-agent">
+      </a>
+    </td>
+    <td><strong>Created:</strong> New branch<br><small>bug/fix-incompatible-env-expansion</small></td>
+    <td>🚀</td>
+  </tr>
+  <tr>
+    <td><strong>May 08, 2026</strong></td>
+    <td>
+      <a href="https://github.com/yunus25jmi1/vinext">
+        <img src="https://img.shields.io/badge/yunus25jmi1-vinext-0366d6?style=flat&logo=github" alt="yunus25jmi1/vinext">
+      </a>
+    </td>
+    <td><strong>Push:</strong> 1 commit(s)<br><small>Updated repository</small></td>
+    <td>✅</td>
+  </tr>
+  <tr>
     <td><strong>May 05, 2026</strong></td>
     <td>
       <a href="https://github.com/yunus25jmi1/obsidian-git-sync">
@@ -97,62 +137,22 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
     <td><strong>Issue #23:</strong> closed<br><small>Security: Fix GO-2025-3553 - Excessive memory allocation dur</small></td>
     <td>🐛</td>
   </tr>
-  <tr>
-    <td><strong>May 02, 2026</strong></td>
-    <td>
-      <a href="https://github.com/yunus25jmi1/health-monitoring-system">
-        <img src="https://img.shields.io/badge/yunus25jmi1-health--monitoring--system-0366d6?style=flat&logo=github" alt="yunus25jmi1/health-monitoring-system">
-      </a>
-    </td>
-    <td><strong>Push:</strong> 2 commit(s)<br><small>Merge pull request #24 from yunus25jmi1/security/fix-jwt-vulnerability-GO-2025-3</small></td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td><strong>May 02, 2026</strong></td>
-    <td>
-      <a href="https://github.com/yunus25jmi1/health-monitoring-system">
-        <img src="https://img.shields.io/badge/yunus25jmi1-health--monitoring--system-0366d6?style=flat&logo=github" alt="yunus25jmi1/health-monitoring-system">
-      </a>
-    </td>
-    <td><strong>PR #24:</strong> merged<br><small>Security: Fix GO-2025-3553 - Update jwt/v5 to v5.2.2</small></td>
-    <td>🔀</td>
-  </tr>
-  <tr>
-    <td><strong>May 02, 2026</strong></td>
-    <td>
-      <a href="https://github.com/yunus25jmi1/health-monitoring-system">
-        <img src="https://img.shields.io/badge/yunus25jmi1-health--monitoring--system-0366d6?style=flat&logo=github" alt="yunus25jmi1/health-monitoring-system">
-      </a>
-    </td>
-    <td><strong>PR #24:</strong> opened<br><small>Security: Fix GO-2025-3553 - Update jwt/v5 to v5.2.2</small></td>
-    <td>🔀</td>
-  </tr>
-  <tr>
-    <td><strong>May 02, 2026</strong></td>
-    <td>
-      <a href="https://github.com/yunus25jmi1/health-monitoring-system">
-        <img src="https://img.shields.io/badge/yunus25jmi1-health--monitoring--system-0366d6?style=flat&logo=github" alt="yunus25jmi1/health-monitoring-system">
-      </a>
-    </td>
-    <td><strong>Created:</strong> New branch<br><small>security/fix-jwt-vulnerability-GO-2025-3553</small></td>
-    <td>🚀</td>
-  </tr>
 </table>
 
 ---
 
-#### 📈 **Contribution Impact** <sub>*(fetched via gh CLI · May 07, 2026)*</sub>
+#### 📈 **Contribution Impact** <sub>*(fetched via gh CLI · May 08, 2026)*</sub>
 <div align="center">
   <table>
     <tr>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%A5-Commits_(2026)-FF4500?style=for-the-badge"><br><strong>85</strong><br><small>This year</small></td>
-      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%80-Pull_Requests-8A2BE2?style=for-the-badge"><br><strong>36</strong><br><small>Total PRs</small></td>
+      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%80-Pull_Requests-8A2BE2?style=for-the-badge"><br><strong>37</strong><br><small>Total PRs</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%93%9D-Public_Repos-32CD32?style=for-the-badge"><br><strong>232</strong><br><small>Public</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%93%9A-Gists-FFD700?style=for-the-badge"><br><strong>39</strong><br><small>Public Gists</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%8E%AF-Issues-1E90FF?style=for-the-badge"><br><strong>24</strong><br><small>This year</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%8D-PR_Reviews-FF69B4?style=for-the-badge"><br><strong>1</strong><br><small>Reviews</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%E2%AD%90-Stars-FFD700?style=for-the-badge"><br><strong>0</strong><br><small>Stars earned</small></td>
-      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%91%A5-Network-00D4AA?style=for-the-badge"><br><strong>94 / 14</strong><br><small>Following / Followers</small></td>
+      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%91%A5-Network-00D4AA?style=for-the-badge"><br><strong>95 / 14</strong><br><small>Following / Followers</small></td>
     </tr>
   </table>
 </div>
@@ -215,7 +215,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 <div align="center">
 <img src="https://img.shields.io/badge/Total_Repositories-232-00D4AA?style=flat-square">
 <img src="https://img.shields.io/badge/Public_Gists-39-FFD93D?style=flat-square">
-<img src="https://img.shields.io/badge/Network-94_Following_%E2%80%A2_14_Followers-4ECDC4?style=flat-square">
+<img src="https://img.shields.io/badge/Network-95_Following_%E2%80%A2_14_Followers-4ECDC4?style=flat-square">
 </div>
 
 <br>
@@ -237,7 +237,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 ```diff
 + 232+ Total Public Repositories
 + 57 Total Skills on LinkedIn
-+ 94 Following • 14 Followers
++ 95 Following • 14 Followers
 + 99.9% Infrastructure uptime achieved
 + 39 Public Gists created
 + Active since October 2022
@@ -258,7 +258,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 <td width="50%" align="center">
 
 ### 🔵 **LinkedIn Stats**
-<sub><em>as of May 07, 2026</em></sub>
+<sub><em>as of May 08, 2026</em></sub>
 
 | Metric | Value |
 |--------|-------|
@@ -278,9 +278,9 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 | 🗂️ Public Repositories | **232** |
 | 📓 Public Gists | **39** |
 | 👥 Followers | **14** |
-| 🐣 Following | **94** |
+| 🐣 Following | **95** |
 | ✨ Commits (2026) | **85** |
-| 🔀 Pull Requests | **36** |
+| 🔀 Pull Requests | **37** |
 | 💡 Issues Opened | **24** |
 | 🔍 PR Reviews | **1** |
 | ⭐ Total Stars | **0** |
@@ -366,6 +366,6 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 ---
 
 <div align="center">
-<sub>Last updated: May 07, 2026 | Auto-updated via GitHub Actions · 🔶 4× Oracle Certified · 🎃 3× Hacktoberfest</sub><br>
-<sub>🕒 Last updated: May 07, 2026 | Open to DevOps & Platform Engineering opportunities</sub>
+<sub>Last updated: May 08, 2026 | Auto-updated via GitHub Actions · 🔶 4× Oracle Certified · 🎃 3× Hacktoberfest</sub><br>
+<sub>🕒 Last updated: May 08, 2026 | Open to DevOps & Platform Engineering opportunities</sub>
 </div>
