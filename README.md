@@ -38,36 +38,6 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
     <th width="15%">Status</th>
   </tr>
   <tr>
-    <td><strong>May 10, 2026</strong></td>
-    <td>
-      <a href="https://github.com/cloudflare/vinext">
-        <img src="https://img.shields.io/badge/cloudflare-vinext-0366d6?style=flat&logo=github" alt="cloudflare/vinext">
-      </a>
-    </td>
-    <td><strong>PR #698:</strong> closed<br><small>fix: server action redirects use soft RSC navigation instead</small></td>
-    <td>🔀</td>
-  </tr>
-  <tr>
-    <td><strong>May 10, 2026</strong></td>
-    <td>
-      <a href="https://github.com/cloudflare/vinext">
-        <img src="https://img.shields.io/badge/cloudflare-vinext-0366d6?style=flat&logo=github" alt="cloudflare/vinext">
-      </a>
-    </td>
-    <td><strong>PR #548:</strong> reopened<br><small>fix(vite-8): remove deprecated Rollup config options for Vit</small></td>
-    <td>🔀</td>
-  </tr>
-  <tr>
-    <td><strong>May 10, 2026</strong></td>
-    <td>
-      <a href="https://github.com/cloudflare/vinext">
-        <img src="https://img.shields.io/badge/cloudflare-vinext-0366d6?style=flat&logo=github" alt="cloudflare/vinext">
-      </a>
-    </td>
-    <td><strong>PR #548:</strong> closed<br><small>fix(vite-8): remove deprecated Rollup config options for Vit</small></td>
-    <td>🔀</td>
-  </tr>
-  <tr>
     <td><strong>May 12, 2026</strong></td>
     <td>
       <a href="https://github.com/yunus25jmi1/docker-agent">
@@ -77,31 +47,11 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
     <td><strong>Push:</strong> 1 commit(s)<br><small>Updated repository</small></td>
     <td>✅</td>
   </tr>
-  <tr>
-    <td><strong>May 10, 2026</strong></td>
-    <td>
-      <a href="https://github.com/yunus25jmi1/vinext">
-        <img src="https://img.shields.io/badge/yunus25jmi1-vinext-0366d6?style=flat&logo=github" alt="yunus25jmi1/vinext">
-      </a>
-    </td>
-    <td><strong>Push:</strong> 1 commit(s)<br><small>Updated repository</small></td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td><strong>May 10, 2026</strong></td>
-    <td>
-      <a href="https://github.com/yunus25jmi1/vinext">
-        <img src="https://img.shields.io/badge/yunus25jmi1-vinext-0366d6?style=flat&logo=github" alt="yunus25jmi1/vinext">
-      </a>
-    </td>
-    <td><strong>Created:</strong> New branch<br><small>fix/issue-654-action-redirect-soft-nav-clean</small></td>
-    <td>🚀</td>
-  </tr>
 </table>
 
 ---
 
-#### 📈 **Contribution Impact** <sub>*(fetched via gh CLI · May 17, 2026)*</sub>
+#### 📈 **Contribution Impact** <sub>*(fetched via gh CLI · May 18, 2026)*</sub>
 <div align="center">
   <table>
     <tr>
@@ -218,7 +168,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 <td width="50%" align="center">
 
 ### 🔵 **LinkedIn Stats**
-<sub><em>as of May 17, 2026</em></sub>
+<sub><em>as of May 18, 2026</em></sub>
 
 | Metric | Value |
 |--------|-------|
@@ -326,6 +276,6 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 ---
 
 <div align="center">
-<sub>Last updated: May 17, 2026 | Auto-updated via GitHub Actions · 🔶 4× Oracle Certified · 🎃 3× Hacktoberfest</sub><br>
-<sub>🕒 Last updated: May 17, 2026 | Open to DevOps & Platform Engineering opportunities</sub>
+<sub>Last updated: May 18, 2026 | Auto-updated via GitHub Actions · 🔶 4× Oracle Certified · 🎃 3× Hacktoberfest</sub><br>
+<sub>🕒 Last updated: May 18, 2026 | Open to DevOps & Platform Engineering opportunities</sub>
 </div>
