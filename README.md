@@ -40,6 +40,16 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
   <tr>
     <td><strong>May 22, 2026</strong></td>
     <td>
+      <a href="https://github.com/withcoral/coral">
+        <img src="https://img.shields.io/badge/withcoral-coral-0366d6?style=flat&logo=github" alt="withcoral/coral">
+      </a>
+    </td>
+    <td><strong>PR #684:</strong> opened<br><small>feat(sources): add Discord community source spec</small></td>
+    <td>🔀</td>
+  </tr>
+  <tr>
+    <td><strong>May 22, 2026</strong></td>
+    <td>
       <a href="https://github.com/cloudflare/vinext">
         <img src="https://img.shields.io/badge/cloudflare-vinext-0366d6?style=flat&logo=github" alt="cloudflare/vinext">
       </a>
@@ -90,6 +100,26 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
   <tr>
     <td><strong>May 22, 2026</strong></td>
     <td>
+      <a href="https://github.com/yunus25jmi1/coral">
+        <img src="https://img.shields.io/badge/yunus25jmi1-coral-0366d6?style=flat&logo=github" alt="yunus25jmi1/coral">
+      </a>
+    </td>
+    <td><strong>Push:</strong> 1 commit(s)<br><small>Updated repository</small></td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td><strong>May 22, 2026</strong></td>
+    <td>
+      <a href="https://github.com/yunus25jmi1/coral">
+        <img src="https://img.shields.io/badge/yunus25jmi1-coral-0366d6?style=flat&logo=github" alt="yunus25jmi1/coral">
+      </a>
+    </td>
+    <td><strong>Created:</strong> New branch<br><small>feat/discord-source-spec</small></td>
+    <td>🚀</td>
+  </tr>
+  <tr>
+    <td><strong>May 22, 2026</strong></td>
+    <td>
       <a href="https://github.com/yunus25jmi1/vinext">
         <img src="https://img.shields.io/badge/yunus25jmi1-vinext-0366d6?style=flat&logo=github" alt="yunus25jmi1/vinext">
       </a>
@@ -116,8 +146,8 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
   <table>
     <tr>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%A5-Commits_(2026)-FF4500?style=for-the-badge"><br><strong>78</strong><br><small>This year</small></td>
-      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%80-Pull_Requests-8A2BE2?style=for-the-badge"><br><strong>41</strong><br><small>Total PRs</small></td>
-      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%93%9D-Public_Repos-32CD32?style=for-the-badge"><br><strong>131</strong><br><small>Public</small></td>
+      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%80-Pull_Requests-8A2BE2?style=for-the-badge"><br><strong>42</strong><br><small>Total PRs</small></td>
+      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%93%9D-Public_Repos-32CD32?style=for-the-badge"><br><strong>132</strong><br><small>Public</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%93%9A-Gists-FFD700?style=for-the-badge"><br><strong>39</strong><br><small>Public Gists</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%8E%AF-Issues-1E90FF?style=for-the-badge"><br><strong>24</strong><br><small>This year</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%8D-PR_Reviews-FF69B4?style=for-the-badge"><br><strong>1</strong><br><small>Reviews</small></td>
@@ -183,7 +213,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 <br>
 
 <div align="center">
-<img src="https://img.shields.io/badge/Total_Repositories-131-00D4AA?style=flat-square">
+<img src="https://img.shields.io/badge/Total_Repositories-132-00D4AA?style=flat-square">
 <img src="https://img.shields.io/badge/Public_Gists-39-FFD93D?style=flat-square">
 <img src="https://img.shields.io/badge/Network-95_Following_%E2%80%A2_13_Followers-4ECDC4?style=flat-square">
 </div>
@@ -192,7 +222,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 
 **Achievement Highlights**
 
-- 🔥 **GitHub Journey**: Started October 2022, now 131+ repositories across DevOps, AI/ML, Security, and Platform Engineering
+- 🔥 **GitHub Journey**: Started October 2022, now 132+ repositories across DevOps, AI/ML, Security, and Platform Engineering
 - 📅 **Consistent Growth**: 2,328 LinkedIn followers, 500+ connections, 1,967 profile views
 - **Cloudflare Vinext**: Fixed Pages Router context provider issues (PR #249, PR #151 merged)
 - **Hacktoberfest 2025**: 10 PRs submitted across multiple projects, 7 accepted — Earned T-Shirt
@@ -205,7 +235,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 **Long-term Statistics**
 
 ```diff
-+ 131+ Total Public Repositories
++ 132+ Total Public Repositories
 + 57 Total Skills on LinkedIn
 + 95 Following • 13 Followers
 + 99.9% Infrastructure uptime achieved
@@ -245,12 +275,12 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 
 | Metric | Value |
 |--------|-------|
-| 🗂️ Public Repositories | **131** |
+| 🗂️ Public Repositories | **132** |
 | 📓 Public Gists | **39** |
 | 👥 Followers | **13** |
 | 🐣 Following | **95** |
 | ✨ Commits (2026) | **78** |
-| 🔀 Pull Requests | **41** |
+| 🔀 Pull Requests | **42** |
 | 💡 Issues Opened | **24** |
 | 🔍 PR Reviews | **1** |
 | ⭐ Total Stars | **1** |
