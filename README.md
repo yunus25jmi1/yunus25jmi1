@@ -48,54 +48,44 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
     <td>🔀</td>
   </tr>
   <tr>
-    <td><strong>May 22, 2026</strong></td>
+    <td><strong>May 29, 2026</strong></td>
     <td>
-      <a href="https://github.com/cloudflare/vinext">
-        <img src="https://img.shields.io/badge/cloudflare-vinext-0366d6?style=flat&logo=github" alt="cloudflare/vinext">
+      <a href="https://github.com/yunus25jmi1/ayush">
+        <img src="https://img.shields.io/badge/yunus25jmi1-ayush-0366d6?style=flat&logo=github" alt="yunus25jmi1/ayush">
       </a>
     </td>
-    <td><strong>PR #1420:</strong> opened<br><small>feat(app-router): implement RSC segment cache prefetch proto</small></td>
-    <td>🔀</td>
+    <td><strong>Push:</strong> 2 commit(s)<br><small>Rename ayush_kumar.html to index.html</small></td>
+    <td>✅</td>
   </tr>
   <tr>
-    <td><strong>May 22, 2026</strong></td>
+    <td><strong>May 29, 2026</strong></td>
     <td>
-      <a href="https://github.com/cloudflare/vinext">
-        <img src="https://img.shields.io/badge/cloudflare-vinext-0366d6?style=flat&logo=github" alt="cloudflare/vinext">
+      <a href="https://github.com/yunus25jmi1/ayush">
+        <img src="https://img.shields.io/badge/yunus25jmi1-ayush-0366d6?style=flat&logo=github" alt="yunus25jmi1/ayush">
       </a>
     </td>
-    <td><strong>PR #1419:</strong> reopened<br><small>feat(app-router): implement RSC segment cache prefetch proto</small></td>
-    <td>🔀</td>
+    <td><strong>Created:</strong> New branch<br><small>main</small></td>
+    <td>🚀</td>
   </tr>
   <tr>
-    <td><strong>May 22, 2026</strong></td>
+    <td><strong>May 29, 2026</strong></td>
     <td>
-      <a href="https://github.com/cloudflare/vinext">
-        <img src="https://img.shields.io/badge/cloudflare-vinext-0366d6?style=flat&logo=github" alt="cloudflare/vinext">
+      <a href="https://github.com/yunus25jmi1/saif">
+        <img src="https://img.shields.io/badge/yunus25jmi1-saif-0366d6?style=flat&logo=github" alt="yunus25jmi1/saif">
       </a>
     </td>
-    <td><strong>PR #1419:</strong> closed<br><small>feat(app-router): implement RSC segment cache prefetch proto</small></td>
-    <td>🔀</td>
+    <td><strong>Push:</strong> 4 commit(s)<br><small>Add files via upload</small></td>
+    <td>✅</td>
   </tr>
   <tr>
-    <td><strong>May 22, 2026</strong></td>
+    <td><strong>May 29, 2026</strong></td>
     <td>
-      <a href="https://github.com/cloudflare/vinext">
-        <img src="https://img.shields.io/badge/cloudflare-vinext-0366d6?style=flat&logo=github" alt="cloudflare/vinext">
+      <a href="https://github.com/yunus25jmi1/saif">
+        <img src="https://img.shields.io/badge/yunus25jmi1-saif-0366d6?style=flat&logo=github" alt="yunus25jmi1/saif">
       </a>
     </td>
-    <td><strong>PR #1419:</strong> opened<br><small>feat(app-router): implement RSC segment cache prefetch proto</small></td>
-    <td>🔀</td>
-  </tr>
-  <tr>
-    <td><strong>May 22, 2026</strong></td>
-    <td>
-      <a href="https://github.com/cloudflare/vinext">
-        <img src="https://img.shields.io/badge/cloudflare-vinext-0366d6?style=flat&logo=github" alt="cloudflare/vinext">
-      </a>
-    </td>
-    <td><strong>PR #1419:</strong> closed<br><small>feat(app-router): implement RSC segment cache prefetch proto</small></td>
-    <td>🔀</td>
+    <td><strong>Created:</strong> New branch<br><small>main</small></td>
+    <td>🚀</td>
   </tr>
   <tr>
     <td><strong>May 28, 2026</strong></td>
@@ -104,7 +94,7 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
         <img src="https://img.shields.io/badge/yunus25jmi1-Incident--Root--Cause--Investigator--Pro-0366d6?style=flat&logo=github" alt="yunus25jmi1/Incident-Root-Cause-Investigator-Pro">
       </a>
     </td>
-    <td><strong>Push:</strong> 8 commit(s)<br><small>feat: add performance & security hardening - rate limiter, error sanitizer, cata</small></td>
+    <td><strong>Push:</strong> 10 commit(s)<br><small>feat: landing page with hero, how-it-works, sources showcase, architecture</small></td>
     <td>✅</td>
   </tr>
   <tr>
@@ -127,28 +117,18 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
     <td><strong>Push:</strong> 1 commit(s)<br><small>Updated repository</small></td>
     <td>✅</td>
   </tr>
-  <tr>
-    <td><strong>May 22, 2026</strong></td>
-    <td>
-      <a href="https://github.com/yunus25jmi1/coral">
-        <img src="https://img.shields.io/badge/yunus25jmi1-coral-0366d6?style=flat&logo=github" alt="yunus25jmi1/coral">
-      </a>
-    </td>
-    <td><strong>Created:</strong> New branch<br><small>feat/discord-source-spec</small></td>
-    <td>🚀</td>
-  </tr>
 </table>
 
 ---
 
-#### 📈 **Contribution Impact** <sub>*(fetched via gh CLI · May 28, 2026)*</sub>
+#### 📈 **Contribution Impact** <sub>*(fetched via gh CLI · May 29, 2026)*</sub>
 <div align="center">
   <table>
     <tr>
-      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%A5-Commits_(2026)-FF4500?style=for-the-badge"><br><strong>86</strong><br><small>This year</small></td>
+      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%A5-Commits_(2026)-FF4500?style=for-the-badge"><br><strong>94</strong><br><small>This year</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%80-Pull_Requests-8A2BE2?style=for-the-badge"><br><strong>42</strong><br><small>Total PRs</small></td>
-      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%93%9D-Public_Repos-32CD32?style=for-the-badge"><br><strong>133</strong><br><small>Public</small></td>
-      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%93%9A-Gists-FFD700?style=for-the-badge"><br><strong>39</strong><br><small>Public Gists</small></td>
+      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%93%9D-Public_Repos-32CD32?style=for-the-badge"><br><strong>135</strong><br><small>Public</small></td>
+      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%93%9A-Gists-FFD700?style=for-the-badge"><br><strong>40</strong><br><small>Public Gists</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%8E%AF-Issues-1E90FF?style=for-the-badge"><br><strong>24</strong><br><small>This year</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%8D-PR_Reviews-FF69B4?style=for-the-badge"><br><strong>1</strong><br><small>Reviews</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%E2%AD%90-Stars-FFD700?style=for-the-badge"><br><strong>1</strong><br><small>Stars earned</small></td>
@@ -213,8 +193,8 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 <br>
 
 <div align="center">
-<img src="https://img.shields.io/badge/Total_Repositories-133-00D4AA?style=flat-square">
-<img src="https://img.shields.io/badge/Public_Gists-39-FFD93D?style=flat-square">
+<img src="https://img.shields.io/badge/Total_Repositories-135-00D4AA?style=flat-square">
+<img src="https://img.shields.io/badge/Public_Gists-40-FFD93D?style=flat-square">
 <img src="https://img.shields.io/badge/Network-96_Following_%E2%80%A2_13_Followers-4ECDC4?style=flat-square">
 </div>
 
@@ -222,7 +202,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 
 **Achievement Highlights**
 
-- 🔥 **GitHub Journey**: Started October 2022, now 133+ repositories across DevOps, AI/ML, Security, and Platform Engineering
+- 🔥 **GitHub Journey**: Started October 2022, now 135+ repositories across DevOps, AI/ML, Security, and Platform Engineering
 - 📅 **Consistent Growth**: 2,328 LinkedIn followers, 500+ connections, 1,967 profile views
 - **Cloudflare Vinext**: Fixed Pages Router context provider issues (PR #249, PR #151 merged)
 - **Hacktoberfest 2025**: 10 PRs submitted across multiple projects, 7 accepted — Earned T-Shirt
@@ -235,11 +215,11 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 **Long-term Statistics**
 
 ```diff
-+ 133+ Total Public Repositories
++ 135+ Total Public Repositories
 + 57 Total Skills on LinkedIn
 + 96 Following • 13 Followers
 + 99.9% Infrastructure uptime achieved
-+ 39 Public Gists created
++ 40 Public Gists created
 + Active since October 2022
 + 1 Total Stars across repositories
 + 3 Total Forks
@@ -258,7 +238,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 <td width="50%" align="center">
 
 ### 🔵 **LinkedIn Stats**
-<sub><em>as of May 28, 2026</em></sub>
+<sub><em>as of May 29, 2026</em></sub>
 
 | Metric | Value |
 |--------|-------|
@@ -275,11 +255,11 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 
 | Metric | Value |
 |--------|-------|
-| 🗂️ Public Repositories | **133** |
-| 📓 Public Gists | **39** |
+| 🗂️ Public Repositories | **135** |
+| 📓 Public Gists | **40** |
 | 👥 Followers | **13** |
 | 🐣 Following | **96** |
-| ✨ Commits (2026) | **86** |
+| ✨ Commits (2026) | **94** |
 | 🔀 Pull Requests | **42** |
 | 💡 Issues Opened | **24** |
 | 🔍 PR Reviews | **1** |
@@ -307,6 +287,24 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 <tr>
 <td width="50%" valign="top">
 
+- 🐍 [**Building a Slack-Native AI Incident Investigator with Coral SQL**](https://cloudrelic.medium.com/building-a-slack-native-ai-incident-investigator-with-coral-sql-acfbb1272e2c?source=rss-3abf238f1bcb------2)
+  <br><sub>📅 May 29, 2026 &nbsp;<img src="https://img.shields.io/badge/python-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/coral-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
+
+- 📝 [**Zero-Downtime Migration to Oracle Autonomous Database**](https://cloudrelic.medium.com/zero-downtime-migration-to-oracle-autonomous-database-99c712bb7cc7?source=rss-3abf238f1bcb------2)
+  <br><sub>📅 Mar 28, 2026 &nbsp;</sub>
+
+- 📝 [**How I Fixed Apollo Client SSR in Cloudflare’s vinext by Wiring a Missing Re…**](https://levelup.gitconnected.com/how-i-fixed-apollo-client-ssr-in-cloudflares-vinext-by-wiring-a-missing-react-context-2798bc922c0d?source=rss-3abf238f1bcb------2)
+  <br><sub>📅 Mar 23, 2026 &nbsp;<img src="https://img.shields.io/badge/react-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/cloudflare-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
+
+- 📝 [**How I Fixed ESM Resolution in Cloudflare’s vinext**](https://cloudrelic.medium.com/how-i-fixed-esm-resolution-in-cloudflares-vinext-f2e127ef57b9?source=rss-3abf238f1bcb------2)
+  <br><sub>📅 Mar 16, 2026 &nbsp;<img src="https://img.shields.io/badge/web_development-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/nodejs-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
+
+- ☸️ [**The Cold Start Problem Nobody Talks About (It’s Not Just Serverless)**](https://cloudrelic.medium.com/the-cold-start-problem-nobody-talks-about-its-not-just-serverless-e1cbb61b073b?source=rss-3abf238f1bcb------2)
+  <br><sub>📅 Mar 02, 2026 &nbsp;<img src="https://img.shields.io/badge/kubernetes-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/devops-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
+
+</td>
+<td width="50%" valign="top">
+
 - 🔗 [**Building a Netflix-Style IaC Platform on OCI: Resource Manager Stacks as Pr…**](https://cloudrelic.medium.com/building-a-netflix-style-iac-platform-on-oci-resource-manager-stacks-as-product-apis-92f7a53aa9c9?source=rss-3abf238f1bcb------2)
   <br><sub>📅 Apr 12, 2026 &nbsp;<img src="https://img.shields.io/badge/netflix-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/microservices-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
 
@@ -321,24 +319,6 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 
 - ☸️ [**Beyond NetworkPolicies: Infrastructure-Native Microsegmentation with Oracle…**](https://cloudrelic.medium.com/beyond-networkpolicies-infrastructure-native-microsegmentation-with-oracle-kubernetes-engine-9158b34ef530?source=rss-3abf238f1bcb------2)
   <br><sub>📅 Feb 25, 2026 &nbsp;<img src="https://img.shields.io/badge/kubernetes-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/microservices-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
-
-</td>
-<td width="50%" valign="top">
-
-- 📝 [**Zero-Downtime Migration to Oracle Autonomous Database**](https://cloudrelic.medium.com/zero-downtime-migration-to-oracle-autonomous-database-99c712bb7cc7?source=rss-3abf238f1bcb------2)
-  <br><sub>📅 Mar 28, 2026 &nbsp;</sub>
-
-- 📝 [**How I Fixed Apollo Client SSR in Cloudflare’s vinext by Wiring a Missing Re…**](https://levelup.gitconnected.com/how-i-fixed-apollo-client-ssr-in-cloudflares-vinext-by-wiring-a-missing-react-context-2798bc922c0d?source=rss-3abf238f1bcb------2)
-  <br><sub>📅 Mar 23, 2026 &nbsp;<img src="https://img.shields.io/badge/react-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/cloudflare-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
-
-- 📝 [**How I Fixed ESM Resolution in Cloudflare’s vinext**](https://cloudrelic.medium.com/how-i-fixed-esm-resolution-in-cloudflares-vinext-f2e127ef57b9?source=rss-3abf238f1bcb------2)
-  <br><sub>📅 Mar 16, 2026 &nbsp;<img src="https://img.shields.io/badge/web_development-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/nodejs-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
-
-- ☸️ [**The Cold Start Problem Nobody Talks About (It’s Not Just Serverless)**](https://cloudrelic.medium.com/the-cold-start-problem-nobody-talks-about-its-not-just-serverless-e1cbb61b073b?source=rss-3abf238f1bcb------2)
-  <br><sub>📅 Mar 02, 2026 &nbsp;<img src="https://img.shields.io/badge/kubernetes-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/devops-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
-
-- ☁️ [**Designing a 1 Million RPS Kubernetes Ingress Layer: From TCP Handshake to K…**](https://cloudrelic.medium.com/designing-a-1-million-rps-kubernetes-ingress-layer-from-tcp-handshake-to-kernel-tuning-10d6bbeb6986?source=rss-3abf238f1bcb------2)
-  <br><sub>📅 Feb 23, 2026 &nbsp;<img src="https://img.shields.io/badge/cloud_computing-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"> <img src="https://img.shields.io/badge/kubernetes-555?style=flat-square&logo=medium&logoColor=white&labelColor=00AB6C" height="14"></sub>
 
 </td>
 </tr>
@@ -366,6 +346,6 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 ---
 
 <div align="center">
-<sub>Last updated: May 28, 2026 | Auto-updated via GitHub Actions · 🔶 4× Oracle Certified · 🎃 3× Hacktoberfest</sub><br>
-<sub>🕒 Last updated: May 28, 2026 | Open to DevOps & Platform Engineering opportunities</sub>
+<sub>Last updated: May 29, 2026 | Auto-updated via GitHub Actions · 🔶 4× Oracle Certified · 🎃 3× Hacktoberfest</sub><br>
+<sub>🕒 Last updated: May 29, 2026 | Open to DevOps & Platform Engineering opportunities</sub>
 </div>
