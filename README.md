@@ -48,36 +48,106 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
     <td>🔀</td>
   </tr>
   <tr>
-    <td><strong>May 31, 2026</strong></td>
+    <td><strong>Jun 06, 2026</strong></td>
     <td>
-      <a href="https://github.com/yunus25jmi1/Incident-Root-Cause-Investigator-Pro">
-        <img src="https://img.shields.io/badge/yunus25jmi1-Incident--Root--Cause--Investigator--Pro-0366d6?style=flat&logo=github" alt="yunus25jmi1/Incident-Root-Cause-Investigator-Pro">
+      <a href="https://github.com/yunus25jmi1/PDF-Forge">
+        <img src="https://img.shields.io/badge/yunus25jmi1-PDF--Forge-0366d6?style=flat&logo=github" alt="yunus25jmi1/PDF-Forge">
       </a>
     </td>
-    <td><strong>Push:</strong> 4 commit(s)<br><small>fix: migrate mock sources from jsonl to file backend, fix rate limiter tests</small></td>
-    <td>✅</td>
+    <td><strong>Issue #10:</strong> opened<br><small>[Sub-issue] Add Lighthouse CI</small></td>
+    <td>🐛</td>
   </tr>
   <tr>
-    <td><strong>May 30, 2026</strong></td>
+    <td><strong>Jun 06, 2026</strong></td>
     <td>
-      <a href="https://github.com/yunus25jmi1/coral">
-        <img src="https://img.shields.io/badge/yunus25jmi1-coral-0366d6?style=flat&logo=github" alt="yunus25jmi1/coral">
+      <a href="https://github.com/yunus25jmi1/PDF-Forge">
+        <img src="https://img.shields.io/badge/yunus25jmi1-PDF--Forge-0366d6?style=flat&logo=github" alt="yunus25jmi1/PDF-Forge">
       </a>
     </td>
-    <td><strong>Push:</strong> 1 commit(s)<br><small>Updated repository</small></td>
-    <td>✅</td>
+    <td><strong>Issue #9:</strong> opened<br><small>[Sub-issue] Add CHANGELOG.md</small></td>
+    <td>🐛</td>
+  </tr>
+  <tr>
+    <td><strong>Jun 06, 2026</strong></td>
+    <td>
+      <a href="https://github.com/yunus25jmi1/PDF-Forge">
+        <img src="https://img.shields.io/badge/yunus25jmi1-PDF--Forge-0366d6?style=flat&logo=github" alt="yunus25jmi1/PDF-Forge">
+      </a>
+    </td>
+    <td><strong>Issue #8:</strong> opened<br><small>[Sub-issue] Write production README</small></td>
+    <td>🐛</td>
+  </tr>
+  <tr>
+    <td><strong>Jun 06, 2026</strong></td>
+    <td>
+      <a href="https://github.com/yunus25jmi1/PDF-Forge">
+        <img src="https://img.shields.io/badge/yunus25jmi1-PDF--Forge-0366d6?style=flat&logo=github" alt="yunus25jmi1/PDF-Forge">
+      </a>
+    </td>
+    <td><strong>Issue #7:</strong> opened<br><small>[Sub-issue] Self-host deployment guide</small></td>
+    <td>🐛</td>
+  </tr>
+  <tr>
+    <td><strong>Jun 06, 2026</strong></td>
+    <td>
+      <a href="https://github.com/yunus25jmi1/PDF-Forge">
+        <img src="https://img.shields.io/badge/yunus25jmi1-PDF--Forge-0366d6?style=flat&logo=github" alt="yunus25jmi1/PDF-Forge">
+      </a>
+    </td>
+    <td><strong>Issue #6:</strong> opened<br><small>[Sub-issue] Security audit & dependency review</small></td>
+    <td>🐛</td>
+  </tr>
+  <tr>
+    <td><strong>Jun 06, 2026</strong></td>
+    <td>
+      <a href="https://github.com/yunus25jmi1/PDF-Forge">
+        <img src="https://img.shields.io/badge/yunus25jmi1-PDF--Forge-0366d6?style=flat&logo=github" alt="yunus25jmi1/PDF-Forge">
+      </a>
+    </td>
+    <td><strong>Issue #5:</strong> opened<br><small>[Sub-issue] Fix E2E test pipeline</small></td>
+    <td>🐛</td>
+  </tr>
+  <tr>
+    <td><strong>Jun 06, 2026</strong></td>
+    <td>
+      <a href="https://github.com/yunus25jmi1/PDF-Forge">
+        <img src="https://img.shields.io/badge/yunus25jmi1-PDF--Forge-0366d6?style=flat&logo=github" alt="yunus25jmi1/PDF-Forge">
+      </a>
+    </td>
+    <td><strong>Issue #4:</strong> opened<br><small>[Sub-issue] Fix Safari WASM compatibility</small></td>
+    <td>🐛</td>
+  </tr>
+  <tr>
+    <td><strong>Jun 06, 2026</strong></td>
+    <td>
+      <a href="https://github.com/yunus25jmi1/PDF-Forge">
+        <img src="https://img.shields.io/badge/yunus25jmi1-PDF--Forge-0366d6?style=flat&logo=github" alt="yunus25jmi1/PDF-Forge">
+      </a>
+    </td>
+    <td><strong>Issue #3:</strong> opened<br><small>[Sub-issue] Handle placeholder tools</small></td>
+    <td>🐛</td>
+  </tr>
+  <tr>
+    <td><strong>Jun 06, 2026</strong></td>
+    <td>
+      <a href="https://github.com/yunus25jmi1/PDF-Forge">
+        <img src="https://img.shields.io/badge/yunus25jmi1-PDF--Forge-0366d6?style=flat&logo=github" alt="yunus25jmi1/PDF-Forge">
+      </a>
+    </td>
+    <td><strong>Issue #2:</strong> opened<br><small>[Sub-issue] Add OSS governance files</small></td>
+    <td>🐛</td>
   </tr>
 </table>
 
 ---
 
-#### 📈 **Contribution Impact** <sub>*(fetched via gh CLI · June 05, 2026)*</sub>
+#### 📈 **Contribution Impact** <sub>*(fetched via gh CLI · June 06, 2026)*</sub>
 <div align="center">
   <table>
     <tr>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%A5-Commits_(2026)-FF4500?style=for-the-badge"><br><strong>93</strong><br><small>This year</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%80-Pull_Requests-8A2BE2?style=for-the-badge"><br><strong>42</strong><br><small>Total PRs</small></td>
-      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%93%9D-Public_Repos-32CD32?style=for-the-badge"><br><strong>135</strong><br><small>Public</small></td>
+      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%93%9D-Public_Repos-32CD32?style=for-the-badge"><br><strong>136</strong><br><small>Public</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%93%9A-Gists-FFD700?style=for-the-badge"><br><strong>40</strong><br><small>Public Gists</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%8E%AF-Issues-1E90FF?style=for-the-badge"><br><strong>24</strong><br><small>This year</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%8D-PR_Reviews-FF69B4?style=for-the-badge"><br><strong>1</strong><br><small>Reviews</small></td>
@@ -143,7 +213,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 <br>
 
 <div align="center">
-<img src="https://img.shields.io/badge/Total_Repositories-135-00D4AA?style=flat-square">
+<img src="https://img.shields.io/badge/Total_Repositories-136-00D4AA?style=flat-square">
 <img src="https://img.shields.io/badge/Public_Gists-40-FFD93D?style=flat-square">
 <img src="https://img.shields.io/badge/Network-96_Following_%E2%80%A2_13_Followers-4ECDC4?style=flat-square">
 </div>
@@ -152,7 +222,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 
 **Achievement Highlights**
 
-- 🔥 **GitHub Journey**: Started October 2022, now 135+ repositories across DevOps, AI/ML, Security, and Platform Engineering
+- 🔥 **GitHub Journey**: Started October 2022, now 136+ repositories across DevOps, AI/ML, Security, and Platform Engineering
 - 📅 **Consistent Growth**: 2,328 LinkedIn followers, 500+ connections, 1,967 profile views
 - **Cloudflare Vinext**: Fixed Pages Router context provider issues (PR #249, PR #151 merged)
 - **Hacktoberfest 2025**: 10 PRs submitted across multiple projects, 7 accepted — Earned T-Shirt
@@ -165,7 +235,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 **Long-term Statistics**
 
 ```diff
-+ 135+ Total Public Repositories
++ 136+ Total Public Repositories
 + 57 Total Skills on LinkedIn
 + 96 Following • 13 Followers
 + 99.9% Infrastructure uptime achieved
@@ -188,7 +258,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 <td width="50%" align="center">
 
 ### 🔵 **LinkedIn Stats**
-<sub><em>as of June 05, 2026</em></sub>
+<sub><em>as of June 06, 2026</em></sub>
 
 | Metric | Value |
 |--------|-------|
@@ -205,7 +275,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 
 | Metric | Value |
 |--------|-------|
-| 🗂️ Public Repositories | **135** |
+| 🗂️ Public Repositories | **136** |
 | 📓 Public Gists | **40** |
 | 👥 Followers | **13** |
 | 🐣 Following | **96** |
@@ -296,6 +366,6 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 ---
 
 <div align="center">
-<sub>Last updated: June 05, 2026 | Auto-updated via GitHub Actions · 🔶 4× Oracle Certified · 🎃 3× Hacktoberfest</sub><br>
-<sub>🕒 Last updated: June 05, 2026 | Open to DevOps & Platform Engineering opportunities</sub>
+<sub>Last updated: June 06, 2026 | Auto-updated via GitHub Actions · 🔶 4× Oracle Certified · 🎃 3× Hacktoberfest</sub><br>
+<sub>🕒 Last updated: June 06, 2026 | Open to DevOps & Platform Engineering opportunities</sub>
 </div>
