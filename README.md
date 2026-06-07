@@ -38,13 +38,23 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
     <th width="15%">Status</th>
   </tr>
   <tr>
-    <td><strong>May 31, 2026</strong></td>
+    <td><strong>Jun 06, 2026</strong></td>
     <td>
-      <a href="https://github.com/withcoral/coral">
-        <img src="https://img.shields.io/badge/withcoral-coral-0366d6?style=flat&logo=github" alt="withcoral/coral">
+      <a href="https://github.com/yunus25jmi1/PDF-Forge">
+        <img src="https://img.shields.io/badge/yunus25jmi1-PDF--Forge-0366d6?style=flat&logo=github" alt="yunus25jmi1/PDF-Forge">
       </a>
     </td>
-    <td><strong>PR #684:</strong> merged<br><small>feat(sources): add Discord community source spec</small></td>
+    <td><strong>Push:</strong> 22 commit(s)<br><small>ci: add workflow_dispatch trigger to all workflows for manual testing</small></td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td><strong>Jun 06, 2026</strong></td>
+    <td>
+      <a href="https://github.com/yunus25jmi1/PDF-Forge">
+        <img src="https://img.shields.io/badge/yunus25jmi1-PDF--Forge-0366d6?style=flat&logo=github" alt="yunus25jmi1/PDF-Forge">
+      </a>
+    </td>
+    <td><strong>PR #15:</strong> merged<br><small>chore(deps-dev): bump the development-dependencies group wit</small></td>
     <td>🔀</td>
   </tr>
   <tr>
@@ -54,8 +64,8 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
         <img src="https://img.shields.io/badge/yunus25jmi1-PDF--Forge-0366d6?style=flat&logo=github" alt="yunus25jmi1/PDF-Forge">
       </a>
     </td>
-    <td><strong>Issue #10:</strong> opened<br><small>[Sub-issue] Add Lighthouse CI</small></td>
-    <td>🐛</td>
+    <td><strong>PR #16:</strong> merged<br><small>chore(deps): bump the astro-ecosystem group with 2 updates</small></td>
+    <td>🔀</td>
   </tr>
   <tr>
     <td><strong>Jun 06, 2026</strong></td>
@@ -64,8 +74,8 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
         <img src="https://img.shields.io/badge/yunus25jmi1-PDF--Forge-0366d6?style=flat&logo=github" alt="yunus25jmi1/PDF-Forge">
       </a>
     </td>
-    <td><strong>Issue #9:</strong> opened<br><small>[Sub-issue] Add CHANGELOG.md</small></td>
-    <td>🐛</td>
+    <td><strong>PR #17:</strong> merged<br><small>chore(deps-dev): bump the cloudflare-ecosystem group with 3 </small></td>
+    <td>🔀</td>
   </tr>
   <tr>
     <td><strong>Jun 06, 2026</strong></td>
@@ -74,74 +84,14 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
         <img src="https://img.shields.io/badge/yunus25jmi1-PDF--Forge-0366d6?style=flat&logo=github" alt="yunus25jmi1/PDF-Forge">
       </a>
     </td>
-    <td><strong>Issue #8:</strong> opened<br><small>[Sub-issue] Write production README</small></td>
-    <td>🐛</td>
-  </tr>
-  <tr>
-    <td><strong>Jun 06, 2026</strong></td>
-    <td>
-      <a href="https://github.com/yunus25jmi1/PDF-Forge">
-        <img src="https://img.shields.io/badge/yunus25jmi1-PDF--Forge-0366d6?style=flat&logo=github" alt="yunus25jmi1/PDF-Forge">
-      </a>
-    </td>
-    <td><strong>Issue #7:</strong> opened<br><small>[Sub-issue] Self-host deployment guide</small></td>
-    <td>🐛</td>
-  </tr>
-  <tr>
-    <td><strong>Jun 06, 2026</strong></td>
-    <td>
-      <a href="https://github.com/yunus25jmi1/PDF-Forge">
-        <img src="https://img.shields.io/badge/yunus25jmi1-PDF--Forge-0366d6?style=flat&logo=github" alt="yunus25jmi1/PDF-Forge">
-      </a>
-    </td>
-    <td><strong>Issue #6:</strong> opened<br><small>[Sub-issue] Security audit & dependency review</small></td>
-    <td>🐛</td>
-  </tr>
-  <tr>
-    <td><strong>Jun 06, 2026</strong></td>
-    <td>
-      <a href="https://github.com/yunus25jmi1/PDF-Forge">
-        <img src="https://img.shields.io/badge/yunus25jmi1-PDF--Forge-0366d6?style=flat&logo=github" alt="yunus25jmi1/PDF-Forge">
-      </a>
-    </td>
-    <td><strong>Issue #5:</strong> opened<br><small>[Sub-issue] Fix E2E test pipeline</small></td>
-    <td>🐛</td>
-  </tr>
-  <tr>
-    <td><strong>Jun 06, 2026</strong></td>
-    <td>
-      <a href="https://github.com/yunus25jmi1/PDF-Forge">
-        <img src="https://img.shields.io/badge/yunus25jmi1-PDF--Forge-0366d6?style=flat&logo=github" alt="yunus25jmi1/PDF-Forge">
-      </a>
-    </td>
-    <td><strong>Issue #4:</strong> opened<br><small>[Sub-issue] Fix Safari WASM compatibility</small></td>
-    <td>🐛</td>
-  </tr>
-  <tr>
-    <td><strong>Jun 06, 2026</strong></td>
-    <td>
-      <a href="https://github.com/yunus25jmi1/PDF-Forge">
-        <img src="https://img.shields.io/badge/yunus25jmi1-PDF--Forge-0366d6?style=flat&logo=github" alt="yunus25jmi1/PDF-Forge">
-      </a>
-    </td>
-    <td><strong>Issue #3:</strong> opened<br><small>[Sub-issue] Handle placeholder tools</small></td>
-    <td>🐛</td>
-  </tr>
-  <tr>
-    <td><strong>Jun 06, 2026</strong></td>
-    <td>
-      <a href="https://github.com/yunus25jmi1/PDF-Forge">
-        <img src="https://img.shields.io/badge/yunus25jmi1-PDF--Forge-0366d6?style=flat&logo=github" alt="yunus25jmi1/PDF-Forge">
-      </a>
-    </td>
-    <td><strong>Issue #2:</strong> opened<br><small>[Sub-issue] Add OSS governance files</small></td>
-    <td>🐛</td>
+    <td><strong>PR #18:</strong> closed<br><small>chore(deps): bump better-auth from 1.6.13 to 1.6.14</small></td>
+    <td>🔀</td>
   </tr>
 </table>
 
 ---
 
-#### 📈 **Contribution Impact** <sub>*(fetched via gh CLI · June 06, 2026)*</sub>
+#### 📈 **Contribution Impact** <sub>*(fetched via gh CLI · June 07, 2026)*</sub>
 <div align="center">
   <table>
     <tr>
@@ -258,7 +208,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 <td width="50%" align="center">
 
 ### 🔵 **LinkedIn Stats**
-<sub><em>as of June 06, 2026</em></sub>
+<sub><em>as of June 07, 2026</em></sub>
 
 | Metric | Value |
 |--------|-------|
@@ -366,6 +316,6 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 ---
 
 <div align="center">
-<sub>Last updated: June 06, 2026 | Auto-updated via GitHub Actions · 🔶 4× Oracle Certified · 🎃 3× Hacktoberfest</sub><br>
-<sub>🕒 Last updated: June 06, 2026 | Open to DevOps & Platform Engineering opportunities</sub>
+<sub>Last updated: June 07, 2026 | Auto-updated via GitHub Actions · 🔶 4× Oracle Certified · 🎃 3× Hacktoberfest</sub><br>
+<sub>🕒 Last updated: June 07, 2026 | Open to DevOps & Platform Engineering opportunities</sub>
 </div>
