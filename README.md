@@ -44,7 +44,7 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
         <img src="https://img.shields.io/badge/yunus25jmi1-PDF--Forge-0366d6?style=flat&logo=github" alt="yunus25jmi1/PDF-Forge">
       </a>
     </td>
-    <td><strong>Push:</strong> 62 commit(s)<br><small>fix: use worker-based Ghostscript WASM for compress and pdf-to-images</small></td>
+    <td><strong>Push:</strong> 51 commit(s)<br><small>fix: use worker-based Ghostscript WASM for compress and pdf-to-images</small></td>
     <td>✅</td>
   </tr>
   <tr>
@@ -141,7 +141,7 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
 
 ---
 
-#### 📈 **Contribution Impact** <sub>*(fetched via gh CLI · June 16, 2026)*</sub>
+#### 📈 **Contribution Impact** <sub>*(fetched via gh CLI · June 17, 2026)*</sub>
 <div align="center">
   <table>
     <tr>
@@ -258,7 +258,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 <td width="50%" align="center">
 
 ### 🔵 **LinkedIn Stats**
-<sub><em>as of June 16, 2026</em></sub>
+<sub><em>as of June 17, 2026</em></sub>
 
 | Metric | Value |
 |--------|-------|
@@ -366,6 +366,6 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 ---
 
 <div align="center">
-<sub>Last updated: June 16, 2026 | Auto-updated via GitHub Actions · 🔶 4× Oracle Certified · 🎃 3× Hacktoberfest</sub><br>
-<sub>🕒 Last updated: June 16, 2026 | Open to DevOps & Platform Engineering opportunities</sub>
+<sub>Last updated: June 17, 2026 | Auto-updated via GitHub Actions · 🔶 4× Oracle Certified · 🎃 3× Hacktoberfest</sub><br>
+<sub>🕒 Last updated: June 17, 2026 | Open to DevOps & Platform Engineering opportunities</sub>
 </div>
