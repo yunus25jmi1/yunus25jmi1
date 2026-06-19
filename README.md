@@ -44,7 +44,7 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
         <img src="https://img.shields.io/badge/yunus25jmi1-yunus25jmi1-0366d6?style=flat&logo=github" alt="yunus25jmi1/yunus25jmi1">
       </a>
     </td>
-    <td><strong>Push:</strong> 1 commit(s)<br><small>fix: clean up profile README and remove sensitive files</small></td>
+    <td><strong>Push:</strong> 2 commit(s)<br><small>fix: remove backup files and correct repo count to 28</small></td>
     <td>✅</td>
   </tr>
   <tr>
@@ -145,9 +145,9 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
 <div align="center">
   <table>
     <tr>
-      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%A5-Commits_(2026)-FF4500?style=for-the-badge"><br><strong>195</strong><br><small>This year</small></td>
+      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%A5-Commits_(2026)-FF4500?style=for-the-badge"><br><strong>196</strong><br><small>This year</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%80-Pull_Requests-8A2BE2?style=for-the-badge"><br><strong>53</strong><br><small>Total PRs</small></td>
-      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%93%9D-Public_Repos-32CD32?style=for-the-badge"><br><strong>28</strong><br><small>Public</small></td>
+      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%93%9D-Public_Repos-32CD32?style=for-the-badge"><br><strong>123</strong><br><small>Public</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%93%9A-Gists-FFD700?style=for-the-badge"><br><strong>40</strong><br><small>Public Gists</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%8E%AF-Issues-1E90FF?style=for-the-badge"><br><strong>47</strong><br><small>This year</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%8D-PR_Reviews-FF69B4?style=for-the-badge"><br><strong>1</strong><br><small>Reviews</small></td>
@@ -213,7 +213,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 <br>
 
 <div align="center">
-<img src="https://img.shields.io/badge/Total_Repositories-28-00D4AA?style=flat-square">
+<img src="https://img.shields.io/badge/Total_Repositories-123-00D4AA?style=flat-square">
 <img src="https://img.shields.io/badge/Public_Gists-40-FFD93D?style=flat-square">
 <img src="https://img.shields.io/badge/Network-96_Following_%E2%80%A2_12_Followers-4ECDC4?style=flat-square">
 </div>
@@ -279,7 +279,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 | 📓 Public Gists | **40** |
 | 👥 Followers | **12** |
 | 🐣 Following | **96** |
-| ✨ Commits (2026) | **195** |
+| ✨ Commits (2026) | **196** |
 | 🔀 Pull Requests | **53** |
 | 💡 Issues Opened | **47** |
 | 🔍 PR Reviews | **1** |
