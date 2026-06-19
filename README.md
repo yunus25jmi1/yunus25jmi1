@@ -38,6 +38,56 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
     <th width="15%">Status</th>
   </tr>
   <tr>
+    <td><strong>Jun 19, 2026</strong></td>
+    <td>
+      <a href="https://github.com/yunus25jmi1/yunus25jmi1">
+        <img src="https://img.shields.io/badge/yunus25jmi1-yunus25jmi1-0366d6?style=flat&logo=github" alt="yunus25jmi1/yunus25jmi1">
+      </a>
+    </td>
+    <td><strong>Push:</strong> 1 commit(s)<br><small>fix: clean up profile README and remove sensitive files</small></td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td><strong>Jun 19, 2026</strong></td>
+    <td>
+      <a href="https://github.com/yunus25jmi1/Tailscale-VPN-on-Heroku">
+        <img src="https://img.shields.io/badge/yunus25jmi1-Tailscale--VPN--on--Heroku-0366d6?style=flat&logo=github" alt="yunus25jmi1/Tailscale-VPN-on-Heroku">
+      </a>
+    </td>
+    <td><strong>Push:</strong> 1 commit(s)<br><small>docs: fix title, remove ban disclaimer, clean up README</small></td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td><strong>Jun 19, 2026</strong></td>
+    <td>
+      <a href="https://github.com/yunus25jmi1/Secure-File-Storage-Using-Hybrid-Cryptography">
+        <img src="https://img.shields.io/badge/yunus25jmi1-Secure--File--Storage--Using--Hybrid--Cryptography-0366d6?style=flat&logo=github" alt="yunus25jmi1/Secure-File-Storage-Using-Hybrid-Cryptography">
+      </a>
+    </td>
+    <td><strong>Push:</strong> 1 commit(s)<br><small>docs: rewrite README with correct English and project structure</small></td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td><strong>Jun 19, 2026</strong></td>
+    <td>
+      <a href="https://github.com/yunus25jmi1/Java-Monitoring-Project">
+        <img src="https://img.shields.io/badge/yunus25jmi1-Java--Monitoring--Project-0366d6?style=flat&logo=github" alt="yunus25jmi1/Java-Monitoring-Project">
+      </a>
+    </td>
+    <td><strong>Push:</strong> 1 commit(s)<br><small>docs: update README to reflect Java 21 upgrade and deployment guides</small></td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td><strong>Jun 19, 2026</strong></td>
+    <td>
+      <a href="https://github.com/yunus25jmi1/cloudrelic">
+        <img src="https://img.shields.io/badge/yunus25jmi1-cloudrelic-0366d6?style=flat&logo=github" alt="yunus25jmi1/cloudrelic">
+      </a>
+    </td>
+    <td><strong>Push:</strong> 1 commit(s)<br><small>docs: replace default Lovable template with proper README</small></td>
+    <td>✅</td>
+  </tr>
+  <tr>
     <td><strong>Jun 18, 2026</strong></td>
     <td>
       <a href="https://github.com/yunus25jmi1/PDF-Forge">
@@ -87,56 +137,6 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
     <td><strong>Created:</strong> New branch<br><small>fix/e2e-visual-regression-tests-15971524645293200493</small></td>
     <td>🚀</td>
   </tr>
-  <tr>
-    <td><strong>Jun 17, 2026</strong></td>
-    <td>
-      <a href="https://github.com/yunus25jmi1/PDF-Forge">
-        <img src="https://img.shields.io/badge/yunus25jmi1-PDF--Forge-0366d6?style=flat&logo=github" alt="yunus25jmi1/PDF-Forge">
-      </a>
-    </td>
-    <td><strong>PR #55:</strong> opened<br><small>feat: add reusable ES module web worker template for pdf-lib</small></td>
-    <td>🔀</td>
-  </tr>
-  <tr>
-    <td><strong>Jun 17, 2026</strong></td>
-    <td>
-      <a href="https://github.com/yunus25jmi1/PDF-Forge">
-        <img src="https://img.shields.io/badge/yunus25jmi1-PDF--Forge-0366d6?style=flat&logo=github" alt="yunus25jmi1/PDF-Forge">
-      </a>
-    </td>
-    <td><strong>Created:</strong> New branch<br><small>feature/pdf-worker-template-8419874535392442668</small></td>
-    <td>🚀</td>
-  </tr>
-  <tr>
-    <td><strong>Jun 17, 2026</strong></td>
-    <td>
-      <a href="https://github.com/yunus25jmi1/gorm_recruiter">
-        <img src="https://img.shields.io/badge/yunus25jmi1-gorm_recruiter-0366d6?style=flat&logo=github" alt="yunus25jmi1/gorm_recruiter">
-      </a>
-    </td>
-    <td><strong>Push:</strong> 1 commit(s)<br><small>Updated repository</small></td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td><strong>Jun 17, 2026</strong></td>
-    <td>
-      <a href="https://github.com/yunus25jmi1/PDF-Forge">
-        <img src="https://img.shields.io/badge/yunus25jmi1-PDF--Forge-0366d6?style=flat&logo=github" alt="yunus25jmi1/PDF-Forge">
-      </a>
-    </td>
-    <td><strong>PR #54:</strong> merged<br><small>Security: Fix secrets leakage, token validation, and OAuth v</small></td>
-    <td>🔀</td>
-  </tr>
-  <tr>
-    <td><strong>Jun 15, 2026</strong></td>
-    <td>
-      <a href="https://github.com/yunus25jmi1/PDF-Forge">
-        <img src="https://img.shields.io/badge/yunus25jmi1-PDF--Forge-0366d6?style=flat&logo=github" alt="yunus25jmi1/PDF-Forge">
-      </a>
-    </td>
-    <td><strong>PR #54:</strong> opened<br><small>Security: Fix secrets leakage, token validation, and OAuth v</small></td>
-    <td>🔀</td>
-  </tr>
 </table>
 
 ---
@@ -145,13 +145,13 @@ I believe **infrastructure should be invisible** — simple to operate, reliable
 <div align="center">
   <table>
     <tr>
-      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%A5-Commits_(2026)-FF4500?style=for-the-badge"><br><strong>193</strong><br><small>This year</small></td>
+      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%A5-Commits_(2026)-FF4500?style=for-the-badge"><br><strong>195</strong><br><small>This year</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%80-Pull_Requests-8A2BE2?style=for-the-badge"><br><strong>53</strong><br><small>Total PRs</small></td>
-      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%93%9D-Public_Repos-32CD32?style=for-the-badge"><br><strong>29</strong><br><small>Public</small></td>
+      <td align="center"><img src="https://img.shields.io/badge/%F0%9F%93%9D-Public_Repos-32CD32?style=for-the-badge"><br><strong>123</strong><br><small>Public</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%93%9A-Gists-FFD700?style=for-the-badge"><br><strong>40</strong><br><small>Public Gists</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%8E%AF-Issues-1E90FF?style=for-the-badge"><br><strong>47</strong><br><small>This year</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%94%8D-PR_Reviews-FF69B4?style=for-the-badge"><br><strong>1</strong><br><small>Reviews</small></td>
-      <td align="center"><img src="https://img.shields.io/badge/%E2%AD%90-Stars-FFD700?style=for-the-badge"><br><strong>1</strong><br><small>Stars earned</small></td>
+      <td align="center"><img src="https://img.shields.io/badge/%E2%AD%90-Stars-FFD700?style=for-the-badge"><br><strong>2</strong><br><small>Stars earned</small></td>
       <td align="center"><img src="https://img.shields.io/badge/%F0%9F%91%A5-Network-00D4AA?style=for-the-badge"><br><strong>96 / 12</strong><br><small>Following / Followers</small></td>
     </tr>
   </table>
@@ -213,7 +213,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 <br>
 
 <div align="center">
-<img src="https://img.shields.io/badge/Total_Repositories-29-00D4AA?style=flat-square">
+<img src="https://img.shields.io/badge/Total_Repositories-123-00D4AA?style=flat-square">
 <img src="https://img.shields.io/badge/Public_Gists-40-FFD93D?style=flat-square">
 <img src="https://img.shields.io/badge/Network-96_Following_%E2%80%A2_12_Followers-4ECDC4?style=flat-square">
 </div>
@@ -222,7 +222,7 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 
 **Achievement Highlights**
 
-- 🔥 **GitHub Journey**: Started October 2022, now 29+ repositories across DevOps, AI/ML, Security, and Platform Engineering
+- 🔥 **GitHub Journey**: Started October 2022, now 123+ repositories across DevOps, AI/ML, Security, and Platform Engineering
 - 📅 **Consistent Growth**: 2,328 LinkedIn followers, 500+ connections, 1,967 profile views
 - **Cloudflare Vinext**: Fixed Pages Router context provider issues (PR #249, PR #151 merged)
 - **Hacktoberfest 2025**: 10 PRs submitted across multiple projects, 7 accepted — Earned T-Shirt
@@ -235,13 +235,13 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 **Long-term Statistics**
 
 ```diff
-+ 29+ Total Public Repositories
++ 123+ Total Public Repositories
 + 57 Total Skills on LinkedIn
 + 96 Following • 12 Followers
 + 99.9% Infrastructure uptime achieved
 + 40 Public Gists created
 + Active since October 2022
-+ 1 Total Stars across repositories
++ 2 Total Stars across repositories
 + 2 Total Forks
 + 12 Technical Publications on YunusCloud
 + 53 Professional Certifications
@@ -275,15 +275,15 @@ Hacktoberfest 2024 & 2025 participant (17 PRs, 7 accepted) · Cloudflare Vinext 
 
 | Metric | Value |
 |--------|-------|
-| 🗂️ Public Repositories | **29** |
+| 🗂️ Public Repositories | **123** |
 | 📓 Public Gists | **40** |
 | 👥 Followers | **12** |
 | 🐣 Following | **96** |
-| ✨ Commits (2026) | **193** |
+| ✨ Commits (2026) | **195** |
 | 🔀 Pull Requests | **53** |
 | 💡 Issues Opened | **47** |
 | 🔍 PR Reviews | **1** |
-| ⭐ Total Stars | **1** |
+| ⭐ Total Stars | **2** |
 | 🍴 Total Forks | **2** |
 | 📅 Member Since | **Oct 2022** |
 
