@@ -1,19 +1,35 @@
+<div align="center">
+
 # Yunus
 
-DevOps Engineer & Platform Architect. Building infrastructure that scales.
+**Infrastructure that doesn't wake you up at 2 AM.**
 
 [Website](https://yunuscloud.eu.org) · [LinkedIn](https://linkedin.com/in/yunus25jmi) · [Medium](https://cloudrelic.medium.com) · [Email](mailto:admin@yunuscloud.eu.org)
+
+![Oracle ACE](https://img.shields.io/badge/Oracle_ACE-Apprentice-F80000?style=flat&logo=oracle&logoColor=white)
+![4x Oracle Certified](https://img.shields.io/badge/4x_Certified-F80000?style=flat&logo=oracle&logoColor=white)
+![Hacktoberfest](https://img.shields.io/badge/3x_Hacktoberfest-FF6550?style=flat&logo=hacktoberfest&logoColor=white)
+
+</div>
+
+---
+
+## What I Do
+
+DevOps Engineer & Platform Architect. I build multi-cloud infrastructure that scales — OCI, AWS, GCP, Kubernetes, Terraform. Currently Oracle ACE Apprentice and Co-Founder at CloudRelic.
 
 ---
 
 ## Open Source
 
-| Project | Upstream | Status |
-|---------|----------|--------|
-| [Vinext](https://github.com/cloudflare/vinext) | cloudflare/vinext | 7 PRs merged (#620, #345, #258, #249, #197, #193, #151) |
-| [Docker Agent](https://github.com/docker/docker-agent) | docker/docker-agent | 2 PRs merged (#2175, #1973) |
-| [Coral SQL](https://github.com/withcoral/coral) | withcoral/coral | 1 PR merged (#684) |
-| [Docker Compose](https://github.com/docker/compose) | docker/compose | 1 PR open (#13713) |
+Merged into repos you've probably used.
+
+| Project | Merged PRs | What Changed |
+|---------|-----------|--------------|
+| [**cloudflare/vinext**](https://github.com/cloudflare/vinext) | [#620](https://github.com/cloudflare/vinext/pull/620) [#345](https://github.com/cloudflare/vinext/pull/345) [#258](https://github.com/cloudflare/vinext/pull/258) [#249](https://github.com/cloudflare/vinext/pull/249) [#197](https://github.com/cloudflare/vinext/pull/197) [#193](https://github.com/cloudflare/vinext/pull/193) [#151](https://github.com/cloudflare/vinext/pull/151) | Router context, ESM resolution, snapshot tests |
+| [**docker/docker-agent**](https://github.com/docker/docker-agent) | [#2175](https://github.com/docker/docker-agent/pull/2175) [#1973](https://github.com/docker/docker-agent/pull/1973) | Table text copy, context window overflow |
+| [**withcoral/coral**](https://github.com/withcoral/coral) | [#684](https://github.com/withcoral/coral/pull/684) | Discord community source spec |
+| [**docker/compose**](https://github.com/docker/compose) | [#13713](https://github.com/docker/compose/pull/13713) | Deterministic variable interpolation *(open)* |
 
 ---
 
@@ -27,6 +43,18 @@ DevOps Engineer & Platform Architect. Building infrastructure that scales.
     <th width="40%">Repository</th>
     <th width="30%">Contribution</th>
     <th width="15%">Status</th>
+  </tr>
+  <tr>
+    <td><strong>2026-06-19</strong></td>
+    <td><a href="https://github.com/yunus25jmi1/yunus25jmi1"><img src="https://img.shields.io/badge/yunus25jmi1-yunus25jmi1-0366d6?style=flat&logo=github" alt="yunus25jmi1/yunus25jmi1"></a></td>
+    <td><strong>Push</strong><br><small>commit(s)</small></td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td><strong>2026-06-19</strong></td>
+    <td><a href="https://github.com/yunus25jmi1/yunus25jmi1"><img src="https://img.shields.io/badge/yunus25jmi1-yunus25jmi1-0366d6?style=flat&logo=github" alt="yunus25jmi1/yunus25jmi1"></a></td>
+    <td><strong>Push</strong><br><small>commit(s)</small></td>
+    <td>✅</td>
   </tr>
   <tr>
     <td><strong>2026-06-19</strong></td>
@@ -76,25 +104,13 @@ DevOps Engineer & Platform Architect. Building infrastructure that scales.
     <td><strong>Push</strong><br><small>commit(s)</small></td>
     <td>✅</td>
   </tr>
-  <tr>
-    <td><strong>2026-06-18</strong></td>
-    <td><a href="https://github.com/yunus25jmi1/PDF-Forge"><img src="https://img.shields.io/badge/yunus25jmi1-PDF--Forge-0366d6?style=flat&logo=github" alt="yunus25jmi1/PDF-Forge"></a></td>
-    <td><strong>Push</strong><br><small>commit(s)</small></td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td><strong>2026-06-18</strong></td>
-    <td><a href="https://github.com/yunus25jmi1/PDF-Forge"><img src="https://img.shields.io/badge/yunus25jmi1-PDF--Forge-0366d6?style=flat&logo=github" alt="yunus25jmi1/PDF-Forge"></a></td>
-    <td><strong>Push</strong><br><small>commit(s)</small></td>
-    <td>✅</td>
-  </tr>
 </table>
 
 #### Contribution Impact
 <div align="center">
   <table>
     <tr>
-      <td align="center"><img src="https://img.shields.io/badge/Commits_(2026)-198-FF4500?style=for-the-badge"></td>
+      <td align="center"><img src="https://img.shields.io/badge/Commits_(2026)-200-FF4500?style=for-the-badge"></td>
       <td align="center"><img src="https://img.shields.io/badge/Pull_Requests-53-8A2BE2?style=for-the-badge"></td>
       <td align="center"><img src="https://img.shields.io/badge/Repos-28-32CD32?style=for-the-badge"></td>
       <td align="center"><img src="https://img.shields.io/badge/Stars-2-FFD700?style=for-the-badge"></td>
@@ -108,28 +124,25 @@ DevOps Engineer & Platform Architect. Building infrastructure that scales.
 
 ## Experience
 
-**Oracle ACE Apprentice** — Oracle Cloud Infrastructure (2024–Present)
-Kubernetes optimization · 1M RPS ingress architecture · Community contributions
-
-**ML Intern** — Shell India (Oct–Nov 2025)
-2.5M+ aircraft landing records · Prophet forecasting · Isolation Forest anomaly detection
-
-**DevOps Intern** — Stellanova GlobalTech (Jun–Jul 2024)
-Docker (30% faster) · CI/CD with Jenkins & GitHub Actions (25% faster)
-
-**OSS Contributor** — Global (Oct 2024–Present)
-Hacktoberfest 2024 & 2025 · Cloudflare, Docker, Coral contributions
+```
+Oracle ACE Apprentice     @ Oracle Cloud Infrastructure    2024 — Present
+Co-Founder                @ CloudRelic                     2024 — Present
+ML Intern                 @ Shell India                    Oct — Nov 2025
+DevOps Intern             @ Stellanova GlobalTech          Jun — Jul 2024
+```
 
 ---
 
 ## Stack
 
-Cloud: OCI · AWS · GCP · Azure
-Containers: Kubernetes · Docker · Helm · Istio
-IaC: Terraform · Ansible
-CI/CD: Jenkins · GitHub Actions · GitLab CI
-Monitoring: Prometheus · Grafana · ELK
-Languages: Python · Bash · Go · TypeScript
+```
+Cloud       OCI · AWS · GCP · Azure
+Containers  Kubernetes · Docker · Helm · Istio
+IaC         Terraform · Ansible
+CI/CD       Jenkins · GitHub Actions · GitLab CI
+Monitoring  Prometheus · Grafana · ELK
+Languages   Python · Bash · Go · TypeScript
+```
 
 ---
 
@@ -149,4 +162,8 @@ Languages: Python · Bash · Go · TypeScript
 
 ---
 
-Last updated: auto via GitHub Actions
+<div align="center">
+
+**[Read my writing →](https://cloudrelic.medium.com)**
+
+</div>
