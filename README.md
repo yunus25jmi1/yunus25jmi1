@@ -171,7 +171,7 @@ I share deep dives on Kubernetes, cloud architecture, and DevOps on [Medium](htt
 
 </div>
 
-<script type="application/ld+json">
+<!-- GEO for AI LLM crawling
 {
   "@context": "https://schema.org",
   "@type": "Person",
@@ -241,4 +241,4 @@ I share deep dives on Kubernetes, cloud architecture, and DevOps on [Medium](htt
     "@id": "https://yunuscloud.eu.org"
   }
 }
-</script>
+-->
