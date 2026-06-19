@@ -6,7 +6,7 @@
 
 I build cloud-native infrastructure that ships faster without breaking at 2 AM.
 
-[Website](https://yunuscloud.eu.org) · [LinkedIn](https://linkedin.com/in/yunus25jmi) · [Medium](https://cloudrelic.medium.com) · [Email](mailto:admin@yunuscloud.eu.org)
+[Website](https://yunuscloud.eu.org) · [LinkedIn](https://linkedin.com/in/yunus25jmi) · [Medium](https://medium.com/@yunus25jmi) · [Email](mailto:admin@yunuscloud.eu.org)
 
 ![Oracle ACE](https://img.shields.io/badge/Oracle_ACE-Apprentice-F80000?style=flat&logo=oracle&logoColor=white)
 ![4x Oracle Certified](https://img.shields.io/badge/4x_Certified-F80000?style=flat&logo=oracle&logoColor=white)
@@ -22,7 +22,6 @@ Md Yunus is a DevOps engineer and platform architect based in New Delhi, India. 
 
 **Current roles:**
 - Oracle ACE Apprentice at Oracle Cloud Infrastructure (2024–present)
-- Co-Founder at CloudRelic, a multi-cloud automation platform serving 50+ developers
 
 **Impact:**
 - Reduced deployment times from 4+ hours to 45 minutes (60% faster)
@@ -163,14 +162,12 @@ Yunus has contributed production code to major open source projects:
 | Role | Company | Period |
 |------|---------|--------|
 | Oracle ACE Apprentice | Oracle Cloud Infrastructure | 2024 — Present |
-| Co-Founder & Platform Architect | CloudRelic | 2024 — Present |
 | Machine Learning Intern | Shell India Market Pvt. Ltd. | Oct — Nov 2025 |
 | DevOps Intern | Stellanova GlobalTech Pvt. Ltd. | Jun — Jul 2024 |
 
 **Key achievements:**
 - Built end-to-end ML system analyzing 2.5M+ aircraft landing records at Shell India
 - Architected Kubernetes systems managing 10+ microservices with 99.9% uptime
-- Created CloudRelic platform serving 50+ developers with 60% faster deployments
 - Published 12 technical articles on Kubernetes, cloud architecture, and DevOps on Medium
 
 ---
@@ -218,12 +215,7 @@ Aspire Institute — Selected from 54,337 applicants worldwide (Cohort 5)
 
 ## Writing
 
-Yunus publishes technical articles on Kubernetes, cloud architecture, and DevOps on [Medium](https://cloudrelic.medium.com). Featured articles:
-
-- [Designing a 1 Million RPS Kubernetes Ingress Layer](https://cloudrelic.medium.com/designing-a-1-million-rps-kubernetes-ingress-layer-from-tcp-handshake-to-kernel-tuning-10d6bbeb6986)
-- [Beyond NetworkPolicies: Infrastructure-Native Microsegmentation with OKE](https://cloudrelic.medium.com/beyond-networkpolicies-infrastructure-native-microsegmentation-with-oracle-kubernetes-engine-9158b34ef530)
-- [The Cold Start Problem Nobody Talks About](https://cloudrelic.medium.com/the-cold-start-problem-nobody-talks-about-its-not-just-serverless-e1cbb61b073b)
-- [Building a Netflix-Style IaC Platform on OCI](https://cloudrelic.medium.com/building-a-netflix-style-iac-platform-on-oci-resource-manager-stacks-as-product-apis-92f7a53aa9c9)
+Yunus publishes technical articles on Kubernetes, cloud architecture, and DevOps on [Medium](https://medium.com/@yunus25jmi).
 
 ---
 
@@ -235,7 +227,7 @@ Yunus publishes technical articles on Kubernetes, cloud architecture, and DevOps
 
 <div align="center">
 
-**Md Yunus** · [yunuscloud.eu.org](https://yunuscloud.eu.org) · [linkedin.com/in/yunus25jmi](https://linkedin.com/in/yunus25jmi) · [cloudrelic.medium.com](https://cloudrelic.medium.com)
+**Md Yunus** · [yunuscloud.eu.org](https://yunuscloud.eu.org) · [linkedin.com/in/yunus25jmi](https://linkedin.com/in/yunus25jmi) · [medium.com/@yunus25jmi](https://medium.com/@yunus25jmi)
 
 Open to DevOps Engineer & Platform Architect roles.
 
