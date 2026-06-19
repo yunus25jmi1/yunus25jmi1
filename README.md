@@ -113,22 +113,23 @@ My contributions live in the repositories that power the internet. Here’s wher
 
 ## Technical Skills
 
-**Cloud Platforms:** Oracle Cloud Infrastructure (OCI), Amazon Web Services (AWS), Google Cloud Platform (GCP), Microsoft Azure  
-**Container Orchestration:** Kubernetes (OKE, EKS, GKE), Docker, Helm, Istio  
-**Infrastructure as Code:** Terraform, Ansible, CloudFormation  
-**CI/CD Pipelines:** Jenkins, GitHub Actions, GitLab CI  
-**Monitoring & Observability:** Prometheus, Grafana, ELK Stack, OpenTelemetry  
-**Programming Languages:** Python, Bash, Go, JavaScript, TypeScript  
+| Category | Details |
+|----------|---------|
+| Cloud Platforms | Oracle Cloud Infrastructure (OCI), Amazon Web Services (AWS), Google Cloud Platform (GCP), Microsoft Azure |
+| Container Orchestration | Kubernetes (OKE, EKS, GKE), Docker, Helm, Istio |
+| Infrastructure as Code | Terraform, Ansible, CloudFormation |
+| CI/CD Pipelines | Jenkins, GitHub Actions, GitLab CI |
+| Monitoring & Observativity | Prometheus, Grafana, ELK Stack, OpenTelemetry |
+| Programming Languages | Python, Bash, Go, JavaScript, TypeScript |  
 
 ---
 
 ## Education
 
-**Bachelor of Technology — Electronics and Communications Engineering**  
-Guru Nanak Dev University, Amritsar (Graduated July 2023)
-
-**Aspire Leaders Program 2025**  
-Aspire Institute — Selected from 54,337 applicants worldwide (Cohort 5)
+| Degree | Institution |
+|----------|-------------|
+| Bachelor of Technology — Electronics and Communications Engineering | Guru Nanak Dev University, Amritsar (Graduated July 2023) |
+| Aspire Leaders Program 2025 | Aspire Institute — Selected from 54,337 applicants worldwide (Cohort 5) |
 
 ---
 
@@ -161,9 +162,7 @@ I share deep dives on Kubernetes, cloud architecture, and DevOps on [Medium](htt
 
 <div align="center">
 
-**Md Yunus** · [yunuscloud.eu.org](https://yunuscloud.eu.org) · [linkedin.com/in/yunus25jmi](https://linkedin.com/in/yunus25jmi) · [medium.com/@yunus25jmi](https://medium.com/@yunus25jmi)
-
-Open to DevOps Engineer & Platform Architect roles.
+**Md Yunus** · [yunuscloud.eu.org](https://yunuscloud.eu.org) · [linkedin.com/in/yunus25jmi](https://linkedin.com/in/yunus25jmi) · [medium.com/@yunus25jmi](https://medium.com/@yunus25jmi) · Open to DevOps Engineer & Platform Architect roles.
 
 </div>
 
