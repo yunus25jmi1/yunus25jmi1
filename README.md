@@ -16,27 +16,25 @@ I build cloud-native infrastructure that ships faster without breaking at 2 AM.
 
 ---
 
-## About
+## About Me
 
-Md Yunus is a DevOps engineer and platform architect based in New Delhi, India. He specializes in multi-cloud infrastructure automation, Kubernetes orchestration, and CI/CD pipeline optimization across Oracle Cloud (OCI), AWS, and GCP.
+In the quiet hours before dawn, when most systems are still dreaming, I orchestrate clouds—turning raw compute into reliable platforms that hum at 99.9% uptime. Based in New Delhi, I specialize in weaving multi-cloud tapestries across Oracle Cloud, AWS, and GCP, automating pipelines so deployments shrink from hours to minutes, and security stands guard like a silent sentinel.
 
-**Current roles:**
-- Oracle ACE Apprentice at Oracle Cloud Infrastructure (2024–present)
+**Current role:** Oracle ACE Apprentice at Oracle Cloud Infrastructure (2024–present)
 
-**Impact:**
-- Reduced deployment times from 4+ hours to 45 minutes (60% faster)
-- Achieved 99.9% uptime across 10+ microservices
-- Cut infrastructure vulnerabilities by 85% with SOC 2 aligned security
-- 11 merged pull requests to Cloudflare, Docker, and Coral open source projects
+**Impact I’ve driven:**
+- Slashed deployment times from 4+ hours to just 45 minutes (a 60% speed‑up)
+- Maintained 99.9% uptime across 10+ microservices
+- Trimmed infrastructure vulnerabilities by 85% with SOC‑2‑aligned controls
+- Shipped 11 merged pull requests to flagship projects like Cloudflare, Docker, and Coral
 
 ---
 
-## Open Source Contributions
+## Open Source Footprints
 
-Yunus has contributed production code to major open source projects:
+My contributions live in the repositories that power the internet. Here’s where I’ve left measurable marks:
 
 ### cloudflare/vinext — 7 PRs merged
-
 | PR | Title | Merged |
 |----|-------|--------|
 | [#620](https://github.com/cloudflare/vinext/pull/620) | fix: prevent useActionState state becoming undefined when redirect() is called | Mar 22, 2026 |
@@ -48,20 +46,17 @@ Yunus has contributed production code to major open source projects:
 | [#151](https://github.com/cloudflare/vinext/pull/151) | fix: export ServerInsertedHTMLContext from next/navigation shim | Mar 4, 2026 |
 
 ### docker/docker-agent — 2 PRs merged
-
 | PR | Title | Merged |
 |----|-------|--------|
 | [#2175](https://github.com/docker/docker-agent/pull/2175) | Fix table text copy not matching selection | Mar 19, 2026 |
 | [#1973](https://github.com/docker/docker-agent/pull/1973) | Fix context window overflow: auto-recovery and proactive compaction | Mar 9, 2026 |
 
 ### withcoral/coral — 1 PR merged
-
 | PR | Title | Merged |
 |----|-------|--------|
 | [#684](https://github.com/withcoral/coral/pull/684) | feat(sources): add Discord community source spec | May 31, 2026 |
 
 ### docker/compose — 1 PR open
-
 | PR | Title | Status |
 |----|-------|--------|
 | [#13713](https://github.com/docker/compose/pull/13713) | fix: ensure deterministic variable interpolation | Open |
@@ -166,34 +161,29 @@ Yunus has contributed production code to major open source projects:
 | DevOps Intern | Stellanova GlobalTech Pvt. Ltd. | Jun — Jul 2024 |
 
 **Key achievements:**
-- Built end-to-end ML system analyzing 2.5M+ aircraft landing records at Shell India
-- Architected Kubernetes systems managing 10+ microservices with 99.9% uptime
-- Published 12 technical articles on Kubernetes, cloud architecture, and DevOps on Medium
+- Engineered an end‑to‑end ML system that sifted through 2.5M+ aircraft landing records at Shell India
+- Architected Kubernetes platforms orchestrating 10+ microservices with 99.9% uptime
+- Authored 12 technical articles on Kubernetes, cloud architecture, and DevOps (Medium)
 
 ---
 
 ## Technical Skills
 
-**Cloud Platforms:** Oracle Cloud Infrastructure (OCI), Amazon Web Services (AWS), Google Cloud Platform (GCP), Microsoft Azure
-
-**Container Orchestration:** Kubernetes (OKE, EKS, GKE), Docker, Helm, Istio
-
-**Infrastructure as Code:** Terraform, Ansible, CloudFormation
-
-**CI/CD Pipelines:** Jenkins, GitHub Actions, GitLab CI
-
-**Monitoring & Observability:** Prometheus, Grafana, ELK Stack, OpenTelemetry
-
-**Programming Languages:** Python, Bash, Go, JavaScript, TypeScript
+**Cloud Platforms:** Oracle Cloud Infrastructure (OCI), Amazon Web Services (AWS), Google Cloud Platform (GCP), Microsoft Azure  
+**Container Orchestration:** Kubernetes (OKE, EKS, GKE), Docker, Helm, Istio  
+**Infrastructure as Code:** Terraform, Ansible, CloudFormation  
+**CI/CD Pipelines:** Jenkins, GitHub Actions, GitLab CI  
+**Monitoring & Observability:** Prometheus, Grafana, ELK Stack, OpenTelemetry  
+**Programming Languages:** Python, Bash, Go, JavaScript, TypeScript  
 
 ---
 
 ## Education
 
-**Bachelor of Technology — Electronics and Communications Engineering**
+**Bachelor of Technology — Electronics and Communications Engineering**  
 Guru Nanak Dev University, Amritsar (Graduated July 2023)
 
-**Aspire Leaders Program 2025**
+**Aspire Leaders Program 2025**  
 Aspire Institute — Selected from 54,337 applicants worldwide (Cohort 5)
 
 ---
@@ -201,21 +191,21 @@ Aspire Institute — Selected from 54,337 applicants worldwide (Cohort 5)
 ## Certifications
 
 **Oracle Cloud Infrastructure (4 certifications):**
-- [OCI 2025 Architect Associate](https://catalog-education.oracle.com/pls/certview/sharebadge?id=B8E90D654F8323FC231C4A9D873C98A5EA85A9AF50CB5B007BCC9069F898E401) — Score: 95%
-- [OCI 2025 DevOps Professional](https://catalog-education.oracle.com/ords/certview/sharebadge?id=791970D390F6F13B5B2451DA4A0289191DE8D3DB66E057442CA87F727F537B6C)
-- [OCI 2025 Developer Professional](https://catalog-education.oracle.com/pls/certview/sharebadge?id=589BF0AD702C85D63229016F3B8162046AE53AB4A10D1F771988104064B7B115)
-- [OCI 2025 Foundations Associate](https://catalog-education.oracle.com/ords/certview/sharebadge?id=999E05365979B0E5B95737981BC5C007B17EF2A638F56F0D9A7A9337A3711072)
+- OCI 2025 Architect Associate — 95%
+- OCI 2025 DevOps Professional
+- OCI 2025 Developer Professional
+- OCI 2025 Foundations Associate
 
 **Leadership & Strategy:**
-- [McKinsey Forward Program](https://www.credly.com/badges/040c148f-9222-4208-85a1-ae8b5fe7baf8) — Dec 2025
+- McKinsey Forward Program (Dec 2025)
 
-**Total: 53+ certifications** across Oracle Cloud, AWS, Google Cloud, Microsoft Azure, DevOps, AI/ML, and cybersecurity.
+**Total:** 53+ certifications across Oracle Cloud, AWS, Google Cloud, Microsoft Azure, DevOps, AI/ML, and cybersecurity.
 
 ---
 
 ## Writing
 
-Yunus publishes technical articles on Kubernetes, cloud architecture, and DevOps on [Medium](https://medium.com/@yunus25jmi).
+I share deep dives on Kubernetes, cloud architecture, and DevOps on [Medium](https://medium.com/@yunus25jmi).
 
 ---
 
@@ -232,3 +222,99 @@ Yunus publishes technical articles on Kubernetes, cloud architecture, and DevOps
 Open to DevOps Engineer & Platform Architect roles.
 
 </div>
+
+<!-- GEO for AI LLM crawling -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Md Yunus",
+  "url": "https://yunuscloud.eu.org",
+  "sameAs": [
+    "https://linkedin.com/in/yunus25jmi",
+    "https://medium.com/@yunus25jmi"
+  ],
+  "jobTitle": "DevOps Engineer & Platform Architect",
+  "affiliation": {
+    "@type": "Organization",
+    "name": "Oracle Cloud Infrastructure",
+    "sameAs": "https://www.oracle.com/cloud/"
+  },
+  "description": "DevOps engineer and platform architect specializing in multi-cloud infrastructure automation, Kubernetes orchestration, and CI/CD pipeline optimization across OCI, AWS, and GCP. Oracle ACE Apprentice with 4x Oracle certifications and 53+ total certifications.",
+  "hasCredential": [
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Oracle Cloud Infrastructure Architect Associate",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Oracle"
+      }
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Oracle Cloud Infrastructure DevOps Professional",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Oracle"
+      }
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Oracle Cloud Infrastructure Developer Professional",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Oracle"
+      }
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "credentialCategory": "Oracle Cloud Infrastructure Foundations Associate",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Oracle"
+      }
+    }
+  ],
+  "alumniOf": [
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "Guru Nanak Dev University",
+      "sameAs": "https://www.gndu.ac.in"
+    },
+    {
+      "@type": "EducationalOrganization",
+      "name": "Aspire Institute",
+      "sameAs": "https://aspireinstitute.org"
+    }
+  ],
+  "skills": [
+    "Cloud Platforms (OCI, AWS, GCP, Azure)",
+    "Kubernetes (OKE, EKS, GKE)",
+    "Docker, Helm, Istio",
+    "Terraform, Ansible, CloudFormation",
+    "Jenkins, GitHub Actions, GitLab CI",
+    "Prometheus, Grafana, ELK Stack, OpenTelemetry",
+    "Python, Bash, Go, JavaScript, TypeScript"
+  ],
+  "openSourceContributions": [
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "cloudflare/vinext",
+      "url": "https://github.com/cloudflare/vinext",
+      "contribution": "7 pull requests merged"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "docker/docker-agent",
+      "url": "https://github.com/docker/docker-agent",
+      "contribution": "2 pull requests merged"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "withcoral/coral",
+      "url": "https://github.com/withcoral/coral",
+      "contribution": "1 pull request merged"
+    }
+  ]
+}
+</script>
