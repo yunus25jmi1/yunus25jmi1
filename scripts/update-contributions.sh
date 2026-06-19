@@ -58,48 +58,51 @@ FORKS=$(echo "$resp" | jq -r '[.data.user.repositories.nodes[]?.forkCount // 0] 
 SINCE=$(date -d "$DAYS_BACK days ago" '+%Y-%m-%dT%H:%M:%SZ' 2>/dev/null || date -v-${DAYS_BACK}d '+%Y-%m-%dT%H:%M:%SZ')
 EVENTS=$(gh_api "/users/$USERNAME/events?per_page=100")
 
-ROWS=$(echo "$EVENTS" | jq -r --arg s "$SINCE" --arg user "$USERNAME" '
-    [.[] | select(.created_at >= $s) |
-     select(.type=="PushEvent" or .type=="PullRequestEvent" or
-            .type=="CreateEvent" or .type=="IssuesEvent") |
-     . + {is_own: (.repo.name | startswith($user + "/"))}] |
-    sort_by([(.is_own | not), .created_at]) | reverse | .[0:10] |
-    .[] |
-    {
-      date: (.created_at | split("T")[0]),
-      type: .type,
-      repo: .repo.name,
-      repo_url: ("https://github.com/" + .repo.name),
-      action: (if .type == "PushEvent" then "Push"
-               elif .type == "PullRequestEvent" then "PR #" + (.payload.number // "?") + ": " + (.payload.action // "")
-               elif .type == "CreateEvent" then "Created: " + (.payload.ref_type // "")
-               elif .type == "IssuesEvent" then "Issue #" + (.payload.issue.number // "?") + ": " + (.payload.action // "")
-               else .type end),
-      detail: (if .type == "PushEvent" then (.payload.commits // [{}] | length | tostring) + " commit(s)"
-               elif .type == "PullRequestEvent" then (.payload.pull_request.title // "Pull request" | .[0:60])
-               elif .type == "CreateEvent" then (.payload.ref // "repository")
-               elif .type == "IssuesEvent" then (.payload.issue.title // "Issue" | .[0:60])
-               else "" end),
-      icon: (if .type == "PushEvent" then "✅"
-             elif .type == "PullRequestEvent" then "🔀"
-             elif .type == "CreateEvent" then "🚀"
-             elif .type == "IssuesEvent" then "🐛"
-             else "📝" end)
-    }' 2>/dev/null || echo "[]")
-
-# Build table rows
+# Build table rows - simple approach
 TABLE_ROWS=""
-while IFS= read -r row; do
-    [[ "$row" == "null" || -z "$row" ]] && continue
-    DATE=$(echo "$row" | jq -r '.date')
-    REPO=$(echo "$row" | jq -r '.repo')
-    REPO_URL=$(echo "$row" | jq -r '.repo_url')
-    ACTION=$(echo "$row" | jq -r '.action')
-    DETAIL=$(echo "$row" | jq -r '.detail')
-    ICON=$(echo "$row" | jq -r '.icon')
+while IFS= read -r event; do
+    [[ "$event" == "null" || -z "$event" ]] && continue
+    
+    DATE=$(echo "$event" | jq -r '.created_at | split("T")[0]')
+    TYPE=$(echo "$event" | jq -r '.type')
+    REPO=$(echo "$event" | jq -r '.repo.name')
+    REPO_URL="https://github.com/$REPO"
     REPO_OWNER=$(echo "$REPO" | cut -d'/' -f1)
     REPO_NAME=$(echo "$REPO" | cut -d'/' -f2)
     ENCODED=$(echo "$REPO_NAME" | sed 's/-/--/g')
+    
+    case "$TYPE" in
+        PushEvent)
+            ACTION="Push"
+            DETAIL="commit(s)"
+            ICON="✅"
+            ;;
+        PullRequestEvent)
+            PR_NUM=$(echo "$event" | jq -r '.payload.number // "?"')
+            PR_ACTION=$(echo "$event" | jq -r '.payload.action // ""')
+            ACTION="PR #${PR_NUM}: ${PR_ACTION}"
+            DETAIL=$(echo "$event" | jq -r '.payload.pull_request.title // "Pull request"' | head -c 60)
+            ICON="🔀"
+            ;;
+        CreateEvent)
+            REF_TYPE=$(echo "$event" | jq -r '.payload.ref_type // ""')
+            ACTION="Created: ${REF_TYPE}"
+            DETAIL=$(echo "$event" | jq -r '.payload.ref // "repository"')
+            ICON="🚀"
+            ;;
+        IssuesEvent)
+            ISS_NUM=$(echo "$event" | jq -r '.payload.issue.number // "?"')
+            ISS_ACTION=$(echo "$event" | jq -r '.payload.action // ""')
+            ACTION="Issue #${ISS_NUM}: ${ISS_ACTION}"
+            DETAIL=$(echo "$event" | jq -r '.payload.issue.title // "Issue"' | head -c 60)
+            ICON="🐛"
+            ;;
+        *)
+            ACTION="$TYPE"
+            DETAIL=""
+            ICON="📝"
+            ;;
+    esac
 
     TABLE_ROWS+="  <tr>
     <td><strong>${DATE}</strong></td>
@@ -108,13 +111,16 @@ while IFS= read -r row; do
     <td>${ICON}</td>
   </tr>
 "
-done <<< "$ROWS"
+done < <(echo "$EVENTS" | jq -c --arg s "$SINCE" '[.[] | select(.created_at >= $s) | select(.type=="PushEvent" or .type=="PullRequestEvent" or .type=="CreateEvent" or .type=="IssuesEvent")] | sort_by(.created_at) | reverse | .[0:10] | .[]' 2>/dev/null)
 
 if [[ -z "$TABLE_ROWS" ]]; then
     TABLE_ROWS="  <tr><td colspan=\"4\" align=\"center\"><em>No recent public activity</em></td></tr>"
 fi
 
 CURRENT_DATE=$(date '+%B %d, %Y')
+
+# Write table rows to temp file for Python
+printf '%s' "$TABLE_ROWS" > /tmp/readme_table_rows.txt
 
 # Patch README
 python3 - "$README" "$REPOS" "$GISTS" "$FOLLOWERS" "$FOLLOWING" \
@@ -123,6 +129,7 @@ python3 - "$README" "$REPOS" "$GISTS" "$FOLLOWERS" "$FOLLOWING" \
 import re, sys
 
 readme = open(sys.argv[1], encoding='utf-8').read()
+html_rows = open('/tmp/readme_table_rows.txt', encoding='utf-8').read()
 repos, gists, followers, following = sys.argv[2], sys.argv[3], sys.argv[4], sys.argv[5]
 commits, prs, issues, reviews = sys.argv[6], sys.argv[7], sys.argv[8], sys.argv[9]
 stars, forks, cur_date, year, days = sys.argv[10], sys.argv[11], sys.argv[12], sys.argv[13], sys.argv[14]
@@ -134,6 +141,22 @@ def patch(pat, repl, flags=0):
         return True
     return False
 
+# Insert recent contributions table
+new_table = (
+    f"#### 🚀 **Recent Contributions** (Last {days} Days)\n"
+    '<table width="100%">\n'
+    '  <tr>\n'
+    '    <th width="15%">Date</th>\n'
+    '    <th width="40%">Repository</th>\n'
+    '    <th width="30%">Contribution</th>\n'
+    '    <th width="15%">Status</th>\n'
+    '  </tr>\n'
+    f'{html_rows}</table>'
+)
+pattern = r'(#### 🚀 \*\*Recent Contributions\*\* \(Last \d+ Days\)\n<table width="100%">\n  <tr>\n    <th width="15%">Date</th>\n    <th width="40%">Repository</th>\n    <th width="30%">Contribution</th>\n    <th width="15%">Status</th>\n  </tr>\n)(.*?)(</table>)'
+patch(pattern, r'\g<1>' + html_rows + '\n' + r'\g<3>')
+
+# Update stats
 patch(r'Active_Contributor-\d{4}', f'Active_Contributor-{year}', flags=0)
 patch(r'Public_Repos-32CD32.*?<strong>\d+</strong>', f'Public_Repos-32CD32?style=for-the-badge"><br><strong>{repos}</strong>')
 patch(r'Gists-FFD700.*?<strong>\d+</strong>', f'Gists-FFD700?style=for-the-badge"><br><strong>{gists}</strong>')
@@ -157,4 +180,5 @@ open(sys.argv[1], 'w', encoding='utf-8').write(readme)
 print(f"Updated: repos={repos} commits={commits} prs={prs} stars={stars}")
 PYEOF
 
+rm -f /tmp/readme_table_rows.txt
 echo "Done. Updated $README with latest stats."
