@@ -10,10 +10,10 @@ DevOps Engineer & Platform Architect. Building infrastructure that scales.
 
 | Project | Upstream | Status |
 |---------|----------|--------|
-| [Vinext](https://github.com/cloudflare/vinext) | cloudflare/vinext | 3 PRs merged (#249, #197, #193) |
-| [Docker Agent](https://github.com/docker/docker-agent) | docker/docker-agent | 1 PR merged (#2175) |
+| [Vinext](https://github.com/cloudflare/vinext) | cloudflare/vinext | 7 PRs merged (#620, #345, #258, #249, #197, #193, #151) |
+| [Docker Agent](https://github.com/docker/docker-agent) | docker/docker-agent | 2 PRs merged (#2175, #1973) |
 | [Coral SQL](https://github.com/withcoral/coral) | withcoral/coral | 1 PR merged (#684) |
-| [Docker Compose](https://github.com/docker/compose) | docker/compose | 1 PR open |
+| [Docker Compose](https://github.com/docker/compose) | docker/compose | 1 PR open (#13713) |
 
 ---
 
