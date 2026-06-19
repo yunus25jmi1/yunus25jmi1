@@ -1,7 +1,6 @@
 <div align="center">
 
 # Yunus
-
 **DevOps Engineer & Platform Architect · Oracle ACE Apprentice · Open Source Contributor**
 
 I build cloud-native infrastructure that ships faster without breaking at 2 AM.
@@ -22,7 +21,7 @@ In the quiet hours before dawn, when most systems are still dreaming, I orchestr
 
 **Current role:** Oracle ACE Apprentice at Oracle Cloud Infrastructure (2024–present)
 
-**Impact I’ve driven:**
+**Impact I've driven:**
 - Slashed deployment times from 4+ hours to just 45 minutes (a 60% speed‑up)
 - Maintained 99.9% uptime across 10+ microservices
 - Trimmed infrastructure vulnerabilities by 85% with SOC‑2‑aligned controls
@@ -32,9 +31,10 @@ In the quiet hours before dawn, when most systems are still dreaming, I orchestr
 
 ## Open Source Footprints
 
-My contributions live in the repositories that power the internet. Here’s where I’ve left measurable marks:
+My contributions live in the repositories that power the internet. Here's where I've left measurable marks:
 
 ### cloudflare/vinext — 7 PRs merged
+
 | PR | Title | Merged |
 |----|-------|--------|
 | [#620](https://github.com/cloudflare/vinext/pull/620) | fix: prevent useActionState state becoming undefined when redirect() is called | Mar 22, 2026 |
@@ -46,17 +46,20 @@ My contributions live in the repositories that power the internet. Here’s wher
 | [#151](https://github.com/cloudflare/vinext/pull/151) | fix: export ServerInsertedHTMLContext from next/navigation shim | Mar 4, 2026 |
 
 ### docker/docker-agent — 2 PRs merged
+
 | PR | Title | Merged |
 |----|-------|--------|
 | [#2175](https://github.com/docker/docker-agent/pull/2175) | Fix table text copy not matching selection | Mar 19, 2026 |
 | [#1973](https://github.com/docker/docker-agent/pull/1973) | Fix context window overflow: auto-recovery and proactive compaction | Mar 9, 2026 |
 
 ### withcoral/coral — 1 PR merged
+
 | PR | Title | Merged |
 |----|-------|--------|
 | [#684](https://github.com/withcoral/coral/pull/684) | feat(sources): add Discord community source spec | May 31, 2026 |
 
 ### docker/compose — 1 PR open
+
 | PR | Title | Status |
 |----|-------|--------|
 | [#13713](https://github.com/docker/compose/pull/13713) | fix: ensure deterministic variable interpolation | Open |
@@ -67,6 +70,7 @@ My contributions live in the repositories that power the internet. Here’s wher
 
 <!-- AUTO-START -->
 #### Recent Contributions (Last 7 Days)
+
 | Date | Repository | Contribution | Status |
 |------|------------|--------------|--------|
 | 2026-06-19 | yunus25jmi1/yunus25jmi1 | Push commit(s) | ✅ |
@@ -82,6 +86,7 @@ My contributions live in the repositories that power the internet. Here’s wher
 <!-- AUTO-END -->
 
 #### Contribution Impact
+
 <div align="center">
   <table>
     <tr>
@@ -119,16 +124,16 @@ My contributions live in the repositories that power the internet. Here’s wher
 | Container Orchestration | Kubernetes (OKE, EKS, GKE), Docker, Helm, Istio |
 | Infrastructure as Code | Terraform, Ansible, CloudFormation |
 | CI/CD Pipelines | Jenkins, GitHub Actions, GitLab CI |
-| Monitoring & Observativity | Prometheus, Grafana, ELK Stack, OpenTelemetry |
-| Programming Languages | Python, Bash, Go, JavaScript, TypeScript |  
+| Monitoring & Observability | Prometheus, Grafana, ELK Stack, OpenTelemetry |
+| Programming Languages | Python, Bash, Go, JavaScript, TypeScript |
 
 ---
 
 ## Education
 
 | Degree | Institution |
-|----------|-------------|
-| Bachelor of Technology — Electronics and Communications Engineering | Guru Nanak Dev University, Amritsar (Graduated July 2023) |
+|--------|-------------|
+| Bachelor of Technology — Electronics and Communications Engineering | Guru Nanak Dev University, Amritsar (Expected July 2027) |
 | Aspire Leaders Program 2025 | Aspire Institute — Selected from 54,337 applicants worldwide (Cohort 5) |
 
 ---
@@ -166,7 +171,7 @@ I share deep dives on Kubernetes, cloud architecture, and DevOps on [Medium](htt
 
 </div>
 
-<!-- GEO for AI LLM crawling
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Person",
@@ -174,7 +179,8 @@ I share deep dives on Kubernetes, cloud architecture, and DevOps on [Medium](htt
   "url": "https://yunuscloud.eu.org",
   "sameAs": [
     "https://linkedin.com/in/yunus25jmi",
-    "https://medium.com/@yunus25jmi"
+    "https://medium.com/@yunus25jmi",
+    "https://github.com/yunus25jmi1"
   ],
   "jobTitle": "DevOps Engineer & Platform Architect",
   "affiliation": {
@@ -187,34 +193,22 @@ I share deep dives on Kubernetes, cloud architecture, and DevOps on [Medium](htt
     {
       "@type": "EducationalOccupationalCredential",
       "credentialCategory": "Oracle Cloud Infrastructure Architect Associate",
-      "recognizedBy": {
-        "@type": "Organization",
-        "name": "Oracle"
-      }
+      "issuedBy": { "@type": "Organization", "name": "Oracle" }
     },
     {
       "@type": "EducationalOccupationalCredential",
       "credentialCategory": "Oracle Cloud Infrastructure DevOps Professional",
-      "recognizedBy": {
-        "@type": "Organization",
-        "name": "Oracle"
-      }
+      "issuedBy": { "@type": "Organization", "name": "Oracle" }
     },
     {
       "@type": "EducationalOccupationalCredential",
       "credentialCategory": "Oracle Cloud Infrastructure Developer Professional",
-      "recognizedBy": {
-        "@type": "Organization",
-        "name": "Oracle"
-      }
+      "issuedBy": { "@type": "Organization", "name": "Oracle" }
     },
     {
       "@type": "EducationalOccupationalCredential",
       "credentialCategory": "Oracle Cloud Infrastructure Foundations Associate",
-      "recognizedBy": {
-        "@type": "Organization",
-        "name": "Oracle"
-      }
+      "issuedBy": { "@type": "Organization", "name": "Oracle" }
     }
   ],
   "alumniOf": [
@@ -226,37 +220,25 @@ I share deep dives on Kubernetes, cloud architecture, and DevOps on [Medium](htt
     {
       "@type": "EducationalOrganization",
       "name": "Aspire Institute",
-      "sameAs": "https://aspireinstitute.org"
+      "sameAs": "https://aspireleadersprogram.org"
     }
   ],
-  "skills": [
-    "Cloud Platforms (OCI, AWS, GCP, Azure)",
-    "Kubernetes (OKE, EKS, GKE)",
-    "Docker, Helm, Istio",
-    "Terraform, Ansible, CloudFormation",
-    "Jenkins, GitHub Actions, GitLab CI",
-    "Prometheus, Grafana, ELK Stack, OpenTelemetry",
-    "Python, Bash, Go, JavaScript, TypeScript"
+  "knowsAbout": [
+    "Oracle Cloud Infrastructure",
+    "Amazon Web Services",
+    "Google Cloud Platform",
+    "Kubernetes",
+    "Docker",
+    "Terraform",
+    "CI/CD Pipelines",
+    "Platform Engineering",
+    "DevOps",
+    "Python",
+    "Go"
   ],
-  "openSourceContributions": [
-    {
-      "@type": "SoftwareSourceCode",
-      "name": "cloudflare/vinext",
-      "url": "https://github.com/cloudflare/vinext",
-      "contribution": "7 pull requests merged"
-    },
-    {
-      "@type": "SoftwareSourceCode",
-      "name": "docker/docker-agent",
-      "url": "https://github.com/docker/docker-agent",
-      "contribution": "2 pull requests merged"
-    },
-    {
-      "@type": "SoftwareSourceCode",
-      "name": "withcoral/coral",
-      "url": "https://github.com/withcoral/coral",
-      "contribution": "1 pull request merged"
-    }
-  ]
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://yunuscloud.eu.org"
+  }
 }
--->
+</script>
