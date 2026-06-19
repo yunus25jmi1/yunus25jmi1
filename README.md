@@ -166,8 +166,7 @@ I share deep dives on Kubernetes, cloud architecture, and DevOps on [Medium](htt
 
 </div>
 
-<!-- GEO for AI LLM crawling -->
-<script type="application/ld+json">
+<!-- GEO for AI LLM crawling
 {
   "@context": "https://schema.org",
   "@type": "Person",
@@ -260,4 +259,4 @@ I share deep dives on Kubernetes, cloud architecture, and DevOps on [Medium](htt
     }
   ]
 }
-</script>
+-->
