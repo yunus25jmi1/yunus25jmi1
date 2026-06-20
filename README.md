@@ -70,19 +70,87 @@ My contributions live in the repositories that power the internet. Here's where 
 
 <!-- AUTO-START -->
 #### Recent Contributions (Last 7 Days)
+<table width="100%">
+  <tr>
+    <th width="15%">Date</th>
+    <th width="40%">Repository</th>
+    <th width="30%">Contribution</th>
+    <th width="15%">Status</th>
+  </tr>
+  <tr>
+    <td><strong>2026-06-19</strong></td>
+    <td><a href="https://github.com/yunus25jmi1/yunus25jmi1"><img src="https://img.shields.io/badge/yunus25jmi1-yunus25jmi1-0366d6?style=flat&logo=github" alt="yunus25jmi1/yunus25jmi1"></a></td>
+    <td><strong>Push</strong><br><small>commit(s)</small></td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td><strong>2026-06-19</strong></td>
+    <td><a href="https://github.com/yunus25jmi1/yunus25jmi1"><img src="https://img.shields.io/badge/yunus25jmi1-yunus25jmi1-0366d6?style=flat&logo=github" alt="yunus25jmi1/yunus25jmi1"></a></td>
+    <td><strong>Push</strong><br><small>commit(s)</small></td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td><strong>2026-06-19</strong></td>
+    <td><a href="https://github.com/yunus25jmi1/yunus25jmi1"><img src="https://img.shields.io/badge/yunus25jmi1-yunus25jmi1-0366d6?style=flat&logo=github" alt="yunus25jmi1/yunus25jmi1"></a></td>
+    <td><strong>Push</strong><br><small>commit(s)</small></td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td><strong>2026-06-19</strong></td>
+    <td><a href="https://github.com/yunus25jmi1/yunus25jmi1"><img src="https://img.shields.io/badge/yunus25jmi1-yunus25jmi1-0366d6?style=flat&logo=github" alt="yunus25jmi1/yunus25jmi1"></a></td>
+    <td><strong>Push</strong><br><small>commit(s)</small></td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td><strong>2026-06-19</strong></td>
+    <td><a href="https://github.com/yunus25jmi1/yunus25jmi1"><img src="https://img.shields.io/badge/yunus25jmi1-yunus25jmi1-0366d6?style=flat&logo=github" alt="yunus25jmi1/yunus25jmi1"></a></td>
+    <td><strong>Push</strong><br><small>commit(s)</small></td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td><strong>2026-06-19</strong></td>
+    <td><a href="https://github.com/yunus25jmi1/yunus25jmi1"><img src="https://img.shields.io/badge/yunus25jmi1-yunus25jmi1-0366d6?style=flat&logo=github" alt="yunus25jmi1/yunus25jmi1"></a></td>
+    <td><strong>Push</strong><br><small>commit(s)</small></td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td><strong>2026-06-19</strong></td>
+    <td><a href="https://github.com/yunus25jmi1/yunus25jmi1"><img src="https://img.shields.io/badge/yunus25jmi1-yunus25jmi1-0366d6?style=flat&logo=github" alt="yunus25jmi1/yunus25jmi1"></a></td>
+    <td><strong>Push</strong><br><small>commit(s)</small></td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td><strong>2026-06-19</strong></td>
+    <td><a href="https://github.com/yunus25jmi1/yunus25jmi1"><img src="https://img.shields.io/badge/yunus25jmi1-yunus25jmi1-0366d6?style=flat&logo=github" alt="yunus25jmi1/yunus25jmi1"></a></td>
+    <td><strong>Push</strong><br><small>commit(s)</small></td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td><strong>2026-06-19</strong></td>
+    <td><a href="https://github.com/yunus25jmi1/yunus25jmi1"><img src="https://img.shields.io/badge/yunus25jmi1-yunus25jmi1-0366d6?style=flat&logo=github" alt="yunus25jmi1/yunus25jmi1"></a></td>
+    <td><strong>Push</strong><br><small>commit(s)</small></td>
+    <td>✅</td>
+  </tr>
+  <tr>
+    <td><strong>2026-06-19</strong></td>
+    <td><a href="https://github.com/yunus25jmi1/yunus25jmi1"><img src="https://img.shields.io/badge/yunus25jmi1-yunus25jmi1-0366d6?style=flat&logo=github" alt="yunus25jmi1/yunus25jmi1"></a></td>
+    <td><strong>Push</strong><br><small>commit(s)</small></td>
+    <td>✅</td>
+  </tr>
+</table>
 
-| Date | Repository | Contribution | Status |
-|------|------------|--------------|--------|
-| 2026-06-19 | yunus25jmi1/yunus25jmi1 | Push commit(s) | ✅ |
-| 2026-06-19 | yunus25jmi1/yunus25jmi1 | Push commit(s) | ✅ |
-| 2026-06-19 | yunus25jmi1/yunus25jmi1 | Push commit(s) | ✅ |
-| 2026-06-19 | yunus25jmi1/yunus25jmi1 | Push commit(s) | ✅ |
-| 2026-06-19 | yunus25jmi1/yunus25jmi1 | Push commit(s) | ✅ |
-| 2026-06-19 | yunus25jmi1/yunus25jmi1 | Push commit(s) | ✅ |
-| 2026-06-19 | yunus25jmi1/yunus25jmi1 | Push commit(s) | ✅ |
-| 2026-06-19 | yunus25jmi1/Tailscale-VPN-on-Heroku | Push commit(s) | ✅ |
-| 2026-06-19 | yunus25jmi1/Secure-File-Storage-Using-Hybrid-Cryptography | Push commit(s) | ✅ |
-| 2026-06-19 | yunus25jmi1/Java-Monitoring-Project | Push commit(s) | ✅ |
+#### Contribution Impact
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="https://img.shields.io/badge/Commits_(2026)-209-FF4500?style=for-the-badge"></td>
+      <td align="center"><img src="https://img.shields.io/badge/Pull_Requests-53-8A2BE2?style=for-the-badge"></td>
+      <td align="center"><img src="https://img.shields.io/badge/Repos-28-32CD32?style=for-the-badge"></td>
+      <td align="center"><img src="https://img.shields.io/badge/Stars-2-FFD700?style=for-the-badge"></td>
+      <td align="center"><img src="https://img.shields.io/badge/Followers-12-00D4AA?style=for-the-badge"></td>
+    </tr>
+  </table>
+</div>
 <!-- AUTO-END -->
 
 #### Contribution Impact
