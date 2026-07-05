@@ -77,25 +77,7 @@ My contributions live in the repositories that power the internet. Here's where 
     <th width="30%">Contribution</th>
     <th width="15%">Status</th>
   </tr>
-  <tr>
-    <td><strong>2026-06-27</strong></td>
-    <td><a href="https://github.com/aden-hive/hive"><img src="https://img.shields.io/badge/aden-hive-hive-0366d6?style=flat&logo=github" alt="aden-hive/hive"></a></td>
-    <td><strong>PR #7290: opened</strong><br><small>PR</small></td>
-    <td>🔀</td>
-  </tr>
-  <tr>
-    <td><strong>2026-06-27</strong></td>
-    <td><a href="https://github.com/yunus25jmi1/hive"><img src="https://img.shields.io/badge/yunus25jmi1-hive-0366d6?style=flat&logo=github" alt="yunus25jmi1/hive"></a></td>
-    <td><strong>Created: branch</strong><br><small>fix/slack-user-credential-keyerror</small></td>
-    <td>🚀</td>
-  </tr>
-  <tr>
-    <td><strong>2026-06-27</strong></td>
-    <td><a href="https://github.com/yunus25jmi1/hive"><img src="https://img.shields.io/badge/yunus25jmi1-hive-0366d6?style=flat&logo=github" alt="yunus25jmi1/hive"></a></td>
-    <td><strong>Push</strong><br><small>commit(s)</small></td>
-    <td>✅</td>
-  </tr>
-</table>
+  <tr><td colspan="4" align="center"><em>No recent public activity</em></td></tr></table>
 
 #### Contribution Impact
 <div align="center">
