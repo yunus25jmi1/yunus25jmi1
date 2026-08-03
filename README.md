@@ -87,7 +87,7 @@ My contributions live in the repositories that power the internet. Here's where 
       <td align="center"><img src="https://img.shields.io/badge/Pull_Requests-54-8A2BE2?style=for-the-badge"></td>
       <td align="center"><img src="https://img.shields.io/badge/Repos-31-32CD32?style=for-the-badge"></td>
       <td align="center"><img src="https://img.shields.io/badge/Stars-3-FFD700?style=for-the-badge"></td>
-      <td align="center"><img src="https://img.shields.io/badge/Followers-12-00D4AA?style=for-the-badge"></td>
+      <td align="center"><img src="https://img.shields.io/badge/Followers-13-00D4AA?style=for-the-badge"></td>
     </tr>
   </table>
 </div>
