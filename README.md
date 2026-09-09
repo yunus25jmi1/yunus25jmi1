@@ -95,6 +95,12 @@ My contributions live in the repositories that power the internet. Here's where 
     <td><strong>PR #4191: opened</strong><br><small>PR</small></td>
     <td>🔀</td>
   </tr>
+  <tr>
+    <td><strong>2026-09-07</strong></td>
+    <td><a href="https://github.com/yunus25jmi1/docker-agent"><img src="https://img.shields.io/badge/yunus25jmi1-docker--agent-0366d6?style=flat&logo=github" alt="yunus25jmi1/docker-agent"></a></td>
+    <td><strong>Created: branch</strong><br><small>fix/opencode-session-header</small></td>
+    <td>🚀</td>
+  </tr>
 </table>
 
 #### Contribution Impact
