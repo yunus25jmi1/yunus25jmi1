@@ -77,43 +77,7 @@ My contributions live in the repositories that power the internet. Here's where 
     <th width="30%">Contribution</th>
     <th width="15%">Status</th>
   </tr>
-  <tr>
-    <td><strong>2026-09-15</strong></td>
-    <td><a href="https://github.com/yunus25jmi1/docker-agent"><img src="https://img.shields.io/badge/yunus25jmi1-docker--agent-0366d6?style=flat&logo=github" alt="yunus25jmi1/docker-agent"></a></td>
-    <td><strong>Push</strong><br><small>commit(s)</small></td>
-    <td>✅</td>
-  </tr>
-  <tr>
-    <td><strong>2026-09-15</strong></td>
-    <td><a href="https://github.com/docker/docker-agent"><img src="https://img.shields.io/badge/docker-docker--agent-0366d6?style=flat&logo=github" alt="docker/docker-agent"></a></td>
-    <td><strong>PR #4303: opened</strong><br><small>PR</small></td>
-    <td>🔀</td>
-  </tr>
-  <tr>
-    <td><strong>2026-09-15</strong></td>
-    <td><a href="https://github.com/yunus25jmi1/docker-agent"><img src="https://img.shields.io/badge/yunus25jmi1-docker--agent-0366d6?style=flat&logo=github" alt="yunus25jmi1/docker-agent"></a></td>
-    <td><strong>PR #5: opened</strong><br><small>PR</small></td>
-    <td>🔀</td>
-  </tr>
-  <tr>
-    <td><strong>2026-09-15</strong></td>
-    <td><a href="https://github.com/yunus25jmi1/docker-agent"><img src="https://img.shields.io/badge/yunus25jmi1-docker--agent-0366d6?style=flat&logo=github" alt="yunus25jmi1/docker-agent"></a></td>
-    <td><strong>PR #5: closed</strong><br><small>PR</small></td>
-    <td>🔀</td>
-  </tr>
-  <tr>
-    <td><strong>2026-09-15</strong></td>
-    <td><a href="https://github.com/yunus25jmi1/docker-agent"><img src="https://img.shields.io/badge/yunus25jmi1-docker--agent-0366d6?style=flat&logo=github" alt="yunus25jmi1/docker-agent"></a></td>
-    <td><strong>Created: branch</strong><br><small>fix/vertexai-false-disabled-4292</small></td>
-    <td>🚀</td>
-  </tr>
-  <tr>
-    <td><strong>2026-09-15</strong></td>
-    <td><a href="https://github.com/yunus25jmi1/docker-agent"><img src="https://img.shields.io/badge/yunus25jmi1-docker--agent-0366d6?style=flat&logo=github" alt="yunus25jmi1/docker-agent"></a></td>
-    <td><strong>Push</strong><br><small>commit(s)</small></td>
-    <td>✅</td>
-  </tr>
-</table>
+  <tr><td colspan="4" align="center"><em>No recent public activity</em></td></tr></table>
 
 #### Contribution Impact
 <div align="center">
