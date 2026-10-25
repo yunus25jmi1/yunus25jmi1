@@ -77,13 +77,7 @@ My contributions live in the repositories that power the internet. Here's where 
     <th width="30%">Contribution</th>
     <th width="15%">Status</th>
   </tr>
-  <tr>
-    <td><strong>2026-10-18</strong></td>
-    <td><a href="https://github.com/yunus25jmi1/devdays-Noida"><img src="https://img.shields.io/badge/yunus25jmi1-devdays--Noida-0366d6?style=flat&logo=github" alt="yunus25jmi1/devdays-Noida"></a></td>
-    <td><strong>Created: branch</strong><br><small>main</small></td>
-    <td>🚀</td>
-  </tr>
-</table>
+  <tr><td colspan="4" align="center"><em>No recent public activity</em></td></tr></table>
 
 #### Contribution Impact
 <div align="center">
